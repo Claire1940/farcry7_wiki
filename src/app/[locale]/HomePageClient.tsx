@@ -1423,7 +1423,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://www.ubisoft.com/en-us/franchise/far-cry"
+                    href="https://www.youtube.com/user/ubisoft"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1433,7 +1433,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://www.ubisoft.com/en-us/game/far-cry/far-cry-6/news-updates"
+                    href="https://www.ubisoft.com/en-us/franchise/far-cry"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

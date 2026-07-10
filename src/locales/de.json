@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Far Cry 7 - Release-Datum, Trailer, Leaks & News",
+      "description": "Verfolge Far-Cry-7-Release-News, offizielle Trailer, Plattformen, Setting, Story, Multiplayer-Details, glaubwürdige Leaks und jedes geprüfte Ubisoft-Update.",
+      "keywords": "Far Cry 7, Release-Datum, Trailer, Leaks, News, Plattformen, Setting, Multiplayer, Ubisoft",
+      "ogTitle": "Far Cry 7 - Release-Datum, Trailer, Leaks & News",
+      "ogDescription": "Verfolge Far-Cry-7-Release-News, offizielle Trailer, Plattformen, Setting, Story, Multiplayer-Details, glaubwürdige Leaks und jedes geprüfte Ubisoft-Update.",
+      "twitterTitle": "Far Cry 7 - Release-Datum, Trailer, Leaks & News",
+      "twitterDescription": "Verfolge Far-Cry-7-Release-News, offizielle Trailer, Plattformen, Setting, Story, Multiplayer-Details, glaubwürdige Leaks und jedes geprüfte Ubisoft-Update."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Nicht angekündigter Open-World-Shooter",
+    "title": "Far Cry 7 Wiki",
+    "description": "Verfolge das nächste Far-Cry-Spiel durch geprüfte Ubisoft-Ankündigungen, Release-News, Trailer, Plattformen, Setting, Storydetails und klar gekennzeichnete Gerüchte.",
+    "getFreeCodesCTA": "Neueste News",
+    "playOnSteamCTA": "Zu Ubisoft",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "Nicht angekündigt",
+        "label": "Offizieller Status"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "TBA",
+        "label": "Release-Datum"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "TBA",
+        "label": "Plattformen"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "20M",
+        "label": "Jährliche-Franchise-Spieler"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Verpasse kein Far-Cry-7-Update",
+    "description": "Folge geprüften Ubisoft-Ankündigungen, Release-News und Trailern. Tritt der r/farcry-Community bei, um über jeden Leak und jede Enthüllung zu diskutieren.",
+    "joinCommunity": "Zu r/farcry",
+    "joinGame": "Zu Ubisoft"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Far Cry 7 Wiki",
+    "description": "Dein inoffizielles Hub für Far-Cry-7-News zu Release-Datum, Trailern, Plattformen, Setting, Story und klar gekennzeichneten Gerüchten.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
-    "discord": "Discord",
+    "discord": "Reddit",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "YouTube",
+    "steamStore": "Ubisoft Far Cry",
     "about": "Über uns",
-    "privacy": "Datenschutzrichtlinie",
+    "privacy": "Datenschutz",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Far Cry 7 Wiki. Nicht mit Ubisoft verbunden.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Tracker-Website."
   },
   "pages": {
     "guides": {

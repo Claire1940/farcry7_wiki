@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
+      "title": "Far Cry 7 - Date de sortie, bande-annonce, fuites et actualités",
+      "description": "Suivez les actualités de date de sortie de Far Cry 7, les bandes-annonces officielles, les plateformes, le cadre, l'histoire, les détails multijoueur, les fuites crédibles et chaque mise à jour Ubisoft vérifiée.",
+      "keywords": "Far Cry 7, date de sortie, bande-annonce, fuites, actualités, plateformes, cadre, multijoueur, Ubisoft",
+      "ogTitle": "Far Cry 7 - Date de sortie, bande-annonce, fuites et actualités",
+      "ogDescription": "Suivez les actualités de date de sortie de Far Cry 7, les bandes-annonces officielles, les plateformes, le cadre, l'histoire, les détails multijoueur, les fuites crédibles et chaque mise à jour Ubisoft vérifiée.",
+      "twitterTitle": "Far Cry 7 - Date de sortie, bande-annonce, fuites et actualités",
+      "twitterDescription": "Suivez les actualités de date de sortie de Far Cry 7, les bandes-annonces officielles, les plateformes, le cadre, l'histoire, les détails multijoueur, les fuites crédibles et chaque mise à jour Ubisoft vérifiée."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles à venir"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Shooter en monde ouvert non annoncé",
+    "title": "Far Cry 7 Wiki",
+    "description": "Suivez le prochain jeu Far Cry à travers les annonces Ubisoft vérifiées, les actualités de sortie, les bandes-annonces, les plateformes, le cadre, les détails de l'histoire et les rumeurs clairement étiquetées.",
+    "getFreeCodesCTA": "Voir les dernières actualités",
+    "playOnSteamCTA": "Visiter Ubisoft",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "Non annoncé",
+        "label": "Statut officiel"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "TBA",
+        "label": "Date de sortie"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "TBA",
+        "label": "Plateformes"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "20M",
+        "label": "Joueurs annuels de la franchise"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
-    "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "title": "Restez informé de chaque mise à jour de Far Cry 7",
+    "description": "Suivez les annonces Ubisoft vérifiées, les actualités de sortie et les bandes-annonces. Rejoignez la communauté r/farcry pour discuter de chaque fuite et révélation.",
+    "joinCommunity": "Rejoindre r/farcry",
+    "joinGame": "Visiter Ubisoft"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
+    "title": "Far Cry 7 Wiki",
+    "description": "Votre hub non officiel suivant les actualités de date de sortie, bandes-annonces, plateformes, cadre, histoire et rumeurs clairement étiquetées de Far Cry 7.",
     "resources": "Ressources",
     "community": "Communauté",
-    "legal": "Légal",
-    "discord": "Discord",
+    "legal": "Mentions légales",
+    "discord": "Reddit",
     "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
+    "steamCommunity": "YouTube",
+    "steamStore": "Ubisoft Far Cry",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "copyright": "© 2026 Far Cry 7 Wiki. Non affilié à Ubisoft.",
+    "disclaimer": "Site de suivi non officiel créé par des fans."
   },
   "pages": {
     "guides": {

@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.farcry7.wiki'
   const path = '/copyright'
 
   return {
-    title: 'Copyright Notice - Lucid Blocks Wiki',
-    description: 'Copyright and intellectual property information for Lucid Blocks Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
+    title: 'Copyright Notice - Far Cry 7 Wiki',
+    description: 'Copyright and intellectual property information for Far Cry 7 Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
     robots: {
       index: false,
       follow: true,
@@ -30,23 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'Copyright Notice - Lucid Blocks Wiki',
-      description: 'Copyright and intellectual property information for Lucid Blocks Wiki.',
+      siteName: 'Far Cry 7 Wiki',
+      title: 'Copyright Notice - Far Cry 7 Wiki',
+      description: 'Copyright and intellectual property information for Far Cry 7 Wiki.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: 'Lucid Blocks Wiki',
+          url: `${siteUrl}/images/hero.webp`,
+          width: 1920,
+          height: 1080,
+          alt: 'Far Cry 7 Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Copyright Notice - Lucid Blocks Wiki',
+      title: 'Copyright Notice - Far Cry 7 Wiki',
       description: 'Copyright and intellectual property information.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -65,7 +65,7 @@ export default function Copyright() {
             Intellectual property rights and usage terms
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: July 10, 2026
           </p>
         </div>
       </section>
@@ -77,32 +77,32 @@ export default function Copyright() {
             <h2>1. Copyright Ownership</h2>
             <h3>1.1 Website Content</h3>
             <p>
-              © 2025-2026 Lucid Blocks Wiki. All rights reserved.
+              © 2026 Far Cry 7 Wiki. All rights reserved.
             </p>
             <p>
               Unless otherwise noted, all original content on this website, including but not limited to text,
-              graphics, logos, guides, articles, and compilations, is the property of Lucid Blocks Wiki and is
+              graphics, logos, guides, articles, and compilations, is the property of Far Cry 7 Wiki and is
               protected by international copyright laws.
             </p>
 
             <h3>1.2 Game Assets and Trademarks</h3>
             <p>
-              Lucid Blocks Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
+              Far Cry 7 Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Steam</strong> - Owner of the Steam platform</li>
-              <li><strong>Lucid Blocks Developers</strong> - Creators of the Lucid Blocks game</li>
+              <li><strong>Ubisoft Entertainment</strong> - Owner of the Far Cry franchise</li>
+              <li><strong>Far Cry series developers and publishers</strong> - The studios behind the Far Cry games</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
             </p>
             <ul>
-              <li>Character images and artwork</li>
-              <li>Game screenshots and interface elements</li>
+              <li>Franchise key art and artwork</li>
+              <li>Trailers, screenshots, and interface elements</li>
               <li>Game logos and branding</li>
-              <li>Character names and abilities</li>
-              <li>In-game items and mechanics</li>
+              <li>Character names, locations, and story elements</li>
+              <li>In-game factions, weapons, and mechanics</li>
             </ul>
             <p>
               ...are the intellectual property of their respective owners. We use such content under the principles
@@ -116,12 +116,12 @@ export default function Copyright() {
             </p>
             <ul>
               <li><strong>Non-commercial:</strong> We do not directly monetize game assets or content</li>
-              <li><strong>Transformative:</strong> We provide guides, analysis, and community resources</li>
-              <li><strong>Educational:</strong> We help players learn and understand game mechanics</li>
-              <li><strong>Minimal impact:</strong> Our use does not substitute for or harm the original game</li>
+              <li><strong>Transformative:</strong> We provide news tracking, analysis, and community resources</li>
+              <li><strong>Educational:</strong> We help readers follow and understand developments around the Far Cry series</li>
+              <li><strong>Minimal impact:</strong> Our use does not substitute for or harm the original games or official channels</li>
             </ul>
             <p>
-              We believe our use of copyrighted materials enhances the game experience and serves the community
+              We believe our use of copyrighted materials serves the community
               without harming the commercial interests of the copyright holders.
             </p>
 
@@ -129,7 +129,7 @@ export default function Copyright() {
             <h3>3.1 Content Submission</h3>
             <p>
               If you submit, post, or contribute content to our website (including but not limited to comments,
-              suggestions, guides, or images), you represent and warrant that:
+              suggestions, tips, or images), you represent and warrant that:
             </p>
             <ul>
               <li>You own or have the necessary rights to the content</li>
@@ -152,14 +152,14 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>Lucid Blocks</strong> - Trademark of the game developers</li>
-              <li><strong>Lucid Blocks Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>Far Cry</strong> - Trademark of Ubisoft Entertainment</li>
+              <li><strong>Ubisoft</strong> - Trademark of Ubisoft Entertainment</li>
+              <li><strong>Far Cry 7 Wiki</strong> - Our own branding (not affiliated with Ubisoft or the Far Cry franchise)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
               their respective owners. The use of any trademark on this website does not imply endorsement or
-              affiliation with Lucid Blocks Wiki.
+              affiliation with Far Cry 7 Wiki.
             </p>
 
             <h2>5. DMCA Policy</h2>
@@ -201,8 +201,8 @@ export default function Copyright() {
             </p>
             <p>
               <strong>DMCA Agent</strong><br />
-              Lucid Blocks Wiki<br />
-              Email: <a href="mailto:dmca@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@lucidblocks.wiki</a>
+              Far Cry 7 Wiki<br />
+              Email: <a href="mailto:dmca@farcry7.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@farcry7.wiki</a>
             </p>
             <p>
               <strong>Note:</strong> Please allow up to 7 business days for a response. Misrepresentation in a
@@ -235,15 +235,15 @@ export default function Copyright() {
 
             <h2>7. Attribution Requirements</h2>
             <p>
-              If you wish to use or reference our original content (guides, articles, data compilations), please:
+              If you wish to use or reference our original content (articles, news roundups, data compilations), please:
             </p>
             <ul>
-              <li>Provide clear attribution to "Lucid Blocks Wiki"</li>
+              <li>Provide clear attribution to "Far Cry 7 Wiki"</li>
               <li>Include a link back to the original page (if digital)</li>
               <li>Do not imply endorsement or affiliation</li>
             </ul>
             <p>
-              Example attribution: <em>"Source: Lucid Blocks Wiki (lucidblocks.wiki)"</em>
+              Example attribution: <em>"Source: Far Cry 7 Wiki (farcry7.wiki)"</em>
             </p>
 
             <h2>8. Repeat Infringer Policy</h2>
@@ -278,8 +278,8 @@ export default function Copyright() {
               For copyright questions, licensing inquiries, or to report copyright infringement:
             </p>
             <p>
-              <strong>General Inquiries:</strong> <a href="mailto:copyright@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@lucidblocks.wiki</a><br />
-              <strong>DMCA Notices:</strong> <a href="mailto:dmca@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@lucidblocks.wiki</a>
+              <strong>General Inquiries:</strong> <a href="mailto:copyright@farcry7.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@farcry7.wiki</a><br />
+              <strong>DMCA Notices:</strong> <a href="mailto:dmca@farcry7.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@farcry7.wiki</a>
             </p>
             <p>
               We aim to respond to all legitimate inquiries within 7 business days.

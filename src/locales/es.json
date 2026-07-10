@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Far Cry 7 - Fecha de lanzamiento, tráiler, filtraciones y noticias",
+      "description": "Sigue las noticias de fecha de lanzamiento de Far Cry 7, tráilers oficiales, plataformas, escenario, historia, detalles del multijugador, filtraciones creíbles y cada actualización verificada de Ubisoft.",
+      "keywords": "Far Cry 7, fecha de lanzamiento, tráiler, filtraciones, noticias, plataformas, escenario, multijugador, Ubisoft",
+      "ogTitle": "Far Cry 7 - Fecha de lanzamiento, tráiler, filtraciones y noticias",
+      "ogDescription": "Sigue las noticias de fecha de lanzamiento de Far Cry 7, tráilers oficiales, plataformas, escenario, historia, detalles del multijugador, filtraciones creíbles y cada actualización verificada de Ubisoft.",
+      "twitterTitle": "Far Cry 7 - Fecha de lanzamiento, tráiler, filtraciones y noticias",
+      "twitterDescription": "Sigue las noticias de fecha de lanzamiento de Far Cry 7, tráilers oficiales, plataformas, escenario, historia, detalles del multijugador, filtraciones creíbles y cada actualización verificada de Ubisoft."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Shooter de mundo abierto no anunciado",
+    "title": "Far Cry 7 Wiki",
+    "description": "Sigue el próximo juego de Far Cry a través de anuncios verificados de Ubisoft, noticias de lanzamiento, tráilers, plataformas, escenario, detalles de la historia y rumores claramente etiquetados.",
+    "getFreeCodesCTA": "Ver últimas noticias",
+    "playOnSteamCTA": "Visitar Ubisoft",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "No anunciado",
+        "label": "Estado oficial"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "TBA",
+        "label": "Fecha de lanzamiento"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "TBA",
+        "label": "Plataformas"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "20M",
+        "label": "Jugadores anuales de la saga"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "No te pierdas ninguna novedad de Far Cry 7",
+    "description": "Sigue los anuncios verificados de Ubisoft, las noticias de lanzamiento y los tráilers. Únete a la comunidad de r/farcry para debatir cada filtración y revelación.",
+    "joinCommunity": "Unirse a r/farcry",
+    "joinGame": "Visitar Ubisoft"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Far Cry 7 Wiki",
+    "description": "Tu centro no oficial para seguir las noticias de fecha de lanzamiento, tráilers, plataformas, escenario, historia y rumores claramente etiquetados de Far Cry 7.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Reddit",
     "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "steamCommunity": "YouTube",
+    "steamStore": "Ubisoft Far Cry",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
     "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyright": "© 2026 Far Cry 7 Wiki. No afiliada con Ubisoft.",
+    "disclaimer": "Sitio web rastreador no oficial creado por fans."
   },
   "pages": {
     "guides": {

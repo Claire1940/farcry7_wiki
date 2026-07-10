@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Far Cry 7 - 発売日、トレイラー、リーク、ニュース",
+      "description": "Far Cry 7の発売日ニュース、公式トレイラー、プラットフォーム、舞台、ストーリー、マルチプレイの詳細、信頼できるリーク、検証済みのUbisoftアップデートをすべて追跡。",
+      "keywords": "Far Cry 7, 発売日, トレイラー, リーク, ニュース, プラットフォーム, 舞台, マルチプレイ, Ubisoft",
+      "ogTitle": "Far Cry 7 - 発売日、トレイラー、リーク、ニュース",
+      "ogDescription": "Far Cry 7の発売日ニュース、公式トレイラー、プラットフォーム、舞台、ストーリー、マルチプレイの詳細、信頼できるリーク、検証済みのUbisoftアップデートをすべて追跡。",
+      "twitterTitle": "Far Cry 7 - 発売日、トレイラー、リーク、ニュース",
+      "twitterDescription": "Far Cry 7の発売日ニュース、公式トレイラー、プラットフォーム、舞台、ストーリー、マルチプレイの詳細、信頼できるリーク、検証済みのUbisoftアップデートをすべて追跡。"
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "未発表のオープンワールドシューター",
+    "title": "Far Cry 7 Wiki",
+    "description": "検証済みのUbisoft公式発表、リリースニュース、トレイラー、プラットフォーム、舞台、ストーリー詳細、明確に分類された噂を通じて、次のFar Cry作品を追跡しましょう。",
+    "getFreeCodesCTA": "最新情報を見る",
+    "playOnSteamCTA": "Ubisoft公式サイト",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "未発表",
+        "label": "公式ステータス"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "TBA",
+        "label": "発売日"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "TBA",
+        "label": "プラットフォーム"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "20M",
+        "label": "年間フランチャイズプレイヤー数"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Far Cry 7のあらゆるアップデートを見逃さない",
+    "description": "検証済みのUbisoft公式発表、リリースニュース、トレイラーをフォロー。r/farcryコミュニティに参加して、あらゆるリークや発表を議論しましょう。",
+    "joinCommunity": "r/farcryに参加",
+    "joinGame": "Ubisoft公式サイト"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Far Cry 7 Wiki",
+    "description": "Far Cry 7の発売日ニュース、トレイラー、プラットフォーム、舞台、ストーリー、明確に分類された噂を追跡する非公式ハブ。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
-    "discord": "Discord",
+    "discord": "Reddit",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "steamCommunity": "YouTube",
+    "steamStore": "Ubisoft Far Cry",
+    "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 Far Cry 7 Wiki. Ubisoftとは提携していません。",
+    "disclaimer": "ファンによる非公式のトラッカーサイトです。"
   },
   "pages": {
     "guides": {

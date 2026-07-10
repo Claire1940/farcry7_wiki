@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Far Cry 7 - Çıkış tarihi, fragman, sızıntılar ve haberler",
+      "description": "Far Cry 7 çıkış tarihi haberlerini, resmi fragmanları, platformları, konumu, hikâyeyi, çok oyunculu ayrıntıları, güvenilir sızıntıları ve doğrulanmış her Ubisoft güncellemesini takip edin.",
+      "keywords": "Far Cry 7, çıkış tarihi, fragman, sızıntılar, haberler, platformlar, konum, çok oyunculu, Ubisoft",
+      "ogTitle": "Far Cry 7 - Çıkış tarihi, fragman, sızıntılar ve haberler",
+      "ogDescription": "Far Cry 7 çıkış tarihi haberlerini, resmi fragmanları, platformları, konumu, hikâyeyi, çok oyunculu ayrıntıları, güvenilir sızıntıları ve doğrulanmış her Ubisoft güncellemesini takip edin.",
+      "twitterTitle": "Far Cry 7 - Çıkış tarihi, fragman, sızıntılar ve haberler",
+      "twitterDescription": "Far Cry 7 çıkış tarihi haberlerini, resmi fragmanları, platformları, konumu, hikâyeyi, çok oyunculu ayrıntıları, güvenilir sızıntıları ve doğrulanmış her Ubisoft güncellemesini takip edin."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Duyurulmamış Açık Dünya Nişancı Oyunu",
+    "title": "Far Cry 7 Wiki",
+    "description": "Sonraki Far Cry oyununu doğrulanmış Ubisoft duyuruları, çıkış haberleri, fragmanlar, platformlar, konum, hikâye detayları ve açıkça etiketlenmiş söylentilerle takip edin.",
+    "getFreeCodesCTA": "En son güncellemeler",
+    "playOnSteamCTA": "Ubisoft'u ziyaret et",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "Duyurulmadı",
+        "label": "Resmi durum"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "TBA",
+        "label": "Çıkış tarihi"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "TBA",
+        "label": "Platformlar"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "20M",
+        "label": "Yıllık franchise oyuncusu"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Her Far Cry 7 güncellemesinin önünde olun",
+    "description": "Doğrulanmış Ubisoft duyurularını, çıkış haberlerini ve fragmanları takip edin. Her sızıntı ve duyuruyu tartışmak için r/farcry topluluğuna katılın.",
+    "joinCommunity": "r/farcry'ye katıl",
+    "joinGame": "Ubisoft'u ziyaret et"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
+    "title": "Far Cry 7 Wiki",
+    "description": "Far Cry 7 çıkış tarihi haberlerini, fragmanları, platformları, konumu, hikâyeyi ve açıkça etiketlenmiş söylentileri takip eden resmi olmayan merkeziniz.",
     "resources": "Kaynaklar",
     "community": "Topluluk",
     "legal": "Yasal",
-    "discord": "Discord",
+    "discord": "Reddit",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
+    "steamCommunity": "YouTube",
+    "steamStore": "Ubisoft Far Cry",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
-    "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "copyrightNotice": "Telif hakkı",
+    "copyright": "© 2026 Far Cry 7 Wiki. Ubisoft ile bağlantılı değildir.",
+    "disclaimer": "Hayranlar tarafından yapılmış resmi olmayan takip sitesi."
   },
   "pages": {
     "guides": {
