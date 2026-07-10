@@ -10,14 +10,7 @@
       "twitterDescription": "Track Far Cry 7 release date news, official trailers, platforms, setting, story, multiplayer details, credible leaks, and every verified Ubisoft update."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
