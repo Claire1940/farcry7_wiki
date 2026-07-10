@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapa de Far Cry 7: Diseño del Mundo No Lineal y Filtraciones",
+  description: "Explora los detalles del mapa de Far Cry 7, incluyendo el rumoreado temporizador de 72 horas, rutas de rescate no lineales y el culto Hijos de la Verdad en Project Blackbird.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/f97316?text=Far+Cry+7+Map+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Far Cry 7",
+  keywords: "Far Cry 7, mapa, Project Blackbird, Hijos de la Verdad, filtraciones"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **mapa de Far Cry 7** cuenta con un exclusivo **temporizador de 72 horas en el juego** (aprox. 24 horas reales) que dicta el ritmo de la exploración.
+- La ambientación gira en torno a una **misión de rescate no lineal** para salvar a la familia Beckett, permitiendo a los jugadores abordar los objetivos en cualquier orden.
+- Los informes de desarrollo indican una transición al motor **Snowdrop Engine**, dejando atrás la tecnología Dunia utilizada durante mucho tiempo.
+- Los **refugios** sirven como puntos estratégicos críticos donde el temporizador de la campaña se pausa para la planificación y recuperación.
+- Un proyecto independiente, **Project Maverick**, presenta un mapa ambientado en la naturaleza de Alaska enfocado en el multijugador de extracción.
+</Callout>
+
+<Section icon={Map} title="Mapa de Far Cry 7: Ambientación y Estructura del Mundo">
+
+El **mapa de Far Cry 7** representa una desviación radical de la fórmula tradicional de liberación de regiones vista en entregas anteriores. En lugar de reclamar puestos de avanzada lentamente para debilitar el control de un dictador, el mundo está diseñado como un entorno de rescate de alto riesgo. Bajo el nombre en clave **Project Blackbird**, el juego principal se centra en la familia Beckett, un grupo adinerado secuestrado por un culto conspirativo conocido como los **Hijos de la Verdad** (Sons of Truth).
+
+El mapa no es solo un telón de fondo para el combate; es un participante activo en la historia. Debido a que el culto realiza experimentos alucinógenos en niños y animales, se espera que el entorno cuente con zonas "psicodélicas" y encuentros impredecibles con la fauna. A diferencia de las islas tropicales o las cordilleras del pasado, los materiales de desarrollo actuales sugieren un escenario donde la riqueza urbana se encuentra con el aislamiento de un culto rural.
+
+**Puntos Destacados del Video:**
+- Análisis del nombre en clave **Project Blackbird** y sus implicaciones para el tamaño del mapa.
+- Desglose del reportado **temporizador de 72 horas** y cómo restringe o fomenta la exploración.
+- Comparación entre el mapa de la campaña principal y el escenario de Alaska de **Project Maverick**.
+- Pistas visuales de activos de desarrollo filtrados sobre los recintos de los **Hijos de la Verdad**.
+
+<YouTubeEmbed videoId="R_YmU4m2Y-c" title="NEW Far Cry 7 Leaks Have Been Revealed" />
+
+| Característica | Estado Oficial | Detalles Reportados |
+| :--- | :--- | :--- |
+| **Ambientación Principal** | No anunciado | Regiones de fincas opulentas / Zonas rurales controladas por el culto |
+| **Estructura del Mapa** | Rumor | Rutas de rescate no lineales con centros interconectados |
+| **Motor Gráfico** | Snowdrop | Transición de Dunia a Snowdrop para mejores físicas |
+| **Persistencia del Mundo** | Persistente | La cuenta atrás de 72 horas afecta al estado del mundo y la supervivencia de los NPC |
+| **Peligros Ambientales** | Alucinógenos | Zonas dinámicas afectadas por experimentos químicos del culto |
+
+<Callout type="tip" title="Nota del Editor">
+Aunque Ubisoft ha confirmado que hay dos proyectos de Far Cry en desarrollo, no han nombrado oficialmente al juego como "Far Cry 7". Sin embargo, los informes de la industria de fuentes reputadas como Insider Gaming vinculan constantemente las características de "Project Blackbird" con la próxima entrega principal.
+</Callout>
+
+</Section>
+
+<Section icon={Clock} title="Exploración No Lineal y el Temporizador de 72 Horas">
+
+El cambio más significativo en el **mapa de Far Cry 7** es la implementación de una mecánica de presión en tiempo real. Se informa que la campaña se desarrolla a lo largo de 72 horas dentro del juego, lo que se traduce en aproximadamente 24 horas de juego en el mundo real. Este temporizador es visible en el reloj de pulsera del protagonista, convirtiendo cada elección de trayecto en una decisión táctica.
+
+En un mundo abierto tradicional, podrías pasar horas buscando coleccionables. En Far Cry 7, cada minuto que pasas conduciendo por el mapa es un minuto más cerca de la posible muerte de un miembro de la familia. Esto crea un sistema de "riesgo contra recompensa" para la exploración. ¿Tomas la ruta larga y segura hacia un recinto del culto, o atraviesas una peligrosa zona alucinógena para ahorrar tiempo?
+
+<CardGrid cols={3}>
+  <Card title="Rutas de Rescate">
+    - **Progresión no lineal**
+    - Salva a la familia en cualquier orden
+    - Los resultados cambian según el tiempo empleado
+  </Card>
+  <Card title="Gestión del Tiempo">
+    - **Temporizador visible en el reloj**
+    - 72 horas de juego en total
+    - El temporizador se pausa en los refugios
+  </Card>
+  <Card title="Centros Dinámicos">
+    - **Refugios como pausas**
+    - Sitios de interrogatorio
+    - Puestos de avanzada del culto ricos en recursos
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Mecánica Crítica">
+La muerte de los miembros de la familia es permanente. Si el temporizador se agota o una misión de rescate falla, la historia continúa, pero perderás el acceso a ciertas ramificaciones narrativas y al final "perfecto".
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Navegar por el Mapa No Lineal">
+
+Navegar por el **mapa de Far Cry 7** requiere un cambio en la mentalidad del jugador. Ya no eres un guerrillero invencible; eres un rescatador con una fecha límite. El mapa está poblado de "Objetivos de Interrogatorio" que tienen las claves para localizar a tu familia.
+
+<Steps>
+  <Step num="1" title="Reunir Información">
+    Localiza a los informantes enemigos marcados en el mapa. A diferencia de juegos anteriores donde la información era estática, estos NPC pueden mentir, negarse a hablar o intentar escapar durante el interrogatorio.
+  </Step>
+  <Step num="2" title="Planificar tu Ruta">
+    Una vez revelada una ubicación, mira tu reloj. Determina si tienes suficiente tiempo para llegar al recinto o si necesitas pasar primero por un refugio para reabastecerte.
+  </Step>
+  <Step num="3" title="Ejecutar el Rescate">
+    Infíltrate en el recinto de los Hijos de la Verdad. El diseño del mapa favorece múltiples puntos de entrada, permitiendo el sigilo, la inserción aérea o los asaltos frontales.
+  </Step>
+  <Step num="4" title="Gestionar las Consecuencias">
+    Después de un rescate, el estado del mapa puede cambiar. Los miembros de la familia rescatados pueden proporcionar nuevas ventajas o herramientas que faciliten la navegación por el resto del mapa.
+  </Step>
+</Steps>
+
+| Método de Desplazamiento | Calificación de Velocidad | Calificación de Sigilo | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Esprint Táctico** | Alta | Baja | Ráfagas cortas entre coberturas |
+| **Vehículos** | Muy Alta | Muy Baja | Viajes de larga distancia entre regiones |
+| **Salto/Deslizamiento** | Media | Media | Infiltración en estructuras complejas del culto |
+| **Aéreo (Traje de alas)** | Extrema | Alta | Lanzarse a los recintos desde picos altos |
+
+<Callout type="success" title="Consejo de Estrategia">
+Prioriza desbloquear los refugios desde el principio. Dado que los refugios son los únicos lugares donde el temporizador se pausa, tener una red de ellos por todo el mapa es esencial para las partidas en las que se busca completarlo al máximo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Hijos de la Verdad: Peligros del Mapa y Recintos del Culto">
+
+El **mapa de Far Cry 7** está dividido en territorios controlados por los **Hijos de la Verdad**. Este grupo antagonista no es solo una fuerza militar; son un culto impulsado por conspiraciones que utiliza el entorno como un arma. Sus recintos a menudo se construyen alrededor de "experimentos alucinógenos", creando zonas donde las reglas visuales y físicas del mapa pueden alterarse.
+
+| Tipo de Ubicación | Amenaza Principal | Recompensa Potencial |
+| :--- | :--- | :--- |
+| **Recinto del Culto** | Guardias con armadura pesada | Miembros de la familia, Botín de alto nivel |
+| **Laboratorio de Investigación** | Gas alucinógeno | Modificaciones de armas únicas, Información |
+| **Sitio de Interrogatorio** | Informantes de élite | Datos de ubicación de la familia Beckett |
+| **Zona Salvaje** | Fauna mutada | Materiales de artesanía, Atajos |
+
+El cambio al motor **Snowdrop Engine** (el mismo motor utilizado para *The Division* y *Star Wars Outlaws*) permite una destrucción ambiental más detallada y entornos interiores más complejos. Espera que el mapa presente más verticalidad y zonas urbanas más densas en comparación con los campos extensos pero a menudo vacíos de Far Cry 6.
+
+<Callout type="info" title="Interacción con el Mundo">
+Los interrogatorios son una mecánica central del mapa. Puedes elegir dejar ir a los informantes a cambio de información, pero más tarde podrían alertar al culto de tu posición, dificultando la exploración futura del mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Compass} title="Mapas de Project Blackbird vs. Project Maverick">
+
+Es crucial que los jugadores distingan entre los dos proyectos de Far Cry actualmente en desarrollo. Mientras que el **mapa de Far Cry 7** (Blackbird) es una experiencia principal para un jugador o cooperativa, **Project Maverick** es un proyecto multijugador independiente con un diseño de mundo muy diferente.
+
+<CardGrid cols={2}>
+  <Card title="Project Blackbird (FC7)">
+    - **Ambientación:** Región rural/finca secreta
+    - **Enfoque:** Rescate narrativo, temporizador de 72 horas
+    - **Mecánicas:** Misiones no lineales, supervivencia familiar
+    - **Motor:** Snowdrop
+  </Card>
+  <Card title="Project Maverick (Multijugador)">
+    - **Ambientación:** Naturaleza ficticia de Alaska
+    - **Enfoque:** Shooter de extracción, supervivencia
+    - **Mecánicas:** Muerte permanente, recolección de equipo, refugios
+    - **Motor:** Tecnología Snowdrop compartida
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="map-exploration-goals"
+  title="Hitos de Exploración del Mapa:"
+  items={[
+    "Localizar y sincronizar los 10 refugios principales",
+    "Encontrar el laboratorio subterráneo oculto de los Hijos de la Verdad",
+    "Rescatar al primer miembro de la familia Beckett dentro de las primeras 6 horas reales",
+    "Completar un interrogatorio con éxito sin que el objetivo escape",
+    "Navegar por una Zona Alucinógena sin usar máscara de gas"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo Pro de Desplazamiento">
+El nuevo sistema de movimiento incluye esprint táctico y saltos mejorados. Utilízalos para navegar por los recintos del culto más densos y complejos que se encuentran en las regiones centrales del mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿El mapa de Far Cry 7 está ambientado en Alaska?",
+    answer: "No. Según los informes actuales, la ambientación de la naturaleza de Alaska está reservada para 'Project Maverick', el juego de extracción multijugador independiente. Far Cry 7 (Project Blackbird) presenta un escenario diferente centrado en el rescate de la familia Beckett."
+  },
+  {
+    question: "¿Puedo explorar todo el mapa desde el principio?",
+    answer: "Aunque el mapa es abierto y no lineal, el temporizador de 72 horas te obliga a priorizar ciertas áreas. Algunas zonas también pueden estar fuertemente custodiadas por los Hijos de la Verdad, lo que requerirá un mejor equipo para sobrevivir."
+  },
+  {
+    question: "¿Se detiene el temporizador si pauso el juego?",
+    answer: "El temporizador es una mecánica interna del juego. Se pausa cuando estás dentro de un refugio designado o durante cinemáticas específicas, pero sigue corriendo durante la exploración activa y el combate."
+  },
+  {
+    question: "¿Cómo cambia el mapa con el motor Snowdrop Engine?",
+    answer: "La transición a Snowdrop permite mejores físicas, entornos más interactivos y un rendimiento mejorado en el hardware moderno en comparación con el motor Dunia más antiguo utilizado en Far Cry 6."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Clock, Search, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "IA de Far Cry 7: Interrogatorio Avanzado y Sistemas del Motor Snowdrop",
+  description: "Explora los revolucionarios sistemas de IA de Far Cry 7, con el nuevo motor Snowdrop, mecánicas de interrogatorio dinámicas y la lógica del temporizador de campaña de 72 horas.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1c1c1c/fff?text=Far+Cry+7+AI+Systems",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Far Cry 7",
+  keywords: "Far Cry 7, IA, motor Snowdrop, interrogatorio, Proyecto Blackbird, temporizador de 72 horas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **IA de Far Cry 7**: Impulsada por el **Motor Snowdrop**, que reemplaza la antigua tecnología Dunia para comportamientos de PNJ más complejos.
+- **Sistema de Interrogatorio**: Una mecánica central de IA donde los enemigos pueden **mentir, permanecer en silencio o intentar escapar** según las acciones del jugador.
+- **Temporizador Dinámico**: El juego utiliza un **reloj interno de 72 horas** (24 horas en tiempo real) que influye en los estados del mundo de la IA y en las ventanas de rescate.
+- **Lógica No Lineal**: Las estructuras de misión impulsadas por IA permiten rescatar a los miembros de la **familia Beckett** en cualquier orden, alterando los resultados de la historia.
+- **Renovación Táctica**: Los nuevos sistemas de movimiento, como el **esprint táctico y el deslizamiento**, están totalmente integrados en la IA de combate enemiga.
+</Callout>
+
+<Section icon={Cpu} title="La evolución de la IA de Far Cry 7 y el Motor Snowdrop">
+
+El desarrollo de la **IA de Far Cry 7** marca un cambio técnico significativo para la franquicia. Durante más de una década, la serie dependió del motor Dunia, pero informes de principios de 2026 confirman que Ubisoft Montreal ha trasladado el **Proyecto Blackbird** (el nombre en clave de Far Cry 7) al **Motor Snowdrop**. Este cambio no es meramente visual; proporciona un marco más robusto para manejar la toma de decisiones compleja de los PNJ y la reactividad ambiental.
+
+**Puntos destacados del video:**
+- Análisis de las últimas filtraciones de desarrollo de **Far Cry 7**.
+- Resumen de las mecánicas rumoreadas del **Proyecto Blackbird**.
+- Discusión sobre la transición al **Motor Snowdrop**.
+- Perspectivas sobre la nueva estructura de campaña no lineal.
+
+<YouTubeEmbed videoId="pS000n9fI34" title="Nuevas filtraciones de Far Cry 7 reveladas" />
+
+La **IA de Far Cry 7** aprovecha las avanzadas capacidades de scripting de Snowdrop para gestionar un mundo vivo que reacciona a un temporizador persistente. A diferencia de entregas anteriores donde los enemigos existían en un estado estático hasta que el jugador los activaba, las nuevas rutinas de IA están diseñadas para simular una organización de culto, los **Hijos de la Verdad**, que realiza experimentos activamente y traslada rehenes por el mapa según su propia lógica interna.
+
+<Callout type="tip" title="Información Técnica">
+El paso al motor Snowdrop permite un **seguimiento de rutas (pathfinding)** más sofisticado en entornos de naturaleza densa, lo cual es esencial para los rumoreados sistemas de movimiento táctico como el salto de obstáculos y el deslizamiento.
+</Callout>
+
+| Característica | Motor Dunia (FC6) | Motor Snowdrop (FC7) |
+| :--- | :--- | :--- |
+| **Procesamiento de IA** | Rutas de patrulla programadas | Comportamiento dinámico orientado a objetivos |
+| **Persistencia del Mundo** | Se reinicia cuando el jugador se va | Seguimiento persistente del estado del mundo |
+| **Interacciones de PNJ** | Lógica simple de combate/huida | Ramificación compleja de interrogatorios |
+| **Integración de Físicas** | Impacto ambiental limitado | Alta reactividad al movimiento táctico |
+
+</Section>
+
+<Section icon={Search} title="El sistema de interrogatorio impulsado por IA">
+
+Una de las aplicaciones más innovadoras de la **IA de Far Cry 7** es la nueva mecánica de interrogatorio. En el **Proyecto Blackbird**, los jugadores tienen la tarea de rescatar a la secuestrada **familia Beckett**. Para encontrarlos, debes capturar e interrogar a miembros de los **Hijos de la Verdad**. Esto no es una escena cinematográfica programada, sino una interacción dinámica de IA donde el resultado nunca está garantizado.
+
+La IA determina la respuesta del enemigo basándose en varias variables, incluyendo la reputación del jugador, la presencia de aliados y el rango específico del PNJ capturado. Este sistema reemplaza la recolección tradicional de "información" con un ciclo de juego mucho más inmersivo e impredecible.
+
+<Callout type="warning" title="Advertencia Crítica">
+Los enemigos interrogados están programados para ser engañosos. Seguir una pista proporcionada por una IA mentirosa puede hacerte perder horas preciosas de tu **temporizador de campaña de 72 horas**.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Capturar al objetivo">
+    Entra en combate e incapacita a un objetivo de alto valor sin matarlo. La IA entrará en un estado de "Rendido" una vez que su salud o moral disminuyan.
+  </Step>
+  <Step num="2" title="Iniciar el interrogatorio">
+    La **IA de Far Cry 7** evalúa la situación. Puedes usar varios métodos para animar al objetivo a hablar, pero el uso excesivo de la fuerza puede provocar la muerte del PNJ.
+  </Step>
+  <Step num="3" title="Analizar la respuesta">
+    El PNJ proporcionará una de cuatro respuestas: **La Verdad**, **Una Mentira**, **Silencio** o **Intento de Escape**. Debes decidir si la información es creíble.
+  </Step>
+  <Step num="4" title="Actuar según la información">
+    Si la IA te da una ubicación, esta se marcará en tu mapa. Recuerda que el mundo sigue moviéndose mientras viajas a estos lugares.
+  </Step>
+</Steps>
+
+| Tipo de respuesta | Activador de lógica de IA | Impacto en el jugador |
+| :--- | :--- | :--- |
+| **Verdad** | Moral baja, alta amenaza del jugador | Ubicación precisa de un miembro de la familia |
+| **Mentira** | Alta lealtad, baja amenaza del jugador | Conduce a una emboscada o ubicación vacía |
+| **Silencio** | Unidad de élite, rasgos fanáticos | No se obtiene información; requiere un nuevo objetivo |
+| **Escape** | Distracción presente, guardia laxa | El PNJ huye para alertar a los puestos cercanos |
+
+</Section>
+
+<Section icon={Clock} title="Temporizador de campaña e IA del estado del mundo">
+
+La **IA de Far Cry 7** está vinculada de forma inextricable al **temporizador de 72 horas del juego**. Este temporizador, que equivale aproximadamente a **24 horas de juego en tiempo real**, crea una sensación de urgencia nunca antes vista en la serie. La IA no se limita a esperarte; los **Hijos de la Verdad** moverán activamente a sus cautivos o intensificarán sus experimentos alucinógenos a medida que pase el tiempo.
+
+Este reloj persistente obliga a los jugadores a tomar decisiones tácticas sobre qué miembros de la familia priorizar. La IA gestiona los "ciclos de vida" de los miembros de la familia Beckett, lo que significa que su supervivencia depende de la velocidad y eficiencia de tus intervenciones.
+
+<CardGrid cols={3}>
+  <Card title="Programación Dinámica">
+    Los PNJ siguen un ciclo de día/noche que afecta su estado de alerta y la densidad de las patrullas, vinculado directamente al temporizador del reloj de pulsera.
+  </Card>
+  <Card title="Pausa en Refugios">
+    Entrar en un refugio pausa la lógica del mundo de la **IA de Far Cry 7**, permitiendo a los jugadores planificar su próximo movimiento sin perder tiempo.
+  </Card>
+  <Card title="Lógica de Consecuencias">
+    Si el temporizador expira para un rehén específico, la IA ejecuta un estado de "rescate fallido", alterando permanentemente el final de la historia.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Consejo Profesional">
+Usa la **pantalla del reloj de pulsera** para seguir el tiempo exacto restante. La IA se vuelve más agresiva a medida que el reloj se acerca a las últimas 12 horas de la campaña.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="IA de combate y movimiento táctico">
+
+El combate en **Far Cry 7** ha sido renovado para admitir una sensación más "táctica". La **IA de Far Cry 7** está diseñada para contrarrestar los nuevos movimientos del jugador, como el **esprint táctico, el deslizamiento y el salto de obstáculos**. Los soldados enemigos ya no se quedan simplemente detrás de una cobertura; intentarán flanquear al jugador, usar fuego de supresión y reaccionar de forma realista a la velocidad de movimiento del jugador.
+
+Este cambio hacia el realismo táctico es parte de la estrategia más amplia de Ubisoft para modernizar el ciclo de combate de la franquicia. La capacidad de la IA para utilizar el entorno (trepar estructuras y saltar obstáculos) hace que los encuentros sean mucho más verticales e impredecibles que en Far Cry 6.
+
+| Acción de combate | Estrategia de reacción de la IA | Impacto en la dificultad |
+| :--- | :--- | :--- |
+| **Esprint táctico** | Los enemigos adelantan sus disparos y usan armas de área | Alto |
+| **Deslizamiento** | La IA intenta rastrear objetivos de bajo perfil | Medio |
+| **Salto de obstáculos** | Los enemigos intentarán cortar tus rutas | Alto |
+| **Sigilo** | La IA utiliza detección de sonido y avistamiento por luz | Variable |
+
+<Callout type="success" title="Nota de Estrategia">
+La IA es particularmente sensible al sonido en **Far Cry 7**. Usar las nuevas mecánicas de movimiento de forma demasiado ruidosa alertará a todo el puesto avanzado, activando un estado de "bloqueo" donde los rehenes son trasladados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Requisitos del sistema y rendimiento de la IA">
+
+Debido a que la **IA de Far Cry 7** es significativamente más exigente que en iteraciones anteriores, se espera que los requisitos de hardware aumenten. El **Motor Snowdrop** es altamente escalable, pero la gran cantidad de rutinas de IA concurrentes (seguimiento del temporizador, el estado del mundo y los comportamientos individuales de los PNJ) requiere una arquitectura de CPU moderna.
+
+Aunque las especificaciones oficiales están pendientes por parte de Ubisoft, los informes de desarrollo sugieren un fuerte enfoque en el rendimiento multihilo para manejar los complejos aspectos de simulación del **Proyecto Blackbird**.
+
+<Checklist
+  id="ai-performance-checklist"
+  title="Optimización para la IA de Far Cry 7:"
+  items={[
+    "Asegúrate de que tu CPU tenga al menos 8 núcleos para la simulación de IA en segundo plano",
+    "Instala el juego en un SSD NVMe para admitir la carga rápida del estado del mundo",
+    "Mantén actualizados los controladores de tu GPU para las optimizaciones del motor Snowdrop",
+    "Monitorea el uso de RAM de tu sistema durante encuentros de combate de alta densidad",
+    "Ajusta la configuración de densidad de PNJ si experimentas caídas de fotogramas en las ciudades"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+Las siguientes preguntas abordan consultas comunes sobre la **IA de Far Cry 7** y su impacto en la próxima experiencia de juego.
+
+<FAQ items={[
+  {
+    question: "¿Cómo maneja la IA de Far Cry 7 el temporizador de 72 horas?",
+    answer: "La IA rastrea un reloj persistente de 72 horas en el juego (24 horas en tiempo real). Mueve rehenes, cambia patrones de patrulla y aumenta la agresión enemiga a medida que se agota el tiempo. Entrar en un refugio es la única forma de pausar esta lógica de IA."
+  },
+  {
+    question: "¿Puede la IA de interrogatorio realmente mentirme?",
+    answer: "Sí. La IA de Far Cry 7 está programada para proporcionar información engañosa según el rango y la lealtad del PNJ. Los jugadores deben contrastar la información o usar su intuición para decidir si vale la pena seguir una pista."
+  },
+  {
+    question: "¿Mejora el motor Snowdrop la IA de combate enemiga?",
+    answer: "Significativamente. La transición de Dunia a Snowdrop permite que los enemigos utilicen movimientos tácticos como saltos y flanqueos de manera más efectiva, haciendo que el combate se sienta más dinámico y menos predecible."
+  },
+  {
+    question: "¿Es la campaña impulsada por IA realmente no lineal?",
+    answer: "Sí. Debido a que la IA gestiona a los miembros de la familia Beckett como entidades independientes en el mundo, puedes rescatarlos en cualquier orden. La IA ajusta los fragmentos restantes de la historia según a quién hayas salvado y a quién hayas perdido."
+  }
+]} />
+
+</Section>

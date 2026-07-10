@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Far Cry 7 System Requirements: PC Specifications & Technical Predictions",
+  description: "Explore the expected Far Cry 7 system requirements, game engine upgrades, target platforms, and PC hardware recommendations based on early development leaks.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=System+Requirements+Guide",
+  date: "2026-07-10",
+  author: "far cry 7 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Main Topic**: Expected PC specifications and hardware targets for the next mainline entry.
+- **Engine Shift**: Development reports indicate a major transition from Dunia to the **Snowdrop engine**.
+- **Target Launch**: Internal targets point toward a potential **2026 release window**.
+- **Platform Focus**: Optimized for current-generation systems, bypassing older hardware like PS4 and Xbox One.
+- **Key Feature**: A persistent 72-hour in-game countdown timer that demands stable frame rates and fast loading.
+</Callout>
+
+<Section icon={Shield} title="Far Cry 7 System Requirements: Predicted PC Hardware Targets">
+
+While Ubisoft has not officially published the final **far cry 7 system requirements** or opened official store pages, early technical leaks and development timelines give us a clear picture of what hardware you will need. The game, currently known under the internal codename **Project Blackbird**, is being built to push the limits of modern PC setups. 
+
+Unlike previous entries, this title is designed natively for current-generation SSDs and processors, meaning older hardware will struggle to keep up with the real-time simulation demands.
+
+| Hardware Tier | Minimum Spec (Target: 1080p / 30 FPS) | Recommended Spec (Target: 1080p / 60 FPS) | High/Ultra Spec (Target: 1440p-4K / 60+ FPS) |
+| :--- | :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit only) | Windows 10/11 (64-bit only) | Windows 11 (64-bit only) |
+| **CPU** | Intel Core i5-8400 / AMD Ryzen 5 3600 | Intel Core i7-10700K / AMD Ryzen 7 5800X | Intel Core i5-13600K / AMD Ryzen 7 7800X3D |
+| **RAM** | 16 GB RAM | 16 GB RAM | 32 GB RAM |
+| **GPU** | NVIDIA GTX 1080 / AMD RX 5700 XT | NVIDIA RTX 3070 / AMD RX 6800 XT | NVIDIA RTX 4070 Ti / AMD RX 7900 XT |
+| **VRAM** | 8 GB VRAM | 8 GB VRAM | 12 GB or higher |
+| **Storage** | 100 GB SSD | 100 GB NVMe SSD | 100 GB PCIe 4.0 NVMe SSD |
+
+<Callout type="warning" title="SSD is Mandatory">
+Mechanical hard drives (HDDs) are highly unlikely to be supported. The seamless open-world streaming and rapid asset loading required by the game's high-fidelity environments make a high-speed Solid State Drive (SSD) a strict baseline requirement.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Snowdrop Engine Transition & Performance Impact">
+
+For over a decade, the franchise relied on the Dunia engine to power its tropical islands and chaotic outposts. However, verified development reports show that Project Blackbird is transitioning to the **Snowdrop engine**—the same powerhouse behind *The Division* series and *Avatar: Frontiers of Pandora*. 
+
+This engine shift brings massive changes to how the game will run on your PC.
+
+<CardGrid cols={3}>
+  <Card title="Ray Tracing Global Illumination">
+    - **Realistic lighting** transitions in dense forests
+    - Dynamic shadows tied to the real-time day/night cycle
+    - High performance cost requiring modern RT cores
+  </Card>
+  <Card title="Advanced Physics & Destruction">
+    - Redesigned environmental destruction systems
+    - Improved foliage interaction during tactical movement
+    - Higher CPU thread utilization for physics calculations
+  </Card>
+  <Card title="DirectStorage Integration">
+    - Near-instantaneous asset streaming from NVMe drives
+    - Reduced loading screens when entering safehouses
+    - Decreased CPU overhead during fast travel
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Upscaling Technology">
+Due to the heavy graphical demands of the Snowdrop engine, expect native support for NVIDIA DLSS 3.0, AMD FSR 3, and Intel XeSS. Frame generation will likely be a crucial feature for achieving high frame rates at 1440p and 4K resolutions.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Platform Availability & Console Parity">
+
+Ubisoft is focusing development entirely on modern hardware ecosystems. This approach ensures that the game's complex systems, such as the persistent countdown timer and advanced AI, are not bottlenecked by outdated processors.
+
+| Platform | Expected Status | Resolution Target | Framerate Target | Technical Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Windows PC** | Confirmed in dev | Dynamic up to 4K | Uncapped (64+ FPS) | Support for ultra-wide monitors & custom keybinds |
+| **PlayStation 5** | High probability | Dynamic 4K / 1440p | 30 FPS / 60 FPS modes | DualSense haptic feedback & adaptive trigger support |
+| **Xbox Series X** | High probability | Dynamic 4K | 30 FPS / 60 FPS modes | Smart Delivery support for seamless console setup |
+| **Xbox Series S** | High probability | Dynamic 1080p | 30 FPS / 60 FPS modes | Reduced graphic settings and lower texture resolutions |
+| **PS4 / Xbox One** | Not supported | N/A | N/A | Bypassed due to CPU and memory limitations |
+
+<Callout type="tip" title="Subscription Access">
+As with all major Ubisoft releases, the PC version is expected to launch day-and-date on the **Ubisoft+** subscription service, allowing members to play the premium edition without a full retail purchase.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Prepare Your PC for Project Blackbird">
+
+If your current rig is starting to show its age, preparing for the next generation of open-world shooters requires a strategic upgrade path. Follow this step-by-step optimization guide to ensure your system is ready when the game drops.
+
+<Steps>
+  <Step num="1" title="Upgrade to a PCIe NVMe SSD">
+    Ensure your operating system and game library are installed on a fast NVMe SSD. Aim for read speeds of at least 3500 MB/s to prevent asset pop-in and stuttering during high-speed traversal.
+  </Step>
+  <Step num="2" title="Target 32 GB of System RAM">
+    Modern open-world games running on advanced engines frequently exceed 12 GB of system memory usage. Upgrading to 32 GB DDR4 or DDR5 RAM ensures smooth multitasking and eliminates memory-related crashes.
+  </Step>
+  <Step num="3" title="Verify VRAM Capacity">
+    For high texture quality at 1080p or 1440p, a graphics card with at least 8 GB of VRAM is essential. If you plan to play with Ray Tracing enabled, look for GPUs with 12 GB to 16 GB of VRAM to avoid severe performance degradation.
+  </Step>
+  <Step num="4" title="Update Windows and Drivers">
+    Keep your Windows 10/11 operating system updated to the latest build. Graphics card manufacturers like NVIDIA and AMD will release game-ready drivers closer to the launch window to optimize performance.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Technical Preparation Checklist">
+
+Before the official system specifications are published, use this checklist to gauge your PC's readiness for the next generation of tactical action.
+
+<Checklist
+  id="pc-readiness"
+  title="Hardware Readiness Checklist:"
+  items={[
+    "Operating system is running a fully updated 64-bit version of Windows 10 or Windows 11.",
+    "At least 100 GB of free space is available on a high-speed Solid State Drive (SSD).",
+    "Graphics card supports DirectX 12 Agility SDK and Vulkan API.",
+    "CPU has at least 6 physical cores and 12 threads to handle background world simulation.",
+    "Power supply unit (PSU) has enough headroom to support upgraded GPU power spikes."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the expected minimum far cry 7 system requirements?",
+    answer: "The estimated minimum requirements include an Intel Core i5-8400 or AMD Ryzen 5 3600 CPU, 16 GB of RAM, and an NVIDIA GTX 1080 or AMD RX 5700 XT GPU. An SSD with at least 100 GB of storage space will be mandatory."
+  },
+  {
+    question: "Will Far Cry 7 run on the Steam Deck or ROG Ally?",
+    answer: "While the game may launch on PC storefronts, the heavy CPU demands of the Snowdrop engine and the complex real-time systems mean hand-held PCs will likely require aggressive upscaling (FSR) and low settings to achieve a stable 30 FPS."
+  },
+  {
+    question: "Is the Dunia engine still being used for this game?",
+    answer: "No. Credible development reports indicate that Ubisoft Montreal has transitioned Project Blackbird to the Snowdrop engine to leverage better graphics, modern physics, and superior asset streaming."
+  },
+  {
+    question: "Will the game support ray tracing on mid-range graphics cards?",
+    answer: "Ray tracing will likely be highly demanding. While mid-range cards like the RTX 4060 or RX 7600 will support it, players will need to enable upscaling (DLSS/FSR) to maintain a stable 60 FPS with RT settings active."
+  }
+]} />
+
+</Section>

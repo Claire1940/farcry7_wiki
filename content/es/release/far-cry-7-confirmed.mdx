@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Far Cry 7 confirmado: Fecha de lanzamiento en 2026 y guía de juego",
+  description: "Sigue las noticias de lanzamiento de Far Cry 7, las filtraciones de Project Blackbird, la mecánica del temporizador de 72 horas, detalles de la historia y actualizaciones verificadas de Ubisoft para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/f97316?text=Far+Cry+7+Confirmed+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Far Cry 7",
+  keywords: "Far Cry 7, Project Blackbird, Ubisoft, fecha de lanzamiento, guía de juego, temporizador de 72 horas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Far Cry 7 confirmado**: El CEO de Ubisoft, Yves Guillemot, confirmó que dos proyectos de Far Cry están en desarrollo activo a partir de febrero de 2026.
+- **Project Blackbird**: Este es el nombre en clave interno para la próxima entrega principal, ampliamente reconocida como Far Cry 7.
+- **Mecánica de 72 horas**: La campaña presenta un **temporizador persistente de 72 horas en el juego** (aprox. 24 horas en tiempo real) para rescatar a la familia del protagonista.
+- **Historia no lineal**: Los jugadores pueden rescatar a los miembros de la familia en cualquier orden, y su supervivencia impactará directamente en el final.
+- **Motor Snowdrop**: Según los informes, la serie se aleja del motor Dunia para adoptar el **motor Snowdrop**, buscando una mejor fidelidad y movimiento.
+</Callout>
+
+<Section icon={Map} title="Anuncio de Far Cry 7 y cronograma de lanzamiento">
+
+El desarrollo del próximo Far Cry principal, actualmente conocido por el nombre en clave **Project Blackbird**, ha sido uno de los secretos más esperados de Ubisoft. Aunque todavía no se ha mostrado un título formal de "Far Cry 7" en una caja de venta, la dirección de Ubisoft ha reconocido oficialmente el futuro de la franquicia. En febrero de 2026, el CEO de Ubisoft, Yves Guillemot, declaró que la compañía tiene dos proyectos de Far Cry "prometedores" en producción. Esto sigue a años de cambios internos donde el proyecto pasó de un objetivo para 2025 a una **ventana de lanzamiento para 2026** más realista.
+
+El desarrollo está liderado principalmente por Ubisoft Montreal, el estudio veterano detrás de las entregas más icónicas de la serie. Los estudios de apoyo incluyen Ubisoft Berlín y Ubisoft Annecy, lo que destaca la escala masiva de este esfuerzo de mundo abierto.
+
+| Fecha del hito | Categoría | Título de la actualización | Resultado clave |
+| :--- | :--- | :--- | :--- |
+| **Ene 2023** | Descubrimiento | Filtración de Project Blackbird | Juego principal separado del proyecto multijugador |
+| **Sept 2023** | Técnico | Transición a Snowdrop | Los informes confirman el cambio del motor Dunia a Snowdrop |
+| **Dic 2024** | Programación | Retraso interno | La ventana objetivo cambió de 2025 a **2026** |
+| **Marzo 2025** | Producción | Fase de pruebas de juego | Comienzan las pruebas internas para los sistemas de temporizador y rescate |
+| **Feb 2026** | Oficial | Confirmación del CEO | Yves Guillemot confirma dos proyectos de Far Cry |
+| **Julio 2026** | Actual | Desarrollo activo | Equipos de Project Maverick trasladados para apoyar Blackbird |
+
+<Callout type="warning" title="Convención de Nombres">
+Mientras que la comunidad de jugadores y los medios se refieren a este proyecto como **Far Cry 7**, Ubisoft continúa utilizando el nombre en clave interno **Project Blackbird** en los informes financieros y las comunicaciones con los desarrolladores. El título final probablemente se revelará junto con el primer tráiler cinematográfico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Detalles de la historia: La crisis de la familia Beckett">
+
+A diferencia de las entregas anteriores que se centraban en liberar una nación ficticia de un dictador pintoresco, se informa que Far Cry 7 adopta un enfoque más personal y de alto riesgo. La narrativa se centra en la **familia Beckett**, un grupo adinerado que es el objetivo de un oscuro culto conspirativo conocido como los **Hijos de la Verdad** (Sons of Truth).
+
+El protagonista es un miembro de la familia que escapa del secuestro inicial y debe desmantelar el culto para salvar a sus parientes. Este cambio introduce una atmósfera de "carrera contra el tiempo" que define cada misión. Los Hijos de la Verdad no son solo extremistas políticos; se describen como un grupo involucrado en experimentos alucinógenos, condicionamiento animal y guerra psicológica.
+
+| Personaje / Grupo | Rol | Descripción |
+| :--- | :--- | :--- |
+| **El Protagonista** | Héroe jugable | Un miembro de la familia Beckett encargado de la operación de rescate |
+| **La Familia Beckett** | Objetivos de rescate | Varios familiares secuestrados; su supervivencia es opcional pero crítica |
+| **Hijos de la Verdad** | Antagonistas principales | Un culto conspirativo que utiliza alucinógenos y coacción extrema |
+| **Objetivos de interrogatorio** | Fuentes de información | NPCs enemigos que poseen pistas sobre la ubicación de la familia |
+
+<Callout type="tip" title="Impacto Narrativo">
+La supervivencia de cada miembro de la familia no está garantizada. Si fallas una misión de rescate o te quedas sin tiempo, ese personaje es eliminado permanentemente de la historia, lo que lleva a un final más oscuro y "fallido" para el legado de los Beckett.
+</Callout>
+
+</Section>
+
+<Section icon={Clock} title="Jugabilidad innovadora: El temporizador de rescate de 72 horas">
+
+La desviación más significativa de la fórmula de Far Cry es la introducción de un **temporizador persistente en el juego**. Project Blackbird le da al jugador **72 horas de tiempo de juego** para completar el objetivo principal. En tiempo real, esto se traduce aproximadamente en **24 horas de juego**. Esta mecánica está diseñada para crear tensión y obligar a los jugadores a tomar decisiones difíciles sobre qué pistas seguir.
+
+<Steps>
+  <Step num="1" title="Monitoreo del reloj">
+    El personaje del jugador lleva un reloj de pulsera que muestra el tiempo restante. Cada acción, desde viajar por el mapa hasta participar en combates, consume este recurso limitado.
+  </Step>
+  <Step num="2" title="Utilización de refugios">
+    Entrar en un **refugio** (Safehouse) designado pausa el temporizador de 72 horas. Esto permite a los jugadores gestionar su inventario, fabricar equipo y planificar su próximo movimiento sin la presión del reloj.
+  </Step>
+  <Step num="3" title="Recopilación de información">
+    Para encontrar a la familia secuestrada, los jugadores deben usar el nuevo **sistema de interrogatorio**. Los enemigos pueden ser capturados e interrogados, pero pueden mentir, permanecer en silencio o intentar llevarte a una emboscada.
+  </Step>
+  <Step num="4" title="Ejecución de rescates">
+    Una vez confirmada una ubicación, el jugador debe ejecutar un rescate. La estructura no lineal significa que puedes salvar primero a tu hermano favorito o ir directamente a la fortaleza más difícil del culto.
+  </Step>
+</Steps>
+
+| Mecánica | Valor | Impacto en el juego |
+| :--- | :--- | :--- |
+| **Tiempo Total** | 72 Horas en el juego | Establece el límite estricto para la campaña principal |
+| **Relación Tiempo Real** | 3:1 | 24 horas reales equivalen al ciclo completo de 72 horas |
+| **Pausa del Temporizador** | Solo en refugios | Evita la exploración "infinita"; obliga al descanso estratégico |
+| **Interrogatorio** | Resultados variables | Las pistas pueden ser verdaderas, falsas o trampas |
+
+<Callout type="info" title="Gestión del Tiempo">
+No entres en pánico por el temporizador de inmediato. Los informes sugieren que completar con éxito ciertos objetivos secundarios o eliminar a los lugartenientes del culto puede proporcionar "un respiro" o mejor información que ahorra tiempo a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Revisión técnica: Motor Snowdrop y movimiento">
+
+Durante más de una década, Far Cry ha dependido del motor Dunia (una versión fuertemente modificada de CryEngine). Sin embargo, Far Cry 7 marca la transición al **motor Snowdrop**, la misma tecnología que impulsa *The Division* y *Star Wars Outlaws*. Este cambio permite entornos más densos, una mejor IA y una revisión completa de las interacciones físicas del jugador con el mundo.
+
+<CardGrid cols={3}>
+  <Card title="Movimiento táctico">
+    El nuevo sistema introduce el **esprint táctico** y el **salto de obstáculos** (vaulting), lo que permite a los jugadores navegar por entornos urbanos o salvajes complejos con mucha más fluidez que en Far Cry 6.
+  </Card>
+  <Card title="Saqueo mejorado">
+    Saquear ya no es una simple pulsación de botón. El sistema de inventario está más centrado en la supervivencia, requiriendo que los jugadores gestionen los recursos recolectados del entorno y de los enemigos.
+  </Card>
+  <Card title="Fidelidad ambiental">
+    Snowdrop permite entornos altamente reactivos. Se espera que los efectos alucinógenos y los patrones climáticos sean más inmersivos, afectando directamente la visibilidad y el combate.
+  </Card>
+</CardGrid>
+
+| Característica | Motor Dunia (Antiguo) | Motor Snowdrop (Nuevo) |
+| :--- | :--- | :--- |
+| **Movimiento** | Animaciones estáticas, salto limitado | Esprint táctico, deslizamiento, salto avanzado |
+| **Complejidad de la IA** | Patrullas programadas, alertas básicas | Toma de decisiones dinámica, búsqueda compleja |
+| **Carga del mundo** | Transmisión basada en zonas | Transiciones de mundo a gran escala sin interrupciones |
+| **Física** | Destrucción básica | Interactividad ambiental mejorada |
+
+<Callout type="success" title="Objetivo de rendimiento">
+Con el cambio a Snowdrop, Far Cry 7 se dirige al hardware de la generación actual (PS5, Xbox Series X|S y PCs de gama alta). Esto permite tiempos de carga significativamente más rápidos, lo cual es esencial para un juego construido alrededor de un temporizador persistente.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Project Blackbird vs. Project Maverick">
+
+Es crucial distinguir entre los dos proyectos de Far Cry que se encuentran actualmente en desarrollo. Mientras que **Project Blackbird** es la experiencia principal para un solo jugador/cooperativa (Far Cry 7), **Project Maverick** es un proyecto multijugador independiente. Se informa que Maverick es un shooter de extracción ambientado en una naturaleza salvaje de Alaska ficticia.
+
+<Checklist
+  id="project-differences"
+  title="Diferencias clave a recordar:"
+  items={[
+    "Blackbird es el juego principal de Far Cry 7 basado en la narrativa",
+    "Maverick es un shooter de extracción separado centrado en PvPvE",
+    "Blackbird presenta el temporizador de 72 horas; Maverick se centra en la extracción de recursos",
+    "La ambientación de Maverick es supuestamente Alaska; la de Blackbird aún no está confirmada",
+    "Ambos juegos comparten el mismo movimiento actualizado y la tecnología del motor Snowdrop"
+  ]}
+/>
+
+| Característica | Project Blackbird (FC7) | Project Maverick (Multijugador) |
+| :--- | :--- | :--- |
+| **Modo principal** | Historia para un jugador / Cooperativo | Multijugador basado en extracción |
+| **Objetivo principal** | Rescatar a la familia Beckett | Recolectar botín y extraer de forma segura |
+| **Ambientación** | No confirmada (Controlada por el culto) | Naturaleza salvaje de Alaska ficticia |
+| **Penalización por muerte** | Pérdida de progreso en la historia | Pérdida de equipo y recursos recolectados |
+
+<Callout type="tip" title="Recursos Compartidos">
+Debido a que ambos juegos nacieron de una producción compartida llamada "Talisker", se sentirán muy similares en términos de manejo de armas y movimiento. Dominar las mecánicas en uno probablemente te dará ventaja en el otro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes sobre Far Cry 7">
+
+<FAQ items={[
+  {
+    question: "¿Está confirmado Far Cry 7 por Ubisoft?",
+    answer: "Sí, en febrero de 2026, el CEO de Ubisoft, Yves Guillemot, confirmó que dos proyectos de Far Cry están actualmente en desarrollo. Aunque todavía no se titula oficialmente 'Far Cry 7', el proyecto principal se conoce internamente como Project Blackbird."
+  },
+  {
+    question: "¿Qué es el temporizador de 72 horas en Far Cry 7?",
+    answer: "Es una mecánica central del juego donde los jugadores tienen 72 horas en el juego (unas 24 horas en tiempo real) para rescatar a la familia Beckett. El temporizador se pausa en los refugios, pero por lo demás corre de forma persistente durante la exploración y el combate."
+  },
+  {
+    question: "¿Es Cillian Murphy el villano en Far Cry 7?",
+    answer: "No. Aunque hubo una especulación significativa en línea basada en una publicación en redes sociales, la fuente aclaró más tarde que la imagen no significaba que el actor estuviera involucrado en el juego. Ubisoft aún no ha anunciado el elenco."
+  },
+  {
+    question: "¿Estará Far Cry 7 en PS4 o Xbox One?",
+    answer: "Los informes actuales indican que Far Cry 7 se está desarrollando con el motor Snowdrop específicamente para plataformas de generación actual (PS5, Xbox Series X|S, PC). Un lanzamiento en consolas más antiguas es poco probable dados los requisitos técnicos."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+A medida que nos acerquemos al final de 2026, espera una revelación cinematográfica completa de Ubisoft durante algún evento importante. Continuaremos actualizando esta guía a medida que surjan más detalles oficiales sobre el mapa y la identidad del líder de los Hijos de la Verdad.
+</Callout>
+
+</Section>

@@ -1,0 +1,217 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Far Cry 7 PC: Requisitos del sistema, filtraciones y mejoras del motor",
+  description: "Explora los detalles de Far Cry 7 para PC, incluyendo el cambio al motor Snowdrop, la rumoreada campaña de la familia Beckett, requisitos del sistema y noticias sobre Project Blackbird.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Far+Cry+7+PC+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Far Cry 7",
+  keywords: "Far Cry 7 PC, requisitos del sistema, motor Snowdrop, Project Blackbird, filtraciones, Ubisoft"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estado de Far Cry 7 para PC**: Ubisoft ha confirmado que dos proyectos están en desarrollo activo, aunque aún están pendientes una página oficial del producto y el título final.
+- **El Cambio de Motor**: Se informa que el desarrollo principal ha pasado del motor Dunia al avanzado **motor Snowdrop**.
+- **La Campaña Principal**: Con el nombre en clave **Project Blackbird**, la historia presenta un cronómetro de 72 horas dentro del juego para rescatar a una familia secuestrada.
+- **Multijugador Independiente**: También está en desarrollo una experiencia multijugador independiente basada en la extracción, con el nombre en clave **Project Maverick**.
+</Callout>
+
+<Section icon={Map} title="Anuncio de Far Cry 7 para PC y Estado del Proyecto">
+
+Ubisoft está dando forma activamente al futuro de su principal franquicia de shooters de mundo abierto. Mientras los fans buscan ansiosamente listados oficiales, Ubisoft aún no ha lanzado una página de tienda dedicada ni un tráiler de revelación formal para el muy esperado lanzamiento de **far cry 7 pc**. En su lugar, los detalles actuales se rastrean a través de informes financieros verificados, declaraciones de ejecutivos e inteligencia creíble de la industria.
+
+El proceso de desarrollo se divide en dos proyectos distintos bajo la organización Vantage Studios de Ubisoft. La campaña principal se desarrolla bajo el nombre en clave **Project Blackbird**, mientras que un proyecto multijugador independiente tiene el nombre en clave **Project Maverick**.
+
+**Puntos destacados del video:**
+- Desglose detallado del cambio en el cronograma interno de Ubisoft de 2025 a 2026.
+- Análisis de los cambios estructurales en Vantage Studios.
+- Discusión sobre cómo el proyecto multijugador independiente afecta al juego principal.
+
+<YouTubeEmbed videoId="p7n9V3v7Z6g" title="Se han revelado NUEVAS filtraciones de Far Cry 7" />
+
+<Callout type="warning" title="Descargo de responsabilidad">
+El video de arriba representa noticias no oficiales, filtraciones de la comunidad y rumores de la industria. No es un tráiler oficial de Ubisoft.
+</Callout>
+
+El cronograma de desarrollo destaca cómo Ubisoft cambió su enfoque para asegurar que la próxima generación de la franquicia cumpla con las expectativas de los jugadores:
+
+| Fecha | Categoría | Detalles del Hito |
+|------|----------|-------------------|
+| **2023-01-27** | Desarrollo | El proyecto principal Blackbird y el multijugador Maverick entran en producción. |
+| **2024-12-18** | Calendario | Los objetivos internos de lanzamiento cambian de 2025 a 2026 para permitir revisiones de jugabilidad. |
+| **2025-03-04** | Recursos | Los desarrolladores del equipo Maverick reiniciado son reasignados para asistir en Blackbird. |
+| **2026-02-20** | Oficial | El CEO de Ubisoft, Yves Guillemot, confirma que dos proyectos de Far Cry están en desarrollo. |
+| **2026-07-10** | Actual | Continúan las pruebas de juego activas; las páginas oficiales de la tienda para PC siguen pendientes. |
+
+</Section>
+
+<Section icon={Sparkles} title="Transición del Motor y Expectativas Técnicas para PC">
+
+Uno de los cambios más significativos para la versión de **far cry 7 pc** es el reportado abandono del motor Dunia, utilizado durante mucho tiempo. Ubisoft está transicionando la serie principal al **motor Snowdrop**, la potente tecnología detrás de la serie *The Division* y *Star Wars Outlaws*. Este cambio promete un salto masivo en la fidelidad ambiental, sistemas de clima dinámico y un rendimiento optimizado de CPU/GPU en el hardware moderno de PC.
+
+<CardGrid cols={3}>
+  <Card title="Beneficios del Motor Snowdrop">
+    - **Ray Tracing Avanzado**: Se espera una iluminación global, reflejos y mapeo de sombras superiores.
+    - **Física Dinámica**: Destrucción ambiental mejorada e interacción realista con el follaje.
+    - **Mejor Escalado de CPU**: Utilización mejorada de múltiples núcleos diseñada específicamente para arquitecturas de PC modernas.
+  </Card>
+  <Card title="Legado del Motor Dunia">
+    - **Sandbox Familiar**: Sirvió como base desde Far Cry 3 hasta Far Cry 6.
+    - **IA Optimizada**: Manejó de manera confiable la vida silvestre a gran escala y el combate entre facciones.
+    - **Límites Técnicos**: Tenía dificultades con la física avanzada y los canales de renderizado modernos.
+  </Card>
+  <Card title="Características Exclusivas de PC">
+    - **Soporte de Escalado**: Se espera la integración nativa de DLSS, FSR y XeSS en el lanzamiento.
+    - **Optimización Ultrawide**: Soporte completo para pantallas 21:9 y 32:9 con FOV ajustable.
+    - **Controles Personalizados**: Opciones profundas de asignación de teclas y configuraciones avanzadas de entrada de ratón.
+  </Card>
+</CardGrid>
+
+Aunque Ubisoft no ha publicado los requisitos oficiales del sistema para PC, los analistas técnicos han proyectado objetivos de hardware básicos basados en lanzamientos recientes del motor Snowdrop:
+
+| Componente de Hardware | Especificación Mínima Estimada | Especificación Recomendada Estimada |
+|--------------------|------------------------|----------------------------|
+| **SO** | Windows 10/11 (64 bits) | Windows 11 (64 bits) |
+| **Procesador** | Intel Core i7-8700K / AMD Ryzen 5 3600 | Intel Core i5-11600K / AMD Ryzen 5 5600X |
+| **Memoria** | 16 GB RAM | 16 GB RAM (Dual Channel) |
+| **Tarjeta Gráfica** | NVIDIA GTX 1070 / AMD RX 5700 | NVIDIA RTX 3070 / AMD RX 6800 XT |
+| **DirectX** | Versión 12 | Versión 12 |
+| **Almacenamiento** | 90 GB SSD | 90 GB NVMe SSD |
+
+<Callout type="tip" title="Consejo Técnico">
+Debido a que el motor Snowdrop depende en gran medida del streaming de activos, la instalación del juego en un SSD NVMe de alta velocidad probablemente será obligatoria para un rendimiento fluido y tiempos de carga mínimos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Historia, Personajes y los Hijos de la Verdad">
+
+Project Blackbird introduce un cambio dramático en la estructura narrativa. En lugar de protagonistas náufragos o rebeldes locales luchando contra una dictadura militar, la campaña se centra en una familia adinerada que es blanco de un culto conspirativo conocido como los **Hijos de la Verdad** (Sons of Truth).
+
+La narrativa está estructurada de forma no lineal, encargando a los jugadores localizar y rescatar a familiares secuestrados en cualquier orden. La supervivencia de estos miembros de la familia influye directamente en el resultado final de la campaña.
+
+<Steps>
+  <Step num="1" title="La Crisis de la Familia Beckett">
+    El jugador toma el control de un miembro superviviente de la familia después de un ataque coordinado por los Hijos de la Verdad. Tu objetivo principal es localizar a tus parientes secuestrados dispersos por el mapa.
+  </Step>
+  <Step num="2" title="Recopilación de Información mediante Interrogatorios">
+    Para localizar a los cautivos, debes capturar e interrogar a miembros del culto. Los enemigos responden dinámicamente; pueden cooperar, dar direcciones falsas, permanecer en silencio o intentar escapar.
+  </Step>
+  <Step num="3" title="Ejecución de Rescates no Lineales">
+    Planifica y ejecuta operaciones de rescate basadas en la información recopilada. Puedes abordar estos objetivos en cualquier orden, pero los intentos fallidos o los retrasos pueden resultar en la muerte permanente de los miembros de la familia.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Aclaración sobre Especulaciones de Reparto">
+Los primeros rumores en internet sugerían que el actor Cillian Murphy interpretaría al villano principal del juego. Sin embargo, la fuente detrás de la imagen original aclaró más tarde que la publicación no indicaba la participación de Murphy en el elenco.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Juego: El Cronómetro y la Renovación del Movimiento">
+
+El núcleo del ciclo de juego de **far cry 7 pc** introduce un tenso sistema de presión en tiempo real. La campaña cuenta con un **cronómetro de 72 horas dentro del juego** (que se traduce en aproximadamente 24 horas de juego en el mundo real). Los jugadores deben gestionar este reloj cuidadosamente mientras navegan por un sistema de movimiento táctico renovado.
+
+| Mecánica | Valor del Sistema | Impacto Práctico para el Jugador |
+|----------|--------------|-------------------------|
+| **Reloj de la Campaña** | 72 Horas de Juego | Dicta la ventana disponible para rescatar a todos los miembros de la familia. |
+| **Duración en Tiempo Real** | ~24 Horas Reales | Corre continuamente mientras se explora el mundo abierto activo. |
+| **Interfaz de Reloj de Pulsera** | Rastreador en Tiempo Real | Permite a los jugadores monitorear su tiempo restante al instante. |
+| **Pausa en Refugios** | Cronómetro Pausado | Entrar en un refugio detiene el reloj, permitiéndote planificar sin penalización. |
+| **Movimiento Táctico** | Esprintar, Deslizarse, Saltar | La física rediseñada permite un desplazamiento más rápido y escapes tácticos en combate. |
+| **Saqueo Ampliado** | Enfocado en Supervivencia | Encontrar recursos y gestionar tu inventario es crucial para sobrevivir. |
+
+<Callout type="success" title="Consejo Estratégico">
+Usa los refugios con frecuencia. Detener el cronómetro te permite analizar pistas, mejorar tu equipo y planificar rutas óptimas sin desperdiciar minutos preciosos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Campaña Principal vs. Multijugador Independiente">
+
+Comprender la diferencia entre los dos proyectos concurrentes es esencial para los jugadores de PC. Mientras que Project Blackbird ofrece el tradicional sandbox basado en la historia, Project Maverick introduce una experiencia multijugador centrada en la supervivencia.
+
+```
++-------------------------------------------------------------------+
+|                           PROJECT TALISKER                        |
+|                     (Producción Compartida Original)              |
++---------------------------------+---------------------------------+
+                                  |
+         +------------------------+------------------------+
+         |                                                 |
+         v                                                 v
++---------------------------------+               +---------------------------------+
+|        PROJECT BLACKBIRD        |               |         PROJECT MAVERICK        |
+|         (Far Cry 7 PC)          |               |    (Cooperativo Independiente)  |
++---------------------------------+               +---------------------------------+
+| - Campaña centrada en la historia|               | - Shooter basado en extracción  |
+| - Cronómetro de rescate 72h     |               | - Entorno ficticio de Alaska    |
+| - Narrativa familia Beckett     |               | - Muerte permanente alto riesgo |
+| - Enfoque en un solo jugador    |               | - Refugios y botín compartido   |
++---------------------------------+               +---------------------------------+
+```
+
+Para ayudar a aclarar las diferencias entre estas dos experiencias, revisa la siguiente comparación:
+
+| Característica | Project Blackbird (Far Cry 7) | Project Maverick (Multijugador) |
+|---------|--------------------------------|---------------------------------|
+| **Género Principal** | Shooter de Acción de Mundo Abierto | Shooter de Supervivencia y Extracción |
+| **Entorno Principal** | Por Anunciar | Entorno Salvaje Ficticio de Alaska |
+| **Objetivo Primario** | Rescatar a la familia del culto | Reunir botín, completar contratos, extraer |
+| **Amenazas** | Cultistas, animales salvajes, entorno | Jugadores rivales, soldados IA, clima extremo |
+| **Penalización por Muerte** | Afecta el resultado de la historia | Pérdida de equipo, ventajas y niveles |
+| **Estructura Co-op** | Centrada en la campaña | Basada en escuadrones con almacén compartido |
+
+<Callout type="warning" title="Estado del Multijugador">
+Project Maverick se sometió a un reinicio interno a principios de 2025, volviendo a la etapa de prototipado. Algunos de sus activos técnicos y desarrolladores fueron transferidos para acelerar el desarrollo de Project Blackbird.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para el Lanzamiento">
+
+Prepara tu configuración de PC y mantente actualizado con las noticias verificadas a medida que Ubisoft se acerca a una revelación oficial.
+
+<Checklist
+  id="farcry7-pc-prep"
+  title="Acciones para Jugadores de PC:"
+  items={[
+    "Añade a marcadores la página oficial de Ubisoft Far Cry para ver el primer tráiler de revelación oficial.",
+    "Asegúrate de que tu PC cumpla con los requisitos del sistema proyectados para el motor Snowdrop.",
+    "Monitorea las actualizaciones verificadas de la industria sobre las pruebas de juego de Project Blackbird.",
+    "Evita los revendedores de claves de terceros que ofrecen pedidos anticipados antes de que los listados oficiales estén activos."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Ha anunciado Ubisoft oficialmente Far Cry 7 para PC?",
+    answer: "Ubisoft ha confirmado que dos proyectos de Far Cry están en desarrollo bajo Vantage Studios. Sin embargo, no han revelado oficialmente el título 'Far Cry 7' ni han lanzado páginas dedicadas en tiendas de PC hasta julio de 2026."
+  },
+  {
+    question: "¿Cuál es la fecha de lanzamiento de Far Cry 7 para PC?",
+    answer: "No se ha publicado una fecha de lanzamiento oficial. Aunque los primeros informes apuntaban a 2025, los cronogramas de desarrollo actualizados sugieren una ventana de lanzamiento para 2026."
+  },
+  {
+    question: "¿Qué motor usará Far Cry 7 en PC?",
+    answer: "Informes de desarrollo creíbles indican que el juego principal se está alejando del motor Dunia para usar el motor Snowdrop de Ubisoft, que también se utiliza en juegos como The Division."
+  },
+  {
+    question: "¿Habrá un juego multijugador separado?",
+    answer: "Sí. Junto con la campaña principal (Project Blackbird), Ubisoft está desarrollando un juego multijugador independiente de estilo extracción con el nombre en clave Project Maverick, ambientado en Alaska."
+  }
+]} />
+
+</Section>

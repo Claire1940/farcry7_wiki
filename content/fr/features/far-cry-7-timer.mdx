@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Users, Search, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Timer Far Cry 7 : Guide du mécanisme des 72 heures et de la campagne non linéaire",
+  description: "Maîtrisez le système de timer de Far Cry 7. Découvrez comment l'horloge de 72 heures en jeu influence le sauvetage de la famille Beckett, la progression et la stratégie des planques.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Far+Cry+7+Timer+Mechanic",
+  date: "2026-07-10",
+  author: "Équipe du Wiki Far Cry 7",
+  keywords: "far cry 7 timer, mécanique 72 heures, famille beckett, planques, projet blackbird"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Timer Far Cry 7** : Un compte à rebours central de 72 heures en jeu (environ **24 heures en temps réel**) qui dicte le rythme de toute la campagne principale.
+- **Sauvetage non linéaire** : Les joueurs doivent localiser et extraire les membres de la **famille Beckett** dans n'importe quel ordre avant que le chronomètre n'atteigne zéro.
+- **Pauses stratégiques** : Entrer dans une **Planque** est le seul moyen de suspendre le timer, permettant ainsi la planification tactique et la gestion de l'équipement.
+- **Système d'interrogatoire** : Capturer des ennemis est vital ; ils fournissent des indices sur l'emplacement de la famille, mais leurs informations peuvent être trompeuses.
+- **Conséquences dynamiques** : La survie ou la mort de membres spécifiques de la famille modifie directement la conclusion de l'histoire et l'état du monde.
+</Callout>
+
+<Section icon={Clock} title="Comprendre la mécanique du timer de Far Cry 7">
+
+Le **timer de Far Cry 7** représente le changement le plus important de l'histoire de la franchise, délaissant la formule traditionnelle de « nettoyage de carte » au profit d'une opération de sauvetage à enjeux élevés et limitée dans le temps. Sous le nom de code **Project Blackbird**, le jeu vous place dans le rôle d'un survivant tentant de sauver sa famille kidnappée par un culte conspirationniste connu sous le nom de **Sons of Truth** (Les Fils de la Vérité).
+
+Contrairement aux opus précédents où vous pouviez passer des dizaines d'heures à chasser des objets de collection sans conséquence, le timer de Far Cry 7 est persistant. Chaque minute passée à parcourir le monde ouvert ou à vous engager dans des escarmouches secondaires rapproche la famille Beckett de l'exécution. Ce mécanisme est conçu pour créer une atmosphère de « cocotte-minute », forçant les joueurs à prioriser les objectifs et à faire des choix moraux difficiles sous pression.
+
+| Type de temps | Durée | Description |
+| :--- | :--- | :--- |
+| **Temps en jeu** | **72 Heures** | La fenêtre totale autorisée pour terminer la campagne de sauvetage principale. |
+| **Équivalent temps réel** | **~24 Heures** | La durée approximative de jeu réel avant l'expiration du timer. |
+| **Temps suspendu** | **Illimité** | Le temps s'arrête uniquement lorsque le joueur se trouve à l'intérieur d'une **Planque** désignée. |
+| **Méthode de suivi** | **Montre-bracelet** | Une montre physique en jeu portée par le protagoniste pour suivre le temps restant. |
+
+<Callout type="warning" title="Avertissement Critique">
+Si vous ne parvenez pas à sauver un membre de la famille avant le déclenchement de sa fenêtre d'exécution interne spécifique, sa mort sera définitive, vous privant ainsi de la « Fin Parfaite » du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Le sauvetage de la famille Beckett : Progression non linéaire">
+
+La structure de la campagne est entièrement non linéaire et s'articule autour de la libération de la riche famille Beckett. Comme le **timer de Far Cry 7** tourne en permanence, vous ne pouvez pas simplement suivre un chemin linéaire. Vous devez décider quel membre de la famille poursuivre en fonction des informations que vous avez recueillies et du temps restant à votre montre.
+
+Les Sons of Truth ont dispersé la famille à travers une vaste région encore anonyme. Chaque membre de la famille est détenu dans une installation unique, allant de bunkers de haute sécurité à des camps forestiers isolés. L'ordre dans lequel vous les sauvez affecte la difficulté des missions suivantes, car le culte consolidera ses forces à mesure qu'il réalisera que vous démantelez son organisation.
+
+**Éléments clés de la campagne :**
+- **Le protagoniste** : Un membre de la famille qui a échappé au kidnapping initial.
+- **Les Sons of Truth** : Un culte conspirationniste utilisant des hallucinogènes et des expériences sur les animaux.
+- **Résultats variables** : Si un membre de la famille meurt, l'histoire continue, mais vous perdez ses bonus de soutien spécifiques.
+
+<CardGrid cols={3}>
+  <Card title="Cibles de haute valeur">
+    - **Infos stratégiques**
+    - Sauver les aînés fournit des données cartographiques
+    - Débloque la reconnaissance avancée
+  </Card>
+  <Card title="Spécialistes du combat">
+    - **Accès aux armes**
+    - Sauver les plus jeunes débloque de l'équipement
+    - Améliore le soutien tactique
+  </Card>
+  <Card title="Rôles de soutien">
+    - **Santé & Ressources**
+    - Les experts médicaux améliorent les soins
+    - Les logisticiens augmentent la capacité de munitions
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Stratégie de Pro">
+Priorisez le sauvetage des membres de la famille possédant des compétences d'« Infos stratégiques » au début du cycle de 72 heures afin de localiser les captifs restants beaucoup plus rapidement.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Interrogatoire et collecte d'informations">
+
+Puisque la carte ne révèle pas automatiquement l'emplacement de votre famille, vous devez activement chercher des informations. C'est là que le nouveau **système d'interrogatoire** devient vital. Lorsque vous rencontrez des membres de haut rang des Sons of Truth, vous avez la possibilité de les capturer plutôt que de les éliminer.
+
+Cependant, les informations fournies ne sont pas toujours fiables. Le **timer de Far Cry 7** ajoute une part de risque à chaque interrogatoire : croyez-vous le captif au risque de passer 2 heures à voyager vers un avant-poste éloigné, ou suspectez-vous un piège destiné à vous faire perdre un temps précieux ?
+
+| Réponse à l'interrogatoire | Fréquence | Impact sur le joueur |
+| :--- | :--- | :--- |
+| **Vérité vérifiable** | **Fréquent** | Fournit un point de passage direct vers un membre de la famille ou un objectif. |
+| **Mensonges trompeurs** | **Peu fréquent** | Conduit à un piège ou à un endroit vide, faisant perdre des heures de jeu. |
+| **Silence stoïque** | **Rare** | Le captif refuse de parler, nécessitant d'autres sources d'informations. |
+| **Panique/Fuite** | **Occasionnel** | Le captif tente de s'enfuir ; ne pas l'arrêter alerte les camps voisins. |
+
+<Steps>
+  <Step num="1" title="Maîtriser la cible">
+    Blessez un officier de haut rang sans le tuer pour lancer la séquence de capture.
+  </Step>
+  <Step num="2" title="Mener l'interrogatoire">
+    Choisissez votre approche (Intimidation, Pots-de-vin ou Négociation) pour obtenir des données de localisation.
+  </Step>
+  <Step num="3" title="Vérifier les infos">
+    Recoupez les informations avec les données cartographiques existantes avant d'engager votre temps restant.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil de Renseignement">
+Combiner les interrogatoires avec des preuves physiques trouvées dans le monde (lettres, enregistrements) est le seul moyen de garantir que l'information est fiable à 100 %.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Planques et gestion du temps">
+
+Le seul répit face à l'implacable **timer de Far Cry 7** réside dans le système de Planques. Ce sont des lieux fortifiés découverts à travers le monde où le protagoniste peut se reposer, améliorer son équipement et planifier sa prochaine action.
+
+Lorsque vous franchissez le seuil d'une Planque, le compte à rebours de votre montre s'arrête. C'est le seul moment où vous pouvez parcourir les menus, fabriquer des objets ou lire les documents de l'univers sans que le monde n'évolue. Les joueurs efficaces utiliseront les Planques pour recentrer leur attention, en planifiant un itinéraire qui couvre plusieurs objectifs avant de devoir retourner en sécurité.
+
+**Fonctionnalités des Planques :**
+- **Suspension du timer** : Pause totale de l'horloge des 72 heures.
+- **Optimisation de l'équipement** : Modifiez vos armes et fabriquez des objets de survie.
+- **Briefing de mission** : Passez en revue les informations recueillies et définissez des points de passage personnalisés.
+- **Voyage rapide** : Déplacez-vous entre les Planques découvertes (coûte généralement une petite quantité de temps en jeu).
+
+| Activité | Statut du timer | Recommandation |
+| :--- | :--- | :--- |
+| **Exploration sauvage** | **Actif** | Gardez des déplacements tactiques et rapides. |
+| **Combat/Discrétion** | **Actif** | Évitez les escarmouches inutiles pour gagner du temps. |
+| **Fabrication (Terrain)** | **Actif** | Ne fabriquez que l'essentiel lors de vos déplacements. |
+| **Menus de la Planque** | **Suspendu** | Utilisez ce temps pour toute la gestion approfondie de l'inventaire. |
+
+<Callout type="info" title="Conseil d'Expert">
+Portez toujours assez de ressources pour atteindre la Planque suivante. Mourir sur le terrain entraîne souvent une « pénalité de temps » lors de la réapparition, ce qui peut s'avérer dévastateur dans les dernières heures.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Project Blackbird contre Project Maverick">
+
+Il est important de distinguer la campagne principale (Project Blackbird) du projet multijoueur autonome selon les rumeurs (Project Maverick). Bien que les deux se déroulent dans l'univers de Far Cry et soient développés sur le moteur **Snowdrop Engine**, leur approche du temps et du gameplay diffère considérablement.
+
+Le **timer de Far Cry 7** est exclusif à la campagne Blackbird. Project Maverick, quant à lui, serait un jeu de tir et de survie basé sur l'extraction, situé dans une nature sauvage de l'Alaska. Bien que Maverick intègre des éléments de survie comme la météo et la faune, il n'utilise pas l'horloge de campagne de 72 heures.
+
+| Fonctionnalité | Project Blackbird (Far Cry 7) | Project Maverick (Multijoueur) |
+| :--- | :--- | :--- |
+| **Objectif principal** | Sauver la famille Beckett | Extraire des ressources et survivre face aux joueurs |
+| **Système de timer** | **Horloge persistante de 72 heures** | Timers d'extraction basés sur la session |
+| **Cadre** | Territoire d'un culte sans nom | Nature sauvage de l'Alaska fictive |
+| **Moteur** | Snowdrop Engine | Snowdrop Engine |
+| **Style de gameplay** | Campagne scénarisée non linéaire | Jeu de tir et d'extraction de survie |
+
+<Callout type="tip" title="Note Technique">
+Les deux jeux partagent un système de mouvement repensé comprenant le sprint tactique, la glissade et le franchissement d'obstacles, aidant les joueurs à naviguer plus rapidement pour battre le chronomètre.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objectifs de la campagne et liste de contrôle">
+
+Pour obtenir le meilleur résultat possible dans Far Cry 7, vous devez équilibrer vitesse et minutie. Se précipiter vers la fin peut entraîner la mort de membres clés de la famille, tandis qu'être trop lent mettra fin prématurément à la partie.
+
+<Checklist
+  id="farcry7-goals"
+  title="Étapes essentielles de complétion :"
+  items={[
+    "Localiser les 7 membres de la famille Beckett en moins de 72 heures",
+    "Sécuriser au moins 5 Planques majeures pour les pauses tactiques",
+    "Identifier et éliminer les dirigeants des Sons of Truth",
+    "Maîtriser la mécanique d'interrogatoire pour minimiser la perte de temps",
+    "Débloquer les compétences de déplacement avancées du Snowdrop Engine"
+  ]}
+/>
+
+<Callout type="success" title="Objectif Final">
+Sauver tous les membres de la famille avant la marque des 72 heures débloque le succès « L'héritage des Beckett » ainsi que la véritable cinématique finale.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Le timer de Far Cry 7 tourne-t-il lorsque le jeu est éteint ?",
+    answer: "Non. Le timer ne progresse que lorsque vous jouez activement à la campagne en dehors d'une Planque ou du menu de pause principal. Il ne s'agit pas d'une horloge persistante en temps réel réel."
+  },
+  {
+    question: "Puis-je réinitialiser le timer si je manque de temps ?",
+    answer: "Si le timer de 72 heures expire, vous atteindrez une fin d'échec. Vous pourrez alors choisir de recommencer la campagne ou de charger une sauvegarde précédente dans une Planque, bien que vous perdiez toute progression réalisée depuis cette sauvegarde."
+  },
+  {
+    question: "Existe-t-il un moyen d'augmenter définitivement la limite des 72 heures ?",
+    answer: "Actuellement, il n'y a aucune mécanique confirmée pour étendre la limite des 72 heures. Le jeu est strictement équilibré autour de cette fenêtre de gameplay d'environ 24 heures réelles."
+  },
+  {
+    question: "Les quêtes secondaires mettent-elles le timer en pause ?",
+    answer: "Non. Les activités secondaires comme la chasse, la libération d'avant-postes et les courses consomment toutes votre limite de 72 heures. Vous devez décider si les récompenses de ces activités valent le coût en temps."
+  }
+]} />
+
+</Section>

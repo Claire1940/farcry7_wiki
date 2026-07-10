@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Users, Search, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "far cry 7 timer: 72-Hour Mechanic & Nonlinear Campaign Guide",
+  description: "Master the far cry 7 timer system. Learn how the 72-hour in-game clock affects the Beckett family rescue, campaign progression, and safehouse strategy.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Far+Cry+7+Timer+Mechanic",
+  date: "2026-07-10",
+  author: "far cry 7 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **far cry 7 timer**: A core 72-hour in-game countdown (roughly **24 real-time hours**) that dictates the pace of the entire main campaign.
+- **Nonlinear Rescue**: Players must locate and extract members of the **Beckett family** in any order before the clock hits zero.
+- **Strategic Pauses**: Entering a **Safehouse** is the only way to stop the timer, allowing for tactical planning and gear management.
+- **Interrogation System**: Capturing enemies is vital; they provide clues to family locations, but their information can be deceptive.
+- **Dynamic Outcomes**: The survival or death of specific family members directly alters the story's conclusion and world state.
+</Callout>
+
+<Section icon={Clock} title="Understanding the Far Cry 7 Timer Mechanic">
+
+The **far cry 7 timer** represents the most significant shift in the franchise's history, moving away from the traditional "clear the map" formula toward a high-stakes, time-sensitive rescue operation. Codenamed **Project Blackbird**, the game places you in the role of a survivor attempting to save their kidnapped family from a conspiracy cult known as the **Sons of Truth**.
+
+Unlike previous entries where you could spend dozens of hours hunting collectibles without consequence, the timer in Far Cry 7 is persistent. Every minute spent traversing the open world or engaging in side skirmishes brings the Beckett family closer to execution. This mechanic is designed to create a "pressure cooker" environment, forcing players to prioritize objectives and make difficult moral choices under duress.
+
+| Time Type | Duration | Description |
+| :--- | :--- | :--- |
+| **In-Game Time** | **72 Hours** | The total window allowed to complete the primary rescue campaign. |
+| **Real-Time Equivalent** | **~24 Hours** | The approximate amount of actual gameplay time before the timer expires. |
+| **Paused Time** | **Unlimited** | Time stops only when the player is inside a designated **Safehouse**. |
+| **Tracking Method** | **Wristwatch** | A physical in-game watch worn by the protagonist to track remaining time. |
+
+<Callout type="warning" title="Critical Warning">
+Failing to rescue a family member before their specific internal "execution" window triggers will result in their permanent death, locking you out of the game's "Perfect Ending."
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="The Beckett Family Rescue: Nonlinear Progression">
+
+The campaign's structure is entirely nonlinear, revolving around the recovery of the wealthy Beckett family. Because the **far cry 7 timer** is always ticking, you cannot simply follow a straight path. You must decide which family member to pursue based on the intel you have gathered and the time remaining on your watch.
+
+The Sons of Truth have scattered the family across a vast, yet-to-be-named region. Each family member is held in a unique facility, ranging from high-security bunkers to remote wilderness camps. The order in which you save them affects the difficulty of subsequent missions, as the cult will consolidate their forces as they realize you are dismantling their operation.
+
+**Key Campaign Elements:**
+- **The Protagonist**: A family member who escaped the initial kidnapping.
+- **The Sons of Truth**: A conspiracy cult utilizing hallucinogens and animal-based experiments.
+- **Variable Outcomes**: If a family member dies, the narrative continues, but you lose their specific support bonuses.
+
+<CardGrid cols={3}>
+  <Card title="High-Value Targets">
+    - **Strategic Intel**
+    - Rescuing elders provides map data
+    - Unlocks advanced scouting
+  </Card>
+  <Card title="Combat Specialists">
+    - **Weapon Access**
+    - Saving younger members unlocks gear
+    - Improves tactical support
+  </Card>
+  <Card title="Support Roles">
+    - **Health & Resources**
+    - Medical experts improve healing
+    - Logisticians increase ammo capacity
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Strategy">
+Prioritize rescuing family members with "Strategic Intel" traits early in the 72-hour cycle to make locating the remaining captives significantly faster.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Interrogation and Information Gathering">
+
+Since the map does not automatically reveal the locations of your family, you must actively hunt for information. This is where the new **Interrogation System** becomes vital. When you encounter high-ranking Sons of Truth members, you have the option to capture them rather than eliminate them. 
+
+However, the information provided is not always reliable. The **far cry 7 timer** adds a layer of risk to every interrogation: do you believe the captive and spend 2 hours traveling to a remote outpost, or do you suspect they are leading you into an ambush to waste your precious time?
+
+| Interrogation Response | Frequency | Player Impact |
+| :--- | :--- | :--- |
+| **Verifiable Truth** | **Common** | Provides a direct waypoint to a family member or objective. |
+| **Deceptive Lies** | **Uncommon** | Leads to a trap or an empty location, wasting in-game hours. |
+| **Stoic Silence** | **Rare** | The captive refuses to speak, requiring alternative intel sources. |
+| **Panic/Escape** | **Occasional** | The captive attempts to flee; failing to stop them alerts nearby camps. |
+
+<Steps>
+  <Step num="1" title="Subdue the Target">
+    Wound a high-ranking officer without killing them to initiate the capture sequence.
+  </Step>
+  <Step num="2" title="Conduct Interrogation">
+    Choose your approach (Intimidation, Bribery, or Negotiation) to extract location data.
+  </Step>
+  <Step num="3" title="Verify Intel">
+    Cross-reference the info with existing map data before committing your remaining time.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Intelligence Tip">
+Combining interrogations with physical evidence found in the world (letters, recordings) is the only way to guarantee the information is 100% accurate.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Safehouses and Time Management">
+
+The only reprieve from the relentless **far cry 7 timer** is the Safehouse system. These are fortified locations discovered throughout the world where the protagonist can rest, upgrade equipment, and plan the next move.
+
+When you cross the threshold of a Safehouse, the countdown on your wristwatch pauses. This is the only time you can browse menus, craft items, or read lore without the world moving forward. Efficient players will use Safehouses to "teleport" their focus—planning a route that hits multiple objectives before needing to return to safety.
+
+**Safehouse Functionality:**
+- **Timer Suspension**: Total pause of the 72-hour clock.
+- **Gear Optimization**: Modify weapons and craft survival items.
+- **Mission Briefing**: Review gathered intel and set custom waypoints.
+- **Fast Travel**: Move between discovered Safehouses (usually costs a small amount of in-game time).
+
+| Activity | Timer Status | Recommendation |
+| :--- | :--- | :--- |
+| **Exploring Wilds** | **Active** | Keep movement tactical and fast. |
+| **Combat/Stealth** | **Active** | Avoid unnecessary skirmishes to save time. |
+| **Crafting (Field)** | **Active** | Only craft essentials while on the move. |
+| **Safehouse Menus** | **Paused** | Use this time for all deep inventory management. |
+
+<Callout type="info" title="Expert Advice">
+Always carry enough resources to reach the next Safehouse. Dying in the field often results in a "Time Penalty" upon respawning, which can be devastating in the final hours.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Project Blackbird vs. Project Maverick">
+
+It is important to distinguish between the mainline campaign (Project Blackbird) and the rumored standalone multiplayer project (Project Maverick). While both are set within the Far Cry universe and developed on the **Snowdrop Engine**, their approach to time and gameplay differs significantly.
+
+The **far cry 7 timer** is exclusive to the Blackbird campaign. Project Maverick, on the other hand, is reported to be an extraction-based survival shooter set in a fictional Alaskan wilderness. While Maverick features survival elements like weather and wildlife, it does not use the 72-hour campaign clock.
+
+| Feature | Project Blackbird (Far Cry 7) | Project Maverick (Multiplayer) |
+| :--- | :--- | :--- |
+| **Primary Goal** | Rescue the Beckett Family | Extract resources and survive players |
+| **Timer System** | **72-Hour Persistent Clock** | Match-based extraction timers |
+| **Setting** | Unnamed Cult Territory | Fictional Alaskan Wilderness |
+| **Engine** | Snowdrop Engine | Snowdrop Engine |
+| **Gameplay Style** | Nonlinear Story Campaign | Extraction Survival Shooter |
+
+<Callout type="tip" title="Technical Note">
+Both games share a revamped movement system including tactical sprinting, sliding, and vaulting, which helps players navigate the world faster to beat the timer.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Campaign Goals and Completion Checklist">
+
+To achieve the best possible outcome in Far Cry 7, you must balance speed with thoroughness. Simply rushing to the end might result in the death of key family members, while being too slow will end the game prematurely.
+
+<Checklist
+  id="farcry7-goals"
+  title="Essential Completion Steps:"
+  items={[
+    "Locate all 7 members of the Beckett family within 72 hours",
+    "Secure at least 5 major Safehouses for tactical pausing",
+    "Identify and eliminate the Sons of Truth leadership",
+    "Master the interrogation mechanic to minimize 'Time Waste'",
+    "Unlock the Snowdrop Engine's advanced traversal skills"
+  ]}
+/>
+
+<Callout type="success" title="Final Goal">
+Rescuing every family member before the 72-hour mark unlocks the 'Legacy of the Becketts' achievement and the true final cinematic.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does the far cry 7 timer run while the game is turned off?",
+    answer: "No. The timer only progresses while you are actively playing the campaign outside of a Safehouse or the main pause menu. It is not a real-world persistent clock."
+  },
+  {
+    question: "Can I restart the timer if I run out of time?",
+    answer: "If the 72-hour timer expires, you will reach a 'Failure' ending. You can then choose to restart the campaign or reload a previous 'Safehouse Save,' though you will lose any progress made since that save."
+  },
+  {
+    question: "Is there a way to permanently increase the 72-hour limit?",
+    answer: "Currently, there are no confirmed mechanics to extend the 72-hour limit. The game is balanced strictly around this 24-real-hour gameplay window."
+  },
+  {
+    question: "Do side quests pause the timer?",
+    answer: "No. Side activities like hunting, outpost clearing, and racing all consume your 72-hour limit. You must decide if the rewards from these activities are worth the time cost."
+  }
+]} />
+
+</Section>

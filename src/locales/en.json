@@ -10,7 +10,16 @@
       "twitterDescription": "Track Far Cry 7 release date news, official trailers, platforms, setting, story, multiplayer details, credible leaks, and every verified Ubisoft update."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "news": "News",
+    "media": "Media",
+    "platforms": "Platforms",
+    "setting": "Setting",
+    "story": "Story",
+    "features": "Features",
+    "guide": "Guide"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -572,125 +581,165 @@
     "disclaimer": "Unofficial fan-made tracker website."
   },
   "pages": {
-    "guides": {
-      "title": "Far Cry 7 Guides",
-      "description": "Track Far Cry 7 release date news, official trailers, platforms, story, setting, multiplayer reports, and every verified Ubisoft update.",
-      "metaTitle": "Far Cry 7 Guides - Release, Platforms, Story & News",
-      "metaDescription": "Far Cry 7 guides covering the release date, trailers, platforms, story, setting, gameplay mechanics, multiplayer, and development updates.",
-      "categoryLabel": "FAR CRY 7 GUIDES",
-      "whatIs": "What are Far Cry 7 Guides?",
-      "whatIsDescription": "Guides covering the release timeline, official trailers, platforms, story, setting, gameplay mechanics, and multiplayer details for the next mainline Far Cry game.",
-      "why": "Why follow these guides?",
+    "release": {
+      "title": "Far Cry 7 Release Date",
+      "description": "Track the official Far Cry 7 release date, the Ubisoft confirmation that two projects are in development, and every reported launch window for Project Blackbird.",
+      "metaTitle": "Far Cry 7 Release Date - Official Status & Launch Window",
+      "metaDescription": "Follow the Far Cry 7 release date, Ubisoft's official status, the Project Blackbird development timeline, and every reported launch window.",
+      "categoryLabel": "RELEASE DATE",
+      "whatIs": "What is the Far Cry 7 Release Date?",
+      "whatIsDescription": "The current public status of the next mainline Far Cry game's launch, including Ubisoft's confirmation that two Far Cry projects are in development and the development timeline behind Project Blackbird.",
+      "why": "Why track the release date?",
       "whySteps": {
-        "step1Title": "Track the Release",
-        "step1Description": "Follow verified Ubisoft announcements and the latest release window reports",
-        "step2Title": "Understand the Story",
-        "step2Description": "Learn about the Beckett family, the Sons of Truth, and the nonlinear rescue campaign",
-        "step3Title": "Stay Updated",
-        "step3Description": "Get the latest trailer, platform, engine, and multiplayer news as it arrives"
+        "step1Title": "See the Official Status",
+        "step1Description": "Ubisoft has confirmed two Far Cry projects in development without a published launch date",
+        "step2Title": "Follow the Timeline",
+        "step2Description": "Track how the expected window moved from 2025 into 2026 as development continued",
+        "step3Title": "Catch New Windows",
+        "step3Description": "Get every reported release window and Ubisoft statement as it arrives"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "Far Cry 7 Mechanics",
-      "description": "Understand the reported gameplay mechanics of Far Cry 7, including the 72-hour campaign timer, safehouses, nonlinear rescues, and interrogation system.",
-      "metaTitle": "Far Cry 7 Mechanics - Timer, Rescues & Interrogations",
-      "metaDescription": "Far Cry 7 gameplay mechanics explained: the 72-hour campaign clock, safehouse pauses, nonlinear rescue objectives, and the interrogation system.",
-      "categoryLabel": "GAMEPLAY MECHANICS",
-      "whatIs": "What are Far Cry 7 Mechanics?",
-      "whatIsDescription": "A breakdown of the reported campaign mechanics, including the timed rescue structure, safehouse strategy, nonlinear objectives, and enemy interrogations.",
-      "why": "Why learn the mechanics?",
+    "news": {
+      "title": "Far Cry 7 News",
+      "description": "The latest Far Cry 7 news, official Ubisoft updates, community-tracked leaks, rumors, and verified development reports for Project Blackbird.",
+      "metaTitle": "Far Cry 7 News - Official Updates, Leaks & Rumors",
+      "metaDescription": "Read the latest Far Cry 7 news, official Ubisoft updates, community-tracked leaks, rumors, and development reports for Project Blackbird.",
+      "categoryLabel": "NEWS",
+      "whatIs": "What is Far Cry 7 News?",
+      "whatIsDescription": "Coverage of official Ubisoft announcements, financial reports, and interviews, alongside clearly labeled community leaks and rumors for the next mainline Far Cry game.",
+      "why": "Why follow the news?",
       "whySteps": {
-        "step1Title": "Manage the Clock",
-        "step1Description": "Balance exploration and rescues against the 72-hour in-game countdown",
-        "step2Title": "Use Safehouses",
-        "step2Description": "Pause the timer and plan your next rescue route",
-        "step3Title": "Interrogate Smartly",
-        "step3Description": "Decide which enemy leads are worth your limited time"
+        "step1Title": "Read Official Updates",
+        "step1Description": "Ubisoft announcements, earnings calls, and confirmed statements about Far Cry",
+        "step2Title": "Track Community Leaks",
+        "step2Description": "Project Blackbird rumors and reports, clearly separated from confirmed facts",
+        "step3Title": "Stay Current",
+        "step3Description": "Get each development update as Project Blackbird moves toward release"
       },
       "featured": "Featured & Essential",
-      "all": "All Mechanics Guides"
+      "all": "All News Articles"
     },
-    "items": {
-      "title": "Far Cry 7 Features",
-      "description": "Explore the reported features of Far Cry 7, from movement and traversal upgrades to looting, inventory, and open-world exploration.",
-      "metaTitle": "Far Cry 7 Features - Movement, Looting & Exploration",
-      "metaDescription": "Far Cry 7 reported features including tactical sprinting, sliding, vaulting, expanded looting, inventory systems, and open-world exploration.",
-      "categoryLabel": "GAME FEATURES",
-      "whatIs": "What are Far Cry 7 Features?",
-      "whatIsDescription": "An overview of the reported gameplay features, including movement, traversal, looting, inventory management, and the open-world structure.",
-      "why": "Why review the features?",
+    "media": {
+      "title": "Far Cry 7 Media",
+      "description": "Watch and explore Far Cry 7 trailers, gameplay reveals, screenshots, concept art, and official media as Ubisoft reveals the next mainline Far Cry game.",
+      "metaTitle": "Far Cry 7 Media - Trailers, Gameplay & Screenshots",
+      "metaDescription": "Browse Far Cry 7 trailers, gameplay reveals, screenshots, concept art, and official media as Ubisoft reveals Project Blackbird.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is Far Cry 7 Media?",
+      "whatIsDescription": "A tracker for official trailers, gameplay presentations, screenshots, and key art, with unofficial concept and fan-made videos clearly labeled.",
+      "why": "Why follow the media?",
       "whySteps": {
-        "step1Title": "Master Movement",
-        "step1Description": "Learn the updated sprinting, sliding, and vaulting systems",
-        "step2Title": "Plan Exploration",
-        "step2Description": "Use nonlinear rescue routes and safehouses efficiently",
-        "step3Title": "Manage Loot",
-        "step3Description": "Handle the expanded inventory and survival-focused looting"
+        "step1Title": "Watch Official Trailers",
+        "step1Description": "Catch the announcement trailer and gameplay reveal when Ubisoft publishes them",
+        "step2Title": "See Screenshots",
+        "step2Description": "View official screenshots, key art, and character renders as they release",
+        "step3Title": "Spot Unofficial Videos",
+        "step3Description": "Fan-made concept trailers and leaks clearly separated from official media"
       },
       "featured": "Featured & Essential",
-      "all": "All Features"
+      "all": "All Media Articles"
     },
-    "biomes": {
-      "title": "Far Cry 7 Setting & World",
-      "description": "Track what is known about the Far Cry 7 setting, map structure, safehouses, traversal, and open-world activities.",
-      "metaTitle": "Far Cry 7 Setting & World - Map, Safehouses & Exploration",
-      "metaDescription": "Far Cry 7 setting and open-world details: the nonlinear rescue map, safehouses, traversal systems, and exploration structure.",
-      "categoryLabel": "SETTING & WORLD",
-      "whatIs": "What is the Far Cry 7 setting?",
-      "whatIsDescription": "An overview of the reported setting, nonlinear map, safehouses, traversal systems, and open-world activities for Project Blackbird.",
+    "platforms": {
+      "title": "Far Cry 7 Platforms",
+      "description": "Find every confirmed Far Cry 7 platform, including PS5, Xbox Series X|S, PC, Steam, storefronts, subscription services, and cross-play details.",
+      "metaTitle": "Far Cry 7 Platforms - PS5, Xbox, PC & Steam",
+      "metaDescription": "Check Far Cry 7 platforms including PS5, Xbox Series X|S, PC, Steam, storefronts, subscriptions, and cross-play as details are confirmed.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are the Far Cry 7 Platforms?",
+      "whatIsDescription": "The consoles, PC storefronts, subscription services, and cross-platform features expected for the next mainline Far Cry game, based on confirmed and reported details.",
+      "why": "Why check the platforms?",
+      "whySteps": {
+        "step1Title": "See the Consoles",
+        "step1Description": "PS5, Xbox Series X|S, and expected current-generation console support",
+        "step2Title": "Check PC & Steam",
+        "step2Description": "PC requirements, storefronts, and Steam availability for Project Blackbird",
+        "step3Title": "Find Subscriptions",
+        "step3Description": "Ubisoft+, Game Pass, and other subscription and cross-play details"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platforms Articles"
+    },
+    "setting": {
+      "title": "Far Cry 7 Setting",
+      "description": "Explore the reported Far Cry 7 setting, map structure, rumored locations, open-world design, and the nonlinear rescue world of Project Blackbird.",
+      "metaTitle": "Far Cry 7 Setting - Map, Locations & Open World",
+      "metaDescription": "Discover the Far Cry 7 setting, map structure, rumored locations, regions, and the nonlinear open-world design of Project Blackbird.",
+      "categoryLabel": "SETTING",
+      "whatIs": "What is the Far Cry 7 Setting?",
+      "whatIsDescription": "The reported world, map structure, and rumored locations for the next mainline Far Cry game, including how nonlinear rescue routes connect the open world.",
       "why": "Why explore the setting?",
       "whySteps": {
-        "step1Title": "Understand the Map",
-        "step1Description": "Learn how nonlinear rescue routes connect the world",
-        "step2Title": "Use Safehouses",
-        "step2Description": "Pause the timer and plan between objectives",
-        "step3Title": "Prepare for Exploration",
-        "step3Description": "Equip the right movement and survival tools for each route"
+        "step1Title": "Learn the Locations",
+        "step1Description": "Rumored settings, regions, and the world design behind Project Blackbird",
+        "step2Title": "Understand the Map",
+        "step2Description": "How the nonlinear map connects rescue routes and safehouses",
+        "step3Title": "Separate Maverick",
+        "step3Description": "The Alaskan wilderness belongs to Project Maverick, not the mainline game"
       },
       "featured": "Featured & Essential",
-      "all": "All Setting Guides"
+      "all": "All Setting Articles"
     },
-    "building": {
+    "story": {
       "title": "Far Cry 7 Story",
-      "description": "Follow the reported Far Cry 7 story, including the Beckett family, the Sons of Truth, nonlinear campaign outcomes, and casting updates.",
-      "metaTitle": "Far Cry 7 Story - Beckett Family, Sons of Truth & Campaign",
-      "metaDescription": "Far Cry 7 story details: the kidnapped Beckett family, the Sons of Truth antagonists, nonlinear rescue outcomes, and casting reports.",
-      "categoryLabel": "STORY & CHARACTERS",
-      "whatIs": "What is the Far Cry 7 story?",
-      "whatIsDescription": "A guide to the reported campaign story, characters, antagonist organization, and how nonlinear rescues change the outcome.",
+      "description": "Follow the reported Far Cry 7 story, the Beckett family, the Sons of Truth antagonists, the rumored cast, and how nonlinear rescues shape the campaign.",
+      "metaTitle": "Far Cry 7 Story - Beckett Family, Sons of Truth & Cast",
+      "metaDescription": "Read the Far Cry 7 story, the kidnapped Beckett family, the Sons of Truth antagonists, the rumored cast and villain, and nonlinear campaign outcomes.",
+      "categoryLabel": "STORY",
+      "whatIs": "What is the Far Cry 7 Story?",
+      "whatIsDescription": "The reported campaign premise, characters, antagonist organization, and casting rumors for the next mainline Far Cry game, including how rescue choices change the outcome.",
       "why": "Why follow the story?",
       "whySteps": {
         "step1Title": "Meet the Family",
-        "step1Description": "Learn about the Beckett family and the rescue objectives",
-        "step2Title": "Know the Antagonist",
-        "step2Description": "Understand the Sons of Truth and their role",
-        "step3Title": "Shape the Outcome",
-        "step3Description": "See how rescue order and success change the campaign"
+        "step1Description": "The Beckett family and the central rescue objectives",
+        "step2Title": "Know the Villain",
+        "step2Description": "The Sons of Truth and the rumored main antagonist",
+        "step3Title": "Track the Cast",
+        "step3Description": "Rumored actors and casting reports, including the debunked Cillian Murphy claim"
       },
       "featured": "Featured & Essential",
-      "all": "All Story Guides"
+      "all": "All Story Articles"
     },
-    "support": {
-      "title": "Far Cry 7 News & Support",
-      "description": "Track Far Cry 7 release news, development updates, platform availability, and answers to the most common questions.",
-      "metaTitle": "Far Cry 7 News & Support - Release, Platforms & FAQ",
-      "metaDescription": "Far Cry 7 news and support covering the release date, platforms, development timeline, engine, multiplayer, and frequently asked questions.",
-      "categoryLabel": "NEWS & SUPPORT",
-      "whatIs": "What is Far Cry 7 News & Support?",
-      "whatIsDescription": "Release news, development updates, platform availability, and answers to the most common Far Cry 7 questions.",
-      "why": "Why check the news?",
+    "features": {
+      "title": "Far Cry 7 Features",
+      "description": "Discover the reported Far Cry 7 features, including the 72-hour campaign timer, multiplayer and co-op, crossplay, the Snowdrop engine, and AI systems.",
+      "metaTitle": "Far Cry 7 Features - Timer, Multiplayer, Co-op & Engine",
+      "metaDescription": "Explore Far Cry 7 features: the 72-hour timer, multiplayer, co-op, crossplay, the Snowdrop engine, and advanced AI for Project Blackbird.",
+      "categoryLabel": "FEATURES",
+      "whatIs": "What are Far Cry 7 Features?",
+      "whatIsDescription": "The reported gameplay systems and technology for the next mainline Far Cry game, covering the timed campaign, multiplayer modes, engine, and enemy AI.",
+      "why": "Why learn the features?",
       "whySteps": {
-        "step1Title": "Catch Every Update",
-        "step1Description": "Follow verified Ubisoft announcements and development reports",
-        "step2Title": "Check Platforms",
-        "step2Description": "See confirmed platforms, storefronts, and subscriptions",
-        "step3Title": "Get Answers",
-        "step3Description": "Find quick answers to release, trailer, and multiplayer questions"
+        "step1Title": "Understand the Timer",
+        "step1Description": "The 72-hour in-game clock and safehouse pauses that drive the campaign",
+        "step2Title": "Check Multiplayer",
+        "step2Description": "Co-op, crossplay, and the separate Project Maverick multiplayer game",
+        "step3Title": "See the Tech",
+        "step3Description": "The Snowdrop engine and the reported advanced interrogation AI"
       },
       "featured": "Featured & Essential",
-      "all": "All News & Support"
+      "all": "All Features Articles"
+    },
+    "guide": {
+      "title": "Far Cry 7 Guides",
+      "description": "Practical Far Cry 7 guides covering what we know, system requirements, the best weapons, walkthroughs, and survival strategies for the next mainline game.",
+      "metaTitle": "Far Cry 7 Guides - Walkthrough, Weapons & Requirements",
+      "metaDescription": "Read Far Cry 7 guides on what we know, system requirements, best weapons, walkthroughs, and survival strategies for Project Blackbird.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Far Cry 7 Guides?",
+      "whatIsDescription": "Practical guides for the next mainline Far Cry game, including an overview of everything known so far, PC requirements, the expected arsenal, and campaign walkthroughs.",
+      "why": "Why use these guides?",
+      "whySteps": {
+        "step1Title": "Learn What We Know",
+        "step1Description": "A clear summary of every confirmed and reported Far Cry 7 detail",
+        "step2Title": "Check Requirements",
+        "step2Description": "Expected PC specifications and technical targets for Project Blackbird",
+        "step3Title": "Plan Your Play",
+        "step3Description": "Walkthroughs, best weapons, and survival strategies for the campaign"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
     }
   }
 }

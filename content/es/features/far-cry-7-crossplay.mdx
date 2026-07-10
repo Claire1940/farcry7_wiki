@@ -1,0 +1,161 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Far Cry 7 Crossplay: Perspectiva de las funciones multijugador y cooperativas",
+  description: "Explora las últimas actualizaciones sobre el crossplay de Far Cry 7, las funciones multijugador, los sistemas cooperativos y las diferencias entre Project Blackbird y Project Maverick.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Far+Cry+7+Crossplay",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Far Cry 7"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Crossplay de Far Cry 7**: Ubisoft no ha confirmado oficialmente el juego cruzado, pero los estándares modernos de la franquicia hacen que el multijugador multiplataforma sea muy probable.
+- **Dos proyectos separados**: Los informes de desarrollo revelan dos proyectos activos: **Project Blackbird** (campaña principal) y **Project Maverick** (multijugador).
+- **Project Blackbird**: El juego principal cuenta con una campaña cronometrada de 72 horas centrada en el rescate de una familia secuestrada.
+- **Project Maverick**: Un shooter de supervivencia y extracción independiente ambientado en una naturaleza salvaje y ficticia de Alaska.
+- **Actualización del motor**: Ambos proyectos se basan supuestamente en el **Snowdrop Engine**, alejándose de la tecnología Dunia anterior.
+</Callout>
+
+<Section icon={Map} title="Descripción general del crossplay y multijugador de Far Cry 7">
+
+A medida que Ubisoft estructura su futura alineación bajo la organización Vantage Studios, la integración multijugador se ha convertido en un pilar estratégico importante. Aunque Ubisoft no ha detallado oficialmente la funcionalidad de **crossplay de far cry 7**, observar los lanzamientos recientes de la franquicia y los estándares de la industria ofrece indicadores claros.
+
+Títulos recientes de Ubisoft como *Far Cry 6* admitían el juego entre generaciones, y la infraestructura multijugador más amplia de Ubisoft presenta de forma destacada el progreso y el matchmaking multiplataforma. Para la próxima generación, se espera que el crossplay conecte a los jugadores de PC, PlayStation 5 y Xbox Series X|S sin problemas.
+
+| Tipo de función | Project Blackbird (Principal) | Project Maverick (Extracción) |
+| :--- | :--- | :--- |
+| **Enfoque principal** | Campaña basada en la historia | Supervivencia y extracción |
+| **Estilo multijugador** | Cooperativo de campaña | PvPvE en equipo y solitario |
+| **Crossplay esperado** | Alta probabilidad (Cooperativo) | Requisito crítico (Matchmaking) |
+| **Motor base** | Snowdrop Engine | Snowdrop Engine |
+
+<Callout type="tip" title="Estrategia multijugador">
+El CEO de Ubisoft, Yves Guillemot, confirmó en 2025 que las experiencias multijugador tendrán un papel más destacado en la franquicia Far Cry para garantizar la participación de los jugadores a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Project Blackbird vs. Project Maverick">
+
+Entender el multijugador en la próxima era de Far Cry requiere separar los dos proyectos distintos actualmente en desarrollo en Ubisoft. Iniciados originalmente a partir de una fase de producción compartida con el nombre en clave *Talisker*, estos conceptos se dividieron en dos juegos independientes diseñados para satisfacer a diferentes bases de jugadores.
+
+<CardGrid cols={2}>
+  <Card title="Project Blackbird (Principal)">
+    - **Estructura de la campaña**: Una misión de rescate no lineal en mundo abierto.
+    - **Objetivo principal**: Localizar y rescatar a la familia Beckett secuestrada.
+    - **Límite de tiempo**: Un estricto temporizador de 72 horas dentro del juego (aprox. 24 horas en tiempo real).
+    - **Opciones cooperativas**: Se espera el modo cooperativo tradicional de campaña con entrada/salida dinámica.
+  </Card>
+  <Card title="Project Maverick (Multijugador)">
+    - **Estilo de juego**: Shooter de extracción con elementos de supervivencia.
+    - **Entorno**: Una dura naturaleza salvaje y ficticia de Alaska.
+    - **Mecánicas**: Muerte permanente (se pierde el equipo al morir), escondites y recolección de recursos.
+    - **Sistema de lobby**: Matchmaking basado en escuadrones con sistemas de alijo compartido.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cambio en el desarrollo">
+A principios de 2025, Project Maverick volvió a las etapas de prototipo. Ubisoft transfirió varios desarrolladores técnicos y recursos a Project Blackbird para acelerar el desarrollo del juego principal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas cooperativas y sistemas de juego">
+
+El bucle de juego de Project Blackbird introduce cambios drásticos en la fórmula tradicional de mundo abierto. En lugar de liberar puestos de avanzada en una secuencia lineal, los jugadores deben gestionar un reloj en tiempo real que se muestra en el reloj de pulsera del protagonista. El juego cooperativo debe adaptarse a estas mecánicas centradas en la supervivencia.
+
+### Mecánicas clave de la campaña
+
+| Mecánica | Detalle del sistema | Impacto en el juego cooperativo |
+| :--- | :--- | :--- |
+| **Temporizador del juego** | Cuenta regresiva de 72 horas | Reloj compartido entre todos los jugadores conectados |
+| **Casas seguras** | Pausa el temporizador activo | Áreas de planificación estratégica para coordinar rutas de rescate |
+| **Interrogatorios** | Los enemigos dicen la verdad, mienten o escapan | Requiere que los jugadores crucen la información recopilada |
+| **Revisión de movimiento** | Sprint táctico, deslizamiento, salto | Desplazamiento más rápido para evitar peligros del mapa juntos |
+
+<Steps>
+  <Step num="1" title="Establecer la casa segura">
+    Entra en una casa segura para pausar la cuenta regresiva de 72 horas de la campaña. Aquí es donde tú y tu compañero cooperativo se equipan y seleccionan objetivos.
+  </Step>
+  <Step num="2" title="Interrogar a los objetivos">
+    Rastrea a los informantes enemigos. Los jugadores deben trabajar juntos para evitar que los objetivos escapen o alimenten al escuadrón con ubicaciones de rescate falsas.
+  </Step>
+  <Step num="3" title="Ejecutar rescates no lineales">
+    Infíltrate en territorio enemigo para rescatar a los miembros de la familia Beckett. Dado que los miembros de la familia pueden morir, se requiere sigilo coordinado o asaltos pesados.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Progresión compartida">
+La infraestructura moderna de Ubisoft garantiza normalmente que el progreso de la historia, las adquisiciones de inventario y las mejoras de personaje se mantengan entre las sesiones individuales y cooperativas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Disponibilidad de plataformas y objetivos técnicos">
+
+Aunque los requisitos oficiales del sistema y las listas de plataformas siguen sin publicarse, los informes de desarrollo indican un abandono total del hardware de la generación anterior. El juego se está creando para maximizar las capacidades de las consolas de generación actual y el hardware de PC.
+
+| Plataforma | Disponibilidad esperada | Enfoque técnico |
+| :--- | :--- | :--- |
+| **Windows PC** | Confirmado (Ubisoft Store/Epic) | Altas tasas de fotogramas, ray tracing, perfiles gráficos personalizados |
+| **PlayStation 5** | Confirmado | Respuesta háptica del DualSense, tiempos de carga rápidos |
+| **Xbox Series X/S** | Confirmado | Smart Delivery, compatibilidad con Quick Resume |
+| **Generación anterior (PS4/XB1)** | No anunciado (Altamente improbable) | Excluido debido a las demandas del Snowdrop Engine |
+
+<Callout type="success" title="Integración del Snowdrop Engine">
+Alejarse del motor Dunia permite a los equipos de desarrollo de Ubisoft Montreal, Berlín y Annecy implementar física avanzada, una IA enemiga más inteligente y una red multijugador fluida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para completar el modo cooperativo">
+
+Para lograr una campaña perfecta en el modo cooperativo de Project Blackbird, los escuadrones deben optimizar sus rutas y gestionar su tiempo de manera eficiente. Utiliza esta lista de verificación para seguir tu preparación.
+
+<Checklist
+  id="coop-prep-goals"
+  title="Lista de verificación de preparación de campaña:"
+  items={[
+    "Asegurar al menos tres casas seguras regionales para establecer zonas de pausa del temporizador",
+    "Desbloquear mejoras de sprint táctico y deslizamiento para un desplazamiento más rápido por el mapa",
+    "Coordinar roles: un jugador en sigilo/interrogatorios, otro en asalto pesado",
+    "Verificar las opciones de conectividad crossplay en el lanzador de Ubisoft Connect",
+    "Rastrear y rescatar a todos los miembros de la familia Beckett antes de que expire el reloj de 72 horas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Admitirá Far Cry 7 crossplay en el lanzamiento?",
+    question_id: "faq-1",
+    answer: "Aunque Ubisoft no ha confirmado oficialmente el crossplay de Far Cry 7, la práctica estándar del editor para juegos multijugador modernos hace que se espere mucho el juego multiplataforma entre PC, PS5 y Xbox Series X|S."
+  },
+  {
+    question: "¿Cuál es la diferencia entre Project Blackbird y Project Maverick?",
+    question_id: "faq-2",
+    answer: "Project Blackbird es el nombre en clave para la campaña principal de Far Cry 7, centrada en la historia y con un temporizador de rescate de 72 horas. Project Maverick es un shooter de extracción multijugador independiente ambientado en Alaska."
+  },
+  {
+    question: "¿Puedo jugar toda la campaña de Far Cry 7 en cooperativo?",
+    question_id: "faq-3",
+    answer: "Sí, Project Blackbird está diseñado pensando en el juego cooperativo, permitiéndote a ti y a tus compañeros de equipo abordar las misiones de rescate familiar no lineales juntos."
+  },
+  {
+    question: "¿Qué motor se está utilizando para los próximos juegos de Far Cry?",
+    question_id: "faq-4",
+    answer: "Ubisoft está desarrollando supuestamente ambos proyectos de Far Cry en el Snowdrop Engine, reemplazando el motor Dunia utilizado en las entregas principales anteriores."
+  }
+]} />
+
+</Section>

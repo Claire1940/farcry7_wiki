@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "release": "Lanzamiento",
+    "news": "Noticias",
+    "media": "Multimedia",
+    "platforms": "Plataformas",
+    "setting": "Escenario",
+    "story": "Historia",
+    "features": "Características",
+    "guide": "Guía"
+  }
+}

@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "release": "Sortie",
+    "news": "Actualités",
+    "media": "Médias",
+    "platforms": "Plateformes",
+    "setting": "Cadre",
+    "story": "Histoire",
+    "features": "Fonctionnalités",
+    "guide": "Guide"
+  }
+}

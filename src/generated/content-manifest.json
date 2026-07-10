@@ -1,1 +1,714 @@
-{}
+{
+  "en": {
+    "features": [
+      {
+        "slug": "far-cry-7-ai",
+        "file": "far-cry-7-ai"
+      },
+      {
+        "slug": "far-cry-7-co-op",
+        "file": "far-cry-7-co-op"
+      },
+      {
+        "slug": "far-cry-7-crossplay",
+        "file": "far-cry-7-crossplay"
+      },
+      {
+        "slug": "far-cry-7-multiplayer",
+        "file": "far-cry-7-multiplayer"
+      },
+      {
+        "slug": "far-cry-7-snowdrop-engine",
+        "file": "far-cry-7-snowdrop-engine"
+      },
+      {
+        "slug": "far-cry-7-timer",
+        "file": "far-cry-7-timer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "far-cry-7-best-weapons",
+        "file": "far-cry-7-best-weapons"
+      },
+      {
+        "slug": "far-cry-7-system-requirements",
+        "file": "far-cry-7-system-requirements"
+      },
+      {
+        "slug": "far-cry-7-walkthrough",
+        "file": "far-cry-7-walkthrough"
+      },
+      {
+        "slug": "far-cry-7-what-we-know",
+        "file": "far-cry-7-what-we-know"
+      }
+    ],
+    "media": [
+      {
+        "slug": "far-cry-7-gameplay-reveal",
+        "file": "far-cry-7-gameplay-reveal"
+      },
+      {
+        "slug": "far-cry-7-images",
+        "file": "far-cry-7-images"
+      },
+      {
+        "slug": "far-cry-7-leaked-video",
+        "file": "far-cry-7-leaked-video"
+      },
+      {
+        "slug": "far-cry-7-trailer",
+        "file": "far-cry-7-trailer"
+      }
+    ],
+    "news": [
+      {
+        "slug": "far-cry-7-leaks",
+        "file": "far-cry-7-leaks"
+      },
+      {
+        "slug": "far-cry-7-news",
+        "file": "far-cry-7-news"
+      },
+      {
+        "slug": "far-cry-7-reddit",
+        "file": "far-cry-7-reddit"
+      },
+      {
+        "slug": "far-cry-7-rumors",
+        "file": "far-cry-7-rumors"
+      },
+      {
+        "slug": "far-cry-7-updates",
+        "file": "far-cry-7-updates"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "far-cry-7-pc",
+        "file": "far-cry-7-pc"
+      },
+      {
+        "slug": "far-cry-7-platforms",
+        "file": "far-cry-7-platforms"
+      },
+      {
+        "slug": "far-cry-7-ps5",
+        "file": "far-cry-7-ps5"
+      },
+      {
+        "slug": "far-cry-7-steam",
+        "file": "far-cry-7-steam"
+      },
+      {
+        "slug": "far-cry-7-xbox-series-x",
+        "file": "far-cry-7-xbox-series-x"
+      }
+    ],
+    "release": [
+      {
+        "slug": "far-cry-7-announcement",
+        "file": "far-cry-7-announcement"
+      },
+      {
+        "slug": "far-cry-7-confirmed",
+        "file": "far-cry-7-confirmed"
+      },
+      {
+        "slug": "far-cry-7-release-date-2026",
+        "file": "far-cry-7-release-date-2026"
+      },
+      {
+        "slug": "far-cry-7-release-date-2027",
+        "file": "far-cry-7-release-date-2027"
+      },
+      {
+        "slug": "far-cry-7-release-date",
+        "file": "far-cry-7-release-date"
+      }
+    ],
+    "setting": [
+      {
+        "slug": "far-cry-7-alaska",
+        "file": "far-cry-7-alaska"
+      },
+      {
+        "slug": "far-cry-7-map-size",
+        "file": "far-cry-7-map-size"
+      },
+      {
+        "slug": "far-cry-7-map",
+        "file": "far-cry-7-map"
+      },
+      {
+        "slug": "far-cry-7-new-england",
+        "file": "far-cry-7-new-england"
+      },
+      {
+        "slug": "far-cry-7-north-korea",
+        "file": "far-cry-7-north-korea"
+      },
+      {
+        "slug": "far-cry-7-setting",
+        "file": "far-cry-7-setting"
+      }
+    ],
+    "story": [
+      {
+        "slug": "far-cry-7-cast",
+        "file": "far-cry-7-cast"
+      },
+      {
+        "slug": "far-cry-7-characters",
+        "file": "far-cry-7-characters"
+      },
+      {
+        "slug": "far-cry-7-cillian-murphy",
+        "file": "far-cry-7-cillian-murphy"
+      },
+      {
+        "slug": "far-cry-7-main-villain",
+        "file": "far-cry-7-main-villain"
+      },
+      {
+        "slug": "far-cry-7-story",
+        "file": "far-cry-7-story"
+      }
+    ]
+  },
+  "es": {
+    "features": [
+      {
+        "slug": "far-cry-7-ai",
+        "file": "far-cry-7-ai"
+      },
+      {
+        "slug": "far-cry-7-co-op",
+        "file": "far-cry-7-co-op"
+      },
+      {
+        "slug": "far-cry-7-crossplay",
+        "file": "far-cry-7-crossplay"
+      },
+      {
+        "slug": "far-cry-7-multiplayer",
+        "file": "far-cry-7-multiplayer"
+      },
+      {
+        "slug": "far-cry-7-snowdrop-engine",
+        "file": "far-cry-7-snowdrop-engine"
+      },
+      {
+        "slug": "far-cry-7-timer",
+        "file": "far-cry-7-timer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "far-cry-7-best-weapons",
+        "file": "far-cry-7-best-weapons"
+      },
+      {
+        "slug": "far-cry-7-system-requirements",
+        "file": "far-cry-7-system-requirements"
+      },
+      {
+        "slug": "far-cry-7-walkthrough",
+        "file": "far-cry-7-walkthrough"
+      },
+      {
+        "slug": "far-cry-7-what-we-know",
+        "file": "far-cry-7-what-we-know"
+      }
+    ],
+    "media": [
+      {
+        "slug": "far-cry-7-gameplay-reveal",
+        "file": "far-cry-7-gameplay-reveal"
+      },
+      {
+        "slug": "far-cry-7-images",
+        "file": "far-cry-7-images"
+      },
+      {
+        "slug": "far-cry-7-leaked-video",
+        "file": "far-cry-7-leaked-video"
+      },
+      {
+        "slug": "far-cry-7-trailer",
+        "file": "far-cry-7-trailer"
+      }
+    ],
+    "news": [
+      {
+        "slug": "far-cry-7-leaks",
+        "file": "far-cry-7-leaks"
+      },
+      {
+        "slug": "far-cry-7-news",
+        "file": "far-cry-7-news"
+      },
+      {
+        "slug": "far-cry-7-reddit",
+        "file": "far-cry-7-reddit"
+      },
+      {
+        "slug": "far-cry-7-rumors",
+        "file": "far-cry-7-rumors"
+      },
+      {
+        "slug": "far-cry-7-updates",
+        "file": "far-cry-7-updates"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "far-cry-7-pc",
+        "file": "far-cry-7-pc"
+      },
+      {
+        "slug": "far-cry-7-platforms",
+        "file": "far-cry-7-platforms"
+      },
+      {
+        "slug": "far-cry-7-ps5",
+        "file": "far-cry-7-ps5"
+      },
+      {
+        "slug": "far-cry-7-steam",
+        "file": "far-cry-7-steam"
+      },
+      {
+        "slug": "far-cry-7-xbox-series-x",
+        "file": "far-cry-7-xbox-series-x"
+      }
+    ],
+    "release": [
+      {
+        "slug": "far-cry-7-announcement",
+        "file": "far-cry-7-announcement"
+      },
+      {
+        "slug": "far-cry-7-confirmed",
+        "file": "far-cry-7-confirmed"
+      },
+      {
+        "slug": "far-cry-7-release-date-2026",
+        "file": "far-cry-7-release-date-2026"
+      },
+      {
+        "slug": "far-cry-7-release-date-2027",
+        "file": "far-cry-7-release-date-2027"
+      },
+      {
+        "slug": "far-cry-7-release-date",
+        "file": "far-cry-7-release-date"
+      }
+    ],
+    "setting": [
+      {
+        "slug": "far-cry-7-alaska",
+        "file": "far-cry-7-alaska"
+      },
+      {
+        "slug": "far-cry-7-map-size",
+        "file": "far-cry-7-map-size"
+      },
+      {
+        "slug": "far-cry-7-map",
+        "file": "far-cry-7-map"
+      },
+      {
+        "slug": "far-cry-7-new-england",
+        "file": "far-cry-7-new-england"
+      },
+      {
+        "slug": "far-cry-7-north-korea",
+        "file": "far-cry-7-north-korea"
+      },
+      {
+        "slug": "far-cry-7-setting",
+        "file": "far-cry-7-setting"
+      }
+    ],
+    "story": [
+      {
+        "slug": "far-cry-7-cast",
+        "file": "far-cry-7-cast"
+      },
+      {
+        "slug": "far-cry-7-characters",
+        "file": "far-cry-7-characters"
+      },
+      {
+        "slug": "far-cry-7-cillian-murphy",
+        "file": "far-cry-7-cillian-murphy"
+      },
+      {
+        "slug": "far-cry-7-main-villain",
+        "file": "far-cry-7-main-villain"
+      },
+      {
+        "slug": "far-cry-7-story",
+        "file": "far-cry-7-story"
+      }
+    ]
+  },
+  "fr": {
+    "features": [
+      {
+        "slug": "far-cry-7-ai",
+        "file": "far-cry-7-ai"
+      },
+      {
+        "slug": "far-cry-7-co-op",
+        "file": "far-cry-7-co-op"
+      },
+      {
+        "slug": "far-cry-7-crossplay",
+        "file": "far-cry-7-crossplay"
+      },
+      {
+        "slug": "far-cry-7-multiplayer",
+        "file": "far-cry-7-multiplayer"
+      },
+      {
+        "slug": "far-cry-7-snowdrop-engine",
+        "file": "far-cry-7-snowdrop-engine"
+      },
+      {
+        "slug": "far-cry-7-timer",
+        "file": "far-cry-7-timer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "far-cry-7-best-weapons",
+        "file": "far-cry-7-best-weapons"
+      },
+      {
+        "slug": "far-cry-7-system-requirements",
+        "file": "far-cry-7-system-requirements"
+      },
+      {
+        "slug": "far-cry-7-walkthrough",
+        "file": "far-cry-7-walkthrough"
+      },
+      {
+        "slug": "far-cry-7-what-we-know",
+        "file": "far-cry-7-what-we-know"
+      }
+    ],
+    "media": [
+      {
+        "slug": "far-cry-7-gameplay-reveal",
+        "file": "far-cry-7-gameplay-reveal"
+      },
+      {
+        "slug": "far-cry-7-images",
+        "file": "far-cry-7-images"
+      },
+      {
+        "slug": "far-cry-7-leaked-video",
+        "file": "far-cry-7-leaked-video"
+      },
+      {
+        "slug": "far-cry-7-trailer",
+        "file": "far-cry-7-trailer"
+      }
+    ],
+    "news": [
+      {
+        "slug": "far-cry-7-leaks",
+        "file": "far-cry-7-leaks"
+      },
+      {
+        "slug": "far-cry-7-news",
+        "file": "far-cry-7-news"
+      },
+      {
+        "slug": "far-cry-7-reddit",
+        "file": "far-cry-7-reddit"
+      },
+      {
+        "slug": "far-cry-7-rumors",
+        "file": "far-cry-7-rumors"
+      },
+      {
+        "slug": "far-cry-7-updates",
+        "file": "far-cry-7-updates"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "far-cry-7-pc",
+        "file": "far-cry-7-pc"
+      },
+      {
+        "slug": "far-cry-7-platforms",
+        "file": "far-cry-7-platforms"
+      },
+      {
+        "slug": "far-cry-7-ps5",
+        "file": "far-cry-7-ps5"
+      },
+      {
+        "slug": "far-cry-7-steam",
+        "file": "far-cry-7-steam"
+      },
+      {
+        "slug": "far-cry-7-xbox-series-x",
+        "file": "far-cry-7-xbox-series-x"
+      }
+    ],
+    "release": [
+      {
+        "slug": "far-cry-7-announcement",
+        "file": "far-cry-7-announcement"
+      },
+      {
+        "slug": "far-cry-7-confirmed",
+        "file": "far-cry-7-confirmed"
+      },
+      {
+        "slug": "far-cry-7-release-date-2026",
+        "file": "far-cry-7-release-date-2026"
+      },
+      {
+        "slug": "far-cry-7-release-date-2027",
+        "file": "far-cry-7-release-date-2027"
+      },
+      {
+        "slug": "far-cry-7-release-date",
+        "file": "far-cry-7-release-date"
+      }
+    ],
+    "setting": [
+      {
+        "slug": "far-cry-7-alaska",
+        "file": "far-cry-7-alaska"
+      },
+      {
+        "slug": "far-cry-7-map-size",
+        "file": "far-cry-7-map-size"
+      },
+      {
+        "slug": "far-cry-7-map",
+        "file": "far-cry-7-map"
+      },
+      {
+        "slug": "far-cry-7-new-england",
+        "file": "far-cry-7-new-england"
+      },
+      {
+        "slug": "far-cry-7-north-korea",
+        "file": "far-cry-7-north-korea"
+      },
+      {
+        "slug": "far-cry-7-setting",
+        "file": "far-cry-7-setting"
+      }
+    ],
+    "story": [
+      {
+        "slug": "far-cry-7-cast",
+        "file": "far-cry-7-cast"
+      },
+      {
+        "slug": "far-cry-7-characters",
+        "file": "far-cry-7-characters"
+      },
+      {
+        "slug": "far-cry-7-cillian-murphy",
+        "file": "far-cry-7-cillian-murphy"
+      },
+      {
+        "slug": "far-cry-7-main-villain",
+        "file": "far-cry-7-main-villain"
+      },
+      {
+        "slug": "far-cry-7-story",
+        "file": "far-cry-7-story"
+      }
+    ]
+  },
+  "pt": {
+    "features": [
+      {
+        "slug": "far-cry-7-ai",
+        "file": "far-cry-7-ai"
+      },
+      {
+        "slug": "far-cry-7-co-op",
+        "file": "far-cry-7-co-op"
+      },
+      {
+        "slug": "far-cry-7-crossplay",
+        "file": "far-cry-7-crossplay"
+      },
+      {
+        "slug": "far-cry-7-multiplayer",
+        "file": "far-cry-7-multiplayer"
+      },
+      {
+        "slug": "far-cry-7-snowdrop-engine",
+        "file": "far-cry-7-snowdrop-engine"
+      },
+      {
+        "slug": "far-cry-7-timer",
+        "file": "far-cry-7-timer"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "far-cry-7-best-weapons",
+        "file": "far-cry-7-best-weapons"
+      },
+      {
+        "slug": "far-cry-7-system-requirements",
+        "file": "far-cry-7-system-requirements"
+      },
+      {
+        "slug": "far-cry-7-walkthrough",
+        "file": "far-cry-7-walkthrough"
+      },
+      {
+        "slug": "far-cry-7-what-we-know",
+        "file": "far-cry-7-what-we-know"
+      }
+    ],
+    "media": [
+      {
+        "slug": "far-cry-7-gameplay-reveal",
+        "file": "far-cry-7-gameplay-reveal"
+      },
+      {
+        "slug": "far-cry-7-images",
+        "file": "far-cry-7-images"
+      },
+      {
+        "slug": "far-cry-7-leaked-video",
+        "file": "far-cry-7-leaked-video"
+      },
+      {
+        "slug": "far-cry-7-trailer",
+        "file": "far-cry-7-trailer"
+      }
+    ],
+    "news": [
+      {
+        "slug": "far-cry-7-leaks",
+        "file": "far-cry-7-leaks"
+      },
+      {
+        "slug": "far-cry-7-news",
+        "file": "far-cry-7-news"
+      },
+      {
+        "slug": "far-cry-7-reddit",
+        "file": "far-cry-7-reddit"
+      },
+      {
+        "slug": "far-cry-7-rumors",
+        "file": "far-cry-7-rumors"
+      },
+      {
+        "slug": "far-cry-7-updates",
+        "file": "far-cry-7-updates"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "far-cry-7-pc",
+        "file": "far-cry-7-pc"
+      },
+      {
+        "slug": "far-cry-7-platforms",
+        "file": "far-cry-7-platforms"
+      },
+      {
+        "slug": "far-cry-7-ps5",
+        "file": "far-cry-7-ps5"
+      },
+      {
+        "slug": "far-cry-7-steam",
+        "file": "far-cry-7-steam"
+      },
+      {
+        "slug": "far-cry-7-xbox-series-x",
+        "file": "far-cry-7-xbox-series-x"
+      }
+    ],
+    "release": [
+      {
+        "slug": "far-cry-7-announcement",
+        "file": "far-cry-7-announcement"
+      },
+      {
+        "slug": "far-cry-7-confirmed",
+        "file": "far-cry-7-confirmed"
+      },
+      {
+        "slug": "far-cry-7-release-date-2026",
+        "file": "far-cry-7-release-date-2026"
+      },
+      {
+        "slug": "far-cry-7-release-date-2027",
+        "file": "far-cry-7-release-date-2027"
+      },
+      {
+        "slug": "far-cry-7-release-date",
+        "file": "far-cry-7-release-date"
+      }
+    ],
+    "setting": [
+      {
+        "slug": "far-cry-7-alaska",
+        "file": "far-cry-7-alaska"
+      },
+      {
+        "slug": "far-cry-7-map-size",
+        "file": "far-cry-7-map-size"
+      },
+      {
+        "slug": "far-cry-7-map",
+        "file": "far-cry-7-map"
+      },
+      {
+        "slug": "far-cry-7-new-england",
+        "file": "far-cry-7-new-england"
+      },
+      {
+        "slug": "far-cry-7-north-korea",
+        "file": "far-cry-7-north-korea"
+      },
+      {
+        "slug": "far-cry-7-setting",
+        "file": "far-cry-7-setting"
+      }
+    ],
+    "story": [
+      {
+        "slug": "far-cry-7-cast",
+        "file": "far-cry-7-cast"
+      },
+      {
+        "slug": "far-cry-7-characters",
+        "file": "far-cry-7-characters"
+      },
+      {
+        "slug": "far-cry-7-cillian-murphy",
+        "file": "far-cry-7-cillian-murphy"
+      },
+      {
+        "slug": "far-cry-7-main-villain",
+        "file": "far-cry-7-main-villain"
+      },
+      {
+        "slug": "far-cry-7-story",
+        "file": "far-cry-7-story"
+      }
+    ]
+  }
+}

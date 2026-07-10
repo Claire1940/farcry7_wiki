@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Carte de Far Cry 7 : Design du monde non linéaire et fuites sur l'univers",
+  description: "Explorez les détails de la carte de Far Cry 7, notamment la rumeur du chrono de 72 heures, les itinéraires de sauvetage non linéaires et la secte des Fils de la Vérité dans le Projet Blackbird.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/f97316?text=Far+Cry+7+Map+Guide",
+  date: "2026-07-10",
+  author: "Équipe du Wiki Far Cry 7"
+}
+
+<Callout type="info" title="Guide rapide">
+- La **carte de Far Cry 7** intègre un **chrono unique de 72 heures en jeu** (environ 24 heures réelles) qui dicte le rythme de l'exploration.
+- L'intrigue s'articule autour d'une **mission de sauvetage non linéaire** de la famille Beckett, permettant aux joueurs d'accomplir les objectifs dans l'ordre de leur choix.
+- Les rapports de développement indiquent un passage au moteur **Snowdrop Engine**, abandonnant la technologie Dunia utilisée depuis longtemps.
+- Les **refuges** servent de hubs stratégiques essentiels où le chrono de la campagne est mis en pause pour planifier et récupérer.
+- Un projet distinct, le **Projet Maverick**, propose une carte située dans la nature sauvage de l'Alaska, axée sur un mode multijoueur d'extraction.
+</Callout>
+
+<Section icon={Map} title="Carte de Far Cry 7 : Contexte et structure du monde">
+
+La **carte de Far Cry 7** représente une rupture radicale avec la formule traditionnelle de libération de régions vue dans les opus précédents. Au lieu de reprendre lentement des avant-postes pour affaiblir l'emprise d'un dictateur, le monde est conçu comme un environnement de sauvetage à enjeux élevés. Connu sous le nom de code **Projet Blackbird**, le jeu principal se concentre sur la famille Beckett, un groupe de riches individus kidnappés par une secte conspirationniste appelée les **Fils de la Vérité**.
+
+La carte n'est pas un simple décor pour les combats ; elle participe activement à l'histoire. Comme la secte mène des expériences hallucinogènes sur les enfants et les animaux, l'environnement devrait présenter des zones psychédéliques et des rencontres imprévisibles avec la faune sauvage. Contrairement aux îles tropicales ou aux chaînes de montagnes du passé, les éléments de développement actuels suggèrent un cadre où la richesse urbaine rencontre l'isolement rural de la secte.
+
+**Points forts de la vidéo :**
+- Analyse du nom de code **Projet Blackbird** et ses implications sur la taille de la carte.
+- Décryptage du fameux **chrono de 72 heures** et de sa manière de restreindre ou d'encourager l'exploration.
+- Comparaison entre la carte de la campagne principale et le cadre alaskain du **Projet Maverick**.
+- Indices visuels issus des fuites d'assets de développement concernant les complexes des **Fils de la Vérité**.
+
+<YouTubeEmbed videoId="R_YmU4m2Y-c" title="NEW Far Cry 7 Leaks Have Been Revealed" />
+
+| Fonctionnalité | Statut officiel | Détails rapportés |
+| :--- | :--- | :--- |
+| **Cadre principal** | Non annoncé | Régions de riches propriétés / Zones rurales contrôlées par la secte |
+| **Structure de la carte** | Rumeur | Itinéraires de sauvetage non linéaires avec des hubs interconnectés |
+| **Moteur graphique** | Snowdrop | Transition de Dunia vers Snowdrop pour une meilleure physique |
+| **Persistance du monde** | Persistant | Le compte à rebours de 72 heures affecte l'état du monde et la survie des PNJ |
+| **Dangers environnementaux** | Hallucinogènes | Zones dynamiques affectées par les expériences chimiques de la secte |
+
+<Callout type="tip" title="Note de l'éditeur">
+Bien qu'Ubisoft ait confirmé que deux projets Far Cry sont en développement, ils n'ont pas officiellement nommé le jeu « Far Cry 7 ». Cependant, les rapports de l'industrie provenant de sources fiables comme Insider Gaming associent systématiquement les caractéristiques du « Projet Blackbird » au prochain opus principal.
+</Callout>
+
+</Section>
+
+<Section icon={Clock} title="Exploration non linéaire et chrono de 72 heures">
+
+Le changement le plus important apporté à la **carte de Far Cry 7** est la mise en œuvre d'une mécanique de pression en temps réel. La campagne se déroulerait sur 72 heures en jeu, ce qui correspond à environ 24 heures de jeu dans le monde réel. Ce chrono est visible sur la montre-bracelet du protagoniste, transformant chaque choix de déplacement en décision tactique.
+
+Dans un monde ouvert traditionnel, vous pourriez passer des heures à chercher des objets de collection. Dans Far Cry 7, chaque minute passée à conduire à travers la carte est une minute de moins avant la mort potentielle d'un membre de la famille. Cela crée un système de « risque contre récompense » pour l'exploration. Prendrez-vous l'itinéraire long et sûr vers un complexe de la secte, ou couperez-vous à travers une zone hallucinogène dangereuse pour gagner du temps ?
+
+<CardGrid cols={3}>
+  <Card title="Itinéraires de sauvetage">
+    - **Progression non linéaire**
+    - Sauvez la famille dans l'ordre de votre choix
+    - Les issues changent en fonction du timing
+  </Card>
+  <Card title="Gestion du temps">
+    - **Chrono visible sur la montre**
+    - 72 heures en jeu au total
+    - Le chrono se fige dans les refuges
+  </Card>
+  <Card title="Hubs dynamiques">
+    - **Les refuges comme pauses**
+    - Sites d'interrogatoire
+    - Avant-postes de la secte riches en ressources
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Mécanique critique">
+La mort des membres de la famille est permanente. Si le chrono s'écoule ou si une mission de sauvetage échoue, l'histoire continue, mais vous perdez l'accès à certains embranchements narratifs et à la fin « parfaite ».
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comment naviguer sur la carte non linéaire">
+
+Naviguer sur la **carte de Far Cry 7** nécessite un changement d'état d'esprit de la part du joueur. Vous n'êtes plus un guérillero invincible ; vous êtes un sauveteur soumis à une date limite. La carte est peuplée de « Cibles d'interrogatoire » qui détiennent les clés pour localiser votre famille.
+
+<Steps>
+  <Step num="1" title="Rassembler des renseignements">
+    Localisez les informateurs ennemis marqués sur la carte. Contrairement aux jeux précédents où les infos étaient statiques, ces PNJ peuvent mentir, refuser de parler ou tenter de s'échapper pendant l'interrogatoire.
+  </Step>
+  <Step num="2" title="Planifier votre itinéraire">
+    Une fois l'emplacement révélé, regardez votre montre. Déterminez si vous avez assez de temps pour atteindre le complexe ou si vous devez d'abord vous rendre dans un refuge pour vous ravitailler.
+  </Step>
+  <Step num="3" title="Exécuter le sauvetage">
+    Infiltrez le complexe des Fils de la Vérité. La conception de la carte favorise de multiples points d'entrée, permettant l'infiltration, l'insertion aérienne ou l'assaut frontal.
+  </Step>
+  <Step num="4" title="Gérer les conséquences">
+    Après un sauvetage, l'état de la carte peut changer. Les membres de la famille sauvés peuvent vous octroyer de nouveaux avantages ou outils qui facilitent la navigation sur le reste de la carte.
+  </Step>
+</Steps>
+
+| Méthode de déplacement | Vitesse | Discrétion | Meilleur cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| **Sprint tactique** | Élevée | Faible | Courtes accélérations entre les abris |
+| **Véhicules** | Très élevée | Très faible | Voyages longue distance entre les régions |
+| **Franchissement/Glissade** | Moyenne | Moyenne | Infiltration de structures complexes de la secte |
+| **Aérien (Wingsuit)** | Extrême | Élevée | Descente dans les complexes depuis les hauts sommets |
+
+<Callout type="success" title="Conseil stratégique">
+Donnez la priorité au déverrouillage rapide des refuges. Comme les refuges sont les seuls endroits où le chrono s'arrête, disposer d'un réseau complet sur toute la carte est essentiel pour finir le jeu à 100 %.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Les Fils de la Vérité : Dangers de la carte et complexes de la secte">
+
+La **carte de Far Cry 7** est divisée en territoires contrôlés par les **Fils de la Vérité**. Ce groupe antagoniste n'est pas seulement une force militaire ; c'est une secte conspirationniste qui utilise l'environnement comme une arme. Leurs complexes sont souvent construits autour d'« expériences hallucinogènes », créant des zones où les règles visuelles et physiques de la carte peuvent s'altérer.
+
+| Type d'emplacement | Menace principale | Récompense potentielle |
+| :--- | :--- | :--- |
+| **Complexe de la secte** | Gardes lourdement blindés | Membres de la famille, butin de haut niveau |
+| **Laboratoire de recherche** | Gaz hallucinogène | Améliorations d'armes uniques, infos |
+| **Site d'interrogatoire** | Informateurs d'élite | Données de localisation de la famille Beckett |
+| **Zone sauvage** | Faune mutante | Matériaux d'artisanat, raccourcis |
+
+Le passage au moteur **Snowdrop Engine** (le même moteur utilisé pour *The Division* et *Star Wars Outlaws*) permet une destruction environnementale plus détaillée et des environnements intérieurs plus complexes. Attendez-vous à ce que la carte présente plus de verticalité et des zones urbaines plus denses par rapport aux champs immenses mais souvent vides de Far Cry 6.
+
+<Callout type="info" title="Interaction avec le monde">
+Les interrogatoires sont une mécanique centrale de la carte. Vous pouvez choisir de relâcher les informateurs en échange d'informations, mais ils risquent plus tard d'alerter la secte de votre position, rendant l'exploration future de la carte plus difficile.
+</Callout>
+
+</Section>
+
+<Section icon={Compass} title="Cartes du Projet Blackbird vs. Projet Maverick">
+
+Il est crucial pour les joueurs de distinguer les deux projets Far Cry actuellement en développement. Alors que la **carte de Far Cry 7** (Blackbird) propose une expérience principale en solo ou en coop, le **Projet Maverick** est un projet multijoueur autonome avec une conception du monde très différente.
+
+<CardGrid cols={2}>
+  <Card title="Projet Blackbird (FC7)">
+    - **Cadre :** Région rurale / Propriété secrète
+    - **Focus :** Sauvetage scénarisé, chrono de 72 heures
+    - **Mécaniques :** Missions non linéaires, survie de la famille
+    - **Moteur :** Snowdrop
+  </Card>
+  <Card title="Projet Maverick (Multijoueur)">
+    - **Cadre :** Nature sauvage fictive de l'Alaska
+    - **Focus :** Shooter d'extraction, survie
+    - **Mécaniques :** Mort permanente, collecte d'équipement, planques
+    - **Moteur :** Technologie Snowdrop partagée
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="map-exploration-goals"
+  title="Objectifs d'exploration de la carte :"
+  items={[
+    "Localiser et synchroniser les 10 refuges majeurs",
+    "Trouver le laboratoire souterrain caché des Fils de la Vérité",
+    "Sauver le premier membre de la famille Beckett en moins de 6 heures réelles",
+    "Réussir un interrogatoire sans que la cible ne s'échappe",
+    "Traverser une zone hallucinogène sans utiliser de masque à gaz"
+  ]}
+/>
+
+<Callout type="tip" title="Conseil de pro pour les déplacements">
+Le nouveau système de mouvement comprend le sprint tactique et un franchissement amélioré. Utilisez-les pour naviguer dans les complexes de la secte les plus denses et complexes situés dans les régions centrales de la carte.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "La carte de Far Cry 7 se déroule-t-elle en Alaska ?",
+    answer: "Non. Selon les rapports actuels, le cadre sauvage de l'Alaska est réservé au 'Projet Maverick', le jeu d'extraction multijoueur distinct. Far Cry 7 (Projet Blackbird) propose un cadre différent axé sur le sauvetage de la famille Beckett."
+  },
+  {
+    question: "Puis-je explorer toute la carte dès le début ?",
+    answer: "Bien que la carte soit ouverte et non linéaire, le chrono de 72 heures vous oblige à prioriser certaines zones. Certaines régions peuvent également être lourdement gardées par les Fils de la Vérité, nécessitant un meilleur équipement pour survivre."
+  },
+  {
+    question: "Le chrono s'arrête-t-il si je mets le jeu en pause ?",
+    answer: "Le chrono est une mécanique intégrée au jeu. Il se met en pause lorsque vous êtes à l'intérieur d'un refuge désigné ou pendant certaines cinématiques, mais il continue de tourner lors de l'exploration active et des combats."
+  },
+  {
+    question: "Comment le moteur Snowdrop modifie-t-il la carte ?",
+    answer: "La transition vers Snowdrop permet une meilleure physique, des environnements plus interactifs et des performances améliorées sur le matériel moderne par rapport à l'ancien moteur Dunia utilisé dans Far Cry 6."
+  }
+]} />
+
+</Section>

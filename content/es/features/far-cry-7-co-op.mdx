@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Zap, Clock, Monitor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Far Cry 7 Co-op: Guía de Mecánicas Multijugador y Project Maverick",
+  description: "Explora los últimos detalles sobre el cooperativo de Far Cry 7, incluyendo el shooter de extracción independiente Project Maverick y las funciones multijugador de la campaña principal.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/f97316?text=Far+Cry+7+Co-op+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Far Cry 7",
+  keywords: "Far Cry 7, cooperativo, multijugador, Project Maverick, Project Blackbird, guía, shooter de extracción"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cooperativo de Far Cry 7**: La próxima entrega principal, con el nombre en clave **Project Blackbird**, se espera que cuente con un modo cooperativo de campaña integrado con su nuevo temporizador de rescate de 72 horas.
+- **Project Maverick**: Una experiencia multijugador independiente centrada en la **supervivencia basada en la extracción** en un entorno natural de Alaska.
+- **Jugabilidad Dinámica**: Los jugadores deben gestionar un **reloj de 24 horas en tiempo real** para rescatar a la familia Beckett, con compañeros de cooperativo que probablemente asistan en interrogatorios y combate.
+- **Cambio Técnico**: La serie está pasando del motor Dunia a **Snowdrop**, lo que permite interacciones multijugador más complejas y persistencia ambiental.
+- **Estado del Lanzamiento**: Aunque Ubisoft ha confirmado que hay dos proyectos de Far Cry en desarrollo, las fechas oficiales de lanzamiento siguen pendientes para finales de 2025 o 2026.
+</Callout>
+
+<Section icon={Users} title="Far Cry 7 Co-op: Entendiendo la Estrategia de Dos Proyectos">
+
+El panorama del **cooperativo de far cry 7** ha evolucionado significativamente desde los primeros informes de desarrollo. Ubisoft está siguiendo actualmente una estrategia de doble vía para la franquicia, dividiendo la experiencia tradicional en dos entidades distintas. El juego principal, a menudo referido por el nombre en clave interno **Project Blackbird**, sirve como el sucesor narrativo de Far Cry 6. Mientras tanto, **Project Maverick** se está desarrollando como un shooter de extracción multijugador independiente, diseñado para proporcionar un entorno competitivo de alto riesgo que difiere del cooperativo de campaña estándar.
+
+Para los jugadores que buscan la experiencia clásica de **cooperativo de far cry 7**, Project Blackbird es el enfoque principal. Este título introduce una historia no lineal centrada en la familia Beckett. A diferencia de entregas anteriores donde el cooperativo a menudo era una consideración secundaria, la nueva estructura de misiones —que gira en torno a un temporizador persistente en el juego— requiere coordinación táctica. Ya sea que juegues solo o con un compañero, el objetivo sigue siendo desmantelar un culto conspirativo conocido como los **Hijos de la Verdad** mientras gestionas recursos limitados.
+
+<CardGrid cols={2}>
+  <Card title="Project Blackbird (Principal)">
+    - **Género**: Acción y aventura de mundo abierto
+    - **Enfoque**: Misión de rescate impulsada por la narrativa
+    - **Multijugador**: Cooperativo de campaña integrado
+    - **Temporizador**: Cuenta regresiva de 72 horas en el juego
+  </Card>
+  <Card title="Project Maverick (Multijugador)">
+    - **Género**: Shooter de supervivencia basado en extracción
+    - **Enfoque**: Saqueo, supervivencia y extracción
+    - **Multijugador**: Competitivo y por equipos
+    - **Ambientación**: Naturaleza ficticia de Alaska
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Profesional">
+Si prefieres la progresión narrativa, enfócate en Project Blackbird. Si disfrutas de una jugabilidad de alto riesgo como Escape from Tarkov, Project Maverick será tu destino principal para la acción multijugador.
+</Callout>
+
+| Característica | Project Blackbird | Project Maverick |
+| :--- | :--- | :--- |
+| **Objetivo Principal** | Rescatar a la familia Beckett | Extraer con botín y recursos |
+| **Modo Cooperativo** | Cooperativo de campaña para 2 jugadores | Escuadrones por equipos (3-4 jugadores) |
+| **Muerte Permanente** | Basada en la historia (la familia puede morir) | Pérdida de equipo y ventajas al morir |
+| **Motor** | Motor Snowdrop | Motor Snowdrop |
+
+</Section>
+
+<Section icon={Target} title="Mecánicas del Cooperativo de Campaña en Project Blackbird">
+
+En el **cooperativo de far cry 7**, la campaña principal introduce una revolucionaria mecánica de "72 horas". En términos del mundo real, esto equivale a aproximadamente **24 horas de juego**. Cada acción que tú y tu compañero de cooperativo realicen consume tiempo. Esto crea un entorno bajo presión donde los jugadores deben decidir a qué miembro de la familia rescatar primero y qué puestos de avanzada priorizar.
+
+Se espera que la experiencia cooperativa sea fluida, permitiendo que un segundo jugador se una al mundo del anfitrión. Sin embargo, la naturaleza no lineal del juego significa que el "estado del mundo" es más importante que nunca. Si un miembro de la familia muere en la partida del anfitrión, esa muerte es permanente para esa partida, afectando el final. Esto añade una capa de responsabilidad compartida a la experiencia de **cooperativo de far cry 7** que no estaba presente en el cooperativo más "tipo sandbox" de los títulos anteriores.
+
+**Actividades Clave en Cooperativo:**
+- **Interrogatorios**: Un jugador puede inmovilizar a un enemigo mientras el otro realiza el interrogatorio para extraer información sobre la ubicación de la familia Beckett.
+- **Gestión de Refugios**: El tiempo se detiene cuando los jugadores entran en los refugios. Este es el momento perfecto para planificar la siguiente ruta con tu compañero.
+- **Movimiento Táctico**: Los nuevos sistemas como el esprint táctico, el deslizamiento y el salto permiten que los equipos cooperativos se muevan por los entornos con más fluidez que en Far Cry 6.
+
+<Callout type="warning" title="Advertencia Crítica">
+El temporizador de la campaña sigue corriendo mientras estés en el mundo abierto. Asegúrate de que tu compañero de cooperativo esté listo antes de salir de un refugio, ya que quedarse inactivo en la naturaleza desperdicia un tiempo de rescate precioso.
+</Callout>
+
+| Mecánica | Impacto en el Cooperativo | Beneficio para el Jugador |
+| :--- | :--- | :--- |
+| **Temporizador de 72 horas** | Reloj compartido para ambos jugadores | Alta tensión y planificación táctica |
+| **Interrogatorios** | Mayor tasa de éxito con dos jugadores | Obtención de información más rápida |
+| **Mapa No Lineal** | Posibilidad de dividir objetivos | Limpieza eficiente del mapa |
+| **Misiones de Rescate** | Un jugador distrae, el otro rescata | Mayor tasa de supervivencia para NPCs |
+
+</Section>
+
+<Section icon={Swords} title="Project Maverick: La Experiencia Multijugador Independiente">
+
+Mientras que el juego principal se encarga de la historia, **Project Maverick** es donde el **cooperativo de far cry 7** y los elementos competitivos brillan de verdad. Desarrollado como un shooter de extracción, este proyecto tiene lugar en una Alaska ficticia. Los jugadores entran en un mapa, recolectan recursos, completan contratos e intentan llegar a una zona de extracción antes de ser eliminados por la IA u otros jugadores.
+
+La estructura multijugador en Maverick se basa en un sistema de "Guarida" (Hideout). Tu equipo comparte un centro central donde se almacena el botín. Mientras que las muertes individuales resultan en la pérdida del equipo y las ventajas que llevabas, los objetos almacenados de forma segura en la Guarida permanecen disponibles para futuras incursiones. Esto crea un ciclo de riesgo y recompensa que es significativamente más intenso que la fórmula estándar de Far Cry.
+
+<Steps>
+  <Step num="1" title="Infiltración">
+    Aparece en la naturaleza de Alaska solo o con un escuadrón. Tu objetivo principal es encontrar botín y recursos de alto valor mientras evitas el clima letal.
+  </Step>
+  <Step num="2" title="Enfrentamiento">
+    Completa contratos como asesinar comandantes de la IA o asegurar suministros. Ten cuidado con los escuadrones de jugadores rivales que cazan tu equipo.
+  </Step>
+  <Step num="3" title="Supervivencia">
+    Gestiona tu inventario y salud. Usa el entorno —incluida la peligrosa fauna— a tu favor para tender trampas a otros equipos.
+  </Step>
+  <Step num="4" title="Extracción">
+    Llega a un punto de extracción designado. Esta es la fase más peligrosa, ya que otros jugadores a menudo "campean" estas zonas para robar tu botín ganado con tanto esfuerzo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Actualización del Desarrollo">
+A partir de 2026, Ubisoft ha trasladado más recursos del equipo de Maverick a Project Blackbird para asegurar que el juego principal cumpla con sus objetivos de calidad, aunque Maverick sigue siendo una parte central del futuro de la franquicia.
+</Callout>
+
+| Característica de Maverick | Descripción | Tipo de Multijugador |
+| :--- | :--- | :--- |
+| **Muerte Permanente** | Pierde equipo y niveles al morir | PvPvE Hardcore |
+| **Guarida (Hideout)** | Base compartida para el botín del equipo | Social/Cooperativo |
+| **Contratos** | Objetivos dinámicos a mitad de partida | Basado en objetivos |
+| **Sistema Climático** | Ventiscas letales de Alaska | Supervivencia ambiental |
+
+</Section>
+
+<Section icon={Sparkles} title="Evolución Tecnológica: El Motor Snowdrop">
+
+Un factor importante que afecta al **cooperativo de far cry 7** es la transición al **Motor Snowdrop**. Utilizado anteriormente en *The Division* y *Avatar: Frontiers of Pandora*, Snowdrop reemplaza al envejecido motor Dunia. Este cambio es crucial para la estabilidad multijugador, ya que Snowdrop fue construido desde cero para manejar mundos en línea persistentes e interacciones complejas entre jugadores.
+
+El motor permite una mejor destrucción ambiental y una IA más sofisticada. En un entorno cooperativo, esto significa que los enemigos pueden reaccionar de manera más inteligente ante dos jugadores que los flanquean. Además, el motor Snowdrop facilita el "movimiento táctico", un nuevo enfoque para la serie que incluye mecánicas mejoradas de salto y deslizamiento, haciendo que la experiencia de **cooperativo de far cry 7** se sienta más rápida y moderna.
+
+<Checklist
+  id="engine-benefits"
+  title="Ventajas del Motor Snowdrop:"
+  items={[
+    "Código de red mejorado para una conectividad cooperativa más fluida",
+    "Sistemas climáticos dinámicos que afectan la visibilidad y la jugabilidad",
+    "IA avanzada que utiliza tácticas de grupo contra los jugadores",
+    "Transiciones fluidas entre los modos de un solo jugador y cooperativo",
+    "Destrucción ambiental y física de mayor fidelidad"
+  ]}
+/>
+
+<Callout type="info" title="Visión de Experto">
+El paso a Snowdrop sugiere que Ubisoft busca hacer de Far Cry una franquicia más "orientada al servicio", donde los elementos multijugador puedan actualizarse y expandirse más fácilmente con el tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Monitor} title="Plataformas y Requisitos del Sistema para 2026">
+
+Mirando hacia la ventana de lanzamiento de finales de 2025 y 2026, el **cooperativo de far cry 7** se está diseñando para el hardware de la generación actual. Ubisoft ha dejado de dar soporte a PlayStation 4 y Xbox One, centrándose por completo en la potencia de PS5, Xbox Series X|S y PCs de gama alta. Esto permite a los desarrolladores implementar el temporizador persistente de 72 horas sin las limitaciones técnicas de las consolas más antiguas.
+
+Aunque los requisitos oficiales para PC aún no se han finalizado, el uso del motor Snowdrop nos da una indicación clara de qué esperar. Los jugadores probablemente necesitarán una CPU robusta para manejar el mundo simulado y una GPU capaz de trazado de rayos (ray-tracing) para apreciar plenamente los nuevos modelos de iluminación.
+
+| Plataforma | Estado Esperado | Funciones Multijugador |
+| :--- | :--- | :--- |
+| **Windows PC** | Confirmado | Juego cruzado completo, Ajustes Ultra |
+| **PlayStation 5** | Confirmado | Soporte DualSense, 60 FPS |
+| **Xbox Series X** | Confirmado | Smart Delivery, Resolución 4K |
+| **Xbox Series S** | Confirmado | Objetivo 1080p/1440p |
+| **Ubisoft+** | Confirmado | Acceso desde el primer día para suscriptores |
+
+<Callout type="warning" title="Nota sobre Plataformas">
+Se espera que el juego cruzado (cross-play) sea una función estándar tanto para Project Blackbird como para Project Maverick, permitiendo que los amigos jueguen juntos independientemente de su elección de consola.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusión y Preguntas Frecuentes">
+
+El futuro del **cooperativo de far cry 7** es más amplio que cualquier entrega anterior de la serie. Al dividir la experiencia en una campaña principal bajo presión de tiempo (Project Blackbird) y un shooter de extracción hardcore (Project Maverick), Ubisoft intenta satisfacer tanto a los fans enfocados en la narrativa como a los entusiastas del multijugador competitivo. A medida que nos acercamos a la revelación oficial, la integración del motor Snowdrop y el innovador temporizador de 72 horas destacan como los desarrollos más emocionantes para la franquicia.
+
+<FAQ items={[
+  {
+    question: "¿Tendrá Far Cry 7 una campaña cooperativa tradicional?",
+    answer: "Sí, Project Blackbird es el título principal y se espera que cuente con un modo cooperativo de campaña completo, aunque estará integrado con la nueva mecánica del temporizador de rescate de 72 horas."
+  },
+  {
+    question: "¿Qué es Project Maverick en el universo de Far Cry?",
+    answer: "Project Maverick es un juego multijugador independiente ambientado en Alaska. Es un shooter de supervivencia basado en la extracción donde los jugadores compiten por botín y recursos en un entorno PvPvE."
+  },
+  {
+    question: "¿Hay juego cruzado (cross-play) para el cooperativo de far cry 7?",
+    answer: "Aunque no ha sido confirmado oficialmente por Ubisoft, las tendencias actuales de desarrollo y el uso del motor Snowdrop sugieren fuertemente que el juego cruzado será compatible entre PC, PS5 y Xbox Series X|S."
+  },
+  {
+    question: "¿Cómo funciona el temporizador de 72 horas en cooperativo?",
+    answer: "El temporizador es un reloj compartido de 24 horas en tiempo real. Ambos jugadores deben trabajar juntos de manera eficiente para rescatar a los miembros de la familia. Entrar en refugios pausa el reloj para ambos jugadores para permitir la planificación."
+  }
+]} />
+
+</Section>

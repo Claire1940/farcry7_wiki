@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Far Cry 7: Estrategias de Supervivencia y Mecánicas de Campaña",
+  description: "Domina el temporizador de 72 horas y rescata a la familia Beckett en nuestra guía de Far Cry 7. Rastrea filtraciones de Project Blackbird, pasos de misiones y detalles de la historia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/fb923c?text=Far+Cry+7+Walkthrough",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Far Cry 7"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Far Cry 7**: Se centra en la campaña **Project Blackbird**, que consiste en una misión de rescate de 72 horas dentro del juego.
+- **Objetivo Principal**: Localizar y extraer a todos los miembros de la **familia Beckett** antes de que expire el temporizador.
+- **Jugabilidad Dinámica**: Utiliza los **Refugios** para pausar el reloj en tiempo real y planificar tu próxima inserción táctica.
+- **Recopilación de Información**: Interroga a los enemigos para revelar ubicaciones de misiones, pero ten cuidado con la **información falsa** y los señuelos.
+- **Actualización del Motor**: El juego utiliza el **motor Snowdrop**, introduciendo el esprint táctico y una destrucción ambiental avanzada.
+</Callout>
+
+<Section icon={Map} title="Guía de Far Cry 7: Desarrollo y Descripción General del Proyecto">
+
+Comprender la estructura de la próxima experiencia de Far Cry es esencial para cualquier **guía de Far Cry 7**. A partir de julio de 2026, Ubisoft ha confirmado el desarrollo de dos proyectos distintos dentro de la franquicia. El enfoque principal para los jugadores en solitario es **Project Blackbird**, que sirve como la próxima entrega principal. Este proyecto se desvía de la fórmula tradicional de "liberar la región", optando en su lugar por una operación de rescate de alto riesgo y tiempo limitado.
+
+Mientras que el juego principal se centra en la profundidad narrativa y la progresión no lineal, un proyecto separado conocido como **Project Maverick** se encarga de la experiencia de extracción multijugador. Para los jugadores que sigan esta guía, nos centraremos exclusivamente en las mecánicas y estrategias necesarias para navegar por la campaña Blackbird.
+
+| Característica | Project Blackbird (Principal) | Project Maverick (Multijugador) |
+| :--- | :--- | :--- |
+| **Objetivo Principal** | Rescatar a la Familia Beckett | Extraer recursos y sobrevivir |
+| **Límite de Tiempo** | 72 Horas de juego (aprox. 24 horas reales) | Extracción basada en partidas |
+| **Entorno** | Mundo Abierto No Lineal | Naturaleza Ficticia de Alaska |
+| **Motor** | Motor Snowdrop | Motor Snowdrop |
+| **Estado** | En Fase de Pruebas (2026) | Reinicio Interno / Prototipado |
+
+<Callout type="warning" title="Hito de Desarrollo">
+El CEO de Ubisoft, Yves Guillemot, confirmó a principios de 2026 que ambos proyectos están siendo gestionados por Vantage Studios, con desarrolladores de Ubisoft Montreal y Berlín liderando el proyecto.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Movimiento Táctico">
+    - **Esprint Táctico**: Desplazamiento más rápido con un alto coste de resistencia.
+    - **Deslizamiento Avanzado**: Usa las pendientes para ganar impulso durante el combate.
+    - **Revisión del Salto**: Interacción más fluida con los entornos urbanos.
+  </Card>
+  <Card title="Gestión de Inventario">
+    - **Espacios Limitados**: Prioriza los suministros médicos sobre la munición extra.
+    - **Escasez de Recursos**: El saqueo es esencial para la supervivencia en la naturaleza.
+    - **Almacenamiento en Refugios**: Mantén seguros los objetos raros entre misiones.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Dominando el Temporizador de Campaña de 72 Horas">
+
+La mecánica que define nuestra **guía de Far Cry 7** es la cuenta regresiva persistente. Los jugadores disponen de 72 horas de tiempo de juego para completar la historia principal. Esto se traduce en aproximadamente 24 horas de juego en el mundo real. A diferencia de títulos anteriores donde podías pasar docenas de horas realizando actividades secundarias sin consecuencias, cada minuto en Project Blackbird cuenta para la supervivencia de los miembros de tu familia.
+
+<Callout type="tip" title="Pausa Estratégica">
+La cuenta regresiva solo se pausa cuando estás dentro de un **Refugio**. Utiliza estos lugares para gestionar tu equipo, fabricar mejoras y estudiar la información recopilada sin perder tiempo valioso.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Monitorea el Reloj de Pulsera">
+    Tu personaje lleva un reloj de pulsera físico que muestra el tiempo restante. Consúltalo con frecuencia para decidir si tienes tiempo suficiente para un objetivo secundario o si debes dirigirte directamente a un punto de rescate.
+  </Step>
+  <Step num="2" title="Prioriza la Información de Alto Valor">
+    No todas las misiones ofrecen las mismas recompensas. Céntrate en las "Pistas de Inteligencia" que revelan la ubicación exacta de un miembro de la familia Beckett.
+  </Step>
+  <Step num="3" title="Rotación de Refugios">
+    Identifica y desbloquea Refugios en cada distrito importante. Estos actúan como tu único respiro frente al reloj y son vitales para el viaje rápido y la curación.
+  </Step>
+  <Step num="4" title="Ejecuta el Rescate">
+    Una vez confirmada una ubicación, muévete rápido. Si el temporizador llega a cero antes de que un familiar sea salvado, este podría ser trasladado o perderse permanentemente, alterando el final del juego.
+  </Step>
+</Steps>
+
+| Acción | Impacto en el Tiempo (En el juego) | Frecuencia Recomendada |
+| :--- | :--- | :--- |
+| **Viaje Rápido** | 30 - 60 Minutos | Alta (Ahorra tiempo real) |
+| **Interrogatorio** | 15 Minutos | Moderada (Alto riesgo de mentiras) |
+| **Encuentros de Combate** | Tiempo Real | Evitar combates innecesarios |
+| **Descanso en Refugio** | Temporizador Pausado | Esencial para la planificación |
+
+</Section>
+
+<Section icon={Swords} title="Guía de Historia y Facciones: Los Hijos de la Verdad">
+
+La narrativa de Far Cry 7 se centra en la **familia Beckett**, un grupo adinerado que es el objetivo de un culto conspiranoico conocido como los **Hijos de la Verdad**. Este grupo no es solo una fuerza militar; son una organización obsesionada con los experimentos alucinógenos y la guerra psicológica. En esta **guía de Far Cry 7**, entender a tu enemigo es tan importante como tu puntería.
+
+Los Hijos de la Verdad utilizan una estructura descentralizada. En lugar de un único villano principal, te enfrentarás a varios miembros de alto rango que mantienen cautivos a diferentes integrantes de la familia Beckett. Sus tácticas incluyen colocar trampas, usar señuelos y proporcionarte información falsa durante los interrogatorios.
+
+<Callout type="info" title="Narrativa No Lineal">
+El orden en el que rescates a los miembros de tu familia cambia los diálogos y el resultado final de la historia. Rescatar primero a los miembros más jóvenes podría ofrecer ventajas tácticas diferentes a las de salvar al patriarca.
+</Callout>
+
+| Rol del Personaje | Descripción | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **El Protagonista** | Miembro jugable de la familia Beckett | La supervivencia es obligatoria para progresar |
+| **Hijos de la Verdad** | Culto antagonista principal | Usan alucinógenos para desorientar a los jugadores |
+| **Parientes Secuestrados** | Objetivos de rescate | Su supervivencia determina el final |
+| **Objetivos de Interrogatorio** | Oficiales enemigos | Proporcionan ubicaciones de familiares |
+
+<Checklist
+  id="story-milestones"
+  title="Objetivos Críticos de la Historia:"
+  items={[
+    "Establecer el primer Refugio en el distrito central",
+    "Identificar al interrogador principal de los Hijos de la Verdad",
+    "Rescatar al menos a dos miembros de la familia antes de las 48 horas",
+    "Localizar la instalación principal de producción de alucinógenos del culto"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Interrogatorio y Recopilación de Información">
+
+Un pilar fundamental de cualquier **guía de Far Cry 7** exitosa es el sistema de interrogatorio. Para encontrar a tu familia, debes capturar y cuestionar a los oficiales enemigos. Sin embargo, el sistema está diseñado para ser impredecible. A diferencia de juegos anteriores donde la información era siempre 100% precisa, los enemigos en Far Cry 7 pueden mentirte y lo harán.
+
+<Callout type="warning" title="Verdad vs. Engaño">
+Un enemigo interrogado podría darte las coordenadas correctas, quedarse en silencio, proporcionar la ubicación de una trampa o incluso intentar escapar mientras estás distraído.
+</Callout>
+
+| Tipo de Respuesta | Probabilidad | Consejo Táctico |
+| :--- | :--- | :--- |
+| **Verdad Verificada** | 40% | Contrasta con otras fuentes de información |
+| **Mentiras Directas** | 30% | Explora el área desde la distancia antes de entrar |
+| **Silencio** | 20% | Usa presión ambiental o déjalos ir para rastrearlos |
+| **Intento de Fuga** | 10% | Mantén tu arma desenfundada durante el proceso |
+
+<CardGrid cols={3}>
+  <Card title="Exploración">
+    - Usa binoculares para identificar a los oficiales.
+    - Marca objetivos de alto valor para derribos no letales.
+  </Card>
+  <Card title="Ejecución">
+    - Aisla al objetivo del resto del escuadrón.
+    - Usa la opción "Interrogar" una vez que estén incapacitados.
+  </Card>
+  <Card title="Verificación">
+    - Revisa el mapa en busca de iconos contradictorios.
+    - Escucha las transmisiones de radio que podrían desmentir al oficial.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes de la Guía: Dudas Comunes">
+
+Esta sección aborda las consultas más frecuentes sobre la **guía de Far Cry 7** y las mecánicas generales de juego.
+
+<FAQ items={[
+  {
+    question: "¿Hay alguna forma de reiniciar el temporizador de 72 horas?",
+    answer: "No, el temporizador es una parte central del desafío de la campaña. Sin embargo, puedes pausarlo indefinidamente permaneciendo dentro de un Refugio. Si no logras rescatar a la familia a tiempo, recibirás un final de 'fracaso' específico o un éxito parcial dependiendo de quién haya sobrevivido."
+  },
+  {
+    question: "¿Puedo jugar a Far Cry 7 en modo cooperativo?",
+    answer: "Aunque la campaña principal de Project Blackbird está diseñada como una experiencia en solitario, Ubisoft ha indicado que los elementos multijugador se gestionarán a través de Project Maverick. El alcance del cooperativo en la campaña principal aún se está finalizando en las pruebas de juego."
+  },
+  {
+    question: "¿Qué pasa si un miembro de la familia Beckett muere?",
+    answer: "La historia continúa. El juego está diseñado para completarse incluso si pierdes a varios miembros de la familia. Sus muertes afectarán significativamente la narrativa y el estado del mundo en el final del juego."
+  },
+  {
+    question: "¿Es Cillian Murphy el villano en Far Cry 7?",
+    answer: "A pesar de los primeros rumores en internet y los tráileres hechos por fans, se ha desmentido que Cillian Murphy forme parte del elenco oficial. El grupo antagonista principal sigue siendo los Hijos de la Verdad."
+  }
+]} />
+
+<Callout type="success" title="Consejo de Estrategia Final">
+Mantén siempre un vehículo cerca de tu Refugio. El tiempo de viaje es tu mayor enemigo en Far Cry 7. Una ruta eficiente entre las pistas de información y los puntos de rescate es la diferencia entre un rescate familiar total y un final trágico.
+</Callout>
+
+</Section>

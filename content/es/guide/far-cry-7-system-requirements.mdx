@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Requisitos del sistema de Far Cry 7: Especificaciones de PC y predicciones técnicas",
+  description: "Explora los requisitos del sistema previstos para Far Cry 7, las mejoras del motor de juego, las plataformas de destino y las recomendaciones de hardware de PC basadas en filtraciones tempranas de desarrollo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=System+Requirements+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Far Cry 7",
+  keywords: "Far Cry 7, requisitos del sistema, especificaciones pc, motor snowdrop, hardware recomendado"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Tema principal**: Especificaciones de PC esperadas y objetivos de hardware para la próxima entrega principal.
+- **Cambio de motor**: Los informes de desarrollo indican una transición importante de Dunia al **motor Snowdrop**.
+- **Lanzamiento previsto**: Los objetivos internos apuntan hacia una posible **ventana de lanzamiento en 2026**.
+- **Enfoque de plataforma**: Optimizado para sistemas de generación actual, omitiendo hardware antiguo como PS4 y Xbox One.
+- **Característica clave**: Un temporizador de cuenta regresiva persistente de 72 horas en el juego que exige tasas de fotogramas estables y carga rápida.
+</Callout>
+
+<Section icon={Shield} title="Requisitos del sistema de Far Cry 7: Objetivos de hardware de PC previstos">
+
+Aunque Ubisoft no ha publicado oficialmente los **requisitos del sistema finales de Far Cry 7** ni ha abierto páginas oficiales en tiendas, las filtraciones técnicas tempranas y los cronogramas de desarrollo nos dan una imagen clara del hardware que necesitarás. El juego, conocido actualmente bajo el nombre en clave interno **Project Blackbird**, se está construyendo para llevar al límite las configuraciones de PC modernas.
+
+A diferencia de entregas anteriores, este título está diseñado de forma nativa para SSD y procesadores de generación actual, lo que significa que el hardware más antiguo tendrá dificultades para seguir el ritmo de las demandas de simulación en tiempo real.
+
+| Nivel de hardware | Espec. mínima (Objetivo: 1080p / 30 FPS) | Espec. recomendada (Objetivo: 1080p / 60 FPS) | Espec. Alta/Ultra (Objetivo: 1440p-4K / 60+ FPS) |
+| :--- | :--- | :--- | :--- |
+| **SO** | Windows 10 (solo 64 bits) | Windows 10/11 (solo 64 bits) | Windows 11 (solo 64 bits) |
+| **CPU** | Intel Core i5-8400 / AMD Ryzen 5 3600 | Intel Core i7-10700K / AMD Ryzen 7 5800X | Intel Core i5-13600K / AMD Ryzen 7 7800X3D |
+| **RAM** | 16 GB RAM | 16 GB RAM | 32 GB RAM |
+| **GPU** | NVIDIA GTX 1080 / AMD RX 5700 XT | NVIDIA RTX 3070 / AMD RX 6800 XT | NVIDIA RTX 4070 Ti / AMD RX 7900 XT |
+| **VRAM** | 8 GB VRAM | 8 GB VRAM | 12 GB o superior |
+| **Almacenamiento** | 100 GB SSD | 100 GB NVMe SSD | 100 GB PCIe 4.0 NVMe SSD |
+
+<Callout type="warning" title="El SSD es obligatorio">
+Es muy poco probable que se admitan discos duros mecánicos (HDD). El streaming fluido del mundo abierto y la carga rápida de activos requerida por los entornos de alta fidelidad del juego hacen que una unidad de estado sólido (SSD) de alta velocidad sea un requisito básico estricto.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="La transición al motor Snowdrop e impacto en el rendimiento">
+
+Durante más de una década, la franquicia confió en el motor Dunia para dar vida a sus islas tropicales y puestos de avanzada caóticos. Sin embargo, informes de desarrollo verificados muestran que Project Blackbird está transicionando al **motor Snowdrop**, la misma potencia detrás de la serie *The Division* y *Avatar: Frontiers of Pandora*.
+
+Este cambio de motor trae cambios masivos en cómo funcionará el juego en tu PC.
+
+<CardGrid cols={3}>
+  <Card title="Iluminación Global con Trazado de Rayos">
+    - Transiciones de **iluminación realista** en bosques densos
+    - Sombras dinámicas vinculadas al ciclo día/noche en tiempo real
+    - Alto coste de rendimiento que requiere núcleos RT modernos
+  </Card>
+  <Card title="Física y Destrucción Avanzadas">
+    - Sistemas de destrucción ambiental rediseñados
+    - Interacción mejorada con el follaje durante el movimiento táctico
+    - Mayor utilización de hilos de CPU para cálculos de física
+  </Card>
+  <Card title="Integración de DirectStorage">
+    - Streaming de activos casi instantáneo desde unidades NVMe
+    - Pantallas de carga reducidas al entrar en refugios
+    - Disminución de la carga de CPU durante el viaje rápido
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Tecnología de escalado">
+Debido a las fuertes demandas gráficas del motor Snowdrop, se espera soporte nativo para NVIDIA DLSS 3.0, AMD FSR 3 e Intel XeSS. La generación de fotogramas probablemente será una característica crucial para lograr altas tasas de FPS en resoluciones 1440p y 4K.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Disponibilidad de plataformas y paridad de consolas">
+
+Ubisoft está centrando el desarrollo íntegramente en los ecosistemas de hardware modernos. Este enfoque garantiza que los complejos sistemas del juego, como el temporizador de cuenta regresiva persistente y la IA avanzada, no se vean limitados por procesadores obsoletos.
+
+| Plataforma | Estado esperado | Objetivo de resolución | Objetivo de FPS | Notas técnicas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Windows PC** | Confirmado en des. | Dinámico hasta 4K | Sin límite (64+ FPS) | Soporte para monitores ultra-anchos y teclas personalizadas |
+| **PlayStation 5** | Alta probabilidad | Dinámico 4K / 1440p | Modos 30 FPS / 60 FPS | Retroalimentación háptica DualSense y gatillos adaptativos |
+| **Xbox Series X** | Alta probabilidad | Dinámico 4K | Modos 30 FPS / 60 FPS | Soporte de Smart Delivery para una configuración fluida |
+| **Xbox Series S** | Alta probabilidad | Dinámico 1080p | Modos 30 FPS / 60 FPS | Ajustes gráficos reducidos y texturas de menor resolución |
+| **PS4 / Xbox One** | No compatible | N/A | N/A | Omitido debido a limitaciones de CPU y memoria |
+
+<Callout type="tip" title="Acceso por suscripción">
+Como con todos los lanzamientos importantes de Ubisoft, se espera que la versión de PC se lance el mismo día en el servicio de suscripción **Ubisoft+**, permitiendo a los miembros jugar a la edición premium sin una compra minorista completa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo preparar tu PC para Project Blackbird">
+
+Si tu equipo actual está empezando a mostrar su edad, prepararse para la próxima generación de shooters de mundo abierto requiere una ruta de actualización estratégica. Sigue esta guía de optimización paso a paso para asegurar que tu sistema esté listo cuando se lance el juego.
+
+<Steps>
+  <Step num="1" title="Actualiza a un SSD PCIe NVMe">
+    Asegúrate de que tu sistema operativo y la biblioteca de juegos estén instalados en un SSD NVMe rápido. Apunta a velocidades de lectura de al menos 3500 MB/s para evitar la aparición repentina de objetos (pop-in) y tirones durante el desplazamiento a alta velocidad.
+  </Step>
+  <Step num="2" title="Apunta a 32 GB de RAM del sistema">
+    Los juegos modernos de mundo abierto que funcionan con motores avanzados superan frecuentemente los 12 GB de uso de memoria del sistema. Actualizar a 32 GB de RAM DDR4 o DDR5 garantiza una multitarea fluida y elimina los bloqueos relacionados con la memoria.
+  </Step>
+  <Step num="3" title="Verifica la capacidad de VRAM">
+    Para una alta calidad de texturas a 1080p o 1440p, es esencial una tarjeta gráfica con al menos 8 GB de VRAM. Si planeas jugar con el trazado de rayos activado, busca GPUs con 12 GB a 16 GB de VRAM para evitar una degradación severa del rendimiento.
+  </Step>
+  <Step num="4" title="Actualiza Windows y los controladores">
+    Mantén tu sistema operativo Windows 10/11 actualizado a la última versión. Los fabricantes de tarjetas gráficas como NVIDIA y AMD lanzarán controladores "Game Ready" cerca de la ventana de lanzamiento para optimizar el rendimiento.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de preparación técnica">
+
+Antes de que se publiquen las especificaciones oficiales del sistema, utiliza esta lista para evaluar la preparación de tu PC para la próxima generación de acción táctica.
+
+<Checklist
+  id="pc-readiness"
+  title="Lista de verificación de hardware:"
+  items={[
+    "El sistema operativo está ejecutando una versión de 64 bits de Windows 10 o Windows 11 totalmente actualizada.",
+    "Al menos 100 GB de espacio libre están disponibles en una unidad de estado sólido (SSD) de alta velocidad.",
+    "La tarjeta gráfica admite DirectX 12 Agility SDK y la API Vulkan.",
+    "La CPU tiene al menos 6 núcleos físicos y 12 hilos para manejar la simulación del mundo en segundo plano.",
+    "La unidad de fuente de alimentación (PSU) tiene suficiente margen para soportar los picos de potencia de una GPU actualizada."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los requisitos mínimos esperados para Far Cry 7?",
+    answer: "Los requisitos mínimos estimados incluyen una CPU Intel Core i5-8400 o AMD Ryzen 5 3600, 16 GB de RAM y una GPU NVIDIA GTX 1080 o AMD RX 5700 XT. Será obligatorio un SSD con al menos 100 GB de espacio de almacenamiento."
+  },
+  {
+    question: "¿Funcionará Far Cry 7 en Steam Deck o ROG Ally?",
+    answer: "Aunque el juego se lance en tiendas de PC, las fuertes demandas de CPU del motor Snowdrop y los complejos sistemas en tiempo real significan que los PC portátiles probablemente requerirán un escalado agresivo (FSR) y ajustes bajos para lograr unos 30 FPS estables."
+  },
+  {
+    question: "¿Se sigue utilizando el motor Dunia para este juego?",
+    answer: "No. Informes de desarrollo creíbles indican que Ubisoft Montreal ha transicionado Project Blackbird al motor Snowdrop para aprovechar mejores gráficos, física moderna y un streaming de activos superior."
+  },
+  {
+    question: "¿Soportará el juego trazado de rayos en tarjetas gráficas de gama media?",
+    answer: "El trazado de rayos probablemente será muy exigente. Aunque las tarjetas de gama media como la RTX 4060 o RX 7600 lo soportarán, los jugadores necesitarán activar el escalado (DLSS/FSR) para mantener unos 60 FPS estables con los ajustes de RT activos."
+  }
+]} />
+
+</Section>

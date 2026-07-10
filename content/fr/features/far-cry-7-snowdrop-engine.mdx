@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Moteur Snowdrop de Far Cry 7 : Refonte Technique Next-Gen & Fuites",
+  description: "Explorez la transition de Far Cry 7 vers le moteur Snowdrop, les fuites de développement du Project Blackbird, la mécanique du chrono de 72 heures et la vision open-world next-gen d'Ubisoft.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/f97316?text=Far+Cry+7+Snowdrop+Engine",
+  date: "2026-07-10",
+  author: "Équipe du Wiki Far Cry 7"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Moteur Snowdrop de Far Cry 7** : Selon certaines informations, Ubisoft abandonnerait le moteur Dunia au profit du moteur Snowdrop (utilisé dans *The Division* et *Star Wars Outlaws*).
+- **Project Blackbird** : Il s'agit du nom de code interne de la campagne solo principale, axée sur une mission de sauvetage non linéaire.
+- **Chrono de 72 heures** : Une mécanique de gameplay centrale où les joueurs doivent sauver la famille Beckett en moins de 72 heures de temps de jeu (environ 24 heures en temps réel).
+- **Project Maverick** : Un jeu de tir d'extraction axé sur le multijoueur, se déroulant dans une nature sauvage inspirée de l'Alaska.
+- **Fenêtre de sortie** : Les objectifs internes ont glissé vers une fenêtre de sortie en 2026, alors que le développement s'intensifie chez Ubisoft Montréal.
+</Callout>
+
+<Section icon={Sparkles} title="Le virage technique : de Dunia à Snowdrop">
+
+La révélation technique la plus importante concernant le prochain opus de la franchise est le passage au **moteur Snowdrop de Far Cry 7**. Depuis plus d'une décennie, la série s'appuyait sur le moteur Dunia, une version lourdement modifiée du CryEngine original. Alors que Dunia excellait dans le rendu d'environnements tropicaux luxuriants et la propagation systémique du feu, la transition vers Snowdrop représente un bond massif en matière de fidélité visuelle, d'éclairage et de capacités de création d'univers.
+
+**Points forts de la vidéo :**
+- Analyse détaillée des dernières fuites concernant le Project Blackbird.
+- Décryptage de la rumeur sur la structure narrative non linéaire.
+- Aperçu du fonctionnement du chrono de 72 heures de la campagne.
+- Comparaison entre le jeu principal et le projet multijoueur.
+
+<YouTubeEmbed videoId="7j4_68L0X6c" title="NEW Far Cry 7 Leaks Have Been Revealed" />
+
+Snowdrop est la même technologie propriétaire qui propulse *Tom Clancy's The Division* et *Star Wars Outlaws*. En adoptant ce moteur, Ubisoft Montréal peut exploiter le micro-streaming avancé, l'illumination globale dynamique et des comportements d'IA plus sophistiqués. Ce changement ne concerne pas seulement les graphismes ; il s'agit de soutenir les systèmes complexes et sensibles au temps prévus pour la nouvelle campagne.
+
+| Fonctionnalité | Moteur Dunia (Héritage) | Moteur Snowdrop (Far Cry 7) |
+| :--- | :--- | :--- |
+| **Illumination globale** | Statique / Précalculée | Entièrement dynamique / Temps réel |
+| **Streaming d'assets** | Chargement traditionnel | Micro-streaming ultra-rapide |
+| **Physique** | Destruction scriptée | Physique systémique / Environnementale |
+| **Densité de l'IA** | Nombre de PNJ limité | IA systémique à haute densité |
+| **Systèmes météo** | Scripts prédéfinis | Météo procédurale / Dynamique |
+
+<Callout type="tip" title="Avantage technique">
+La transition vers Snowdrop permet d'obtenir un monde plus « systémique », où les facteurs environnementaux comme la météo et l'heure de la journée interagissent de manière plus réaliste avec la mission de sauvetage de 72 heures du joueur.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Project Blackbird : Calendrier et état du développement">
+
+Connu en interne sous le nom de **Project Blackbird**, le développement de Far Cry 7 a connu plusieurs changements d'envergure et de direction. Ubisoft Montréal reste le studio principal, mais le soutien technique s'est élargi pour inclure Ubisoft Berlin, Ubisoft Annecy et Red Storm. Initialement visée pour une sortie en 2025, des rapports de fin 2024 et début 2025 indiquent que la fenêtre a été repoussée à 2026 pour s'adapter à la transition du moteur et aux refontes de gameplay.
+
+| Date | Étape clé | Description |
+| :--- | :--- | :--- |
+| **Janvier 2023** | Scission du projet | Blackbird et Maverick deviennent deux axes de développement distincts. |
+| **Septembre 2023** | Confirmation du moteur | Des rapports confirment le passage au moteur Snowdrop pour les titres principaux. |
+| **Décembre 2024** | Décalage du calendrier | Les objectifs de sortie interne passent de fin 2025 à 2026. |
+| **Mars 2025** | Expansion de l'équipe | Ubisoft Berlin et d'autres équipes de soutien rejoignent le Project Blackbird. |
+| **Février 2026** | Confirmation du PDG | Yves Guillemot confirme que deux projets Far Cry sont en production active. |
+
+<CardGrid cols={2}>
+  <Card title="Ubisoft Montréal">
+    - **Développeur principal** pour le Project Blackbird.
+    - Focus sur l'**histoire non linéaire** et le chrono de 72 heures.
+    - Gestion de la transition centrale vers le moteur Snowdrop.
+  </Card>
+  <Card title="Ubisoft Berlin">
+    - Fourniture d'un **soutien technique** pour la conception du monde.
+    - Réaffecté depuis le Project Maverick pour renforcer le développement de Blackbird.
+    - Expertise dans les mécaniques d'open-world systémiques.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Clause de non-responsabilité">
+En date de juillet 2026, Ubisoft n'a pas officiellement nommé le jeu « Far Cry 7 ». Tous les détails techniques concernant le Project Blackbird sont basés sur des rapports de développement vérifiés et des fuites internes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gameplay central : Le chrono de 72 heures et les interrogatoires">
+
+La transition vers le **moteur Snowdrop de Far Cry 7** facilite une rupture radicale avec la formule traditionnelle de Far Cry. Au lieu d'une progression linéaire à travers les régions de la carte, le jeu introduit une campagne de sauvetage limitée dans le temps. Les joueurs doivent localiser et extraire les membres de la famille Beckett dans un délai strict.
+
+<Steps>
+  <Step num="1" title="Enlèvement initial">
+    La campagne commence par l'enlèvement d'une famille aisée, les Beckett, par un culte conspirationniste connu sous le nom des **Fils de la Vérité** (Sons of Truth).
+  </Step>
+  <Step num="2" title="Activation du chrono">
+    Un compte à rebours de 72 heures en jeu commence (environ 24 heures de jeu en temps réel). Cette horloge est visible sur la montre-bracelet du protagoniste.
+  </Step>
+  <Step num="3" title="Interrogatoire non linéaire">
+    Les joueurs doivent trouver des ennemis à interroger. Les réponses varient : ils peuvent dire la vérité, mentir, garder le silence ou tenter de s'échapper.
+  </Step>
+  <Step num="4" title="Sauvetage stratégique">
+    Sur la base des informations recueillies, les joueurs choisissent quel membre de la famille sauver en premier. L'ordre et le succès de ces sauvetages modifient la fin du jeu.
+  </Step>
+</Steps>
+
+| Mécanique | Détail | Impact sur le gameplay |
+| :--- | :--- | :--- |
+| **Temps en jeu** | 72 heures | Crée un sentiment d'urgence et impose de prioriser les ressources. |
+| **Équivalent temps réel** | ~24 heures | La durée réelle du chrono de la campagne pour les joueurs. |
+| **Pause en planque** | Le chrono s'arrête | Permet de planifier, de fabriquer des objets et de se reposer sans perdre de temps. |
+| **Interrogatoire** | Réponses dynamiques | L'information n'est pas garantie ; les joueurs doivent vérifier les pistes. |
+| **Survie de la famille** | Mort permanente | Échouer à un sauvetage modifie définitivement l'histoire et l'état du monde. |
+
+<Callout type="success" title="Note stratégique">
+Entrer dans une planque est le seul moyen d'« arrêter le temps ». Cela fait des emplacements de planques les atouts stratégiques les plus précieux de la carte.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Project Blackbird vs Project Maverick">
+
+Il est essentiel de distinguer les deux projets Far Cry actuellement en développement. Bien que tous deux utilisent la même architecture technique mise à jour, ils offrent des expériences radicalement différentes. Le Project Blackbird est l'opus principal en solo (avec coop potentielle), tandis que le Project Maverick est une expérience multijoueur autonome.
+
+<CardGrid cols={3}>
+  <Card title="Project Blackbird">
+    - **Genre** : Action en monde ouvert
+    - **Focus** : Histoire solo
+    - **Cadre** : Non nommé (domaine/région de la famille Beckett)
+    - **Moteur** : Snowdrop
+  </Card>
+  <Card title="Project Maverick">
+    - **Genre** : Jeu de tir d'extraction
+    - **Focus** : Survie PvPvE
+    - **Cadre** : Nature sauvage fictive de l'Alaska
+    - **Moteur** : Snowdrop (technologie partagée)
+  </Card>
+  <Card title="Systèmes partagés">
+    - **Mouvements** : Course tactique, glissades, franchissements
+    - **Loot** : Inventaire étendu et gestion des ressources
+    - **Visuels** : Éclairage et physique next-gen
+  </Card>
+</CardGrid>
+
+| Fonctionnalité | Project Blackbird (Principal) | Project Maverick (Multijoueur) |
+| :--- | :--- | :--- |
+| **Objectif principal** | Sauver les membres de la famille | S'extraire avec du butin et des ressources |
+| **Pression temporelle** | Chrono de campagne de 72 heures | Chronos d'extraction basés sur la session |
+| **Pénalité de mort** | Conséquences sur l'histoire / Missions échouées | Perte d'équipement, d'atouts et de niveaux |
+| **Conception du monde** | Carte non linéaire axée sur l'histoire | Nature sauvage d'Alaska avec dangers environnementaux |
+| **Jeu social** | Solo ou coopération de campagne | Sessions PvPvE en escouade |
+
+<Callout type="info" title="Expansion du monde">
+Des rapports d'[Insider Gaming](https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/) suggèrent que le Project Maverick propose un environnement hostile avec des mécaniques de mort permanente, contrastant avec l'approche très narrative de Blackbird.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Attentes en matière de plateformes et performances">
+
+Bien qu'Ubisoft n'ait pas officiellement listé les plateformes, le passage au **moteur Snowdrop de Far Cry 7** suggère fortement un ciblage exclusif du matériel de génération actuelle. Les exigences techniques pour l'illumination globale en temps réel et le streaming d'assets à haute vitesse excluent probablement une sortie sur les consoles de génération précédente comme la PlayStation 4 ou la Xbox One.
+
+| Plateforme | Statut attendu | Performances estimées |
+| :--- | :--- | :--- |
+| **PC Windows** | Confirmé (Rapporté) | Support DLSS 3.5/FSR 3, Ray Tracing |
+| **PlayStation 5** | Confirmé (Rapporté) | Objectifs 4K/30FPS ou 1440p/60FPS |
+| **Xbox Series X** | Confirmé (Rapporté) | Mode haute fidélité avec Ray Tracing |
+| **PlayStation 5 Pro** | Très probable | Ray Tracing amélioré et upscaling PSSR |
+| **Nintendo Switch 2** | Rumeur | Version cloud potentielle ou portage optimisé |
+
+<Checklist
+  id="technical-requirements"
+  title="Fonctionnalités Next-Gen attendues :"
+  items={[
+    "Prise en charge complète du Ray Tracing pour les reflets et les ombres",
+    "Transitions mondiales transparentes sans écrans de chargement",
+    "Physique de destruction avancée pour la végétation et les structures",
+    "Système météo dynamique impactant la visibilité et les déplacements du joueur",
+    "Prise en charge du retour haptique et des gâchettes adaptatives de la DualSense"
+  ]}
+/>
+
+<Callout type="tip" title="Optimisation PC">
+Compte tenu de l'historique d'Ubisoft avec le moteur Snowdrop, les joueurs PC peuvent s'attendre à un menu de paramètres robuste avec une prise en charge étendue des écrans ultra-larges et des configurations multi-GPU.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion et FAQ">
+
+La transition vers le **moteur Snowdrop de Far Cry 7** marque un tournant décisif pour la franchise. En s'éloignant du moteur vieillissant Dunia, Ubisoft positionne le Project Blackbird comme une véritable expérience de nouvelle génération qui donne la priorité à la liberté d'action du joueur, à l'interaction systémique avec le monde et à une narration à fort enjeu. Reste à savoir si le chrono de 72 heures sera une innovation bienvenue ou un point de discorde, mais les bases techniques sont clairement conçues pour offrir un monde plus immersif et réactif que jamais.
+
+<FAQ items={[
+  {
+    question: "Est-il confirmé que Far Cry 7 utilise le moteur Snowdrop ?",
+    answer: "Oui, de multiples rapports crédibles et des fuites de développement interne confirment qu'Ubisoft a transféré la série de Dunia vers le moteur Snowdrop afin de tirer parti des fonctionnalités de nouvelle génération."
+  },
+  {
+    question: "Quelle est la date de sortie de Far Cry 7 ?",
+    answer: "En date de juillet 2026, Ubisoft n'a pas annoncé de date officielle. Cependant, les objectifs internes suggèrent une fenêtre de sortie en 2026 pour le Project Blackbird."
+  },
+  {
+    question: "Comment fonctionne le chrono de 72 heures dans Far Cry 7 ?",
+    answer: "Le chrono représente 72 heures de temps de jeu, ce qui équivaut à environ 24 heures de jeu en temps réel. Les joueurs doivent sauver la famille Beckett avant la fin de ce compte à rebours, bien que le temps s'arrête à l'intérieur des planques."
+  },
+  {
+    question: "Le Project Maverick est-il le même jeu que Far Cry 7 ?",
+    answer: "Non. Le Project Maverick est un jeu de tir d'extraction distinct axé sur le multijoueur, tandis que le Project Blackbird est l'opus solo de la série principale, communément appelé Far Cry 7."
+  }
+]} />
+
+<Callout type="success" title="Restez informé">
+Pour les dernières annonces officielles, gardez un œil sur le [portail officiel Ubisoft Far Cry](https://www.ubisoft.com/en-us/franchise/far-cry).
+</Callout>
+
+</Section>

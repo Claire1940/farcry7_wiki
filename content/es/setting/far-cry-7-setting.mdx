@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ambientación de Far Cry 7: Rumores sobre Mapas, Ubicaciones y Mecánicas de Mundo Abierto",
+  description: "Explora los rumores sobre la ambientación de Far Cry 7, que incluye un mapa de campaña no lineal, el rescate de la familia Beckett y detalles del desierto de Alaska.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Far+Cry+7+Setting+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Far Cry 7"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Ambientación de Far Cry 7**: Según los informes, la próxima campaña principal (Project Blackbird) se centra en una familia adinerada que es el objetivo de una secta conspirativa.
+- **Estructura de mapa no lineal**: A diferencia de las rebeliones regionales tradicionales, el mapa funciona como una red dinámica de rutas de rescate con una cuenta regresiva de 72 horas.
+- **Desierto de Alaska**: Filtraciones confiables asocian el mapa nevado de Alaska, enfocado en la supervivencia, con un proyecto multijugador independiente (Project Maverick).
+- **Actualizaciones de movimiento principales**: Se esperan mejoras importantes en el movimiento, incluyendo esprint táctico, deslizamiento y salto de obstáculos avanzado por todo el mundo.
+</Callout>
+
+<Section icon={Map} title="Análisis de la ambientación y el mapa de campaña de Far Cry 7">
+
+La próxima entrega principal de la franquicia, ampliamente conocida bajo el nombre en clave de desarrollo **Project Blackbird**, supuestamente se apartará de la fórmula tradicional de revolución regional. En lugar de liberar puestos de avanzada para derrocar a un dictador, la **ambientación de Far Cry 7** traslada la lucha a una operación de rescate muy personal y de alto riesgo. 
+
+**Puntos clave del video:**
+- **Project Blackbird vs. Maverick**: Conoce las diferencias principales entre ambos proyectos de Far Cry.
+- **La campaña no lineal**: Descubre cómo influye el temporizador de 72 horas del juego en la exploración del mapa.
+- **Mejoras de movimiento**: Un desglose de las mecánicas de esprint táctico, deslizamiento y salto de obstáculos.
+
+<YouTubeEmbed videoId="p_K-g87H-0s" title="Se han revelado nuevas filtraciones de Far Cry 7" />
+
+Aunque Ubisoft no ha confirmado oficialmente un país específico o una región del mundo real para Project Blackbird, los primeros detalles de desarrollo apuntan a un mundo abierto localizado e impulsado por conspiraciones. Los jugadores deberán navegar por un mapa controlado por una peligrosa secta conocida como los **Hijos de la Verdad** (Sons of Truth), quienes han secuestrado a los miembros de la adinerada familia del protagonista.
+
+| Componente de la ambientación | Campaña principal (Project Blackbird) | Multijugador independiente (Project Maverick) |
+|---|---|---|
+| **Ubicación principal** | Región sin nombre vinculada a la familia Beckett | Desierto ficticio de Alaska |
+| **Ambiente del entorno** | Territorio controlado por la secta, laboratorios alucinógenos | Bosques nevados, desierto hostil bajo cero |
+| **Estructura del mapa** | Nodos de rescate no lineales, refugios | Zonas de extracción, centros de supervivencia y artesanía |
+| **Amenazas clave** | Sectarios de los Hijos de la Verdad, animales salvajes | Jugadores rivales, soldados de IA, clima extremo |
+
+<Callout type="tip" title="Distinción de ambientación">
+No confundas la ambientación de la campaña principal con la rumoreada ambientación nevada de Alaska. Informes confiables confirman que el desierto de Alaska pertenece a Project Maverick, un proyecto independiente de extracción y disparos, mientras que el juego principal presenta una ambientación diferente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo influye el temporizador de 72 horas en la exploración">
+
+La **ambientación de Far Cry 7** está vinculada de manera única a una cuenta regresiva en tiempo real. La campaña de rescate debe completarse en un plazo de **72 horas del juego**, lo que se traduce en aproximadamente **24 horas de juego real**. Este cambio estructural afecta directamente la forma en que interactúas con el mundo abierto.
+
+<CardGrid cols={3}>
+  <Card title="El reloj de pulsera">
+    El tiempo restante de la campaña se controla mediante un reloj de pulsera que lleva el protagonista, lo que obliga a los jugadores a planificar sus rutas de viaje con cuidado.
+  </Card>
+  <Card title="Pausas en refugios">
+    Descubrir y entrar en refugios pausa el temporizador de cuenta regresiva, lo que te permite planificar tu próximo movimiento sin perder valiosos segundos.
+  </Card>
+  <Card title="Consecuencias dinámicas">
+    Si el tiempo se agota o los miembros de la familia mueren debido a una mala planificación de la ruta, la historia se adapta dinámicamente, cambiando el final de tu campaña.
+  </Card>
+</CardGrid>
+
+Para navegar con éxito en este mundo donde el tiempo es un factor crítico, deberás utilizar una variedad de mecánicas de movimiento táctico que han sido rediseñadas para esta generación de la serie.
+
+<Steps>
+  <Step num="1" title="Asegura un refugio">
+    Localiza y despeja refugios cercanos para establecer puntos de pausa activos en tu mapa, lo que te dará una zona segura para gestionar el inventario.
+  </Step>
+  <Step num="2" title="Interroga a los objetivos">
+    Rastrea a enemigos de élite en el mundo abierto e interrógalos. Pueden proporcionarte coordenadas de los familiares secuestrados o darte direcciones falsas.
+  </Step>
+  <Step num="3" title="Traza tu ruta de rescate">
+    Analiza la información recopilada y traza la ruta más rápida hacia el siguiente miembro de la familia, equilibrando el tiempo restante con los peligros potenciales.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Riesgo de interrogatorio">
+Los resultados de los interrogatorios son muy impredecibles. Los enemigos capturados pueden dar ubicaciones precisas, mentir descaradamente, negarse a hablar o intentar escapar. Vuelve a comprobar los marcadores de tu mapa antes de emprender un viaje de larga distancia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparación de las dos rumoreadas ambientaciones de Far Cry">
+
+La historia del desarrollo de la próxima generación de Far Cry revela que tanto Project Blackbird como Project Maverick se originaron a partir de un prototipo compartido llamado **Talisker**. Debido a esta herencia compartida, muchas mecánicas de supervivencia y sistemas de movimiento se superponen, a pesar de que presentan ambientaciones completamente diferentes.
+
+| Característica | Mapa de la campaña principal | Mapa de supervivencia multijugador |
+|---|---|---|
+| **Nombre en clave** | Project Blackbird (Far Cry 7) | Project Maverick |
+| **Bucle de juego** | Rescatar a la familia Beckett, detener a la secta | Extraer botín, completar contratos, sobrevivir |
+| **Clima** | Templado, recintos localizados de la secta | Tormentas de nieve bajo cero, ríos helados |
+| **Progresión** | Hitos de rescate impulsados por la historia | Mejoras de la guarida, creación de arsenales de armas |
+| **Mecánicas de movimiento** | Esprint táctico, deslizamiento, salto de obstáculos | Esprint táctico, deslizamiento, salto de obstáculos |
+
+<Callout type="info" title="Base técnica">
+Según se informa, ambos proyectos han dejado atrás el antiguo motor Dunia. Ubisoft está utilizando el **motor Snowdrop** (conocido por *The Division* y *Star Wars Outlaws*) para renderizar estos nuevos entornos de mundo abierto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de exploración del mundo">
+
+Mientras te preparas para rastrear a la familia Beckett a través del territorio controlado por la secta, ten en cuenta estos objetivos de exploración para maximizar tu eficiencia bajo el estricto límite de tiempo de 24 horas reales.
+
+<Checklist
+  id="farcry7-exploration"
+  title="Objetivos críticos del mapa:"
+  items={[
+    "Identificar y desbloquear refugios centrales para detener el temporizador de cuenta regresiva",
+    "Localizar y desmantelar los laboratorios de investigación alucinógena de los Hijos de la Verdad",
+    "Reunir equipo de supervivencia de alto nivel para evitar los peligros ambientales",
+    "Dominar el esprint táctico y el salto de obstáculos para atravesar terreno accidentado rápidamente",
+    "Infiltrarse en puestos de avanzada enemigos para asegurar objetivos de interrogatorio confiables"
+  ]}
+/>
+
+<Callout type="success" title="Estrategia de exploración">
+Prioriza el desbloqueo de refugios desde el principio. Tener múltiples puntos de pausa en el mapa es la forma más efectiva de gestionar la cuenta regresiva de 72 horas mientras exploras regiones lejanas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la ambientación oficial de Far Cry 7?",
+    answer: "Ubisoft no ha anunciado oficialmente el nombre de la ambientación ni el país. Sin embargo, los informes de desarrollo indican que el juego principal (Project Blackbird) se centra en un territorio localizado y controlado por una secta donde los jugadores deben rescatar a la familia Beckett."
+  },
+  {
+    question: "¿Está Far Cry 7 ambientado en Alaska?",
+    answer: "No, la rumoreada ambientación en el desierto de Alaska está asociada con Project Maverick, un juego de disparos y extracción multijugador independiente desarrollado en paralelo al juego principal."
+  },
+  {
+    question: "¿Cómo se compara el tamaño del mapa con los juegos anteriores de Far Cry?",
+    answer: "Aunque no se dispone de las dimensiones oficiales del mapa, la ambientación está diseñada para una exploración no lineal de alta densidad, estructurada en torno a rutas de rescate en lugar de espacios abiertos vacíos."
+  },
+  {
+    question: "¿Afecta el clima al juego en las nuevas ambientaciones?",
+    answer: "Sí. En la ambientación multijugador de Project Maverick, el severo clima invernal de Alaska y la fauna peligrosa son riesgos fundamentales. En la ambientación principal de Project Blackbird, el entorno está fuertemente influenciado por las actividades de la secta y las pruebas de alucinógenos."
+  }
+]} />
+
+</Section>

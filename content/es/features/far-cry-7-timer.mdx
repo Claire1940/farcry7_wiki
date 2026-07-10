@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Users, Search, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Temporizador de Far Cry 7: Guía de la Mecánica de 72 Horas y Campaña No Lineal",
+  description: "Domina el sistema del temporizador de Far Cry 7. Aprende cómo el reloj de 72 horas del juego afecta el rescate de la familia Beckett, el progreso de la campaña y la estrategia en los refugios.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Far+Cry+7+Timer+Mechanic",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Far Cry 7",
+  keywords: "far cry 7, temporizador, mecánica de 72 horas, familia beckett, refugios, campaña no lineal"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Temporizador de Far Cry 7**: Una cuenta regresiva principal de 72 horas en el juego (aproximadamente **24 horas de tiempo real**) que dicta el ritmo de toda la campaña principal.
+- **Rescate No Lineal**: Los jugadores deben localizar y extraer a los miembros de la **familia Beckett** en cualquier orden antes de que el reloj llegue a cero.
+- **Pausas Estratégicas**: Entrar en un **Refugio** es la única forma de detener el temporizador, lo que permite la planificación táctica y la gestión del equipo.
+- **Sistema de Interrogación**: Capturar enemigos es vital; proporcionan pistas sobre la ubicación de la familia, pero su información puede ser engañosa.
+- **Resultados Dinámicos**: La supervivencia o muerte de miembros específicos de la familia altera directamente el final de la historia y el estado del mundo.
+</Callout>
+
+<Section icon={Clock} title="Comprendiendo la Mecánica del Temporizador de Far Cry 7">
+
+El **temporizador de Far Cry 7** representa el cambio más significativo en la historia de la franquicia, alejándose de la fórmula tradicional de \"limpiar el mapa\" hacia una operación de rescate de alto riesgo y tiempo limitado. Bajo el nombre en clave **Project Blackbird**, el juego te pone en el papel de un superviviente que intenta salvar a su familia secuestrada de un culto conspirativo conocido como los **Hijos de la Verdad** (Sons of Truth).
+
+A diferencia de entregas anteriores donde podías pasar docenas de horas cazando coleccionables sin consecuencias, el temporizador en Far Cry 7 es persistente. Cada minuto dedicado a recorrer el mundo abierto o a participar en escaramuzas secundarias acerca a la familia Beckett a la ejecución. Esta mecánica está diseñada para crear un entorno de \"olla a presión\", obligando a los jugadores a priorizar objetivos y tomar decisiones morales difíciles bajo presión.
+
+| Tipo de Tiempo | Duración | Descripción |
+| :--- | :--- | :--- |
+| **Tiempo de Juego** | **72 Horas** | El plazo total permitido para completar la campaña de rescate principal. |
+| **Equivalente en Tiempo Real** | **~24 Horas** | La cantidad aproximada de tiempo de juego real antes de que expire el temporizador. |
+| **Tiempo Pausado** | **Ilimitado** | El tiempo se detiene únicamente cuando el jugador está dentro de un **Refugio** designado. |
+| **Método de Seguimiento** | **Reloj de pulsera** | Un reloj físico en el juego que lleva el protagonista para controlar el tiempo restante. |
+
+<Callout type="warning" title="Advertencia Crítica">
+No rescatar a un miembro de la familia antes de que se active su ventana interna de \"ejecución\" específica resultará en su muerte permanente, lo que te impedirá acceder al \"Final Perfecto\" del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="El Rescate de la Familia Beckett: Progresión No Lineal">
+
+La estructura de la campaña es completamente no lineal y gira en torno a la recuperación de la adinerada familia Beckett. Dado que el **temporizador de Far Cry 7** siempre está corriendo, no puedes limitarte a seguir un camino recto. Debes decidir a qué miembro de la familia perseguir en función de la información que hayas recopilado y del tiempo que te quede en el reloj.
+
+Los Hijos de la Verdad han dispersado a la familia por una vasta región que aún no ha sido nombrada. Cada miembro de la familia está retenido en una instalación única, que va desde búnkeres de alta seguridad hasta campamentos remotos en la naturaleza. El orden en que los salves afecta a la dificultad de las misiones posteriores, ya que el culto consolidará sus fuerzas a medida que se dé cuenta de que estás desmantelando su operación.
+
+**Elementos Clave de la Campaña:**
+- **El Protagonista**: Un miembro de la familia que escapó del secuestro inicial.
+- **Los Hijos de la Verdad**: Un culto conspirativo que utiliza alucinógenos y experimentos con animales.
+- **Resultados Variables**: Si un miembro de la familia muere, la narrativa continúa, pero pierdes sus bonificaciones de apoyo específicas.
+
+<CardGrid cols={3}>
+  <Card title="Objetivos de Alto Valor">
+    - **Información Estratégica**
+    - Rescatar a los mayores proporciona datos del mapa
+    - Desbloquea el reconocimiento avanzado
+  </Card>
+  <Card title="Especialistas en Combate">
+    - **Acceso a Armas**
+    - Salvar a los miembros más jóvenes desbloquea equipo
+    - Mejora el apoyo táctico
+  </Card>
+  <Card title="Roles de Apoyo">
+    - **Salud y Recursos**
+    - Los expertos médicos mejoran la curación
+    - Los logísticos aumentan la capacidad de munición
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estrategia Profesional">
+Prioriza el rescate de los miembros de la familia con rasgos de \"Información Estratégica\" al principio del ciclo de 72 horas para que la localización de los cautivos restantes sea significativamente más rápida.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Interrogación y Recopilación de Información">
+
+Dado que el mapa no revela automáticamente la ubicación de tu familia, debes buscar información de forma activa. Aquí es donde el nuevo **Sistema de Interrogación** se vuelve vital. Cuando te encuentres con miembros de alto rango de los Hijos de la Verdad, tendrás la opción de capturarlos en lugar de eliminarlos.
+
+Sin embargo, la información proporcionada no siempre es fiable. El **temporizador de Far Cry 7** añade una capa de riesgo a cada interrogatorio: ¿creas al cautivo y pasas 2 horas viajando a un puesto de avanzada remoto, o sospechas que te está guiando a una emboscada para hacerte perder tu valioso tiempo?
+
+| Respuesta del Interrogatorio | Frecuencia | Impacto en el Jugador |
+| :--- | :--- | :--- |
+| **Verdad Verificable** | **Común** | Proporciona un punto de ruta directo a un miembro de la familia u objetivo. |
+| **Mentiras Engañosas** | **Poco común** | Conduce a una trampa o a un lugar vacío, desperdiciando horas de juego. |
+| **Silencio Estoico** | **Raro** | El cautivo se niega a hablar, lo que requiere fuentes de información alternativas. |
+| **Pánico/Escape** | **Ocasional** | El cautivo intenta huir; no detenerlo alerta a los campamentos cercanos. |
+
+<Steps>
+  <Step num="1" title="Someter al Objetivo">
+    Hiere a un oficial de alto rango sin matarlo para iniciar la secuencia de captura.
+  </Step>
+  <Step num="2" title="Realizar el Interrogatorio">
+    Elige tu enfoque (Intimidación, Soborno o Negociación) para extraer los datos de ubicación.
+  </Step>
+  <Step num="3" title="Verificar la Información">
+    Contrasta la información con los datos existentes del mapa antes de comprometer el tiempo restante.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Inteligencia">
+Combinar los interrogatorios con pruebas físicas encontradas en el mundo (cartas, grabaciones) es la única forma de garantizar que la información sea 100 % precisa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Refugios y Gestión del Tiempo">
+
+El único respiro del implacable **temporizador de Far Cry 7** es el sistema de Refugios. Se trata de lugares fortificados descubiertos por todo el mundo donde el protagonista puede descansar, mejorar el equipo y planificar el siguiente movimiento.
+
+Al cruzar el umbral de un Refugio, la cuenta atrás de tu reloj de pulsera se detiene. Este es el único momento en el que puedes navegar por los menús, fabricar objetos o leer el trasfondo de la historia sin que el mundo avance. Los jugadores eficientes utilizarán los Refugios para \"teletransportar\" su enfoque, planificando una ruta que abarque múltiples objetivos antes de tener que regresar a un lugar seguro.
+
+**Funcionalidad de los Refugios:**
+- **Suspensión del Temporizador**: Pausa total del reloj de 72 horas.
+- **Optimización del Equipo**: Modifica armas y fabrica objetos de supervivencia.
+- **Informe de Misión**: Revisa la información recopilada y establece puntos de ruta personalizados.
+- **Viaje Rápido**: Muévete entre los Refugios descubiertos (suele costar una pequeña cantidad de tiempo de juego).
+
+| Actividad | Estado del Temporizador | Recomendación |
+| :--- | :--- | :--- |
+| **Explorar la Naturaleza** | **Activo** | Mantén un movimiento táctico y rápido. |
+| **Combate/Sigilo** | **Activo** | Evita escaramuzas innecesarias para ahorrar tiempo. |
+| **Fabricación (Campo)** | **Activo** | Fabrica solo lo esencial mientras te desplazas. |
+| **Menús del Refugio** | **Pausado** | Utiliza este tiempo para la gestión profunda del inventario. |
+
+<Callout type="info" title="Consejo de Experto">
+Lleva siempre recursos suficientes para llegar al siguiente Refugio. Morir en el campo a menudo conlleva una \"Penalización de Tiempo\" al reaparecer, lo que puede ser devastador en las últimas horas.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Project Blackbird frente a Project Maverick">
+
+Es importante distinguir entre la campaña principal (Project Blackbird) y el rumoreado proyecto multijugador independiente (Project Maverick). Aunque ambos se ambientan en el universo de Far Cry y se desarrollan con el motor **Snowdrop Engine**, su enfoque del tiempo y de la jugabilidad difiere significativamente.
+
+El **temporizador de Far Cry 7** es exclusivo de la campaña de Blackbird. Por otro lado, se informa de que Project Maverick es un shooter de supervivencia basado en la extracción ambientado en una Alaska salvaje ficticia. Aunque Maverick cuenta con elementos de supervivencia como el clima y la fauna, no utiliza el reloj de campaña de 72 horas.
+
+| Característica | Project Blackbird (Far Cry 7) | Project Maverick (Multijugador) |
+| :--- | :--- | :--- |
+| **Objetivo Principal** | Rescatar a la familia Beckett | Extraer recursos y sobrevivir a otros jugadores |
+| **Sistema de Temporizador** | **Reloj persistente de 72 horas** | Temporizadores de extracción basados en partidas |
+| **Ambientación** | Territorio de culto no nombrado | Alaska salvaje ficticia |
+| **Motor** | Snowdrop Engine | Snowdrop Engine |
+| **Estilo de Juego** | Campaña de historia no lineal | Shooter de supervivencia de extracción |
+
+<Callout type="tip" title="Nota Técnica">
+Ambos juegos comparten un sistema de movimiento renovado que incluye esprint táctico, deslizamiento y salto de obstáculos, lo que ayuda a los jugadores a navegar por el mundo más rápido para vencer al temporizador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de la Campaña y Lista de Verificación">
+
+Para lograr el mejor resultado posible en Far Cry 7, debes equilibrar la velocidad con la minuciosidad. Limitarse a correr hacia el final podría provocar la muerte de miembros clave de la familia, mientras que ser demasiado lento pondrá fin al juego antes de tiempo.
+
+<Checklist
+  id="farcry7-goals"
+  title="Pasos Esenciales para Completar el Juego:"
+  items={[
+    "Localizar a los 7 miembros de la familia Beckett en un plazo de 72 horas",
+    "Asegurar al menos 5 Refugios principales para realizar pausas tácticas",
+    "Identificar y eliminar a los líderes de los Hijos de la Verdad",
+    "Dominar la mecánica de interrogación para minimizar la 'Pérdida de Tiempo'",
+    "Desbloquear las habilidades de desplazamiento avanzadas del Snowdrop Engine"
+  ]}
+/>
+
+<Callout type="success" title="Objetivo Final">
+Rescatar a todos los miembros de la familia antes de la marca de 72 horas desbloquea el logro 'El legado de los Beckett' y la verdadera escena cinematográfica final.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿El temporizador de Far Cry 7 sigue corriendo mientras el juego está apagado?",
+    answer: "No. El temporizador solo avanza mientras juegas activamente la campaña fuera de un Refugio o del menú de pausa principal. No es un reloj persistente en tiempo real."
+  },
+  {
+    question: "¿Puedo reiniciar el temporizador si me quedo sin tiempo?",
+    answer: "Si el temporizador de 72 horas expira, llegarás a un final de 'Fracaso'. A continuación, puedes optar por reiniciar la campaña o cargar un 'Guardado de Refugio' anterior, aunque perderás cualquier progreso realizado desde ese guardado."
+  },
+  {
+    question: "¿Hay alguna forma de aumentar permanentemente el límite de 72 horas?",
+    answer: "Actualmente, no hay mecánicas confirmadas para ampliar el límite de 72 horas. El juego está equilibrado estrictamente en torno a esta ventana de juego de 24 horas reales."
+  },
+  {
+    question: "¿Las misiones secundarias pausan el temporizador?",
+    answer: "No. Las actividades secundarias como la caza, la liberación de puestos de avanzada y las carreras consumen el límite de 72 horas. Debes decidir si las recompensas de estas actividades merecen el coste de tiempo."
+  }
+]} />
+
+</Section>

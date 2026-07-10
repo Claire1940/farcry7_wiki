@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Users, Search, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cronômetro de Far Cry 7: Guia da Mecânica de 72 Horas e Campanha Não Linear",
+  description: "Domine o sistema de cronômetro de Far Cry 7. Saiba como o relógio de 72 horas do jogo afeta o resgate da família Beckett, a progressão da campanha e a estratégia de esconderijos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Far+Cry+7+Timer+Mechanic",
+  date: "2026-07-10",
+  author: "Equipe da Wiki de Far Cry 7",
+  keywords: "far cry 7 timer, cronômetro far cry 7, campanha, família beckett, guia, esconderijo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Cronômetro de Far Cry 7**: Uma contagem regressiva principal de 72 horas no jogo (cerca de **24 horas em tempo real**) que dita o ritmo de toda a campanha principal.
+- **Resgate Não Linear**: Os jogadores devem localizar e extrair os membros da **família Beckett** em qualquer ordem antes que o relógio chegue a zero.
+- **Pausas Estratégicas**: Entrar em um **Esconderijo** é a única maneira de parar o cronômetro, permitindo o planejamento tático e o gerenciamento de equipamentos.
+- **Sistema de Interrogatório**: Capturar inimigos é vital; eles fornecem pistas sobre a localização da família, mas suas informações podem ser enganosas.
+- **Resultados Dinâmicos**: A sobrevivência ou morte de membros específicos da família altera diretamente a conclusão da história e o estado do mundo.
+</Callout>
+
+<Section icon={Clock} title="Entendendo a Mecânica do Cronômetro de Far Cry 7">
+
+O **cronômetro de Far Cry 7** representa a mudança mais significativa na história da franquia, afastando-se da fórmula tradicional de "limpar o mapa" em direção a uma operação de resgate de alto risco e sensível ao tempo. Com o codinome **Project Blackbird**, o jogo coloca você no papel de um sobrevivente tentando salvar sua família sequestrada de uma seita conspiratória conhecida como os **Sons of Truth** (Filhos da Verdade).
+
+Ao contrário dos títulos anteriores, onde você podia passar dezenas de horas caçando colecionáveis sem consequências, o cronômetro em Far Cry 7 é persistente. Cada minuto gasto atravessando o mundo aberto ou se envolvendo em escaramuças secundárias aproxima a família Beckett da execução. Essa mecânica foi projetada para criar um ambiente de "panela de pressão", forçando os jogadores a priorizar objetivos e tomar decisões morais difíceis sob pressão.
+
+| Tipo de Tempo | Duração | Descrição |
+| :--- | :--- | :--- |
+| **Tempo de Jogo** | **72 Horas** | A janela total permitida para concluir a campanha principal de resgate. |
+| **Equivalente em Tempo Real** | **~24 Horas** | A quantidade aproximada de tempo de jogo real antes que o cronômetro expire. |
+| **Tempo Pausado** | **Ilimitado** | O tempo para apenas quando o jogador está dentro de um **Esconderijo** designado. |
+| **Método de Rastreamento** | **Relógio de Pulso** | Um relógio físico no jogo usado pelo protagonista para rastrear o tempo restante. |
+
+<Callout type="warning" title="Aviso Crítico">
+Deixar de resgatar um membro da família antes que sua janela interna específica de "execução" seja acionada resultará em sua morte permanente, impedindo você de obter o "Final Perfeito" do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="O Resgate da Família Beckett: Progressão Não Linear">
+
+A estrutura da campanha é totalmente não linear, girando em torno do resgate da rica família Beckett. Como o **cronômetro de Far Cry 7** está sempre correndo, você não pode simplesmente seguir um caminho reto. Você deve decidir qual membro da família buscar com base nas informações coletadas e no tempo restante em seu relógio.
+
+Os Sons of Truth espalharam a família por uma região vasta e ainda sem nome. Cada membro da família é mantido em uma instalação única, que varia de bunkers de alta segurança a acampamentos remotos na floresta. A ordem em que você os salva afeta a dificuldade das missões subsequentes, pois a seita consolidará suas forças à medida que perceber que você está desmantelando sua operação.
+
+**Elementos-Chave da Campanha:**
+- **O Protagonista**: Um membro da família que escapou do sequestro inicial.
+- **Os Sons of Truth**: Uma seita conspiratória que utiliza alucinógenos e experimentos com animais.
+- **Resultados Variáveis**: Se um membro da família morrer, a narrativa continua, mas você perde seus bônus de suporte específicos.
+
+<CardGrid cols={3}>
+  <Card title="Alvos de Alto Valor">
+    - **Informações Estratégicas**
+    - Resgatar os mais velhos fornece dados do mapa
+    - Desbloqueia reconhecimento avançado
+  </Card>
+  <Card title="Especialistas em Combate">
+    - **Acesso a Armas**
+    - Salvar membros mais jovens desbloqueia equipamentos
+    - Melhora o suporte tático
+  </Card>
+  <Card title="Funções de Suporte">
+    - **Saúde e Recursos**
+    - Especialistas médicos melhoram a cura
+    - Logísticos aumentam a capacidade de munição
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estratégia Profissional">
+Priorize o resgate de membros da família com características de "Informações Estratégicas" no início do ciclo de 72 horas para tornar a localização dos cativos restantes significativamente mais rápida.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Interrogatório e Coleta de Informações">
+
+Como o mapa não revela automaticamente a localização da sua família, você deve buscar informações ativamente. É aqui que o novo **Sistema de Interrogatório** se torna vital. Quando você encontra membros de alto escalão dos Sons of Truth, tem a opção de capturá-los em vez de eliminá-los.
+
+No entanto, as informações fornecidas nem sempre são confiáveis. O **cronômetro de Far Cry 7** adiciona uma camada de risco a cada interrogatório: você acredita no prisioneiro e gasta 2 horas viajando para um posto avançado remoto, ou suspeita que ele está levando você para uma emboscada para desperdiçar seu precioso tempo?
+
+| Resposta do Interrogatório | Frequência | Impacto no Jogador |
+| :--- | :--- | :--- |
+| **Verdade Verificável** | **Comum** | Fornece um ponto de referência direto para um membro da família ou objetivo. |
+| **Mentiras Enganosas** | **Incomum** | Leva a uma armadilha ou local vazio, desperdiçando horas de jogo. |
+| **Silêncio Estoico** | **Raro** | O prisioneiro se recusa a falar, exigindo fontes alternativas de informação. |
+| **Pânico/Fuga** | **Ocasional** | O prisioneiro tenta fugir; não conseguir impedi-lo alerta os acampamentos próximos. |
+
+<Steps>
+  <Step num="1" title="Subjulgar o Alvo">
+    Fira um oficial de alto escalão sem matá-lo para iniciar a sequência de captura.
+  </Step>
+  <Step num="2" title="Realizar o Interrogatório">
+    Escolha sua abordagem (Intimidação, Suborno ou Negociação) para extrair os dados de localização.
+  </Step>
+  <Step num="3" title="Verificar Informações">
+    Cruze as informações com os dados existentes no mapa antes de comprometer seu tempo restante.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Inteligência">
+Combinar interrogatórios com evidências físicas encontradas no mundo (cartas, gravações) é a única maneira de garantir que a informação seja 100% precisa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Esconderijos e Gerenciamento de Tempo">
+
+O único alívio do implacável **cronômetro de Far Cry 7** é o sistema de Esconderijos. Essas são instalações fortificadas descobertas pelo mundo onde o protagonista pode descansar, aprimorar equipamentos e planejar o próximo passo.
+
+Quando você cruza o limite de um Esconderijo, a contagem regressiva em seu relógio de pulso é pausada. Este é o único momento em que você pode navegar pelos menus, criar itens ou ler a história do jogo sem que o mundo avance. Jogadores eficientes usarão os Esconderijos para "teletransportar" seu foco — planejando uma rota que atinja vários objetivos antes de precisar retornar à segurança.
+
+**Funcionalidade do Esconderijo:**
+- **Suspensão do Cronômetro**: Pausa total do relógio de 72 horas.
+- **Otimização de Equipamento**: Modifique armas e crie itens de sobrevivência.
+- **Briefing de Missão**: Revise as informações coletadas e defina pontos de referência personalizados.
+- **Viagem Rápida**: Mova-se entre Esconderijos descobertos (geralmente custa uma pequena quantidade de tempo de jogo).
+
+| Atividade | Status do Cronômetro | Recomendação |
+| :--- | :--- | :--- |
+| **Explorar a Natureza** | **Ativo** | Mantenha o movimento tático e rápido. |
+| **Combate/Furtividade** | **Ativo** | Evite escaramuças desnecessárias para economizar tempo. |
+| **Criação (Campo)** | **Ativo** | Crie apenas o essencial enquanto estiver em movimento. |
+| **Menus do Esconderijo** | **Pausado** | Use este tempo para todo o gerenciamento detalhado de inventário. |
+
+<Callout type="info" title="Conselho de Especialista">
+Sempre carregue recursos suficientes para chegar ao próximo Esconderijo. Morrer em campo geralmente resulta em uma "Penalidade de Tempo" ao ressurgir, o que pode ser devastador nas horas finais.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Project Blackbird vs. Project Maverick">
+
+É importante distinguir entre a campanha principal (Project Blackbird) e o projeto multiplayer independente sob rumores (Project Maverick). Embora ambos estejam ambientados no universo Far Cry e desenvolvidos na **Snowdrop Engine**, suas abordagens em relação ao tempo e à jogabilidade diferem significativamente.
+
+O **cronômetro de Far Cry 7** é exclusivo da campanha Blackbird. O Project Maverick, por outro lado, é relatado como um jogo de tiro de sobrevivência baseado em extração, ambientado em uma região selvagem fictícia do Alasca. Embora o Maverick apresente elementos de sobrevivência como clima e vida selvagem, ele não utiliza o relógio de campanha de 72 horas.
+
+| Recurso | Project Blackbird (Far Cry 7) | Project Maverick (Multiplayer) |
+| :--- | :--- | :--- |
+| **Objetivo Principal** | Resgatar a Família Beckett | Extrair recursos e sobreviver aos jogadores |
+| **Sistema de Cronômetro** | **Relógio Persistente de 72 Horas** | Cronômetros de extração baseados em partidas |
+| **Ambiente** | Território de Seita Sem Nome | Região Selvagem Fictícia do Alasca |
+| **Engine** | Snowdrop Engine | Snowdrop Engine |
+| **Estilo de Jogo** | Campanha de História Não Linear | Jogo de Tiro de Sobrevivência e Extração |
+
+<Callout type="tip" title="Nota Técnica">
+Ambos os jogos compartilham um sistema de movimentação reformulado, incluindo corrida tática, deslizamento e salto de obstáculos, o que ajuda os jogadores a navegar pelo mundo mais rápido para vencer o cronômetro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos da Campanha e Lista de Verificação de Conclusão">
+
+Para alcançar o melhor resultado possível em Far Cry 7, você deve equilibrar velocidade com minuciosidade. Simplesmente correr para o final pode resultar na morte de membros fundamentais da família, enquanto ser muito lento encerrará o jogo prematuramente.
+
+<Checklist
+  id="farcry7-goals"
+  title="Passos Essenciais para a Conclusão:"
+  items={[
+    "Localizar todos os 7 membros da família Beckett em até 72 horas",
+    "Garantir pelo menos 5 Esconderijos principais para pausas táticas",
+    "Identificar e eliminar a liderança dos Sons of Truth",
+    "Dominar a mecânica de interrogatório para minimizar o 'Desperdício de Tempo'",
+    "Desbloquear as habilidades avançadas de travessia da Snowdrop Engine"
+  ]}
+/>
+
+<Callout type="success" title="Objetivo Final">
+Resgatar todos os membros da família antes do limite de 72 horas desbloqueia a conquista 'Legado dos Becketts' e a verdadeira cena final.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O cronômetro de Far Cry 7 continua correndo com o jogo desligado?",
+    answer: "Não. O cronômetro só avança enquanto você está jogando ativamente a campanha fora de um Esconderijo ou do menu de pausa principal. Não é um relógio persistente em tempo real."
+  },
+  {
+    question: "Posso reiniciar o cronômetro se o tempo acabar?",
+    answer: "Se o cronômetro de 72 horas expirar, você chegará a um final de 'Fracasso'. Você poderá então optar por reiniciar a campanha ou recarregar um 'Salvamento de Esconderijo' anterior, embora perca qualquer progresso feito desde aquele salvamento."
+  },
+  {
+    question: "Existe alguma maneira de aumentar permanentemente o limite de 72 horas?",
+    answer: "Atualmente, não há mecânicas confirmadas para estender o limite de 72 horas. O jogo é estritamente balanceado em torno dessa janela de jogabilidade de 24 horas reais."
+  },
+  {
+    question: "As missões secundárias pausam o cronômetro?",
+    answer: "Não. Atividades secundárias como caça, liberação de postos avançados e corridas consomem o seu limite de 72 horas. Você deve decidir se as recompensas dessas atividades valem o custo de tempo."
+  }
+]} />
+
+</Section>
