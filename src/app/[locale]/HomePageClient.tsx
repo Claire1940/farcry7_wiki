@@ -639,7 +639,6 @@ export default function HomePageClient({
               );
             })}
           </div>
-          <SourceLinks sources={t.modules.farCry7SettingMap.sources} />
         </div>
       </section>
 
@@ -689,7 +688,6 @@ export default function HomePageClient({
               ),
             )}
           </div>
-          <SourceLinks sources={t.modules.farCry7GameplayTimer.sources} />
         </div>
       </section>
 
@@ -735,7 +733,6 @@ export default function HomePageClient({
               </tbody>
             </table>
           </div>
-          <SourceLinks sources={t.modules.farCry7MultiplayerMaverick.sources} />
         </div>
       </section>
 
@@ -780,7 +777,6 @@ export default function HomePageClient({
               ),
             )}
           </div>
-          <SourceLinks sources={t.modules.farCry7EngineDevelopment.sources} />
         </div>
       </section>
 

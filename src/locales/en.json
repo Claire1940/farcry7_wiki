@@ -350,12 +350,6 @@
             "Earlier designs included resource gathering, hideouts, survival crafting, and extraction zones."
           ]
         }
-      ],
-      "sources": [
-        "https://www.ubisoft.com/en-us/company/about-us/our-brands/far-cry",
-        "https://insider-gaming.com/far-cry-7-story-details/",
-        "https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/",
-        "https://www.videogameschronicle.com/news/far-cry-7-and-a-separate-far-cry-multiplayer-game-are-reportedly-in-development/"
       ]
     },
     "farCry7GameplayTimer": {
@@ -411,11 +405,6 @@
           "description": "Complete campaign progress requires every kidnapped family member to be recovered safely.",
           "playerImpact": "Efficient routing and successful interrogations are central to reaching the complete ending."
         }
-      ],
-      "sources": [
-        "https://insider-gaming.com/far-cry-7-story-details/",
-        "https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/",
-        "https://www.gamespot.com/articles/ubisoft-wants-to-reinvent-the-far-cry-series-with-its-next-two-games-report/1100-6528543/"
       ]
     },
     "farCry7MultiplayerMaverick": {
@@ -468,14 +457,6 @@
           "blackbird": "Part of a broader Far Cry pipeline managed within Ubisoft's major-franchise development structure.",
           "maverick": "Supports Ubisoft's stated goal of making multiplayer a more prominent part of Far Cry's long-term future."
         }
-      ],
-      "sources": [
-        "https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/",
-        "https://insider-gaming.com/far-cry-multiplayer-game/",
-        "https://insider-gaming.com/far-cry-multiplayer-rebooted/",
-        "https://insider-gaming.com/ubisoft-confirms-far-cry-and-assassins-creed/",
-        "https://www.gamespot.com/articles/far-cry-multiplayer-extraction-game-has-been-rebooted-far-cry-7-could-release-in-2026-report/1100-6529853/",
-        "https://www.videogameschronicle.com/news/ubisoft-confirms-far-cry-will-more-predominantly-push-multiplayer-in-future/"
       ]
     },
     "farCry7EngineDevelopment": {
@@ -533,17 +514,6 @@
           "title": "Current Public Development Status",
           "description": "Ubisoft continues to list two Far Cry projects in development, while the final titles, launch dates, platforms, trailers, and complete gameplay specifications remain unpublished."
         }
-      ],
-      "sources": [
-        "https://www.ubisoft.com/en-us/company/about-us/our-brands/far-cry",
-        "https://insider-gaming.com/sources-far-cry-7-and-far-cry-multiplayer-in-development-at-ubisoft/",
-        "https://insider-gaming.com/far-cry-7-story-details/",
-        "https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/",
-        "https://insider-gaming.com/far-cry-multiplayer-rebooted/",
-        "https://insider-gaming.com/far-cry-7-leaks-online/",
-        "https://insider-gaming.com/ubisoft-confirms-far-cry-and-assassins-creed/",
-        "https://www.gamespot.com/articles/far-cry-multiplayer-extraction-game-has-been-rebooted-far-cry-7-could-release-in-2026-report/1100-6529853/",
-        "https://www.videogameschronicle.com/news/far-cry-7-and-a-separate-far-cry-multiplayer-game-are-reportedly-in-development/"
       ]
     }
   },
