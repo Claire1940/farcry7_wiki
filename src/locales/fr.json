@@ -1,12 +1,745 @@
 {
+  "seo": {
+    "home": {
+      "title": "Far Cry 7 - Date de sortie, bande-annonce, fuites et actualités",
+      "description": "Suivez les actualités sur la date de sortie de Far Cry 7, les bandes-annonces officielles, les plateformes, l'univers, l'histoire, les détails du multijoueur, les fuites crédibles et chaque mise à jour vérifiée d'Ubisoft.",
+      "keywords": "Far Cry 7, date de sortie, bande-annonce, fuites, actualités, plateformes, univers, multijoueur, Ubisoft",
+      "ogTitle": "Far Cry 7 - Date de sortie, bande-annonce, fuites et actualités",
+      "ogDescription": "Suivez les actualités sur la date de sortie de Far Cry 7, les bandes-annonces officielles, les plateformes, l'univers, l'histoire, les détails du multijoueur, les fuites crédibles et chaque mise à jour vérifiée d'Ubisoft.",
+      "twitterTitle": "Far Cry 7 - Date de sortie, bande-annonce, fuites et actualités",
+      "twitterDescription": "Suivez les actualités sur la date de sortie de Far Cry 7, les bandes-annonces officielles, les plateformes, l'univers, l'histoire, les détails du multijoueur, les fuites crédibles et chaque mise à jour vérifiée d'Ubisoft."
+    }
+  },
   "nav": {
     "release": "Sortie",
     "news": "Actualités",
     "media": "Médias",
     "platforms": "Plateformes",
-    "setting": "Cadre",
+    "setting": "Univers",
     "story": "Histoire",
-    "features": "Fonctionnalités",
+    "features": "Caractéristiques",
     "guide": "Guide"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Visiter Ubisoft",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles connexes",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles à venir"
+  },
+  "hero": {
+    "badge": "Jeu de tir en monde ouvert non annoncé",
+    "title": "Wiki Far Cry 7",
+    "description": "Suivez le prochain jeu Far Cry à travers les annonces vérifiées d'Ubisoft, les actualités sur la sortie, les bandes-annonces, les plateformes, l'univers, les détails de l'histoire et les rumeurs clairement identifiées.",
+    "getFreeCodesCTA": "Obtenir les dernières mises à jour",
+    "playOnSteamCTA": "Visiter Ubisoft",
+    "stats": {
+      "stat1": {
+        "value": "Non annoncé",
+        "label": "Statut officiel"
+      },
+      "stat2": {
+        "value": "À déterminer",
+        "label": "Date de sortie"
+      },
+      "stat3": {
+        "value": "À déterminer",
+        "label": "Plateformes"
+      },
+      "stat4": {
+        "value": "20M",
+        "label": "Joueurs annuels de la franchise"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Action en monde ouvert Far Cry 7",
+    "description": "Suivez la date de sortie du prochain jeu principal Far Cry, les bandes-annonces officielles, les plateformes, le cadre, l'histoire, les rapports sur le multijoueur et chaque mise à jour vérifiée d'Ubisoft."
+  },
+  "tools": {
+    "title": "Far Cry 7",
+    "titleHighlight": "Suivis",
+    "subtitle": "Tout ce dont vous avez besoin pour suivre le prochain jeu Far Cry — actualités de sortie, bandes-annonces, plateformes, histoire, cadre, gameplay, multijoueur et mises à jour de développement.",
+    "cards": [
+      {
+        "icon": "Horloge",
+        "title": "Suivi de la date de sortie",
+        "description": "Statut officiel, fenêtre de sortie, retards et déclarations d'Ubisoft"
+      },
+      {
+        "icon": "Œil",
+        "title": "Bande-annonce et révélation",
+        "description": "Bandes-annonces officielles, gameplay, captures d'écran et actualités des présentations"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Plateformes et configurations requises",
+        "description": "Consoles, configurations PC, boutiques en ligne et accès par abonnement"
+      },
+      {
+        "icon": "Utilisateurs",
+        "title": "Histoire et personnages",
+        "description": "La famille Beckett, les Sons of Truth et les rôles de la campagne"
+      },
+      {
+        "icon": "Bouclier",
+        "title": "Cadre et monde ouvert",
+        "description": "Structure de la carte, refuges, déplacements et exploration"
+      },
+      {
+        "icon": "Paramètres",
+        "title": "Gameplay et chronomètre",
+        "description": "Le chronomètre de campagne de 72 heures, les sauvetages et les interrogatoires"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Multijoueur et Maverick",
+        "description": "Rapports sur la coop et le jeu distinct Project Maverick"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Moteur et actualités",
+        "description": "Transition vers Snowdrop, studios et dernières mises à jour"
+      }
+    ]
+  },
+  "modules": {
+    "farCry7ReleaseStatus": {
+      "title": "Date de sortie de Far Cry 7 et dernières mises à jour de développement",
+      "eyebrow": "Suivi de la sortie",
+      "intro": "Ubisoft a confirmé que deux projets Far Cry sont en développement. Un titre définitif, une date de sortie et une présentation dédiée pour le prochain jeu principal n'ont pas encore été publiés.",
+      "milestones": [
+        {
+          "date": "2023-01-27",
+          "category": "Rapport de développement",
+          "title": "Deux projets Far Cry entrent en développement",
+          "description": "Des rapports ont identifié un nouveau jeu principal Far Cry et un projet multijoueur distinct axé sur l'extraction. Le projet principal est devenu connu sous le nom de Project Blackbird, tandis que le projet multijoueur utilisait le nom de code Project Maverick."
+        },
+        {
+          "date": "2024-12-18",
+          "category": "Fenêtre de sortie",
+          "title": "L'objectif de développement passe à 2026",
+          "description": "Project Blackbird et Project Maverick seraient passés d'un objectif interne de 2025 à 2026, alors qu'Ubisoft travaillait sur des changements majeurs de la formule de la série."
+        },
+        {
+          "date": "2025-03-04",
+          "category": "Mise à jour sur le développement",
+          "title": "Davantage de développeurs transférés vers Project Blackbird",
+          "description": "Ubisoft a transféré des développeurs de l'équipe redémarrée de Project Maverick vers Project Blackbird. Les playtests avaient commencé, le développement se poursuivant en vue d'un lancement en 2026."
+        },
+        {
+          "date": "2026-02-20",
+          "category": "Déclaration d'Ubisoft",
+          "title": "Ubisoft confirme deux projets Far Cry",
+          "description": "Le PDG d'Ubisoft, Yves Guillemot, a déclaré que l'entreprise avait deux projets Far Cry prometteurs en développement sous la structure nouvellement organisée de Vantage Studios."
+        },
+        {
+          "date": "2026-07",
+          "category": "Statut actuel",
+          "title": "La date de sortie n'a pas été publiée",
+          "description": "Ubisoft n'a pas publié de page produit dédiée à Far Cry 7, de titre définitif, de date de lancement, d'offre de précommande ou de fenêtre de sortie officielle."
+        }
+      ]
+    },
+    "farCry7TrailerReveal": {
+      "title": "Suivi des bandes-annonces, du gameplay et des captures d'écran de Far Cry 7",
+      "eyebrow": "Suivi de la révélation",
+      "intro": "Ce suivi couvre la bande-annonce d'annonce officielle, la présentation du gameplay, les captures d'écran, les apparitions lors d'événements et les mises à jour des développeurs pour le prochain jeu Far Cry. Les vidéos utilisant des séquences créées par des fans, des extraits modifiés de Far Cry ou des bandes-annonces conceptuelles ne font pas partie de la campagne de révélation officielle d'Ubisoft.",
+      "items": [
+        {
+          "title": "Bande-annonce d'annonce officielle",
+          "mediaType": "Bande-annonce",
+          "status": "Non publiée",
+          "date": "En attente",
+          "description": "Ubisoft n'a pas mis en ligne de bande-annonce d'annonce portant le nom de Far Cry 7 ou le nom de code Project Blackbird.",
+          "url": "https://www.youtube.com/user/ubisoft"
+        },
+        {
+          "title": "Révélation officielle du gameplay",
+          "mediaType": "Gameplay",
+          "status": "Non publié",
+          "date": "En attente",
+          "description": "Aucune démonstration officielle du gameplay, présentation détaillée par les développeurs ou présentation jouable n'a été publiée.",
+          "url": "https://www.youtube.com/user/ubisoft"
+        },
+        {
+          "title": "Captures d'écran et illustrations officielles",
+          "mediaType": "Images",
+          "status": "Non publiées",
+          "date": "En attente",
+          "description": "Ubisoft n'a pas publié de captures d'écran, d'illustrations de couverture, de rendus de personnages ou de logo officiel pour Far Cry 7.",
+          "url": "https://www.ubisoft.com/en-us/franchise/far-cry"
+        },
+        {
+          "title": "Deux projets Far Cry confirmés",
+          "mediaType": "Mise à jour de la franchise",
+          "status": "Publié",
+          "date": "2026-02-20",
+          "description": "Le PDG d'Ubisoft, Yves Guillemot, a confirmé que deux projets Far Cry prometteurs étaient en développement, sans révéler leurs noms définitifs ni montrer d'images.",
+          "url": "https://www.gamespot.com/articles/multiple-new-far-cry-and-assassins-creed-games-are-on-the-way-ubisoft-confirms/1100-6538310/"
+        }
+      ],
+      "sources": [
+        "https://www.youtube.com/user/ubisoft",
+        "https://www.ubisoft.com/en-us/franchise/far-cry",
+        "https://www.ubisoft.com/en-us/game/far-cry/far-cry-6/news-updates",
+        "https://www.gamespot.com/articles/multiple-new-far-cry-and-assassins-creed-games-are-on-the-way-ubisoft-confirms/1100-6538310/"
+      ]
+    },
+    "farCry7Platforms": {
+      "title": "Plateformes, configurations PC requises et disponibilité en magasin de Far Cry 7",
+      "eyebrow": "Guide des plateformes",
+      "intro": "Project Blackbird est en cours de développement en tant que prochain projet principal de Far Cry et a été associé au moteur Snowdrop d'Ubisoft. Les configurations matérielles officielles, les éditions consoles, les boutiques en ligne, les modes de performance, les fonctionnalités cross-play et la disponibilité des abonnements n'ont pas été répertoriés.",
+      "platforms": [
+        {
+          "platform": "PC Windows",
+          "availability": "Non annoncé",
+          "systemRequirements": "Les configurations minimale et recommandée n'ont pas été publiées",
+          "details": "Le CPU, le GPU, la mémoire, le stockage, le système d'exploitation, la version de DirectX, la prise en charge du ray tracing et les options d'upscaling restent non répertoriés."
+        },
+        {
+          "platform": "PlayStation 5",
+          "availability": "Non annoncé",
+          "systemRequirements": "Les spécifications de la console ne s'appliquent pas",
+          "details": "Aucune page du PlayStation Store, mode de performance, cible de résolution, amélioration PS5 Pro ou liste des fonctionnalités DualSense n'a été publiée."
+        },
+        {
+          "platform": "Xbox Series X|S",
+          "availability": "Non annoncé",
+          "systemRequirements": "Les spécifications de la console ne s'appliquent pas",
+          "details": "Aucune page du Xbox Store, cible de performance, information sur le Smart Delivery ou prise en charge du Xbox Play Anywhere n'a été publiée."
+        },
+        {
+          "platform": "PlayStation 4 et Xbox One",
+          "availability": "Non annoncé",
+          "systemRequirements": "Les spécifications de la console ne s'appliquent pas",
+          "details": "Ubisoft n'a pas répertorié de versions pour les consoles de génération précédente."
+        },
+        {
+          "platform": "Plateformes Nintendo",
+          "availability": "Non annoncé",
+          "systemRequirements": "Les spécifications de la console ne s'appliquent pas",
+          "details": "Aucune édition Nintendo, version cloud ou inscription sur le Nintendo eShop n'a été publiée."
+        },
+        {
+          "platform": "Ubisoft+ et autres abonnements",
+          "availability": "Non annoncé",
+          "systemRequirements": "Les détails de l'abonnement n'ont pas été publiés",
+          "details": "Ubisoft n'a pas annoncé d'accès à Ubisoft+, de disponibilité sur le Xbox Game Pass, de disponibilité sur le PlayStation Plus ou de prise en charge du streaming dans le cloud."
+        },
+        {
+          "platform": "Moteur de jeu",
+          "availability": "Snowdrop",
+          "systemRequirements": "Les objectifs techniques finaux n'ont pas été publiés",
+          "details": "Les rapports de développement identifient Snowdrop comme le moteur remplaçant la technologie Dunia utilisée par les récents jeux principaux de Far Cry."
+        }
+      ],
+      "sources": [
+        "https://www.ubisoft.com/en-us/franchise/far-cry",
+        "https://www.gamespot.com/articles/far-cry-multiplayer-extraction-game-has-been-rebooted-far-cry-7-could-release-in-2026-report/1100-6529853/",
+        "https://www.videogameschronicle.com/news/far-cry-7-and-a-separate-far-cry-multiplayer-game-are-reportedly-in-development/",
+        "https://www.gamespot.com/articles/ubisoft-wants-to-reinvent-the-far-cry-series-with-its-next-two-games-report/1100-6528543/"
+      ]
+    },
+    "farCry7StoryCharacters": {
+      "title": "Histoire, personnages et Sons of Truth de Far Cry 7",
+      "eyebrow": "Guide de l'histoire",
+      "intro": "La campagne annoncée suit une famille aisée prise pour cible par les Sons of Truth. Sa structure de sauvetage non linéaire permet de modifier les missions et le destin des personnages au cours de la campagne.",
+      "characters": [
+        {
+          "name": "Le personnage joueur",
+          "role": "Membre de la famille jouable",
+          "description": "Le protagoniste est un membre d'une famille aisée dont les proches ont été enlevés. L'objectif central est de localiser et de secourir les membres restants de la famille avant l'expiration du chronomètre de la campagne."
+        },
+        {
+          "name": "La famille enlevée",
+          "role": "Cibles de sauvetage principales",
+          "description": "Les membres de la famille peuvent être secourus dans différents ordres au cours de la campagne non linéaire. Leur survie affecte l'histoire, et le sauvetage de chaque membre de la famille est lié à la complétion totale de la campagne."
+        },
+        {
+          "name": "Sons of Truth",
+          "role": "Organisation antagoniste",
+          "description": "Les Sons of Truth est l'organisation responsable de l'enlèvement de la famille du protagoniste. L'objectif plus large de la campagne est de retrouver les captifs et de démanteler le groupe."
+        },
+        {
+          "name": "Cibles d'interrogatoire",
+          "role": "Sources d'information ennemies",
+          "description": "Les ennemis peuvent être interrogés pour obtenir des informations sur les membres de la famille disparus. Les résultats des interrogatoires varient car les cibles peuvent fournir des informations, garder le silence, donner de fausses directions ou s'échapper."
+        },
+        {
+          "name": "Chronomètre de la campagne",
+          "role": "Mécanique narrative",
+          "description": "La campagne de sauvetage a été décrite comme durant 72 heures dans le jeu, ce qui équivaut à environ 24 heures en temps réel. Entrer dans une planque met le chronomètre en pause pendant que le joueur se prépare pour la prochaine opération."
+        },
+        {
+          "name": "Antagoniste principal",
+          "role": "Non nommé",
+          "description": "Aucun chef individuel ou méchant principal n'a été nommé. Les Sons of Truth restent le principal antagoniste identifié dans les détails actuels de l'histoire."
+        },
+        {
+          "name": "Cillian Murphy",
+          "role": "Ne fait pas partie du casting annoncé",
+          "description": "La source à l'origine des images qui ont déclenché les spéculations sur le casting a déclaré que l'image de Cillian Murphy ne signifiait pas que l'acteur apparaîtrait dans Far Cry 7."
+        }
+      ],
+      "sources": [
+        "https://insider-gaming.com/far-cry-7-story-details/",
+        "https://insider-gaming.com/far-cry-7-cillian-murphy-debunk/",
+        "https://www.gamespot.com/articles/ubisoft-wants-to-reinvent-the-far-cry-series-with-its-next-two-games-report/1100-6528543/"
+      ]
+    },
+    "farCry7SettingMap": {
+      "title": "Carte, cadre et structure du monde ouvert de Far Cry 7",
+      "eyebrow": "Monde et exploration",
+      "intro": "Project Blackbird est conçu comme une campagne en monde ouvert non linéaire articulée autour du sauvetage des membres de la famille Beckett. Ubisoft n'a pas publié le nom définitif du pays, de la région ou de la carte, tandis que la nature sauvage de l'Alaska décrite dans les articles précédents appartient au jeu multijoueur distinct Project Maverick.",
+      "faqs": [
+        {
+          "title": "Cadre principal du Project Blackbird",
+          "summary": "La campagne principale suit une famille aisée enlevée par une secte conspirationniste liée à des expériences hallucinogènes.",
+          "details": [
+            "L'histoire jouable est centrée sur les membres de la famille Beckett.",
+            "Le groupe adverse a été décrit comme une secte conspirationniste.",
+            "Les activités de la secte comprennent des expériences impliquant des hallucinogènes, des animaux et des enfants.",
+            "Ubisoft n'a pas publié de nom de carte officiel, de pays ou de configuration complète du monde."
+          ]
+        },
+        {
+          "title": "Carte de sauvetage non linéaire",
+          "summary": "Les membres de la famille peuvent être recherchés dans différents ordres, transformant le monde ouvert en un ensemble d'itinéraires de sauvetage connectés plutôt qu'en un chemin de mission fixe unique.",
+          "details": [
+            "Les objectifs de sauvetage n'ont pas besoin d'être accomplis dans un ordre prédéterminé.",
+            "Différents itinéraires peuvent mener les joueurs vers différents membres de la famille.",
+            "La survie de chaque membre de la famille affecte l'issue de la campagne.",
+            "Secourir chaque membre de la famille en toute sécurité est lié à l'achèvement complet de la campagne."
+          ]
+        },
+        {
+          "title": "Planques",
+          "summary": "Les planques sont des lieux stratégiques importants car y entrer met en pause le compte à rebours de la campagne.",
+          "details": [
+            "Le compte à rebours de 72 heures en jeu s'arrête à l'intérieur des planques.",
+            "Les planques offrent des pauses protégées entre les objectifs de sauvetage.",
+            "Les joueurs peuvent utiliser ces lieux pour gérer leur temps avant de retourner dans le monde ouvert."
+          ]
+        },
+        {
+          "title": "Traversée et déplacements",
+          "summary": "Le système de déplacement a été étendu pour permettre une exploration plus rapide et plus tactique.",
+          "details": [
+            "Le sprint tactique fait partie de la conception mise à jour des déplacements.",
+            "La glissade permet des déplacements plus rapides à travers les zones de combat.",
+            "Le franchissement étend la manière dont les joueurs traversent les obstacles et les structures.",
+            "La refonte des déplacements partage des technologies développées lors de la production commune initiale des deux projets."
+          ]
+        },
+        {
+          "title": "Butin et inventaire",
+          "summary": "Project Blackbird met davantage l'accent sur la collecte et la gestion d'objets lors de l'exploration du monde.",
+          "details": [
+            "Le pillage de butin joue un rôle plus important dans la structure axée sur la survie de la campagne.",
+            "Le système d'inventaire soutient la course contre la montre du joueur pour secourir la famille kidnappée.",
+            "Plusieurs concepts d'inventaire proviennent du développement partagé avec Project Maverick."
+          ]
+        },
+        {
+          "title": "La nature sauvage de l'Alaska de Project Maverick",
+          "summary": "L'environnement enneigé de l'Alaska est associé au projet multijoueur indépendant plutôt qu'à la campagne principale de Project Blackbird.",
+          "details": [
+            "Le monde de Maverick est basé sur une nature sauvage fictive de l'Alaska.",
+            "L'environnement comprend des conditions météorologiques extrêmes et une faune dangereuse.",
+            "Les joueurs affrontent des soldats contrôlés par l'IA et d'autres joueurs humains.",
+            "Les conceptions précédentes incluaient la collecte de ressources, des cachettes, de l'artisanat de survie et des zones d'extraction."
+          ]
+        }
+      ]
+    },
+    "farCry7GameplayTimer": {
+      "title": "Chronomètre de gameplay, sauvetages et interrogatoires de Far Cry 7",
+      "eyebrow": "Mécaniques de campagne",
+      "intro": "La campagne est structurée autour du sauvetage de la famille Beckett avant la fin du temps imparti. Les joueurs peuvent choisir les cibles de sauvetage à poursuivre, mettre le chrono en pause dans les planques et interroger les ennemis pour localiser les membres de la famille disparus.",
+      "mechanics": [
+        {
+          "name": "Limite de temps de la campagne",
+          "value": "72 heures de jeu",
+          "description": "La campagne de sauvetage complète se déroule sur un compte à rebours de 72 heures en jeu.",
+          "playerImpact": "Les joueurs doivent équilibrer l'exploration, le combat, les interrogations et les objectifs de sauvetage par rapport au temps restant."
+        },
+        {
+          "name": "Durée en temps réel",
+          "value": "24 heures réelles",
+          "description": "L'horloge de 72 heures en jeu correspond à environ 24 heures de temps de jeu réel.",
+          "playerImpact": "Le temps continue de s'écouler tant que le joueur opère en dehors des planques protégées."
+        },
+        {
+          "name": "Affichage de la montre-bracelet",
+          "value": "Compte à rebours visible",
+          "description": "Le temps restant est représenté par une montre portée par le personnage du joueur.",
+          "playerImpact": "Les joueurs peuvent suivre l'horloge de la campagne directement tout en se déplaçant dans le monde."
+        },
+        {
+          "name": "Pause en planque",
+          "value": "Chronomètre en pause",
+          "description": "Entrer dans un refuge arrête le compte à rebours jusqu'à ce que le joueur retourne dans le monde actif.",
+          "playerImpact": "Les refuges permettent de planifier le prochain itinéraire de sauvetage sans perdre de temps de campagne."
+        },
+        {
+          "name": "Objectifs non linéaires",
+          "value": "Ordre de sauvetage libre",
+          "description": "Les membres de la famille enlevés n'ont pas à être secourus dans un ordre fixe.",
+          "playerImpact": "Les joueurs peuvent prioriser les cibles en fonction de leur emplacement, des informations disponibles et du temps restant."
+        },
+        {
+          "name": "Sort de la famille",
+          "value": "Conséquences modifiant l'histoire",
+          "description": "Les membres de la famille peuvent survivre ou périr selon la progression et les choix du joueur.",
+          "playerImpact": "Les sauvetages ratés modifient l'issue de la campagne et empêchent de sauver toute la famille."
+        },
+        {
+          "name": "Réponses aux interrogatoires",
+          "value": "Vérité, mensonges, silence ou fuite",
+          "description": "Les ennemis interrogés peuvent fournir des informations utiles, donner de fausses réponses, refuser de coopérer ou s'enfuir.",
+          "playerImpact": "Les joueurs doivent décider si une information est utile avant de consacrer un temps limité à suivre une piste."
+        },
+        {
+          "name": "Objectif de complétion totale",
+          "value": "Secourir tous les membres de la famille",
+          "description": "Pour terminer entièrement la campagne, chaque membre de la famille enlevé doit être récupéré sain et sauf.",
+          "playerImpact": "Une planification d'itinéraire efficace et des interrogatoires réussis sont essentiels pour atteindre la fin complète."
+        }
+      ]
+    },
+    "farCry7MultiplayerMaverick": {
+      "title": "Multijoueur, coop et Project Maverick de Far Cry 7",
+      "eyebrow": "Blackbird vs. Maverick",
+      "intro": "Les deux projets Far Cry sont issus d'une production commune appelée Talisker avant de devenir des jeux distincts. Blackbird se concentre sur la campagne chronométrée de sauvetage de la famille, tandis que Maverick a été développé autour de l'extraction, de la survie, de la compétition entre joueurs et du jeu en équipe.",
+      "comparisons": [
+        {
+          "feature": "Rôle du projet",
+          "blackbird": "Le prochain jeu principal de la série Far Cry et le projet communément appelé Far Cry 7.",
+          "maverick": "Un jeu Far Cry distinct axé sur le multijoueur."
+        },
+        {
+          "feature": "Expérience principale",
+          "blackbird": "Une campagne en monde ouvert non linéaire consistant à secourir la famille Beckett enlevée.",
+          "maverick": "Un jeu de tir de survie basé sur l'extraction, articulé autour de l'infiltration dans une région dangereuse, de la collecte de ressources et d'une fuite en toute sécurité."
+        },
+        {
+          "feature": "Cadre",
+          "blackbird": "Aucun emplacement final pour la carte n'a été annoncé publiquement.",
+          "maverick": "Une nature sauvage et fictive de l'Alaska, avec des conditions météo extrêmes, des animaux sauvages, des soldats contrôlés par l'IA et des joueurs rivaux."
+        },
+        {
+          "feature": "Structure multijoueur",
+          "blackbird": "Les grandes lignes actuelles du gameplay se concentrent sur la campagne de sauvetage principale.",
+          "maverick": "Les conceptions antérieures prenaient en charge le jeu en solo et des sessions en équipe où les coéquipiers partageaient un repaire et le butin stocké."
+        },
+        {
+          "feature": "Objectif principal",
+          "blackbird": "Secourir les membres de la famille avant l'expiration du compte à rebours de 72 heures dans le jeu.",
+          "maverick": "Rassembler des équipements, remplir des contrats, survivre aux affrontements et s'extraire avec les ressources collectées."
+        },
+        {
+          "feature": "Mort et progression",
+          "blackbird": "La perte de membres de la famille et les sauvetages ratés affectent l'histoire de la campagne.",
+          "maverick": "La conception d'extraction précédente supprimait l'équipement transporté, les atouts et les niveaux après la mort, tout en préservant les objets stockés dans le repaire."
+        },
+        {
+          "feature": "Systèmes partagés",
+          "blackbird": "Utilise le sprint tactique, la glissade, le franchissement d'obstacles, le pillage étendu et la gestion de l'inventaire.",
+          "maverick": "Utilise des systèmes connexes de déplacement, de pillage, de survie, d'inventaire et de collecte de ressources."
+        },
+        {
+          "feature": "Direction du développement",
+          "blackbird": "Les tests de jeu ont commencé tandis que du personnel supplémentaire a été transféré pour maintenir la progression du projet principal.",
+          "maverick": "Est retourné au prototypage après un reboot interne et a continué en tant que l'un des deux projets Far Cry d'Ubisoft."
+        },
+        {
+          "feature": "Stratégie multijoueur d'Ubisoft",
+          "blackbird": "Fait partie d'un pipeline Far Cry plus large géré au sein de la structure de développement des franchises majeures d'Ubisoft.",
+          "maverick": "Soutient l'objectif déclaré d'Ubisoft de faire du multijoueur une partie plus importante de l'avenir à long terme de Far Cry."
+        }
+      ]
+    },
+    "farCry7EngineDevelopment": {
+      "title": "Développement de Far Cry 7, moteur Snowdrop et dernières mises à jour",
+      "eyebrow": "Chronologie du développement",
+      "intro": "Project Blackbird est dirigé par Ubisoft Montréal avec le soutien de plusieurs studios d'Ubisoft. Le développement a notamment vu l'abandon du moteur Dunia, la refonte des systèmes de déplacement et d'inventaire, des modifications du calendrier interne et le transfert de ressources depuis Project Maverick.",
+      "updates": [
+        {
+          "date": "26 janvier 2023",
+          "title": "Blackbird et Maverick émergent comme des projets distincts",
+          "description": "Le prochain jeu principal de Far Cry est devenu connu sous le nom de Project Blackbird, tandis que le projet multijoueur autonome est devenu Project Maverick. Tous deux sont nés d'une production commune antérieure appelée Talisker."
+        },
+        {
+          "date": "27 septembre 2023",
+          "title": "Détails sur le moteur Snowdrop et les systèmes de la campagne",
+          "description": "Les informations de développement ont lié Blackbird à Ubisoft Montréal et au moteur Snowdrop. La même mise à jour a décrit le minuteur de 72 heures en jeu, les pauses dans les planques, les sauvetages non linéaires et le système d'interrogatoire."
+        },
+        {
+          "date": "16 décembre 2024",
+          "title": "Refonte des déplacements et de l'inventaire",
+          "description": "Blackbird et Maverick ont été décrits comme s'éloignant de la formule traditionnelle de Far Cry avec du sprint tactique, des glissades, du franchissement d'obstacles, un système de pillage mis à jour et des systèmes d'inventaire élargis."
+        },
+        {
+          "date": "16 décembre 2024",
+          "title": "Le calendrier interne repoussé au-delà de 2025",
+          "description": "Les objectifs de développement pour les deux projets sont passés de 2025 à 2026, Ubisoft faisant face à la complexité de la production."
+        },
+        {
+          "date": "4 mars 2025",
+          "title": "Le reboot de Maverick envoie des ressources vers Blackbird",
+          "description": "Project Maverick est retourné au prototypage, tandis que les développeurs de son équipe technique et d'Ubisoft Berlin ont été réaffectés à Blackbird."
+        },
+        {
+          "date": "4 mars 2025",
+          "title": "Tests de jeu en cours pour Blackbird",
+          "description": "Project Blackbird est entré en phase de test de jeu avec ses systèmes de gameplay et de déplacement repensés. Les équipes de soutien comprenaient Ubisoft Montréal, Ubisoft Berlin, Ubisoft Annecy, Red Storm et le groupe technique Talisker."
+        },
+        {
+          "date": "11 septembre 2025",
+          "title": "Ubisoft élargit la direction multijoueur de Far Cry",
+          "description": "Le PDG d'Ubisoft, Yves Guillemot, a déclaré que le multijoueur occuperait une place plus importante dans Far Cry afin que les joueurs puissent rester engagés plus longtemps."
+        },
+        {
+          "date": "13 novembre 2025",
+          "title": "La famille Beckett et le minuteur restent présents dans les documents de développement",
+          "description": "Les documents de développement liés au projet ont continué à faire référence à la famille Beckett et au minuteur de sauvetage de 24 heures réelles."
+        },
+        {
+          "date": "20 février 2026",
+          "title": "Ubisoft confirme deux projets Far Cry",
+          "description": "Yves Guillemot a confirmé qu'Ubisoft avait deux projets Far Cry en développement. Project Blackbird restait le titre principal, tandis que Maverick se poursuivait en tant que projet axé sur le multijoueur."
+        },
+        {
+          "date": "Juillet 2026",
+          "title": "État actuel du développement public",
+          "description": "Ubisoft continue de répertorier deux projets Far Cry en développement, tandis que les titres définitifs, les dates de sortie, les plateformes, les bandes-annonces et les spécifications complètes de gameplay restent non publiés."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Questions fréquemment",
+    "titleHighlight": "posées",
+    "subtitle": "Tout ce que vous devez savoir sur Far Cry 7",
+    "questions": [
+      {
+        "question": "Qu'est-ce que Far Cry 7 ?",
+        "answer": "Far Cry 7 est le nom non officiel du prochain jeu principal de la série Far Cry, actuellement en développement chez Ubisoft sous le nom de code Project Blackbird. Ubisoft n'a pas encore publié son titre définitif, sa date de sortie ou sa bande-annonce officielle."
+      },
+      {
+        "question": "Quelle est la date de sortie de Far Cry 7 ?",
+        "answer": "Ubisoft n'a pas annoncé de date de sortie officielle pour Far Cry 7. Les rapports de développement ont déplacé la fenêtre prévue de 2025 à 2026, et la date de lancement finale reste non publiée."
+      },
+      {
+        "question": "Sur quelles plateformes Far Cry 7 sera-t-il disponible ?",
+        "answer": "Les plateformes de Far Cry 7 n'ont pas été confirmées par Ubisoft. Le jeu devrait cibler les consoles de génération actuelle et le PC, mais aucune page de magasin officielle ni aucune spécification matérielle n'ont été publiées."
+      },
+      {
+        "question": "Quel moteur utilise Far Cry 7 ?",
+        "answer": "Les rapports de développement indiquent que Far Cry 7 (Project Blackbird) fonctionne sur le moteur Snowdrop d'Ubisoft, s'éloignant du moteur Dunia utilisé par les précédents jeux principaux de Far Cry."
+      },
+      {
+        "question": "Existe-t-il une bande-annonce officielle pour Far Cry 7 ?",
+        "answer": "Non. Ubisoft n'a pas publié de bande-annonce d'annonce officielle ni de présentation de gameplay pour Far Cry 7. Toutes les bandes-annonces circulant actuellement sont des vidéos conceptuelles réalisées par des fans, et non du contenu officiel d'Ubisoft."
+      },
+      {
+        "question": "Qu'est-ce que Project Maverick dans Far Cry 7 ?",
+        "answer": "Project Maverick est un jeu Far Cry distinct axé sur le multijoueur, développé parallèlement à Project Blackbird. Il ne s'agit pas de Far Cry 7, mais d'une partie de la stratégie à deux projets de Far Cry chez Ubisoft, aux côtés de la campagne principale."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Restez informé de chaque mise à jour de Far Cry 7",
+    "description": "Suivez les annonces vérifiées d'Ubisoft, les actualités sur la sortie et les bandes-annonces. Rejoignez la communauté r/farcry pour discuter de chaque fuite et révélation.",
+    "joinCommunity": "Rejoindre r/farcry",
+    "joinGame": "Visiter Ubisoft"
+  },
+  "footer": {
+    "title": "Wiki Far Cry 7",
+    "description": "Votre hub non officiel de suivi des actualités sur la date de sortie de Far Cry 7, des bandes-annonces, des plateformes, du cadre, de l'histoire et des rumeurs clairement identifiées.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Mentions légales",
+    "discord": "Reddit",
+    "twitter": "X / Twitter",
+    "steamCommunity": "YouTube",
+    "steamStore": "Ubisoft Far Cry",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Far Cry 7 Wiki. Non affilié à Ubisoft.",
+    "disclaimer": "Site de suivi non officiel créé par des fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Date de sortie de Far Cry 7",
+      "description": "Suivez la date de sortie officielle de Far Cry 7, la confirmation par Ubisoft que deux projets sont en développement, et chaque fenêtre de lancement signalée pour Project Blackbird.",
+      "metaTitle": "Date de sortie de Far Cry 7 - Statut officiel et fenêtre de lancement",
+      "metaDescription": "Suivez la date de sortie de Far Cry 7, le statut officiel d'Ubisoft, le calendrier de développement de Project Blackbird et chaque fenêtre de lancement signalée.",
+      "categoryLabel": "DATE DE SORTIE",
+      "whatIs": "Quelle est la date de sortie de Far Cry 7 ?",
+      "whatIsDescription": "Le statut public actuel du lancement du prochain jeu principal Far Cry, y compris la confirmation par Ubisoft que deux projets Far Cry sont en développement et le calendrier de développement derrière Project Blackbird.",
+      "why": "Pourquoi suivre la date de sortie ?",
+      "whySteps": {
+        "step1Title": "Voir le statut officiel",
+        "step1Description": "Ubisoft a confirmé deux projets Far Cry en développement sans date de lancement publiée",
+        "step2Title": "Suivre la chronologie",
+        "step2Description": "Suivez comment la fenêtre attendue est passée de 2025 à 2026 au fil du développement",
+        "step3Title": "Découvrir les nouvelles fenêtres",
+        "step3Description": "Obtenez chaque fenêtre de sortie signalée et chaque déclaration d'Ubisoft dès sa publication"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les articles sur la date de sortie"
+    },
+    "news": {
+      "title": "Actualités de Far Cry 7",
+      "description": "Les dernières actualités de Far Cry 7, les mises à jour officielles d'Ubisoft, les fuites suivies par la communauté, les rumeurs et les rapports de développement vérifiés pour Project Blackbird.",
+      "metaTitle": "Actualités de Far Cry 7 - Mises à jour officielles, fuites et rumeurs",
+      "metaDescription": "Lisez les dernières actualités de Far Cry 7, les mises à jour officielles d'Ubisoft, les fuites suivies par la communauté, les rumeurs et les rapports de développement pour Project Blackbird.",
+      "categoryLabel": "ACTUALITÉS",
+      "whatIs": "Que sont les actualités de Far Cry 7 ?",
+      "whatIsDescription": "Couverture des annonces officielles d'Ubisoft, des rapports financiers et des interviews, ainsi que des fuites et rumeurs de la communauté clairement identifiées pour le prochain jeu principal Far Cry.",
+      "why": "Pourquoi suivre les actualités ?",
+      "whySteps": {
+        "step1Title": "Lire les mises à jour officielles",
+        "step1Description": "Annonces d'Ubisoft, appels sur les résultats et déclarations confirmées sur Far Cry",
+        "step2Title": "Suivre les fuites de la communauté",
+        "step2Description": "Rumeurs et rapports sur Project Blackbird, clairement séparés des faits confirmés",
+        "step3Title": "Rester à jour",
+        "step3Description": "Recevez chaque mise à jour de développement à mesure que Project Blackbird progresse vers sa sortie"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les articles d'actualité"
+    },
+    "media": {
+      "title": "Médias de Far Cry 7",
+      "description": "Regardez et explorez les bandes-annonces, les présentations de gameplay, les captures d'écran, les concepts arts et les médias officiels de Far Cry 7 alors qu'Ubisoft dévoile le prochain jeu principal Far Cry.",
+      "metaTitle": "Médias de Far Cry 7 - Bandes-annonces, gameplay et captures d'écran",
+      "metaDescription": "Parcourez les bandes-annonces, les présentations de gameplay, les captures d'écran, les concepts arts et les médias officiels de Far Cry 7 alors qu'Ubisoft dévoile Project Blackbird.",
+      "categoryLabel": "MÉDIAS",
+      "whatIs": "Que sont les médias de Far Cry 7 ?",
+      "whatIsDescription": "Un outil de suivi pour les bandes-annonces officielles, les présentations de gameplay, les captures d'écran et les illustrations clés, avec les concepts non officiels et les vidéos créées par les fans clairement identifiés.",
+      "why": "Pourquoi suivre les médias ?",
+      "whySteps": {
+        "step1Title": "Regarder les bandes-annonces officielles",
+        "step1Description": "Découvrez la bande-annonce d'annonce et la présentation de gameplay dès qu'Ubisoft les publiera",
+        "step2Title": "Voir les captures d'écran",
+        "step2Description": "Affichez les captures d'écran officielles, les illustrations clés et les rendus de personnages à mesure de leur sortie",
+        "step3Title": "Repérer les vidéos non officielles",
+        "step3Description": "Bandes-annonces de concept créées par les fans et fuites clairement séparées des médias officiels"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les articles médias"
+    },
+    "platforms": {
+      "title": "Plateformes de Far Cry 7",
+      "description": "Retrouvez toutes les plateformes confirmées pour Far Cry 7, y compris la PS5, la Xbox Series X|S, le PC, Steam, les boutiques en ligne, les services d'abonnement et les détails du cross-play.",
+      "metaTitle": "Plateformes de Far Cry 7 - PS5, Xbox, PC et Steam",
+      "metaDescription": "Découvrez les plateformes de Far Cry 7, y compris la PS5, la Xbox Series X|S, le PC, Steam, les boutiques en ligne, les abonnements et le cross-play au fur et à mesure de la confirmation des détails.",
+      "categoryLabel": "PLATEFORMES",
+      "whatIs": "Quelles sont les plateformes de Far Cry 7 ?",
+      "whatIsDescription": "Les consoles, boutiques PC, services d'abonnement et fonctionnalités cross-plateformes attendus pour le prochain jeu principal de la série Far Cry, basés sur les détails confirmés et rapportés.",
+      "why": "Pourquoi vérifier les plateformes ?",
+      "whySteps": {
+        "step1Title": "Voir les consoles",
+        "step1Description": "PS5, Xbox Series X|S et prise en charge attendue des consoles de génération actuelle",
+        "step2Title": "Vérifier le PC et Steam",
+        "step2Description": "Configurations PC requises, boutiques en ligne et disponibilité sur Steam pour Project Blackbird",
+        "step3Title": "Trouver les abonnements",
+        "step3Description": "Ubisoft+, Game Pass et autres détails sur les abonnements et le cross-play"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les articles sur les plateformes"
+    },
+    "setting": {
+      "title": "Cadre de Far Cry 7",
+      "description": "Explorez le cadre rapporté de Far Cry 7, la structure de la carte, les lieux faisant l'objet de rumeurs, la conception du monde ouvert et le monde de sauvetage non linéaire de Project Blackbird.",
+      "metaTitle": "Cadre de Far Cry 7 - Carte, lieux et monde ouvert",
+      "metaDescription": "Découvrez le cadre de Far Cry 7, la structure de la carte, les lieux faisant l'objet de rumeurs, les régions et la conception du monde ouvert non linéaire de Project Blackbird.",
+      "categoryLabel": "CADRE",
+      "whatIs": "Quel est le cadre de Far Cry 7 ?",
+      "whatIsDescription": "Le monde rapporté, la structure de la carte et les lieux faisant l'objet de rumeurs pour le prochain jeu principal de la série Far Cry, y compris la façon dont les itinéraires de sauvetage non linéaires relient le monde ouvert.",
+      "why": "Pourquoi explorer le cadre ?",
+      "whySteps": {
+        "step1Title": "En savoir plus sur les lieux",
+        "step1Description": "Cadres rumeurs, régions et conception du monde derrière Project Blackbird",
+        "step2Title": "Comprendre la carte",
+        "step2Description": "Comment la carte non linéaire relie les itinéraires de sauvetage et les refuges",
+        "step3Title": "Séparer Maverick",
+        "step3Description": "La nature sauvage de l'Alaska appartient à Project Maverick, pas au jeu principal"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les articles sur le cadre"
+    },
+    "story": {
+      "title": "Histoire de Far Cry 7",
+      "description": "Suivez l'histoire rapportée de Far Cry 7, la famille Beckett, les antagonistes des Sons of Truth, le casting faisant l'objet de rumeurs, et comment les sauvetages non linéaires façonnent la campagne.",
+      "metaTitle": "Histoire de Far Cry 7 - Famille Beckett, Sons of Truth et casting",
+      "metaDescription": "Découvrez l'histoire de Far Cry 7, l'enlèvement de la famille Beckett, les antagonistes des Sons of Truth, le casting et le méchant faisant l'objet de rumeurs, ainsi que les issues non linéaires de la campagne.",
+      "categoryLabel": "HISTOIRE",
+      "whatIs": "Quelle est l'histoire de Far Cry 7 ?",
+      "whatIsDescription": "Les prémices de la campagne, les personnages, l'organisation antagoniste et les rumeurs de casting signalées pour le prochain jeu principal Far Cry, y compris la façon dont les choix de sauvetage modifient le dénouement.",
+      "why": "Pourquoi suivre l'histoire ?",
+      "whySteps": {
+        "step1Title": "Rencontrez la famille",
+        "step1Description": "La famille Beckett et les objectifs centraux de sauvetage",
+        "step2Title": "Découvrez le méchant",
+        "step2Description": "Les Sons of Truth et l'antagoniste principal présumé",
+        "step3Title": "Suivez le casting",
+        "step3Description": "Les rumeurs sur les acteurs et les rapports de casting, y compris la rumeur démentie concernant Cillian Murphy"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les articles sur l'histoire"
+    },
+    "features": {
+      "title": "Fonctionnalités de Far Cry 7",
+      "description": "Découvrez les fonctionnalités signalées de Far Cry 7, notamment le minuteur de campagne de 72 heures, le multijoueur et la coop, le crossplay, le moteur Snowdrop et les systèmes d'IA.",
+      "metaTitle": "Fonctionnalités de Far Cry 7 - Minuteur, multijoueur, coop et moteur",
+      "metaDescription": "Explorez les fonctionnalités de Far Cry 7 : le minuteur de 72 heures, le multijoueur, la coop, le crossplay, le moteur Snowdrop et l'IA avancée pour Project Blackbird.",
+      "categoryLabel": "FONCTIONNALITÉS",
+      "whatIs": "Quelles sont les fonctionnalités de Far Cry 7 ?",
+      "whatIsDescription": "Les systèmes de gameplay et la technologie signalés pour le prochain jeu principal Far Cry, couvrant la campagne chronométrée, les modes multijoueurs, le moteur et l'IA des ennemis.",
+      "why": "Pourquoi découvrir les fonctionnalités ?",
+      "whySteps": {
+        "step1Title": "Comprenez le minuteur",
+        "step1Description": "L'horloge en jeu de 72 heures et les pauses dans les refuges qui rythment la campagne",
+        "step2Title": "Découvrez le multijoueur",
+        "step2Description": "La coop, le crossplay et le jeu multijoueur distinct Project Maverick",
+        "step3Title": "Découvrez la technologie",
+        "step3Description": "Le moteur Snowdrop et l'IA d'interrogatoire avancée signalée"
+      },
+      "featured": "En vedette et essentiels",
+      "all": "Tous les articles sur les fonctionnalités"
+    },
+    "guide": {
+      "title": "Guides Far Cry 7",
+      "description": "Guides pratiques de Far Cry 7 couvrant ce que nous savons, la configuration requise, les meilleures armes, les soluces et les stratégies de survie pour le prochain jeu principal.",
+      "metaTitle": "Guides Far Cry 7 - Soluces, armes et configuration requise",
+      "metaDescription": "Lisez les guides Far Cry 7 sur ce que nous savons, la configuration requise, les meilleures armes, les soluces et les stratégies de survie pour Project Blackbird.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "Que sont les guides Far Cry 7 ?",
+      "whatIsDescription": "Guides pratiques pour le prochain jeu principal Far Cry, comprenant un aperçu de tout ce qui est connu à ce jour, la configuration PC requise, l'arsenal attendu et les soluces de la campagne.",
+      "why": "Pourquoi utiliser ces guides ?",
+      "whySteps": {
+        "step1Title": "Découvrez ce que nous savons",
+        "step1Description": "Un résumé clair de chaque détail confirmé et signalé de Far Cry 7",
+        "step2Title": "Vérifiez la configuration requise",
+        "step2Description": "Les spécifications PC attendues et les objectifs techniques pour Project Blackbird",
+        "step3Title": "Planifiez votre partie",
+        "step3Description": "Guides, meilleures armes et stratégies de survie pour la campagne"
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides"
+    }
   }
 }
