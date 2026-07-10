@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Visit Ubisoft",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,728 +52,529 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Far Cry 7 Open-World Action",
+    "description": "Follow the next mainline Far Cry game's release date, official trailers, platforms, setting, story, multiplayer reports, and every verified Ubisoft update."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Far Cry 7",
+    "titleHighlight": "Trackers",
+    "subtitle": "Everything you need to follow the next Far Cry game — release news, trailers, platforms, story, setting, gameplay, multiplayer, and development updates.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Clock",
+        "title": "Release Date Tracker",
+        "description": "Official status, release window, delays, and Ubisoft statements"
       },
       {
         "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Trailer & Reveal",
+        "description": "Official trailers, gameplay, screenshots, and showcase news"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Platforms & Requirements",
+        "description": "Consoles, PC specs, storefronts, and subscription access"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Users",
+        "title": "Story & Characters",
+        "description": "The Beckett family, the Sons of Truth, and campaign roles"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Setting & Open World",
+        "description": "Map structure, safehouses, traversal, and exploration"
+      },
+      {
+        "icon": "Settings",
+        "title": "Gameplay & Timer",
+        "description": "The 72-hour campaign clock, rescues, and interrogations"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Multiplayer & Maverick",
+        "description": "Co-op reports and the separate Project Maverick game"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Engine & News",
+        "description": "Snowdrop transition, studios, and latest updates"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
+    "farCry7ReleaseStatus": {
+      "title": "Far Cry 7 Release Date and Latest Development Updates",
+      "eyebrow": "Release Tracker",
+      "intro": "Ubisoft has confirmed that two Far Cry projects are in development. A final title, release date, and dedicated reveal for the next mainline game have not been published.",
       "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+        {
+          "date": "2023-01-27",
+          "category": "Development Report",
+          "title": "Two Far Cry Projects Enter Development",
+          "description": "Reports identified a new mainline Far Cry game and a separate extraction-focused multiplayer project. The mainline project became known as Project Blackbird, while the multiplayer project used the codename Project Maverick."
+        },
+        {
+          "date": "2024-12-18",
+          "category": "Release Window",
+          "title": "Development Target Moves to 2026",
+          "description": "Project Blackbird and Project Maverick were reported to have moved from an internal 2025 target to 2026 as Ubisoft worked on major changes to the series formula."
+        },
+        {
+          "date": "2025-03-04",
+          "category": "Development Update",
+          "title": "More Developers Move to Project Blackbird",
+          "description": "Ubisoft transferred developers from the rebooted Project Maverick team to Project Blackbird. Playtesting had begun, with development continuing toward a 2026 launch."
+        },
+        {
+          "date": "2026-02-20",
+          "category": "Ubisoft Statement",
+          "title": "Ubisoft Confirms Two Far Cry Projects",
+          "description": "Ubisoft CEO Yves Guillemot stated that the company had two promising Far Cry projects in development under the newly structured Vantage Studios organization."
+        },
+        {
+          "date": "2026-07",
+          "category": "Current Status",
+          "title": "Release Date Has Not Been Published",
+          "description": "Ubisoft has not released a dedicated Far Cry 7 product page, final title, launch date, preorder listing, or official release window."
+        }
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "farCry7TrailerReveal": {
+      "title": "Far Cry 7 Trailer, Gameplay and Screenshot Tracker",
+      "eyebrow": "Reveal Watch",
+      "intro": "This tracker covers the official announcement trailer, gameplay presentation, screenshots, showcase appearances, and developer updates for the next Far Cry game. Videos using fan-made footage, edited Far Cry clips, or concept trailers are not part of Ubisoft's official reveal campaign.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Official Announcement Trailer",
+          "mediaType": "Trailer",
+          "status": "Not released",
+          "date": "Pending",
+          "description": "Ubisoft has not uploaded an announcement trailer carrying the Far Cry 7 name or Project Blackbird codename.",
+          "url": "https://www.youtube.com/user/ubisoft"
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Official Gameplay Reveal",
+          "mediaType": "Gameplay",
+          "status": "Not released",
+          "date": "Pending",
+          "description": "No official gameplay demonstration, developer walkthrough, or playable presentation has been published.",
+          "url": "https://www.youtube.com/user/ubisoft"
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Official Screenshots and Key Art",
+          "mediaType": "Images",
+          "status": "Not published",
+          "date": "Pending",
+          "description": "Ubisoft has not released screenshots, cover artwork, character renders, or an official Far Cry 7 logo.",
+          "url": "https://www.ubisoft.com/en-us/franchise/far-cry"
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "title": "Two Far Cry Projects Confirmed",
+          "mediaType": "Franchise Update",
+          "status": "Published",
+          "date": "2026-02-20",
+          "description": "Ubisoft CEO Yves Guillemot confirmed that two promising Far Cry projects were in development, without revealing their final names or showing footage.",
+          "url": "https://www.gamespot.com/articles/multiple-new-far-cry-and-assassins-creed-games-are-on-the-way-ubisoft-confirms/1100-6538310/"
         }
       ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+      "sources": [
+        "https://www.youtube.com/user/ubisoft",
+        "https://www.ubisoft.com/en-us/franchise/far-cry",
+        "https://www.ubisoft.com/en-us/game/far-cry/far-cry-6/news-updates",
+        "https://www.gamespot.com/articles/multiple-new-far-cry-and-assassins-creed-games-are-on-the-way-ubisoft-confirms/1100-6538310/"
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+    "farCry7Platforms": {
+      "title": "Far Cry 7 Platforms, PC Requirements and Store Availability",
+      "eyebrow": "Platform Guide",
+      "intro": "Project Blackbird is being developed as the next mainline Far Cry project and has been associated with Ubisoft's Snowdrop engine. Official hardware requirements, console editions, storefronts, performance modes, cross-play features, and subscription availability have not been listed.",
+      "platforms": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "platform": "Windows PC",
+          "availability": "Not announced",
+          "systemRequirements": "Minimum and recommended specifications have not been published",
+          "details": "CPU, GPU, memory, storage, operating system, DirectX version, ray tracing support, and upscaling options remain unlisted."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "platform": "PlayStation 5",
+          "availability": "Not announced",
+          "systemRequirements": "Console specifications do not apply",
+          "details": "No PlayStation Store page, performance mode, resolution target, PS5 Pro enhancement, or DualSense feature list has been published."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "platform": "Xbox Series X|S",
+          "availability": "Not announced",
+          "systemRequirements": "Console specifications do not apply",
+          "details": "No Xbox Store page, performance target, Smart Delivery information, or Xbox Play Anywhere support has been published."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "platform": "PlayStation 4 and Xbox One",
+          "availability": "Not announced",
+          "systemRequirements": "Console specifications do not apply",
+          "details": "Ubisoft has not listed previous-generation console versions."
+        },
+        {
+          "platform": "Nintendo Platforms",
+          "availability": "Not announced",
+          "systemRequirements": "Console specifications do not apply",
+          "details": "No Nintendo edition, cloud version, or Nintendo eShop listing has been published."
+        },
+        {
+          "platform": "Ubisoft+ and Other Subscriptions",
+          "availability": "Not announced",
+          "systemRequirements": "Subscription details have not been published",
+          "details": "Ubisoft has not announced Ubisoft+ access, Xbox Game Pass availability, PlayStation Plus availability, or cloud streaming support."
+        },
+        {
+          "platform": "Game Engine",
+          "availability": "Snowdrop",
+          "systemRequirements": "Final technical targets have not been published",
+          "details": "Development reporting identifies Snowdrop as the engine replacing the Dunia technology used by recent mainline Far Cry games."
         }
       ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+      "sources": [
+        "https://www.ubisoft.com/en-us/franchise/far-cry",
+        "https://www.gamespot.com/articles/far-cry-multiplayer-extraction-game-has-been-rebooted-far-cry-7-could-release-in-2026-report/1100-6529853/",
+        "https://www.videogameschronicle.com/news/far-cry-7-and-a-separate-far-cry-multiplayer-game-are-reportedly-in-development/",
+        "https://www.gamespot.com/articles/ubisoft-wants-to-reinvent-the-far-cry-series-with-its-next-two-games-report/1100-6528543/"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
+    "farCry7StoryCharacters": {
+      "title": "Far Cry 7 Story, Characters and Sons of Truth",
+      "eyebrow": "Story Guide",
+      "intro": "The reported campaign follows a wealthy family targeted by the Sons of Truth. Its nonlinear rescue structure allows missions and character outcomes to change during the campaign.",
+      "characters": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "The Player Character",
+          "role": "Playable Family Member",
+          "description": "The protagonist is a member of a wealthy family whose relatives have been kidnapped. The central objective is to locate and rescue the remaining family members before the campaign timer expires."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "The Kidnapped Family",
+          "role": "Primary Rescue Targets",
+          "description": "Family members can be rescued in different orders during the nonlinear campaign. Their survival affects the story, and rescuing every family member is tied to full campaign completion."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Sons of Truth",
+          "role": "Antagonist Organization",
+          "description": "The Sons of Truth is the organization responsible for kidnapping the protagonist's family. The wider campaign objective centers on finding the captives and bringing down the group."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "Interrogation Targets",
+          "role": "Enemy Information Sources",
+          "description": "Enemies can be questioned for information about missing family members. Interrogation outcomes vary because targets may provide information, remain silent, give false directions, or escape."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "Campaign Timer",
+          "role": "Story Mechanic",
+          "description": "The rescue campaign has been described as 72 in-game hours, equivalent to approximately 24 real-time hours. Entering a safehouse pauses the timer while the player prepares for the next operation."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "Main Villain",
+          "role": "Not Named",
+          "description": "No individual leader or primary villain has been named. The Sons of Truth remains the central antagonist identified in current story details."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "Cillian Murphy",
+          "role": "Not Part of the Announced Cast",
+          "description": "The source behind images that triggered casting speculation stated that the Cillian Murphy image did not mean the actor would appear in Far Cry 7."
         }
       ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+      "sources": [
+        "https://insider-gaming.com/far-cry-7-story-details/",
+        "https://insider-gaming.com/far-cry-7-cillian-murphy-debunk/",
+        "https://www.gamespot.com/articles/ubisoft-wants-to-reinvent-the-far-cry-series-with-its-next-two-games-report/1100-6528543/"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+    "farCry7SettingMap": {
+      "title": "Far Cry 7 Map, Setting and Open-World Structure",
+      "eyebrow": "World and Exploration",
+      "intro": "Project Blackbird is being designed as a nonlinear open-world campaign built around rescuing members of the Beckett family. Ubisoft has not published the final country, region, or map name, while the Alaskan wilderness described in earlier coverage belongs to the separate Project Maverick multiplayer game.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "title": "Project Blackbird's Main Setting",
+          "summary": "The main campaign follows a wealthy family kidnapped by a conspiracy cult connected to hallucinogenic experiments.",
+          "details": [
+            "The playable story centers on members of the Beckett family.",
+            "The opposing group has been described as a conspiracy cult.",
+            "The cult's activities include experiments involving hallucinogens, animals, and children.",
+            "Ubisoft has not released an official map name, country, or complete world layout."
+          ]
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "title": "Nonlinear Rescue Map",
+          "summary": "Family members can be pursued in different orders, turning the open world into a set of connected rescue routes rather than one fixed mission path.",
+          "details": [
+            "Rescue targets do not need to be completed in a predetermined order.",
+            "Different routes can lead players toward different family members.",
+            "The survival of each family member affects campaign outcomes.",
+            "Rescuing every family member safely is tied to full campaign completion."
+          ]
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "title": "Safehouses",
+          "summary": "Safehouses are important strategic locations because entering one pauses the campaign timer.",
+          "details": [
+            "The 72-hour in-game countdown pauses inside safehouses.",
+            "Safehouses provide protected breaks between rescue objectives.",
+            "Players can use these locations to manage time before returning to the open world."
+          ]
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "title": "Traversal and Movement",
+          "summary": "The movement system has been expanded to support faster and more tactical exploration.",
+          "details": [
+            "Tactical sprinting is part of the updated movement design.",
+            "Sliding supports faster movement through combat areas.",
+            "Vaulting expands how players cross obstacles and structures.",
+            "The movement overhaul is shared with technology developed during the two projects' earlier common production."
+          ]
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "title": "Looting and Inventory",
+          "summary": "Project Blackbird incorporates a stronger focus on collecting and managing items while exploring the world.",
+          "details": [
+            "Looting has a larger role in the campaign's survival-focused structure.",
+            "The inventory system supports the player's race to rescue the kidnapped family.",
+            "Several inventory concepts originated from development shared with Project Maverick."
+          ]
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "title": "Project Maverick's Alaskan Wilderness",
+          "summary": "The snowy Alaskan environment is associated with the standalone multiplayer project rather than Project Blackbird's main campaign.",
+          "details": [
+            "Maverick's world is based on a fictional Alaskan wilderness.",
+            "The environment includes severe weather and dangerous wildlife.",
+            "Players face AI-controlled soldiers and other human players.",
+            "Earlier designs included resource gathering, hideouts, survival crafting, and extraction zones."
+          ]
         }
+      ],
+      "sources": [
+        "https://www.ubisoft.com/en-us/company/about-us/our-brands/far-cry",
+        "https://insider-gaming.com/far-cry-7-story-details/",
+        "https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/",
+        "https://www.videogameschronicle.com/news/far-cry-7-and-a-separate-far-cry-multiplayer-game-are-reportedly-in-development/"
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "farCry7GameplayTimer": {
+      "title": "Far Cry 7 Gameplay Timer, Rescues and Interrogations",
+      "eyebrow": "Campaign Mechanics",
+      "intro": "The campaign is structured around rescuing the Beckett family before time expires. Players can choose which rescue targets to pursue, pause the clock at safehouses, and interrogate enemies to locate missing family members.",
+      "mechanics": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "name": "Campaign Time Limit",
+          "value": "72 in-game hours",
+          "description": "The complete rescue campaign takes place across a 72-hour in-game countdown.",
+          "playerImpact": "Players must balance exploration, combat, interrogations, and rescue objectives against the remaining time."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "name": "Real-Time Length",
+          "value": "24 real hours",
+          "description": "The 72-hour game clock corresponds to approximately 24 hours of real gameplay time.",
+          "playerImpact": "Time continues moving while the player operates outside protected safehouses."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "name": "Wristwatch Display",
+          "value": "Visible countdown",
+          "description": "The remaining time is represented by a watch worn by the player character.",
+          "playerImpact": "Players can track the campaign clock directly while moving through the world."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "name": "Safehouse Pause",
+          "value": "Timer paused",
+          "description": "Entering a safehouse stops the countdown until the player returns to the active world.",
+          "playerImpact": "Safehouses provide opportunities to plan the next rescue route without losing campaign time."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "name": "Nonlinear Objectives",
+          "value": "Any rescue order",
+          "description": "Kidnapped family members do not have to be rescued in a fixed sequence.",
+          "playerImpact": "Players can prioritize targets according to location, available information, and remaining time."
+        },
+        {
+          "name": "Family Outcomes",
+          "value": "Story-changing results",
+          "description": "Family members can survive or perish depending on the player's progress and choices.",
+          "playerImpact": "Failed rescues alter the campaign outcome and prevent a complete family rescue."
+        },
+        {
+          "name": "Interrogation Responses",
+          "value": "Truth, lies, silence, or escape",
+          "description": "Interrogated enemies can provide useful information, give false answers, refuse to cooperate, or escape.",
+          "playerImpact": "Players must decide whether information is useful before spending limited time following a lead."
+        },
+        {
+          "name": "Full Completion Goal",
+          "value": "Rescue every family member",
+          "description": "Complete campaign progress requires every kidnapped family member to be recovered safely.",
+          "playerImpact": "Efficient routing and successful interrogations are central to reaching the complete ending."
         }
+      ],
+      "sources": [
+        "https://insider-gaming.com/far-cry-7-story-details/",
+        "https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/",
+        "https://www.gamespot.com/articles/ubisoft-wants-to-reinvent-the-far-cry-series-with-its-next-two-games-report/1100-6528543/"
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+    "farCry7MultiplayerMaverick": {
+      "title": "Far Cry 7 Multiplayer, Co-op and Project Maverick",
+      "eyebrow": "Blackbird vs. Maverick",
+      "intro": "The two Far Cry projects originated from a shared production called Talisker before becoming separate games. Blackbird focuses on the timed family-rescue campaign, while Maverick has been developed around extraction, survival, player competition, and team-based play.",
+      "comparisons": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "feature": "Project Role",
+          "blackbird": "The next mainline Far Cry game and the project commonly referred to as Far Cry 7.",
+          "maverick": "A separate multiplayer-focused Far Cry game."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "feature": "Primary Experience",
+          "blackbird": "A nonlinear open-world campaign about rescuing the kidnapped Beckett family.",
+          "maverick": "An extraction-based survival shooter built around entering a dangerous region, collecting resources, and escaping safely."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "feature": "Setting",
+          "blackbird": "A final map location has not been publicly named.",
+          "maverick": "A fictional Alaskan wilderness featuring severe weather, wild animals, AI soldiers, and rival players."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "feature": "Multiplayer Structure",
+          "blackbird": "The current gameplay outline centers on the mainline rescue campaign.",
+          "maverick": "Earlier designs supported solo play and team-based sessions with teammates sharing a Hideout and stored loot."
+        },
+        {
+          "feature": "Core Objective",
+          "blackbird": "Rescue family members before the 72-hour in-game timer expires.",
+          "maverick": "Gather equipment, complete contracts, survive encounters, and extract with collected resources."
+        },
+        {
+          "feature": "Death and Progress",
+          "blackbird": "Family losses and failed rescues affect the campaign story.",
+          "maverick": "The earlier extraction design removed carried gear, perks, and levels after death while preserving items stored in the Hideout."
+        },
+        {
+          "feature": "Shared Systems",
+          "blackbird": "Uses tactical sprinting, sliding, vaulting, expanded looting, and inventory management.",
+          "maverick": "Uses related movement, looting, survival, inventory, and resource-gathering systems."
+        },
+        {
+          "feature": "Development Direction",
+          "blackbird": "Playtesting began while additional staff were transferred to keep the mainline project moving forward.",
+          "maverick": "Returned to prototyping after an internal reboot and continued as one of Ubisoft's two Far Cry projects."
+        },
+        {
+          "feature": "Ubisoft's Multiplayer Strategy",
+          "blackbird": "Part of a broader Far Cry pipeline managed within Ubisoft's major-franchise development structure.",
+          "maverick": "Supports Ubisoft's stated goal of making multiplayer a more prominent part of Far Cry's long-term future."
         }
+      ],
+      "sources": [
+        "https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/",
+        "https://insider-gaming.com/far-cry-multiplayer-game/",
+        "https://insider-gaming.com/far-cry-multiplayer-rebooted/",
+        "https://insider-gaming.com/ubisoft-confirms-far-cry-and-assassins-creed/",
+        "https://www.gamespot.com/articles/far-cry-multiplayer-extraction-game-has-been-rebooted-far-cry-7-could-release-in-2026-report/1100-6529853/",
+        "https://www.videogameschronicle.com/news/ubisoft-confirms-far-cry-will-more-predominantly-push-multiplayer-in-future/"
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
+    "farCry7EngineDevelopment": {
+      "title": "Far Cry 7 Development, Snowdrop Engine and Latest Updates",
+      "eyebrow": "Development Timeline",
+      "intro": "Project Blackbird is led by Ubisoft Montreal with support from several Ubisoft studios. Development has included a move away from the Dunia engine, redesigned movement and inventory systems, internal schedule changes, and resources transferred from Project Maverick.",
+      "updates": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "January 26, 2023",
+          "title": "Blackbird and Maverick Emerge as Separate Projects",
+          "description": "The next mainline Far Cry game became known as Project Blackbird, while the standalone multiplayer project became Project Maverick. Both grew from an earlier shared production called Talisker."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "September 27, 2023",
+          "title": "Snowdrop Engine and Campaign Systems Detailed",
+          "description": "Development information connected Blackbird to Ubisoft Montreal and the Snowdrop engine. The same update outlined the 72-hour in-game timer, safehouse pauses, nonlinear rescues, and interrogation system."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "date": "December 16, 2024",
+          "title": "Movement and Inventory Overhaul",
+          "description": "Blackbird and Maverick were described as moving away from the traditional Far Cry formula with tactical sprinting, sliding, vaulting, updated looting, and expanded inventory systems."
+        },
+        {
+          "date": "December 16, 2024",
+          "title": "Internal Schedule Moves Beyond 2025",
+          "description": "Development targets for both projects shifted from 2025 into 2026 as Ubisoft addressed production complexity."
+        },
+        {
+          "date": "March 4, 2025",
+          "title": "Maverick Reboot Sends Resources to Blackbird",
+          "description": "Project Maverick returned to prototyping, while developers from its technical team and Ubisoft Berlin were reassigned to Blackbird."
+        },
+        {
+          "date": "March 4, 2025",
+          "title": "Blackbird Playtesting Underway",
+          "description": "Project Blackbird entered playtesting with its redesigned gameplay and movement systems. Supporting teams included Ubisoft Montreal, Ubisoft Berlin, Ubisoft Annecy, Red Storm, and the Talisker technical group."
+        },
+        {
+          "date": "September 11, 2025",
+          "title": "Ubisoft Expands Far Cry's Multiplayer Direction",
+          "description": "Ubisoft CEO Yves Guillemot stated that multiplayer would become a more prominent part of Far Cry so players could remain engaged for longer periods."
+        },
+        {
+          "date": "November 13, 2025",
+          "title": "Beckett Family and Timer Remain in Development Materials",
+          "description": "Development materials linked to the project continued to reference the Beckett family and the 24-real-hour rescue timer."
+        },
+        {
+          "date": "February 20, 2026",
+          "title": "Ubisoft Confirms Two Far Cry Projects",
+          "description": "Yves Guillemot confirmed that Ubisoft had two Far Cry projects in development. Project Blackbird remained the mainline title, while Maverick continued as the multiplayer-focused project."
+        },
+        {
+          "date": "July 2026",
+          "title": "Current Public Development Status",
+          "description": "Ubisoft continues to list two Far Cry projects in development, while the final titles, launch dates, platforms, trailers, and complete gameplay specifications remain unpublished."
         }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
-        }
+      ],
+      "sources": [
+        "https://www.ubisoft.com/en-us/company/about-us/our-brands/far-cry",
+        "https://insider-gaming.com/sources-far-cry-7-and-far-cry-multiplayer-in-development-at-ubisoft/",
+        "https://insider-gaming.com/far-cry-7-story-details/",
+        "https://insider-gaming.com/ubisoft-far-cry-7-and-maverick/",
+        "https://insider-gaming.com/far-cry-multiplayer-rebooted/",
+        "https://insider-gaming.com/far-cry-7-leaks-online/",
+        "https://insider-gaming.com/ubisoft-confirms-far-cry-and-assassins-creed/",
+        "https://www.gamespot.com/articles/far-cry-multiplayer-extraction-game-has-been-rebooted-far-cry-7-could-release-in-2026-report/1100-6529853/",
+        "https://www.videogameschronicle.com/news/far-cry-7-and-a-separate-far-cry-multiplayer-game-are-reportedly-in-development/"
       ]
     }
   },
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Far Cry 7",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Far Cry 7?",
+        "answer": "Far Cry 7 is the unofficial name for the next mainline Far Cry game, currently in development at Ubisoft under the codename Project Blackbird. Ubisoft has not yet published its final title, release date, or official trailer."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When is the Far Cry 7 release date?",
+        "answer": "Ubisoft has not announced an official Far Cry 7 release date. Development reporting moved the expected window from 2025 into 2026, and the final launch date remains unpublished."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What platforms will Far Cry 7 be on?",
+        "answer": "Far Cry 7 platforms have not been confirmed by Ubisoft. The game is expected to target current-generation consoles and PC, but no official store pages or hardware specifications have been released."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What engine does Far Cry 7 use?",
+        "answer": "Development reporting indicates Far Cry 7 (Project Blackbird) runs on Ubisoft's Snowdrop engine, moving away from the Dunia engine used by earlier mainline Far Cry games."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Is there an official Far Cry 7 trailer?",
+        "answer": "No. Ubisoft has not released an official Far Cry 7 announcement trailer or gameplay reveal. Any trailers currently circulating are fan-made concept videos, not official Ubisoft content."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What is Project Maverick in Far Cry 7?",
+        "answer": "Project Maverick is a separate multiplayer-focused Far Cry game developed alongside Project Blackbird. It is not Far Cry 7, but part of Ubisoft's two-project Far Cry pipeline alongside the mainline campaign."
       }
     ]
   },
@@ -802,124 +603,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "title": "Far Cry 7 Guides",
+      "description": "Track Far Cry 7 release date news, official trailers, platforms, story, setting, multiplayer reports, and every verified Ubisoft update.",
+      "metaTitle": "Far Cry 7 Guides - Release, Platforms, Story & News",
+      "metaDescription": "Far Cry 7 guides covering the release date, trailers, platforms, story, setting, gameplay mechanics, multiplayer, and development updates.",
+      "categoryLabel": "FAR CRY 7 GUIDES",
+      "whatIs": "What are Far Cry 7 Guides?",
+      "whatIsDescription": "Guides covering the release timeline, official trailers, platforms, story, setting, gameplay mechanics, and multiplayer details for the next mainline Far Cry game.",
+      "why": "Why follow these guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Track the Release",
+        "step1Description": "Follow verified Ubisoft announcements and the latest release window reports",
+        "step2Title": "Understand the Story",
+        "step2Description": "Learn about the Beckett family, the Sons of Truth, and the nonlinear rescue campaign",
+        "step3Title": "Stay Updated",
+        "step3Description": "Get the latest trailer, platform, engine, and multiplayer news as it arrives"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Far Cry 7 Mechanics",
+      "description": "Understand the reported gameplay mechanics of Far Cry 7, including the 72-hour campaign timer, safehouses, nonlinear rescues, and interrogation system.",
+      "metaTitle": "Far Cry 7 Mechanics - Timer, Rescues & Interrogations",
+      "metaDescription": "Far Cry 7 gameplay mechanics explained: the 72-hour campaign clock, safehouse pauses, nonlinear rescue objectives, and the interrogation system.",
+      "categoryLabel": "GAMEPLAY MECHANICS",
+      "whatIs": "What are Far Cry 7 Mechanics?",
+      "whatIsDescription": "A breakdown of the reported campaign mechanics, including the timed rescue structure, safehouse strategy, nonlinear objectives, and enemy interrogations.",
+      "why": "Why learn the mechanics?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Manage the Clock",
+        "step1Description": "Balance exploration and rescues against the 72-hour in-game countdown",
+        "step2Title": "Use Safehouses",
+        "step2Description": "Pause the timer and plan your next rescue route",
+        "step3Title": "Interrogate Smartly",
+        "step3Description": "Decide which enemy leads are worth your limited time"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Mechanics Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Far Cry 7 Features",
+      "description": "Explore the reported features of Far Cry 7, from movement and traversal upgrades to looting, inventory, and open-world exploration.",
+      "metaTitle": "Far Cry 7 Features - Movement, Looting & Exploration",
+      "metaDescription": "Far Cry 7 reported features including tactical sprinting, sliding, vaulting, expanded looting, inventory systems, and open-world exploration.",
+      "categoryLabel": "GAME FEATURES",
+      "whatIs": "What are Far Cry 7 Features?",
+      "whatIsDescription": "An overview of the reported gameplay features, including movement, traversal, looting, inventory management, and the open-world structure.",
+      "why": "Why review the features?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Master Movement",
+        "step1Description": "Learn the updated sprinting, sliding, and vaulting systems",
+        "step2Title": "Plan Exploration",
+        "step2Description": "Use nonlinear rescue routes and safehouses efficiently",
+        "step3Title": "Manage Loot",
+        "step3Description": "Handle the expanded inventory and survival-focused looting"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Features"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Far Cry 7 Setting & World",
+      "description": "Track what is known about the Far Cry 7 setting, map structure, safehouses, traversal, and open-world activities.",
+      "metaTitle": "Far Cry 7 Setting & World - Map, Safehouses & Exploration",
+      "metaDescription": "Far Cry 7 setting and open-world details: the nonlinear rescue map, safehouses, traversal systems, and exploration structure.",
+      "categoryLabel": "SETTING & WORLD",
+      "whatIs": "What is the Far Cry 7 setting?",
+      "whatIsDescription": "An overview of the reported setting, nonlinear map, safehouses, traversal systems, and open-world activities for Project Blackbird.",
+      "why": "Why explore the setting?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Understand the Map",
+        "step1Description": "Learn how nonlinear rescue routes connect the world",
+        "step2Title": "Use Safehouses",
+        "step2Description": "Pause the timer and plan between objectives",
+        "step3Title": "Prepare for Exploration",
+        "step3Description": "Equip the right movement and survival tools for each route"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Setting Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Far Cry 7 Story",
+      "description": "Follow the reported Far Cry 7 story, including the Beckett family, the Sons of Truth, nonlinear campaign outcomes, and casting updates.",
+      "metaTitle": "Far Cry 7 Story - Beckett Family, Sons of Truth & Campaign",
+      "metaDescription": "Far Cry 7 story details: the kidnapped Beckett family, the Sons of Truth antagonists, nonlinear rescue outcomes, and casting reports.",
+      "categoryLabel": "STORY & CHARACTERS",
+      "whatIs": "What is the Far Cry 7 story?",
+      "whatIsDescription": "A guide to the reported campaign story, characters, antagonist organization, and how nonlinear rescues change the outcome.",
+      "why": "Why follow the story?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Meet the Family",
+        "step1Description": "Learn about the Beckett family and the rescue objectives",
+        "step2Title": "Know the Antagonist",
+        "step2Description": "Understand the Sons of Truth and their role",
+        "step3Title": "Shape the Outcome",
+        "step3Description": "See how rescue order and success change the campaign"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Story Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Far Cry 7 News & Support",
+      "description": "Track Far Cry 7 release news, development updates, platform availability, and answers to the most common questions.",
+      "metaTitle": "Far Cry 7 News & Support - Release, Platforms & FAQ",
+      "metaDescription": "Far Cry 7 news and support covering the release date, platforms, development timeline, engine, multiplayer, and frequently asked questions.",
+      "categoryLabel": "NEWS & SUPPORT",
+      "whatIs": "What is Far Cry 7 News & Support?",
+      "whatIsDescription": "Release news, development updates, platform availability, and answers to the most common Far Cry 7 questions.",
+      "why": "Why check the news?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Catch Every Update",
+        "step1Description": "Follow verified Ubisoft announcements and development reports",
+        "step2Title": "Check Platforms",
+        "step2Description": "See confirmed platforms, storefronts, and subscriptions",
+        "step3Title": "Get Answers",
+        "step3Description": "Find quick answers to release, trailer, and multiplayer questions"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All News & Support"
     }
   }
 }
