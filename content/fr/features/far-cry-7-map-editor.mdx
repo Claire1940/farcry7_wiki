@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Éditeur de cartes Far Cry 7 : Nouvelles fonctionnalités et guide créatif",
+  description: "Explorez les nouveaux outils de l'éditeur de cartes de Far Cry 7, incluant le mode survie, la publication multiplateforme et des budgets d'IA étendus pour les créateurs de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Far+Cry+7+Map+Editor",
+  date: "2026-07-10",
+  author: "Équipe du Wiki Far Cry 7",
+  keywords: "Far Cry 7, éditeur de cartes, mode survie, guide de création, multijoueur"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **L'éditeur de cartes de Far Cry 7** revient avec un accent mis sur le **Mode Survie** et des vagues d'ennemis infinies.
+- La **publication multiplateforme** est désormais une fonctionnalité centrale, permettant aux joueurs Xbox, PlayStation et PC de partager des cartes de manière transparente.
+- **L'optimisation du budget** a été revue pour permettre plus d'entités d'IA et de structures complexes sans baisse de performance.
+- Le support de la **coop à 4 joueurs** est le nouveau standard pour les niveaux créés sur mesure et les défis de survie.
+- La **capacité de stockage** permet jusqu'à 50 projets locaux et 500 cartes publiées par compte.
+</Callout>
+
+<Section icon={Map} title="Éditeur de cartes Far Cry 7 : La nouvelle ère du level design">
+
+L'**éditeur de cartes de Far Cry 7** représente un bond en avant significatif pour la communauté créative de la franchise. Après des années de peaufinage depuis l'ère Arcade, l'itération de 2026 se concentre sur la suppression des barrières techniques qui limitaient auparavant les créateurs ambitieux. En simplifiant l'interface et en la nommant clairement "Éditeur de cartes" plutôt qu'"Arcade", Ubisoft l'a rendue plus accessible aux nouveaux designers tout en fournissant les outils logiques profonds que les bâtisseurs vétérans réclament.
+
+**Points forts de la vidéo :**
+- Aperçu détaillé de la logique du **Mode Survie** pour l'apparition de vagues infinies.
+- Analyse du **réseau multiplateforme** pour la publication universelle des cartes.
+- Discussion sur l'**optimisation du stockage de l'IA** et l'augmentation du budget des objets.
+- Demandes de la communauté pour un support **coop étendu** dans les cartes personnalisées.
+
+<YouTubeEmbed videoId="-sLJrB90gsY" title="Fonctionnalités de l'éditeur de cartes Far Cry 7" />
+
+L'intégration d'un générateur de survie dédié est peut-être la fonctionnalité la plus demandée. Cela permet aux créateurs de construire des cartes où la difficulté augmente automatiquement à mesure que les joueurs franchissent des étapes. Contrairement aux versions précédentes où le nombre d'ennemis était strictement limité, le nouveau moteur gère des vagues "apparemment sans fin" en recyclant les ressources de l'IA plus efficacement.
+
+<Callout type="tip" title="Identité de l'Éditeur">
+La communauté préfère l'appellation directe "Éditeur de cartes" au lieu d'"Arcade" pour éviter toute confusion avec les mini-jeux de style rétro. Ce changement signale un retour à des outils de conception de niveaux de qualité professionnelle au sein de l'écosystème Far Cry.
+</Callout>
+
+| Fonctionnalité | Arcade Far Cry 5 | Éditeur Far Cry 7 | Impact sur les Créateurs |
+| :--- | :--- | :--- | :--- |
+| **Joueurs Max** | Coop 2 joueurs | Coop 4 joueurs | Meilleure expérience sociale |
+| **Publication** | Verrouillée par plateforme | Multiplateforme | Audience 3x plus large |
+| **Budget IA** | Limité/Statique | Dynamique/Optimisé | Champs de bataille plus denses |
+| **Stockage Cartes** | Projets limités | 500 emplacements publiés | Portfolio massif |
+| **Modes de Jeu** | Assaut/Poste de garde | Survie/Logique personnalisée | Rejouabilité infinie |
+
+</Section>
+
+<Section icon={Sparkles} title="Outils créatifs améliorés et gestion du budget">
+
+Gérer le "budget" a toujours été le plus grand défi pour les créateurs utilisant l'**éditeur de cartes de Far Cry 7**. Dans la version 2026, le moteur utilise un nouveau système d'instanciation qui réduit l'empreinte mémoire des objets dupliqués. Cela signifie que vous pouvez placer des pâtés de maisons entiers en utilisant le même modèle de bâtiment sans voir la jauge de budget s'envoler comme dans les titres précédents.
+
+<CardGrid cols={3}>
+  <Card title="Optimisation de l'IA">
+    - **Stockage réduit** : Les entités d'IA occupent désormais 40 % de mémoire en moins.
+    - **Apparition intelligente** : Les ennemis n'existent que lorsque les joueurs sont à portée.
+    - **Cheminement complexe** : Maillage de navigation amélioré pour les environnements verticaux.
+  </Card>
+  <Card title="Instanciation d'objets">
+    - **Réutilisation des ressources** : Placez des milliers d'arbres avec un impact minimal.
+    - **Haute fidélité** : Meilleures textures sur les objets principaux (hero assets).
+    - **Destructibilité** : Plus d'objets environnementaux interactifs.
+  </Card>
+  <Card title="Effets Visuels (VFX)">
+    - **Météo dynamique** : Pluie, brouillard et éclairs scriptés.
+    - **Sondes de lumière** : Illumination globale en temps réel pour les intérieurs.
+    - **Limites de particules** : Capacité doublée pour le feu et la fumée.
+  </Card>
+</CardGrid>
+
+L'objectif pour les créateurs de 2026 est d'"étendre le bac à sable". En optimisant la gestion des interactions de l'IA par la grille, l'éditeur permet des cartes plus grandes et plus peuplées. C'est crucial pour le nouveau Mode Survie, où l'environnement doit rester performant même lorsque des dizaines d'ennemis sont actifs simultanément à l'écran.
+
+<Callout type="warning" title="Limites de Stockage">
+Bien que vous puissiez publier jusqu'à 500 cartes, votre compte local est limité à 50 projets actifs. Sauvegardez régulièrement vos travaux les plus importants sur le cloud pour éviter de perdre votre progression sur des constructions complexes.
+</Callout>
+
+| Type de Ressource | Impact Budget (Faible) | Impact Budget (Élevé) | Conseil d'Optimisation |
+| :--- | :--- | :--- | :--- |
+| **Accessoires statiques** | Rochers, Arbres | Véhicules, Bâtiments | Utiliser des groupes pour les répétitions |
+| **Acteurs d'IA** | Faune | Élites lourdement armés | Utiliser des déclencheurs de vagues |
+| **Scripts logiques** | Déclencheurs simples | Chronomètres complexes | Consolider les nœuds |
+| **Audio** | Boucle d'ambiance | Dialogue scripté | Limiter les sources sonores 3D |
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape pour la création d'une carte de survie">
+
+Créer une carte de survie fonctionnelle dans l'**éditeur de cartes de Far Cry 7** nécessite une approche différente des missions de poste de garde standard. Vous devez tenir compte de la progression du joueur, du réapprovisionnement en munitions et de l'escalade de la difficulté.
+
+<Steps>
+  <Step num="1" title="Définir l'arène de combat">
+    Commencez par sculpter un terrain qui offre à la fois des avantages en hauteur et des "points d'étranglement". Pour le mode survie, la carte doit être circulaire ou semi-fermée pour maintenir l'action concentrée. Assurez-vous qu'il y a des lignes de vue claires pour les joueurs mais suffisamment de couverture pour survivre à un feu nourri.
+  </Step>
+  <Step num="2" title="Configurer la logique d'apparition">
+    Utilisez le nouveau nœud "Vague infinie" dans l'éditeur de logique. Réglez la vague initiale sur 5 à 10 ennemis de bas niveau. Créez une variable qui augmente la santé ou les dégâts des ennemis de 5 % toutes les trois vagues pour garantir que le défi s'adapte aux compétences des joueurs.
+  </Step>
+  <Step num="3" title="Placer des stations de ressources">
+    En mode survie, les munitions et la santé sont vos principales monnaies. Placez des "Stations d'achat" ou des "Caisses de ravitaillement" dans des endroits risqués. Cela force les joueurs à se déplacer sur la carte plutôt que de camper dans un seul coin pendant tout le match.
+  </Step>
+  <Step num="4" title="Définir des jalons et des récompenses">
+    Donnez aux joueurs une raison de continuer à jouer. Utilisez le déclencheur "Jalon" pour accorder aux joueurs des bonus temporaires ou débloquer de nouvelles zones de la carte après avoir survécu à 10, 20 ou 50 vagues. Cela imite les boucles addictives des jeux de tir de survie classiques.
+  </Step>
+  <Step num="5" title="Tests multiplateformes">
+    Avant de publier, utilisez l'outil "Simulation multiplateforme" pour voir comment votre carte se comporte sur différents matériels. Une fois satisfait, appuyez sur le bouton de publication pour envoyer votre création sur le réseau mondial de Far Cry 7.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Récompenses de Jalons">
+L'ajout de records du monde et de classements mondiaux à vos cartes de survie augmente considérablement l'engagement des joueurs. Les créateurs qui implémentent des défis "Atteindre la vague 100" voient souvent leurs cartes rester dans la section "Tendances" pendant des mois.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Expansion du multijoueur et intégration de la coop">
+
+L'une des mises à jour les plus importantes de l'**éditeur de cartes de Far Cry 7** est l'extension à la coop à 4 joueurs. Auparavant, la limite de 2 joueurs restreignait la complexité des tactiques d'équipe. Avec quatre joueurs, les créateurs peuvent concevoir des expériences de type "Raid-léger", avec des objectifs en plusieurs parties nécessitant une coordination d'équipe.
+
+| Aspect Multijoueur | Ancien Système (FC5/6) | Nouveau Système (FC7) | Stratégie |
+| :--- | :--- | :--- | :--- |
+| **Nombre de joueurs** | 2 joueurs max | 4 joueurs max | Concevoir des voies plus larges |
+| **Mécanique de réanimation** | Standard | Par classe / Chronométrée | Ajouter des rôles de médecin |
+| **Partage de butin** | Individuel | Partagé / Instancié | Utiliser des caisses partagées |
+| **Communication** | Pings basiques | Carte tactique avancée | Marquer les cibles prioritaires |
+
+Le réseau de publication multiplateforme garantit qu'une carte construite sur une Xbox peut être jouée par un groupe de quatre amis sur PC et PlayStation sans aucun problème de portage. Cet écosystème unifié est une victoire majeure pour la communauté, car il empêche la fragmentation de la base de joueurs.
+
+<Callout type="info" title="Licences et Personnages">
+Bien qu'Ubisoft se concentre sur les ressources Far Cry, la communauté a fortement demandé un "Système de vote" pour des personnages invités sous licence. Bien que cela ne soit pas officiellement confirmé, la logique de l'éditeur permet des "Archétypes de personnages" qui peuvent être personnalisés pour ressembler à des icônes célèbres, à condition qu'ils respectent les boîtes de collision (hitboxes).
+</Callout>
+
+| Type de Carte | Joueurs Recommandés | Niveau de Difficulté | Idéal Pour |
+| :--- | :--- | :--- | :--- |
+| **Infiltration furtive** | 1-2 Joueurs | Difficile | Fans de tactique |
+| **Horde de survie** | 4 Joueurs | Évolutif | Groupes orientés action |
+| **Course/Parkour** | 1 Joueur | Modéré | Speedrunners |
+| **Défense d'objectif** | 3-4 Joueurs | Très difficile | Équipes organisées |
+
+</Section>
+
+<Section icon={Trophy} title="Objectifs communautaires et checklist">
+
+Pour garantir que votre carte se démarque dans le navigateur de l'**éditeur de cartes de Far Cry 7**, vous devez respecter des normes de qualité élevées. La communauté est devenue plus exigeante, privilégiant les cartes avec des miniatures personnalisées, des descriptions claires et une logique sans bug.
+
+<Checklist
+  id="map-quality-checklist"
+  title="Tâches essentielles pour le lancement d'une carte :"
+  items={[
+    "Vérifier que tous les points d'apparition de l'IA sont dans le maillage de navigation (nav-mesh)",
+    "Tester la connectivité à 4 joueurs et la stabilité du taux de rafraîchissement",
+    "Configurer les paramètres d'escalade des vagues du Mode Survie",
+    "Mettre en place des classements mondiaux pour le jeu compétitif",
+    "Ajouter une description détaillée 'Comment jouer' pour les nouveaux utilisateurs",
+    "Optimiser le budget des objets pour rester sous les 90 % pour la compatibilité console"
+  ]}
+/>
+
+<Callout type="tip" title="Monter en Grade">
+En jouant à la campagne principale de Far Cry 7 et en augmentant le niveau de votre compte global, vous pouvez débloquer des avantages supplémentaires pour l'éditeur, tels qu'un stockage local accru pour les projets et des ressources cosmétiques exclusives pour vos niveaux.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ de l'éditeur de cartes Far Cry 7">
+
+<FAQ items={[
+  {
+    question: "Puis-je jouer aux niveaux de l'éditeur de cartes de Far Cry 7 avec des amis sur différentes consoles ?",
+    answer: "Oui, l'éditeur de cartes de Far Cry 7 prend en charge le jeu et la publication multiplateformes complets. Toute carte créée sur une plateforme est immédiatement disponible pour tous les joueurs sur Xbox, PlayStation et PC."
+  },
+  {
+    question: "Quel est le nombre maximum de cartes que je peux publier ?",
+    answer: "Chaque compte peut publier jusqu'à 500 cartes sur le réseau mondial. De plus, vous pouvez conserver jusqu'à 50 fichiers de projet locaux sur votre compte à tout moment."
+  },
+  {
+    question: "En quoi le nouveau Mode Survie diffère-t-il des cartes de postes de garde standard ?",
+    answer: "Le Mode Survie propose des vagues d'ennemis infinies qui deviennent progressivement plus difficiles. Contrairement aux postes de garde, qui sont nettoyés une fois pour toutes, les cartes de Survie se concentrent sur les jalons, les scores élevés et la gestion des ressources au fil du temps."
+  },
+  {
+    question: "Existe-t-il un moyen d'obtenir plus de stockage pour les projets de cartes ?",
+    answer: "À mesure que vous progressez dans la campagne de Far Cry 7 et gagnez des points, vous pouvez débloquer des emplacements de projet supplémentaires. Il existe également des options demandées par la communauté pour l'achat d'un stockage cloud étendu pour les utilisateurs intensifs."
+  }
+]} />
+
+</Section>

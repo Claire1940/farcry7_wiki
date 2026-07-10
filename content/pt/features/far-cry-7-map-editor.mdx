@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Editor de Mapas de Far Cry 7: Novos Recursos e Guia Criativo",
+  description: "Explore as novas ferramentas do editor de mapas de Far Cry 7, incluindo o modo sobrevivência, publicação multiplataforma e limite de IA expandido para criadores em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Far+Cry+7+Map+Editor",
+  date: "2026-07-10",
+  author: "Equipe Wiki Far Cry 7"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **editor de mapas de Far Cry 7** retorna com foco no **Modo Sobrevivência** e ondas infinitas de inimigos.
+- A **publicação multiplataforma** agora é um recurso central, permitindo que jogadores de Xbox, PlayStation e PC compartilhem mapas perfeitamente.
+- A **otimização de orçamento** foi reformulada para permitir mais entidades de IA e estruturas complexas sem quedas de desempenho.
+- O suporte para **cooperação de 4 jogadores** é o novo padrão para níveis criados sob medida e desafios de sobrevivência.
+- A **capacidade de armazenamento** permite até 50 projetos locais e 500 mapas publicados por conta.
+</Callout>
+
+<Section icon={Map} title="Editor de Mapas de Far Cry 7: A Próxima Era do Design de Níveis">
+
+O **editor de mapas de Far Cry 7** representa um salto significativo para a comunidade criativa da franquia. Após anos de aprimoramento desde a era do Arcade, a iteração de 2026 foca em remover as barreiras técnicas que antes limitavam os criadores ambiciosos. Ao simplificar a interface e marcá-la claramente como \"Editor de Mapas\" em vez de \"Arcade\", a Ubisoft tornou o sistema mais acessível para novos designers, ao mesmo tempo em que fornece as ferramentas de lógica profunda que os construtores veteranos desejam.
+
+**Destaques do Vídeo:**
+- Visão detalhada da lógica do **Modo Sobrevivência** para geração de ondas infinitas.
+- Informações sobre a **rede multiplataforma** para publicação universal de mapas.
+- Discussão sobre **otimização de armazenamento de IA** e aumento do orçamento de objetos.
+- Pedidos da comunidade para suporte **cooperativo expandido** em mapas personalizados.
+
+<YouTubeEmbed videoId="-sLJrB90gsY" title="Far Cry 7 Map Editor Features" />
+
+A integração de um gerador de sobrevivência dedicado é talvez o recurso mais solicitado. Isso permite que os criadores construam mapas onde a dificuldade aumenta automaticamente à medida que os jogadores progridem através de marcos. Ao contrário das versões anteriores, onde a contagem de inimigos era estritamente limitada, o novo motor lida com ondas \"aparentemente infinitas\" reciclando recursos de IA de forma mais eficiente.
+
+<Callout type="tip" title="Identidade do Editor">
+A comunidade prefere a convenção de nomenclatura direta \"Editor de Mapas\" em vez de \"Arcade\" para evitar confusão com minijogos de estilo retrô. Essa mudança sinaliza um retorno a ferramentas de design de níveis de nível profissional dentro do ecossistema de Far Cry.
+</Callout>
+
+| Recurso | Far Cry 5 Arcade | Editor de Mapas Far Cry 7 | Impacto nos Criadores |
+| :--- | :--- | :--- | :--- |
+| **Máximo de Jogadores** | Coop para 2 Jogadores | Coop para 4 Jogadores | Melhor jogabilidade social |
+| **Publicação** | Bloqueada por Plataforma | Multiplataforma | Público 3 vezes maior |
+| **Orçamento de IA** | Limitado/Estático | Dinâmico/Otimizado | Campos de batalha mais densos |
+| **Armazenamento de Mapas** | Projetos limitados | 500 Slots Publicados | Portfólio massivo |
+| **Modos de Jogo** | Assalto/Posto Avançado | Sobrevivência/Lógica Personalizada | Rejogabilidade infinita |
+
+</Section>
+
+<Section icon={Sparkles} title="Ferramentas Criativas Aprimoradas e Gerenciamento de Orçamento">
+
+Gerenciar o \"orçamento\" sempre foi o maior desafio para os criadores que utilizam o **editor de mapas de Far Cry 7**. Na versão de 2026, o motor utiliza um novo sistema de instanciação que reduz o consumo de memória de objetos duplicados. Isso significa que você pode colocar quarteirões inteiros usando o mesmo modelo de edifício sem ver o medidor de orçamento disparar como acontecia nos títulos anteriores.
+
+<CardGrid cols={3}>
+  <Card title="Otimização de IA">
+    - **Armazenamento Reduzido**: As entidades de IA agora ocupam 40% menos memória.
+    - **Geração Inteligente**: Os inimigos só existem quando os jogadores estão dentro do alcance.
+    - **Rotas Complexas**: Malha de navegação aprimorada para ambientes verticais.
+  </Card>
+  <Card title="Instanciação de Objetos">
+    - **Reutilização de Recursos**: Posicione milhares de árvores com impacto mínimo.
+    - **Alta Fidelidade**: Texturas melhores em ativos principais.
+    - **Destrutibilidade**: Mais objetos ambientais interativos.
+  </Card>
+  <Card title="Efeitos Visuais (VFX)">
+    - **Clima Dinâmico**: Chuva, névoa e relâmpagos programados por script.
+    - **Sondas de Luz**: Iluminação global em tempo real para interiores.
+    - **Limites de Partículas**: Capacidade duplicada para fogo e fumaça.
+  </Card>
+</CardGrid>
+
+O objetivo para os criadores em 2026 é \"estender o sandbox\". Ao otimizar a forma como a grade lida com a interação da IA, o editor permite mapas maiores e mais povoados. Isso é crucial para o novo Modo Sobrevivência, onde o ambiente precisa manter o desempenho mesmo quando dezenas de inimigos estão ativos na tela simultaneamente.
+
+<Callout type="warning" title="Limites de Armazenamento">
+Embora você possa publicar até 500 mapas, sua conta local está limitada a 50 projetos ativos. Faça backup regularmente de seus trabalhos mais importantes na nuvem para evitar a perda de progresso em construções complexas.
+</Callout>
+
+| Tipo de Recurso | Impacto no Orçamento (Baixo) | Impacto no Orçamento (Alto) | Dica de Otimização |
+| :--- | :--- | :--- | :--- |
+| **Acessórios Estáticos** | Rochas, Árvores | Veículos, Edifícios | Use grupos para repetições |
+| **Atores de IA** | Vida Selvagem | Elites Fortemente Armadas | Use gatilhos de onda |
+| **Scripts de Lógica** | Gatilhos Simples | Temporizadores Complexos | Consolide os nós |
+| **Áudio** | Loop Ambiente | Diálogo Roteirizado | Limite as fontes de som 3D |
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para Criação de Mapas de Sobrevivência">
+
+Criar um mapa de sobrevivência funcional no **editor de mapas de Far Cry 7** requer uma abordagem diferente das missões padrão de postos avançados. Você deve levar em consideração a progressão do jogador, a reposição de munição e a dificuldade crescente.
+
+<Steps>
+  <Step num="1" title="Defina a Arena de Combate">
+    Comece esculpindo um terreno que ofereça vantagens de terreno elevado e \"pontos de estrangulamento\". Para o modo sobrevivência, o mapa deve ser circular ou semicerrado para manter a ação focada. Certifique-se de que haja linhas de visão claras para os jogadores, mas cobertura suficiente para sobreviver a fogo pesado.
+  </Step>
+  <Step num="2" title="Configure a Lógica do Gerador">
+    Use o novo nó \"Onda Infinita\" no editor de lógica. Defina a onda inicial para 5 a 10 inimigos de nível baixo. Crie uma variável que aumente a saúde ou o dano dos inimigos em 5% a cada três ondas para garantir que o desafio aumente de acordo com a habilidade do jogador.
+  </Step>
+  <Step num="3" title="Posicione Estações de Recursos">
+    No modo sobrevivência, munição e vida são suas moedas principais. Coloque \"Estações de Compra\" ou \"Caixas de Reabastecimento\" em locais de risco. Isso força os jogadores a se moverem pelo mapa em vez de acamparem em um único canto durante toda a partida.
+  </Step>
+  <Step num="4" title="Defina Marcos e Recompensas">
+    Dê aos jogadores um motivo para continuar jogando. Use o gatilho de \"Marco\" para conceder melhorias temporárias aos jogadores ou desbloquear novas áreas do mapa após sobreviver a 10, 20 ou 50 ondas. Isso imita os loops viciantes encontrados em jogos de tiro de sobrevivência clássicos.
+  </Step>
+  <Step num="5" title="Teste Multiplataforma">
+    Antes de publicar, use a ferramenta \"Simulação Multiplataforma\" para ver como seu mapa se comporta em diferentes hardwares. Quando estiver satisfeito, clique no botão de publicar para enviar sua criação para a rede global de Far Cry 7.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recompensas de Marcos">
+Adicionar recordes mundiais e tabelas de classificação globais aos seus mapas de sobrevivência aumenta significativamente o engajamento dos jogadores. Criadores que implementam desafios como \"Alcance a Onda 100\" costumam ver seus mapas permanecerem na seção \"Tendências\" por meses.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Expansão Multijogador e Integração Cooperativa">
+
+Uma das atualizações mais significativas no **editor de mapas de Far Cry 7** é a expansão para o modo cooperativo de 4 jogadores. Anteriormente, o limite de 2 jogadores restringia a complexidade das táticas de equipe. Com quatro jogadores, os criadores podem projetar experiências estilo \"Raid-lite\", apresentando objetivos de várias partes que exigem coordenação de equipe.
+
+| Aspecto Multijogador | Sistema Antigo (FC5/6) | Novo Sistema (FC7) | Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Contagem de Jogadores** | Máximo de 2 Jogadores | Máximo de 4 Jogadores | Projete caminhos mais largos |
+| **Mecânica de Reanimação**| Padrão | Baseada em Classe/Tempo | Adicione funções de médico |
+| **Compartilhamento de Saque**| Individual | Compartilhado/Instanciado | Use caixas compartilhadas |
+| **Comunicação** | Sinais Básicos | Mapa Tático Avançado | Marque alvos prioritários |
+
+A rede de publicação multiplataforma garante que um mapa construído no Xbox possa ser jogado por um grupo de quatro amigos no PC e no PlayStation sem problemas de portabilidade. Esse ecossistema unificado é uma grande vitória para a comunidade, pois evita a fragmentação da base de jogadores.
+
+<Callout type="info" title="Licenciamento e Personagens">
+Embora a Ubisoft se concentre nos recursos de Far Cry, a comunidade solicitou fortemente um \"Sistema de Votação\" para personagens convidados licenciados. Embora não esteja oficialmente confirmado, a lógica do editor permite \"Arquétipos de Personagens\" que podem ser personalizados para se parecerem com ícones famosos, desde que se ajustem às caixas de colisão.
+</Callout>
+
+| Tipo de Mapa | Jogadores Recomendados | Nível de Dificuldade | Ideal Para |
+| :--- | :--- | :--- | :--- |
+| **Infiltração Furtiva** | 1-2 Jogadores | Difícil | Fãs de tática |
+| **Horda de Sobrevivência**| 4 Jogadores | Progressivo | Grupos de alta ação |
+| **Corrida/Parkour** | 1 Jogador | Moderado | Speedrunners |
+| **Defesa de Objetivo** | 3-4 Jogadores | Muito Difícil | Equipes organizadas |
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos da Comunidade e Lista de Verificação">
+
+Para garantir que seu mapa se destaque no navegador do **editor de mapas de Far Cry 7**, você deve aderir a altos padrões de qualidade. A comunidade tornou-se mais exigente, preferindo mapas com miniaturas personalizadas, descrições claras e lógica livre de erros.
+
+<Checklist
+  id="map-quality-checklist"
+  title="Tarefas Essenciais de Lançamento do Mapa:"
+  items={[
+    "Verifique se todos os pontos de geração de IA estão dentro da malha de navegação (nav-mesh)",
+    "Teste a conectividade de 4 jogadores e a estabilidade da taxa de quadros",
+    "Configure os parâmetros de escalonamento de ondas do Modo Sobrevivência",
+    "Configure tabelas de classificação globais para jogo competitivo",
+    "Adicione uma descrição detalhada de 'Como Jogar' para novos usuários",
+    "Otimize o orçamento de objetos para permanecer abaixo de 90% para compatibilidade com consoles"
+  ]}
+/>
+
+<Callout type="tip" title="Subindo de Nível">
+Ao jogar a campanha principal de Far Cry 7 e subir o nível da sua conta global, você pode desbloquear vantagens adicionais do editor, como maior armazenamento local para projetos e recursos cosméticos exclusivos para seus níveis.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes do Editor de Mapas de Far Cry 7">
+
+<FAQ items={[
+  {
+    question: "Posso jogar os níveis do editor de mapas de Far Cry 7 com amigos em consoles diferentes?",
+    answer: "Sim, o editor de mapas de Far Cry 7 suporta totalmente o jogo e a publicação multiplataforma. Qualquer mapa criado em uma plataforma fica imediatamente disponível para todos os jogadores no Xbox, PlayStation e PC."
+  },
+  {
+    question: "Qual é o número máximo de mapas que posso publicar?",
+    answer: "Cada conta pode publicar até 500 mapas na rede global. Além disso, você pode manter até 50 arquivos de projetos locais em sua conta a qualquer momento."
+  },
+  {
+    question: "Como o novo Modo Sobrevivência difere dos mapas de Posto Avançado padrão?",
+    answer: "O Modo Sobrevivência apresenta ondas infinitas de inimigos que ficam progressivamente mais difíceis. Ao contrário dos Postos Avançados, que são limpos uma única vez, os mapas de Sobrevivência focam em marcos, pontuações altas e gerenciamento de recursos ao longo do tempo."
+  },
+  {
+    question: "Existe uma maneira de conseguir mais armazenamento para projetos de mapas?",
+    answer: "À medida que você avança na campanha de Far Cry 7 e ganha pontos, você pode desbloquear slots de projeto adicionais. Também existem opções solicitadas pela comunidade para a compra de armazenamento em nuvem expandido para usuários avançados."
+  }
+]} />
+
+</Section>

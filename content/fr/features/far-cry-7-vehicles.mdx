@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Véhicules de Far Cry 7 : Guide de la flotte 2026 et conseils de pilotage",
+  description: "Maîtrisez la flotte de véhicules de Far Cry 7 grâce à notre guide. Explorez les transports terrestres, aériens et maritimes, les options de personnalisation et les stratégies de combat tactique.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/facc15?text=Far+Cry+7+Vehicles+Guide",
+  date: "2026-07-10",
+  author: "Équipe du Wiki Far Cry 7",
+  keywords: "Far Cry 7, véhicules, guide de conduite, personnalisation, transport, combat tactique"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **véhicules de Far Cry 7** offrent une gamme variée d'options tactiques, notamment des unités terrestres blindées, des engins aériens agiles et des navires maritimes à grande vitesse.
+- **Mécanique de temps limité** : Les véhicules sont essentiels pour naviguer face au compte à rebours de 72 heures en jeu, faisant de la vitesse et de la fiabilité des priorités absolues.
+- **Personnalisation dynamique** : Les joueurs peuvent modifier les moteurs, le blindage et l'armement monté dans divers avant-postes rebelles répartis sur l'archipel.
+- **Utilité tactique** : Utilisez des camions lourds pour les sièges d'avant-postes et des aéroglisseurs furtifs pour naviguer dans les marécages et les cours d'eau de la jungle dense.
+- **Domination aérienne** : Les hélicoptères et les avions à voilure fixe offrent des capacités de reconnaissance essentielles et d'extraction rapide dans les zones à haut risque.
+</Callout>
+
+<Section icon={Map} title="Présentation des véhicules de Far Cry 7">
+
+Le monde des **véhicules de Far Cry 7** a considérablement évolué dans cette version 2026 de la franchise. Dans un contexte d'instabilité politique et de terrain accidenté, le transport n'est plus seulement un moyen de rejoindre un point de passage ; c'est un outil de survie indispensable. Avec l'introduction d'une narration non linéaire et d'objectifs chronométrés, choisir le bon véhicule peut faire la différence entre réussir une mission et manquer de temps.
+
+**Points forts de la vidéo :**
+- Révélation cinématique du nouvel environnement insulaire et de la variété des terrains.
+- Aperçu de courses-poursuites à grande vitesse impliquant des transports de qualité militaire.
+- Ambiance immersive montrant l'échelle du monde que les joueurs doivent parcourir.
+- Représentation visuelle du thème du « choix », central dans le récit de 2026.
+
+<YouTubeEmbed videoId="tTmO7BqpII8" title="Far Cry 7 (2026) - First Trailer | Xbox Games Showcase | Concept" />
+
+La liste des véhicules est divisée en trois catégories principales : Terre, Air et Mer. Chaque catégorie comprend des engins spécialisés conçus pour relever des défis environnementaux spécifiques. Que vous escaladiez des pentes volcaniques ou infiltriez des forteresses côtières, la flotte de 2026 vous apporte la mobilité nécessaire.
+
+| Catégorie de véhicule | Cas d'utilisation principal | Adaptabilité au terrain | Difficulté de conduite |
+| :--- | :--- | :--- | :--- |
+| **Véhicules terrestres** | Exploration générale, combat lourd, transport de ravitaillement | Routes, jungles, montagnes | Modérée |
+| **Engins aériens** | Reconnaissance, voyage rapide, contournement vertical | Ciel ouvert, sommets montagneux | Élevée |
+| **Navires maritimes** | Infiltration côtière, navigation inter-îles, combat naval | Océans, rivières, marécages | Faible |
+
+<Callout type="tip" title="Mobilité stratégique">
+Donnez toujours la priorité aux véhicules ayant une grande durabilité lorsque vous traversez les « Zones Rouges » où les patrouilles ennemies sont fréquentes et agressives.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Transport terrestre et blindage tactique">
+
+Les **véhicules de Far Cry 7** terrestres restent la colonne vertébrale de l'arsenal du joueur. Des berlines civiles réaffectées aux véhicules blindés de transport de troupes (VTT) militaires volés, la variété permet de multiples styles de jeu. Dans la méta de 2026, la capacité « Tout-terrain » est particulièrement précieuse en raison de la végétation dense et du manque de routes goudronnées dans les territoires du nord.
+
+<CardGrid cols={3}>
+  <Card title="Pick-ups tactiques (Technicals)">
+    - **Grande puissance de feu** : Équipés de mitrailleuses de calibre .50.
+    - **Vitesse modérée** : Équilibrés pour les routes et les sentiers de terre.
+    - **Capacité de l'équipage** : Peut transporter jusqu'à 4 rebelles.
+  </Card>
+  <Card title="Blindés de transport">
+    - **Défense maximale** : Résistants aux armes légères et aux explosifs.
+    - **Faible mobilité** : Difficiles à manœuvrer dans les espaces restreints.
+    - **Utilité de siège** : Idéaux pour les assauts frontaux directs.
+  </Card>
+  <Card title="Quads agiles (ATV)">
+    - **Extrême agilité** : Parfaits pour les sentiers de jungle étroits.
+    - **Protection nulle** : Laissent le conducteur exposé aux tirs.
+    - **Potentiel furtif** : Bruit de moteur plus faible que celui des camions.
+  </Card>
+</CardGrid>
+
+Lors de la sélection d'un véhicule terrestre, tenez compte du compromis « Manœuvrabilité contre Protection ». Une moto rapide peut vous amener rapidement sur le site d'une mission, mais un seul tir de sniper peut mettre fin à votre partie. À l'inverse, un camion lourd offre de la sécurité mais peut peiner face aux pentes abruptes des régions volcaniques.
+
+| Classe de véhicule terrestre | Note de vitesse | Note de blindage | Capacité tout-terrain |
+| :--- | :--- | :--- | :--- |
+| **Berline civile** | 7/10 | 2/10 | 1/10 |
+| **Jeep militaire** | 6/10 | 5/10 | 8/10 |
+| **Camion de transport lourd** | 3/10 | 8/10 | 4/10 |
+| **Quad de course** | 9/10 | 1/10 | 9/10 |
+| **Char de combat principal** | 2/10 | 10/10 | 5/10 |
+
+<Callout type="warning" title="Gestion du carburant">
+Certains véhicules militaires spécialisés de la campagne de 2026 nécessitent un carburant de haute qualité spécifique, que l'on ne trouve que dans les dépôts ennemis. Planifiez votre itinéraire en conséquence !
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Supériorité aérienne et mécanique de vol">
+
+Les **véhicules aériens de Far Cry 7** offrent un avantage tactique majeur, permettant aux joueurs de contourner les barrages routiers ennemis et de surveiller les avant-postes à une distance de sécurité. Le modèle de vol de 2026 a été perfectionné pour offrir des commandes plus réactives pour les hélicoptères comme pour les avions à voilure fixe.
+
+Le « Buzzer » revient dans une version modifiée, offrant l'expérience de vol la plus polyvalente pour les joueurs solo. Il peut atterrir dans des clairières étroites et fournit une plateforme stable pour le tir d'élite aérien. Pour les opérations de plus grande envergure, les hélicoptères de transport militaire permettent des insertions en escouade.
+
+| Engin aérien | Systèmes d'armes | Altitude max | Manœuvrabilité |
+| :--- | :--- | :--- | :--- |
+| **Hélicoptère de reconnaissance** | Miniguns, Roquettes | Haute | Excellente |
+| **Avion-cargo** | Aucun (Largage de ravitaillement uniquement) | Très haute | Faible |
+| **Le nouveau Buzzer** | Mitraillette montée sur le côté | Moyenne | Supérieure |
+| **Chasseur d'attaque** | Missiles de précision | Extrême | Modérée |
+
+<Steps>
+  <Step num="1" title="Sécuriser un aérodrome">
+    La plupart des aéronefs de haut niveau sont verrouillés derrière des aérodromes contrôlés par l'ennemi. Vous devez libérer ces zones pour débloquer des apparitions permanentes.
+  </Step>
+  <Step num="2" title="Entraînement des pilotes">
+    Investissez dans l'arbre de compétences « Pilote » pour débloquer des manœuvres avancées comme les tonneaux et les descentes rapides, essentielles pour esquiver les missiles antiaériens.
+  </Step>
+  <Step num="3" title="Éviter les batteries antiaériennes">
+    Avant de survoler une nouvelle région, utilisez un drone pour identifier et désactiver les installations antiaériennes afin de garantir un passage sûr.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil de reconnaissance">
+Utilisez la caméra thermique de l'hélicoptère de reconnaissance (débloquée via les améliorations) pour marquer chaque ennemi dans un avant-poste avant même de vous poser.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Personnalisation et améliorations de performances">
+
+Modifier vos **véhicules de Far Cry 7** est essentiel pour réussir en fin de partie. Le système d'amélioration de 2026 permet une personnalisation poussée des performances, de l'utilité et de l'esthétique. Ces modifications s'effectuent aux établis situés dans les planques libérées.
+
+Les améliorations sont divisées en trois niveaux : Basique, Tactique et Élite. Chaque niveau nécessite des ressources spécifiques telles que des « Pièces de ferraille », des « Circuits imprimés » et de « l'Essence de qualité industrielle ».
+
+| Type d'amélioration | Effet sur le véhicule | Ressources requises |
+| :--- | :--- | :--- |
+| **Châssis renforcé** | Augmente la santé de 50 % | Pièces de ferraille, Acier |
+| **Boost de Nitro** | Accélération temporaire de la vitesse | Carburant, Bonbonnes de Nitro |
+| **Vitres pare-balles** | Protège le conducteur des snipers | Verre industriel, Résine |
+| **Tourelle montée** | Ajoute une puissance de feu à 360 degrés | Pièces de mitrailleuse, Munitions |
+| **Pneus tout-terrain** | Améliore l'adhérence sur la boue/neige | Caoutchouc, Adhésif |
+
+<CardGrid cols={2}>
+  <Card title="Modifications offensives">
+    Concentrez-vous sur l'ajout de lance-flammes montés ou de paniers de roquettes pour percer les barrages lourds et détruire les convois ennemis.
+  </Card>
+  <Card title="Modifications défensives">
+    Installez un blindage IEM et des lance-leurres fumigènes pour échapper aux hélicoptères poursuivants et aux verrouillages de missiles guidés.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Personnalisation cosmétique">
+Bien que les performances soient la priorité, vous pouvez également débloquer des peintures et des décalcomanies uniques en accomplissant des « Défis de cascades » disséminés sur la carte.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Maîtrise stratégique des véhicules">
+
+Pour dominer véritablement le territoire, vous devez comprendre la synergie entre les différents **véhicules de Far Cry 7**. Une attaque bien coordonnée implique souvent un mélange de soutien aérien et d'unités terrestres lourdes.
+
+Les joueurs doivent également être conscients de l'impact de l'environnement sur les performances des véhicules. Par exemple, de fortes pluies réduisent la traction sur les routes de terre, rendant les véhicules à quatre roues motrices (4WD) indispensables pendant la saison des moussons. En revanche, les régions côtières favorisent les patrouilleurs rapides capables de naviguer dans les récifs peu profonds.
+
+<Checklist
+  id="vehicle-mastery-list"
+  title="Tâches essentielles de véhicule :"
+  items={[
+    "Libérer au moins trois aérodromes majeurs pour le voyage rapide",
+    "Améliorer votre véhicule terrestre principal avec un blindage de niveau 2",
+    "Désactiver les batteries antiaériennes dans la province centrale",
+    "Terminer la mission secondaire 'Extraction à grande vitesse'",
+    "Collectionner les 5 véhicules cachés 'uniques' dans la nature"
+  ]}
+/>
+
+| Type de terrain | Véhicule recommandé | Avantage clé |
+| :--- | :--- | :--- |
+| **Jungle dense** | Quad / Moto tout-terrain | Profil compact, grande agilité |
+| **Plaines ouvertes** | Pick-up blindé (Technical) | Soutien d'artillerie à longue portée |
+| **Réseaux fluviaux** | Aéroglisseur | Transition fluide de la terre à l'eau |
+| **Sommets montagneux** | Hélicoptère de reconnaissance | Mobilité verticale |
+
+<Callout type="tip" title="Extraction d'urgence">
+Si votre véhicule est sur le point d'exploser, utilisez la compétence « Éjection » (si elle est débloquée) pour vous lancer dans un vol en wingsuit et fuir rapidement.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment débloquer définitivement de nouveaux véhicules dans Far Cry 7 ?",
+    answer: "Vous pouvez débloquer des véhicules en les conduisant jusqu'à un 'point de dépôt' libéré ou en accomplissant des missions de l'histoire spécifiques et des activités secondaires qui récompensent par des engins uniques."
+  },
+  {
+    question: "Puis-je personnaliser les armes sur les véhicules militaires volés ?",
+    answer: "Oui, une fois qu'un véhicule militaire est stocké dans votre garage, vous pouvez accéder à l'établi pour remplacer les tourelles standard par des armes spécialisées comme des lance-grenades."
+  },
+  {
+    question: "Y a-t-il une limite au nombre de véhicules que l'on peut posséder en 2026 ?",
+    answer: "Il n'y a pas de limite stricte au nombre de véhicules que vous pouvez collectionner, mais vous ne pouvez faire apparaître qu'un seul véhicule 'actif' à la fois via le menu radio."
+  },
+  {
+    question: "Les véhicules nécessitent-ils des réparations après un combat ?",
+    answer: "Oui, les véhicules subissent des dégâts et finissent par tomber en panne. Vous pouvez les réparer manuellement à l'aide d'un outil de réparation ou vous rendre dans un garage pour une réparation instantanée."
+  }
+]} />
+
+</Section>

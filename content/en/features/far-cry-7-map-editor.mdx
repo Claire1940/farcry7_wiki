@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Far Cry 7 Map Editor: New Features & Creative Guide",
+  description: "Explore the new Far Cry 7 map editor tools, including survival mode, cross-platform publishing, and expanded AI budgets for 2026 creators.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Far+Cry+7+Map+Editor",
+  date: "2026-07-10",
+  author: "far cry 7 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Far Cry 7 map editor** returns with a focus on **Survival Mode** and endless enemy waves.
+- **Cross-platform publishing** is now a core feature, allowing Xbox, PlayStation, and PC players to share maps seamlessly.
+- **Budget optimization** has been overhauled to allow more AI entities and complex structures without performance drops.
+- **4-player co-op** support is the new standard for custom-created levels and survival challenges.
+- **Storage capacity** allows for up to 50 local projects and 500 published maps per account.
+</Callout>
+
+<Section icon={Map} title="Far Cry 7 Map Editor: The Next Era of Level Design">
+
+The **Far Cry 7 map editor** represents a significant leap forward for the franchise's creative community. After years of refinement since the Arcade era, the 2026 iteration focuses on removing the technical barriers that previously limited ambitious creators. By streamlining the interface and branding it clearly as a "Map Editor" rather than "Arcade," Ubisoft has made it more accessible for new designers while providing the deep logic tools veteran builders crave.
+
+**Video Highlights:**
+- Detailed look at the **Survival Mode** logic for endless wave spawning.
+- Insight into the **cross-platform network** for universal map publishing.
+- Discussion on **AI storage optimization** and object budget increases.
+- Community requests for **expanded co-op** support in custom maps.
+
+<YouTubeEmbed videoId="-sLJrB90gsY" title="Far Cry 7 Map Editor Features" />
+
+The integration of a dedicated survival spawner is perhaps the most requested feature. This allows creators to build maps where difficulty scales automatically as players progress through milestones. Unlike previous versions where enemy counts were strictly capped, the new engine handles "seemingly endless" waves by recycling AI resources more efficiently.
+
+<Callout type="tip" title="Editor Branding">
+The community prefers the direct "Map Editor" naming convention over "Arcade" to avoid confusion with retro-style mini-games. This shift signals a return to professional-grade level design tools within the Far Cry ecosystem.
+</Callout>
+
+| Feature | Far Cry 5 Arcade | Far Cry 7 Map Editor | Impact on Creators |
+| :--- | :--- | :--- | :--- |
+| **Max Players** | 2-Player Co-op | 4-Player Co-op | Better social play |
+| **Publishing** | Platform Locked | Cross-Platform | 3x larger audience |
+| **AI Budget** | Limited/Static | Dynamic/Optimized | Denser battlefields |
+| **Map Storage** | Limited projects | 500 Published Slots | Massive portfolio |
+| **Game Modes** | Assault/Outpost | Survival/Custom Logic | Infinite replayability |
+
+</Section>
+
+<Section icon={Sparkles} title="Enhanced Creative Tools and Budget Management">
+
+Managing the "budget" has always been the greatest challenge for creators using the **Far Cry 7 map editor**. In the 2026 version, the engine utilizes a new instancing system that reduces the memory footprint of duplicated objects. This means you can place entire city blocks using the same building model without seeing the budget meter skyrocket as it did in previous titles.
+
+<CardGrid cols={3}>
+  <Card title="AI Optimization">
+    - **Reduced Storage**: AI entities now take up 40% less memory.
+    - **Smart Spawning**: Enemies only exist when players are within range.
+    - **Complex Pathing**: Improved navigation mesh for vertical environments.
+  </Card>
+  <Card title="Object Instancing">
+    - **Asset Reuse**: Place thousands of trees with minimal impact.
+    - **High Fidelity**: Better textures on hero assets.
+    - **Destructibility**: More interactive environmental objects.
+  </Card>
+  <Card title="Visual FX">
+    - **Dynamic Weather**: Scripted rain, fog, and lightning.
+    - **Lighting Probes**: Real-time global illumination for interiors.
+    - **Particle Limits**: Doubled capacity for fire and smoke.
+  </Card>
+</CardGrid>
+
+The goal for 2026 creators is to "extend the sandbox." By optimizing how the grid handles AI interaction, the editor allows for larger, more populated maps. This is crucial for the new Survival Mode, where the environment needs to stay performant even when dozens of enemies are active on screen simultaneously.
+
+<Callout type="warning" title="Storage Limits">
+While you can publish up to 500 maps, your local account is capped at 50 active projects. Regularly backup your most important work to the cloud to avoid losing progress on complex builds.
+</Callout>
+
+| Resource Type | Budget Impact (Low) | Budget Impact (High) | Optimization Tip |
+| :--- | :--- | :--- | :--- |
+| **Static Props** | Rocks, Trees | Vehicles, Buildings | Use groups for repeats |
+| **AI Actors** | Wildlife | Heavily Armed Elites | Use wave triggers |
+| **Logic Scripts** | Simple Triggers | Complex Timers | Consolidate nodes |
+| **Audio** | Ambient Loop | Scripted Dialogue | Limit 3D sound sources |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Survival Map Creation">
+
+Creating a functional survival map in the **Far Cry 7 map editor** requires a different approach than standard outpost missions. You must account for player progression, ammo replenishment, and escalating difficulty.
+
+<Steps>
+  <Step num="1" title="Define the Combat Arena">
+    Start by sculpting a terrain that offers both high-ground advantages and "choke points." For survival mode, the map should be circular or semi-enclosed to keep the action focused. Ensure there are clear sightlines for players but enough cover to survive heavy fire.
+  </Step>
+  <Step num="2" title="Configure the Spawner Logic">
+    Use the new "Endless Wave" node in the logic editor. Set the initial wave to 5-10 low-tier enemies. Create a variable that increases enemy health or damage by 5% every three waves to ensure the challenge scales with player skill.
+  </Step>
+  <Step num="3" title="Place Resource Stations">
+    In survival mode, ammo and health are your primary currencies. Place "Buy Stations" or "Refill Crates" in risky locations. This forces players to move around the map rather than camping in a single corner for the entire match.
+  </Step>
+  <Step num="4" title="Set Milestones and Rewards">
+    Give players a reason to keep playing. Use the "Milestone" trigger to grant players temporary power-ups or unlock new areas of the map after surviving 10, 20, or 50 waves. This mimics the addictive loops found in classic survival shooters.
+  </Step>
+  <Step num="5" title="Cross-Platform Testing">
+    Before publishing, use the "Multi-Platform Simulation" tool to see how your map performs on different hardware. Once satisfied, hit the publish button to send your creation to the global Far Cry 7 network.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Milestone Rewards">
+Adding world records and global leaderboards to your survival maps significantly increases player engagement. Creators who implement "Reach Wave 100" challenges often see their maps stay in the "Trending" section for months.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer Expansion and Co-op Integration">
+
+One of the most significant updates to the **Far Cry 7 map editor** is the expansion to 4-player co-op. Previously, the 2-player limit restricted the complexity of team tactics. With four players, creators can design "Raid-lite" experiences, featuring multi-part objectives that require team coordination.
+
+| Multiplayer Aspect | Old System (FC5/6) | New System (FC7) | Strategy |
+| :--- | :--- | :--- | :--- |
+| **Player Count** | 2 Players Max | 4 Players Max | Design wider lanes |
+| **Revive Mechanic** | Standard | Class-Based/Timed | Add medic roles |
+| **Loot Sharing** | Individual | Shared/Instanced | Use shared crates |
+| **Communication** | Basic Pings | Advanced Tactical Map | Mark priority targets |
+
+The cross-platform publishing network ensures that a map built on an Xbox can be played by a group of four friends on PC and PlayStation without any porting issues. This unified ecosystem is a major win for the community, as it prevents the fragmentation of the player base.
+
+<Callout type="info" title="Licensing and Characters">
+While Ubisoft focuses on Far Cry assets, the community has strongly requested a "Voting System" for licensed guest characters. While not officially confirmed, the editor's logic allows for "Character Archetypes" that can be customized to look like famous icons, provided they fit the hitboxes.
+</Callout>
+
+| Map Type | Recommended Players | Difficulty Level | Best For |
+| :--- | :--- | :--- | :--- |
+| **Stealth Infiltration** | 1-2 Players | Hard | Tactical fans |
+| **Survival Horde** | 4 Players | Scaling | High-action groups |
+| **Racing/Parkour** | 1 Player | Moderate | Speedrunners |
+| **Objective Defense** | 3-4 Players | Very Hard | Organized teams |
+
+</Section>
+
+<Section icon={Trophy} title="Community Goals and Checklist">
+
+To ensure your map stands out in the **Far Cry 7 map editor** browser, you must adhere to high-quality standards. The community has become more discerning, favoring maps with custom thumbnails, clear descriptions, and bug-free logic.
+
+<Checklist
+  id="map-quality-checklist"
+  title="Essential Map Launch Tasks:"
+  items={[
+    "Verify all AI spawn points are within the nav-mesh",
+    "Test 4-player connectivity and frame rate stability",
+    "Configure Survival Mode wave escalation parameters",
+    "Set up global leaderboards for competitive play",
+    "Add a detailed 'How to Play' description for new users",
+    "Optimize object budget to stay under 90% for console compatibility"
+  ]}
+/>
+
+<Callout type="tip" title="Ranking Up">
+By playing the main Far Cry 7 campaign and ranking up your global account, you can unlock additional editor perks, such as increased local storage for projects and exclusive cosmetic assets for your levels.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Far Cry 7 Map Editor FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I play Far Cry 7 map editor levels with friends on different consoles?",
+    answer: "Yes, the Far Cry 7 map editor supports full cross-platform play and publishing. Any map created on one platform is immediately available to all players across Xbox, PlayStation, and PC."
+  },
+  {
+    question: "What is the maximum number of maps I can publish?",
+    answer: "Each account can publish up to 500 maps to the global network. Additionally, you can maintain up to 50 local project files on your account at any given time."
+  },
+  {
+    question: "How does the new Survival Mode differ from standard Outpost maps?",
+    answer: "Survival Mode features endless enemy waves that get progressively harder. Unlike Outposts, which are cleared once, Survival maps focus on milestones, high scores, and resource management over time."
+  },
+  {
+    question: "Is there a way to get more storage for map projects?",
+    answer: "As you progress through the Far Cry 7 campaign and earn points, you may unlock additional project slots. There are also community-requested options for purchasing expanded cloud storage for power-users."
+  }
+]} />
+
+</Section>
