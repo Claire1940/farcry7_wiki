@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Far Cry 7 Extraction Shooter: Novos Vazamentos e Mecânicas Explicadas",
+  description: "Explore o vazamento do modo extraction shooter de Far Cry 7, o upgrade para a engine Snowdrop, o cronômetro de 72 horas e as mecânicas de sobrevivência previstas para 2027.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Far+Cry+7+Leaks",
+  date: "2026-07-13",
+  author: "Equipe da Wiki de Far Cry 7",
+  keywords: "Far Cry 7, vazamentos, extraction shooter, engine snowdrop, sobrevivência, alasca"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Far Cry 7 Extraction Shooter**: Um modo PvEvP/PvE de alto risco, supostamente codinome **Paradise Park**.
+- **O Relógio de 72 Horas**: Um cronômetro de campanha não linear que força os jogadores a resgatar **seis membros da família** sob pressão.
+- **Mecânicas de Sobrevivência**: Introdução da controversa **durabilidade de armas** e uma natureza selvagem do Alasca altamente interativa.
+- **Mudança de Engine**: A Ubisoft está movendo a franquia da engine Dunia para a **engine Snowdrop**.
+- **Janela de Lançamento**: Reboots internos apontam para uma janela de lançamento projetada para **2027**, com o marketing começando em 2026.
+</Callout>
+
+<Section icon={Map} title="Far Cry 7 Extraction Shooter: A Nova e Ousada Direção">
+
+A icônica franquia de mundo aberto está se preparando para sua transformação mais radical até agora. De acordo com o proeminente minerador de dados da Ubisoft, Rogue TX (também conhecido como Agent TX), o próximo título principal introduzirá uma experiência de **extraction shooter em Far Cry 7** de alto risco. Isso representa uma mudança massiva na fórmula sandbox tradicional, misturando operações de resgate clássicas baseadas na história com mecânicas modernas de extração.
+
+Embora rumores iniciais de desenvolvimento sugerissem que o componente multiplayer pudesse ser lançado como um projeto independente, vazamentos recentes confirmam que a Ubisoft fundiu a campanha single-player e os elementos de extração em um pacote coeso. O modo baseado em extração, referido internamente como **Paradise Park**, apresentará seu próprio mapa distinto do ambiente narrativo principal, completo com veículos dirigíveis e facções hostis.
+
+**Destaques do Vídeo:**
+- **Upgrade de Engine**: Transição da Dunia para a engine Snowdrop.
+- **Pressão de Tempo**: Explicação da contagem regressiva de 72 horas da campanha.
+- **Sistemas de Sobrevivência**: Durabilidade de armas e o ecossistema da natureza selvagem do Alasca.
+
+<YouTubeEmbed videoId="Wjjywt6q_8U" title="Notícias de Far Cry 7 acabaram de vazar..." />
+
+<Callout type="tip" title="Visão do Desenvolvedor">
+A transição para a **Engine Snowdrop** (usada anteriormente em *The Division* e *Star Wars Outlaws*) permite melhor física, destruição ambiental avançada e uma integração multiplayer mais fluida, necessária para um loop de extração.
+</Callout>
+
+| Recurso | Fórmula Clássica de Far Cry | Sistema Híbrido de Far Cry 7 |
+|---|---|---|
+| **Loop Principal** | Sandbox de mundo aberto, sem limites de tempo | Extraia, saqueie e vença o relógio |
+| **Engine** | Engine Dunia (CryEngine Modificada) | Engine Snowdrop |
+| **Objetivo da Campanha** | Libertar regiões, derrotar o chefe | Resgatar 6 membros da família em 72 horas |
+| **Sobrevivência** | Regeneração básica de vida, fabricar seringas | Durabilidade de armas, gestão de abrigos |
+
+</Section>
+
+<Section icon={Shield} title="O Cronômetro de 72 Horas e a Estrutura da Campanha">
+
+O recurso mais controverso vazado para a nova campanha é a **contagem regressiva de 72 horas** em tempo real. Em vez de permitir que os jogadores passem dezenas de horas limpando postos avançados casualmente, cada decisão nesta edição carrega um pesado custo temporal. Seu objetivo principal é resgatar **seis membros da família** que foram sequestrados por uma nova e perigosa organização de culto.
+
+Este limite de tempo molda diretamente a narrativa. Se o relógio parar e você tiver salvo apenas três dos seis membros da família, a história termina inteiramente baseada nesse resultado. Essa mudança estrutural aumenta drasticamente o fator replay, incentivando os jogadores a repetir campanhas para otimizar suas rotas, localizar equipamentos melhores mais rápido e alcançar o final perfeito.
+
+<CardGrid cols={3}>
+  <Card title="Culto Sons of Truth">
+    A principal facção antagonista que domina a natureza selvagem do Alasca, vigiando os membros da sua família sequestrados.
+  </Card>
+  <Card title="Sistema de Abrigos">
+    Zonas seguras onde os jogadores podem planejar operações, fabricar equipamentos e recrutar NPCs úteis para se juntarem ao esquadrão.
+  </Card>
+  <Card title="Progressão Não Linear">
+    Falhar em resgatar todos é esperado; seu caminho único determina qual dos múltiplos finais você desbloqueará.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Jogabilidade">
+O gerenciamento de tempo é crítico. Passar muito tempo saqueando um único bunker ou tentando limpar todos os postos avançados no mapa colocará diretamente em risco a vida dos membros da sua família.
+</Callout>
+
+| Resgates da Família | Impacto no Final | Valor de Replay da Campanha |
+|---|---|---|
+| **0 a 2 Salvos** | Pior Final (Altas baixas, o culto vence) | Muito Alto (Incentiva tentativa imediata) |
+| **3 a 5 Salvos** | Final Agridoce (Sucesso parcial) | Alto (Otimizar rotas para membros perdidos) |
+| **Todos os 6 Salvos** | Final Verdadeiro (Vitória completa) | Moderado (Maestria alcançada) |
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Sobrevivência e Vida Selvagem do Alasca">
+
+A sobrevivência está na vanguarda da experiência do **extraction shooter de Far Cry 7**. Os jogadores navegarão pela bela, mas mortal, natureza selvagem do Alasca, que serve como um cenário brutal tanto para a história quanto para os modos de extração. Para sobreviver, os jogadores devem respeitar o ambiente, gerenciar equipamentos em deterioração e caçar a fauna local.
+
+A inclusão da **durabilidade de armas** significa que os jogadores não podem confiar em um único loadout favorito indefinidamente. As armas se degradarão com o uso, forçando os jogadores a constantemente procurar peças, melhorar equipamentos em abrigos ou extrair com armas inimigas.
+
+<Steps>
+  <Step num="1" title="Saquear e Coletar">
+    Infiltre-se em setores controlados pelo culto para reunir componentes de armas, suprimentos médicos e materiais de fabricação.
+  </Step>
+  <Step num="2" title="Gerenciar Durabilidade">
+    Monitore o desgaste do seu equipamento; conserte armas de fogo vitais nos abrigos antes que elas falhem no meio de um tiroteio.
+  </Step>
+  <Step num="3" title="Caçar e Sobreviver">
+    Utilize o ecossistema da vida selvagem do Alasca para obter comida e recursos de fabricação, enquanto evita predadores alfa.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Guia da Natureza Selvagem do Alasca">
+O cenário do Alasca apresenta um ecossistema altamente reativo. Os jogadores encontrarão ursos pardos, lobos, raposas e cervos. Esses animais podem ser caçados por recursos de sobrevivência ou usados como armas contra patrulhas do culto.
+</Callout>
+
+| Tipo de Vida Selvagem | Nível de Ameaça | Recurso Principal Soltado |
+|---|---|---|
+| **Urso Pardo** | Extremo | Couro Pesado, Gordura (Fabricação/Melhorias) |
+| **Lobo Cinzento** | Alto | Couro de Alcateia, Presas Afiadas (Equip. Ofensivo) |
+| **Raposa do Alasca** | Baixo | Pelo Macio (Bolsas de Utilidade) |
+| **Caribu / Cervo** | Passivo | Carne, Couro (Cura/Fabricação Básica) |
+
+</Section>
+
+<Section icon={Trophy} title="Cronograma de Lançamento e Rumores de Anúncio">
+
+Embora os fãs estejam ansiosos para colocar as mãos na próxima evolução da série, será necessária paciência. De acordo com os roteiros internos da Ubisoft compartilhados por insiders confiáveis, o jogo está atualmente visando uma **janela de lançamento para 2027**.
+
+Espera-se que a Ubisoft utilize um período clássico de marketing de 6 a 12 meses. Isso significa que provavelmente veremos o trailer de revelação oficial no final de 2026, potencialmente durante um grande evento como a Gamescom, um Ubisoft Forward dedicado ou o The Game Awards, levando a um lançamento no final de 2027.
+
+<Checklist
+  id="farcry7-timeline"
+  title="Roteiro de Marcos Esperados:"
+  items={[
+    "Trailer de Revelação Oficial (Projetado para o Final de 2026)",
+    "Walkthrough de Gameplay Detalhado (Projetado para o Início de 2027)",
+    "Teste Beta para o Modo Extraction (Projetado para o Meio de 2027)",
+    "Lançamento Global em Consoles de Próxima Geração e PC (Projetado para o Final de 2027)"
+  ]}
+/>
+
+<Callout type="success" title="Status do Reboot">
+Após um reboot interno do projeto, o desenvolvimento está agora totalmente estabilizado na engine Snowdrop, garantindo um lançamento mais polido do que os títulos cross-gen anteriores da Ubisoft.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Far Cry 7 será puramente um multiplayer extraction shooter?",
+    answer: "Não. Embora apresente um modo extraction shooter PvEvP de alto risco chamado Paradise Park, o jogo funde elementos de campanha narrativa single-player, mecânicas de sobrevivência e loops de extração em um único pacote."
+  },
+  {
+    question: "Como funciona o cronômetro de 72 horas em Far Cry 7?",
+    answer: "A campanha apresenta uma contagem regressiva no jogo de até 72 horas. Os jogadores devem gerenciar seu tempo para resgatar seis membros da família. Os abrigos podem pausar o cronômetro, permitindo que os jogadores melhorem armas e planejem seus próximos movimentos."
+  },
+  {
+    question: "Em qual engine Far Cry 7 está sendo construído?",
+    answer: "A Ubisoft está se afastando da tradicional engine Dunia para construir Far Cry 7 na engine Snowdrop, que é otimizada para sistemas ambientais avançados e integração multiplayer fluida."
+  },
+  {
+    question: "Quando é a data de lançamento esperada para Far Cry 7?",
+    answer: "De acordo com vazamentos da indústria, a Ubisoft está visando internamente um lançamento em 2027, com campanhas de marketing oficiais previstas para começar no final de 2026."
+  }
+]} />
+
+</Section>

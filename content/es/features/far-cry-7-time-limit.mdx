@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Límite de tiempo de Far Cry 7: Mecánicas de 24 horas y guía de supervivencia",
+  description: "Domina el límite de tiempo de Far Cry 7 con nuestra guía sobre el reloj en tiempo real de 24 horas, las misiones de rescate familiar y las estrategias de refugios para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Far+Cry+7+Time+Limit+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Far Cry 7"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica principal**: El **límite de tiempo de Far Cry 7** introduce una ventana de 72 horas en el juego (24 horas en tiempo real) para completar la campaña principal.
+- **Objetivo central**: Los jugadores deben rescatar a los miembros de su familia secuestrados antes de que expire el temporizador o enfrentarse a consecuencias narrativas de carácter permanente.
+- **Utilidad de los refugios**: Entrar en un refugio designado es la única forma de pausar el temporizador de cuenta regresiva y planificar tu próximo movimiento.
+- **Cambio de enfoque**: A diferencia de los mundos abiertos masivos anteriores, esta entrega se centra en un diseño de mapa más acotado y urgente inspirado en títulos como Dead Rising.
+- **Impacto en el multijugador**: Los rumores sugieren que el temporizador persistirá en los modos multijugador, enfatizando el juego cooperativo de alto riesgo.
+</Callout>
+
+<Section icon={Map} title="Entendiendo las mecánicas del límite de tiempo de Far Cry 7">
+
+La fórmula tradicional de Ubisoft está experimentando una transformación masiva. En esta próxima entrega, el **límite de tiempo de Far Cry 7** sirve como el pilar central de la jugabilidad, dictando cada decisión que tomas desde el momento en que entras al mundo. En lugar de los mapas infinitos de estilo "recolectatón" vistos en Far Cry 6, los desarrolladores están cambiando hacia un entorno de alta presión donde cada segundo cuenta. El reloj siempre está corriendo, representando la necesidad urgente de salvar a tu familia de una misteriosa organización similar a un culto.
+
+**Puntos destacados del video:**
+- Desglose detallado del sistema de reloj de 72 horas en el juego (24 horas en tiempo real).
+- Comparación entre la nueva urgencia y el clásico temporizador de *Dead Rising*.
+- Análisis de cómo funcionan los refugios como el único respiro del jugador.
+- Discusión sobre el cambio de "cantidad" a "calidad" en el diseño del mapa.
+
+<YouTubeEmbed videoId="DpQOPM3zECE" title="Explicación del límite de tiempo de Far Cry 7" />
+
+La conversión entre el tiempo del juego y el tiempo del mundo real es fundamental para planificar tus rutas. Si pasas demasiado tiempo deambulando sin rumbo, te resultará imposible llegar a tiempo a los miembros de tu familia.
+
+| Tipo de tiempo | Duración | Mecánica |
+| :--- | :--- | :--- |
+| **Tiempo en el juego** | 72 horas | Duración total para el arco de la historia principal |
+| **Tiempo en el mundo real** | 24 horas | Tiempo total de juego permitido para la campaña |
+| **Refugio** | Pausado | El temporizador se detiene por completo al entrar |
+| **Combate/Exploración** | Activo | El reloj corre continuamente en el mundo abierto |
+
+<Callout type="warning" title="Advertencia crítica">
+No rescatar a un miembro de la familia antes de que expire su subtemporizador específico puede provocar su muerte permanente, lo que altera significativamente el final del juego y las habilidades de apoyo disponibles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estructura de las misiones: La carrera para salvar a tu familia">
+
+La narrativa de Far Cry 7 ya no es una progresión lineal a través de regiones. En su lugar, es una operación de rescate no lineal. Tu familia ha sido secuestrada, y el **límite de tiempo de Far Cry 7** representa la ventana de oportunidad antes de que sean "procesados" por los antagonistas. Esto obliga a un nivel de priorización nunca antes visto en la franquicia. No puedes hacerlo todo en una sola partida; debes elegir qué pistas seguir y a qué miembros de la familia priorizar.
+
+<CardGrid cols={3}>
+  <Card title="Prioridad Alfa">
+    - **Rescatar a los parientes directos**
+    - Información de la historia de gran valor
+    - Otorga mejoras de base permanentes
+  </Card>
+  <Card title="Prioridad Beta">
+    - **Asegurar líneas de suministro**
+    - Extiende los temporizadores localizados
+    - Desbloquea armamento avanzado
+  </Card>
+  <Card title="Prioridad Gamma">
+    - **Sabotear activos del culto**
+    - Ralentiza los refuerzos enemigos
+    - Opcional pero reduce la dificultad
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo estratégico">
+Concéntrate en recopilar "Información de tiempo" al principio de tu partida. Ciertos objetivos secundarios pueden revelar atajos que ahorran horas de viaje en tiempo real, haciendo que el límite de 24 horas sea mucho más manejable.
+</Callout>
+
+<Checklist
+  id="rescue-check"
+  title="Hitos de la operación de rescate:"
+  items={[
+    "Establecer el primer centro de refugio",
+    "Identificar la ubicación del primer miembro de la familia",
+    "Reunir suficientes recursos para un vehículo de alta velocidad",
+    "Rescatar al menos a dos miembros de la familia antes de la marca de 12 horas",
+    "Localizar la fortaleza central del culto"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Gestión estratégica del tiempo y navegación por el mapa">
+
+Gestionar el **límite de tiempo de Far Cry 7** requiere replantearse por completo cómo interactúas con el entorno. Dado que juegas contra reloj, se ha ajustado la densidad de los Puntos de Interés (POI). En lugar de cientos de iconos menores, el mapa presenta "Mega-POIs" más grandes y complejos que ofrecen recompensas sustanciales por el tiempo invertido. 
+
+| Actividad | Costo de tiempo (Aprox.) | Recompensa potencial |
+| :--- | :--- | :--- |
+| **Misión de la historia principal** | 1-2 horas | Alta (Rescate familiar) |
+| **Liberación de puestos de avanzada** | 30 minutos | Media (Viaje rápido) |
+| **Recolección de recursos** | 15 minutos | Baja (Materiales de fabricación) |
+| **Confrontación con jefe** | 2 horas | Masiva (Progresión de la historia) |
+
+<Steps>
+  <Step num="1" title="Evaluación inicial">
+    Al comenzar, usa tu mapa para identificar el refugio más cercano. No entres en combate hasta que hayas establecido un "punto de pausa".
+  </Step>
+  <Step num="2" title="Recopilación de información">
+    Interroga a los tenientes del culto para revelar las ubicaciones de la familia. Esto es más eficiente que la exploración manual.
+  </Step>
+  <Step num="3" title="Optimización de recursos">
+    Solo recolecta lo necesario. Saquear en exceso es la forma más rápida de fallar en el límite de 24 horas en tiempo real.
+  </Step>
+  <Step num="4" title="El empuje final">
+    Una vez que se alcance la marca de 60 horas en el juego, abandona todas las actividades secundarias y dirígete directamente a la guarida del antagonista principal.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo profesional">
+Los vehículos ya no son solo por conveniencia; son herramientas de supervivencia esenciales. Prioriza mejorar la velocidad y la eficiencia de combustible de tu vehículo para maximizar tus movimientos dentro de la ventana de 24 horas en tiempo real.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Integración multijugador y de servicio en vivo">
+
+Los rumores de fuentes como *TheGamer* sugieren que Ubisoft se está inclinando fuertemente hacia el multijugador en esta entrega. Esto ha generado preocupaciones sobre cómo interactúa el **límite de tiempo de Far Cry 7** con el juego cooperativo y las posibles mecánicas de "juegos como servicio". Aunque el temporizador añade tensión, los jugadores temen que pueda usarse para impulsar microtransacciones o "ahorradores de tiempo".
+
+| Característica | Impacto en un jugador | Impacto en multijugador |
+| :--- | :--- | :--- |
+| **Persistencia del temporizador** | Vinculado al archivo de guardado | Compartido en toda la sala |
+| **Pausa en refugios** | Control individual | Requiere que todos los jugadores estén presentes |
+| **Progreso de la misión** | Centrado en la narrativa | Híbrido competitivo/cooperativo |
+| **Compartir recursos** | N/A | Esencial para ganarle al reloj |
+
+<Callout type="info" title="Opinión de la comunidad">
+Muchos jugadores veteranos se muestran escépticos ante el enfoque multijugador, temiendo que pueda diluir la atmósfera de supervivencia aislada que el límite de tiempo pretende crear. Sin embargo, un temporizador cooperativo bien implementado podría dar lugar a algunas de las partidas tácticas más intensas de la serie.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Por qué el límite de tiempo es un buen movimiento para 2026">
+
+El cambio hacia un alcance más acotado y un **límite de tiempo de Far Cry 7** definitivo es una respuesta directa a la "fatiga de Ubisoft". Al obligar a los jugadores a tomar decisiones significativas, el juego se aleja del trabajo rutinario sin sentido. Esta estructura, que recuerda a *Dead Rising* o *Assassin's Creed Hex*, prioriza la calidad sobre la cantidad.
+
+**Beneficios clave del nuevo sistema:**
+- **Rejugabilidad**: No puedes salvar a todos a la vez, lo que fomenta múltiples partidas.
+- **Peso narrativo**: Tus fracasos tienen consecuencias reales en el mundo del juego.
+- **Enfoque**: Elimina el "vómito de iconos en el mapa" que plagó a Far Cry 6.
+- **Tensión**: Cada encuentro se siente más peligroso cuando sabes que el reloj está corriendo.
+
+<Callout type="tip" title="Veredicto final">
+Si disfrutas de los juegos que respetan tu tiempo haciendo que cada minuto cuente, la nueva dirección de Far Cry será un soplo de aire fresco. ¡Solo recuerda vigilar ese reloj!
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Puedo desactivar el límite de tiempo de Far Cry 7?",
+    answer: "Los informes actuales indican que el límite de tiempo es una mecánica central del juego y no se puede desactivar, aunque los refugios te permiten pausar el reloj indefinidamente."
+  },
+  {
+    question: "¿Qué pasa cuando el reloj de 24 horas en tiempo real llega a cero?",
+    answer: "Si el temporizador expira antes de completar el objetivo principal, es probable que actives un 'final malo' donde los miembros de la familia que no lograste rescatar se perderán permanentemente."
+  },
+  {
+    question: "¿El temporizador sigue corriendo mientras el juego está apagado?",
+    answer: "No, el límite de 24 horas en tiempo real solo cuenta las horas que pasas jugando activamente. No es un reloj de calendario del mundo real."
+  },
+  {
+    question: "¿Cómo ayudan los refugios con el límite de tiempo?",
+    answer: "Los refugios actúan como zonas de 'tiempo de espera'. Mientras estás dentro, el temporizador se detiene, lo que te permite fabricar, mejorar equipo y planificar tu próxima misión sin presión."
+  }
+]} />
+
+</Section>

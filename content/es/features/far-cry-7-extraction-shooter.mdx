@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Far Cry 7 Extraction Shooter: Nuevas filtraciones y mecánicas explicadas",
+  description: "Explora el filtrado modo extraction shooter de Far Cry 7, la actualización al motor Snowdrop, el temporizador de 72 horas y las mecánicas de supervivencia que llegarán en 2027.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Far+Cry+7+Leaks",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Far Cry 7"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Extraction Shooter de Far Cry 7**: Un modo PvEvP/PvE de alto riesgo que, según se informa, tiene el nombre en clave de **Paradise Park**.
+- **El reloj de 72 horas**: Un temporizador de campaña no lineal que obliga a los jugadores a rescatar a **seis miembros de su familia** bajo presión.
+- **Mecánicas de supervivencia**: Introduce la controvertida **durabilidad de las armas** y una naturaleza salvaje de Alaska altamente interactiva.
+- **Cambio de motor**: Ubisoft trasladará la franquicia del motor Dunia al **motor Snowdrop**.
+- **Ventana de lanzamiento**: Los reinicios internos apuntan a una **ventana de lanzamiento proyectada para 2027**, con la campaña de marketing comenzando en 2026.
+</Callout>
+
+<Section icon={Map} title="Far Cry 7 Extraction Shooter: La audaz nueva dirección">
+
+La icónica franquicia de mundo abierto se está preparando para su transformación más radical hasta la fecha. Según el destacado minero de datos de Ubisoft Rogue TX (también conocido como Agent TX), la próxima entrega principal introducirá una experiencia de **extraction shooter de Far Cry 7** de alto riesgo. Esto representa un cambio masivo de la fórmula tradicional de sandbox, combinando operaciones de rescate clásicas basadas en la historia con mecánicas modernas de extracción.
+
+Aunque los primeros rumores de desarrollo sugerían que el componente multijugador podría lanzarse como un proyecto independiente, las filtraciones recientes confirman que Ubisoft ha fusionado la campaña para un jugador y los elementos de extracción en un solo paquete cohesivo. El modo basado en la extracción, denominado internamente **Paradise Park**, contará con su propio mapa independiente del entorno narrativo principal, con vehículos conducibles y facciones hostiles.
+
+**Puntos destacados del video:**
+- **Actualización del motor**: Transición de Dunia al motor Snowdrop.
+- **Presión del tiempo**: Explicación de la cuenta atrás de 72 horas de la campaña.
+- **Sistemas de supervivencia**: Durabilidad de las armas y el ecosistema de la naturaleza salvaje de Alaska.
+
+<YouTubeEmbed videoId="Wjjywt6q_8U" title="Novedades filtradas de Far Cry 7..." />
+
+<Callout type="tip" title="Perspectiva del desarrollador">
+La transición al **motor Snowdrop** (utilizado anteriormente para *The Division* y *Star Wars Outlaws*) permite mejores físicas, destrucción ambiental avanzada y una integración multijugador más fluida, necesaria para el ciclo de extracción.
+</Callout>
+
+| Característica | Fórmula clásica de Far Cry | Sistema híbrido de Far Cry 7 |
+|---|---|---|
+| **Ciclo principal** | Sandbox de mundo abierto, sin límite de tiempo | Extraer, buscar recursos y ganarle al reloj |
+| **Motor** | Motor Dunia (CryEngine modificado) | Motor Snowdrop |
+| **Objetivo de la campaña** | Liberar regiones, derrotar al jefe | Rescatar a 6 miembros de la familia en 72 horas |
+| **Supervivencia** | Regeneración básica de salud, fabricar jeringas | Durabilidad de las armas, gestión de refugios |
+
+</Section>
+
+<Section icon={Shield} title="El temporizador de 72 horas y la estructura de la campaña">
+
+La característica más controvertida filtrada para la nueva campaña es la **cuenta atrás de 72 horas** en tiempo real. En lugar de permitir a los jugadores pasar decenas de horas despejando puestos de avanzada de forma relajada, cada decisión en esta entrega conlleva un gran coste temporal. Tu objetivo principal es rescatar a **seis miembros de tu familia** que han sido secuestrados por una nueva y peligrosa organización de culto.
+
+Este límite de tiempo da forma directamente a la narrativa. Si el reloj se agota y solo has salvado a tres de los seis miembros de la familia, la historia concluye basándose completamente en ese resultado. Este cambio estructural aumenta drásticamente la rejugabilidad, animando a los jugadores a repetir campañas para optimizar sus rutas, localizar mejor equipamiento más rápido y lograr el final perfecto.
+
+<CardGrid cols={3}>
+  <Card title="Culto Hijos de la Verdad">
+    La principal facción antagonista que domina la naturaleza salvaje de Alaska y custodia a los miembros secuestrados de tu familia.
+  </Card>
+  <Card title="Sistema de refugios">
+    Zonas seguras donde los jugadores pueden planificar operaciones, fabricar equipo y reclutar PNJ útiles para que se unan a su escuadrón.
+  </Card>
+  <Card title="Progresión no lineal">
+    Se espera que no logres rescatar a todos; tu camino único determina cuál de los múltiples finales desbloqueas.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de juego">
+La gestión del tiempo es fundamental. Pasar demasiado tiempo saqueando un solo búnker o intentando despejar todos los puestos de avanzada del mapa pondrá en peligro directo la vida de los miembros de tu familia.
+</Callout>
+
+| Miembros rescatados | Impacto en el final | Valor de rejugabilidad |
+|---|---|---|
+| **0 a 2 salvados** | El peor final (Muchas bajas, el culto gana) | Muy alto (Anima a reintentarlo de inmediato) |
+| **3 a 5 salvados** | Final agridulce (Éxito parcial) | Alto (Optimizar rutas para los miembros olvidados) |
+| **Los 6 salvados** | Final verdadero (Victoria completa) | Moderado (Dominio alcanzado) |
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de supervivencia y fauna de Alaska">
+
+La supervivencia es una prioridad en la experiencia de **extraction shooter de Far Cry 7**. Los jugadores recorrerán la hermosa pero mortal naturaleza salvaje de Alaska, que sirve como un escenario brutal tanto para la historia como para los modos de extracción. Para sobrevivir, los jugadores deben respetar el entorno, gestionar el desgaste del equipo y cazar la fauna local.
+
+La inclusión de la **durabilidad de las armas** significa que los jugadores no podrán confiar indefinidamente en un único arsenal favorito. Las armas se desgastarán con el uso, lo que obligará a los jugadores a buscar piezas constantemente, mejorar el equipo en los refugios o extraer con armas enemigas.
+
+<Steps>
+  <Step num="1" title="Buscar recursos y saquear">
+    Infiltrarse en sectores controlados por el culto para reunir componentes de armas, suministros médicos y materiales de fabricación.
+  </Step>
+  <Step num="2" title="Gestionar la durabilidad">
+    Vigilar el desgaste de tu equipo; repara las armas de fuego vitales en los refugios antes de que fallen en mitad de un tiroteo.
+  </Step>
+  <Step num="3" title="Cazar y sobrevivir">
+    Utilizar el ecosistema de la fauna de Alaska para obtener alimento y recursos de fabricación mientras evitas a los superdepredadores.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Guía de la naturaleza salvaje de Alaska">
+El escenario de Alaska cuenta con un ecosistema muy reactivo. Los jugadores se encontrarán con osos pardos, lobos, zorros y ciervos. Estos animales se pueden cazar para obtener recursos de supervivencia o utilizarse como armas contra las patrullas del culto.
+</Callout>
+
+| Tipo de fauna | Nivel de amenaza | Recurso principal obtenido |
+|---|---|---|
+| **Oso pardo** | Extremo | Piel pesada, Grasa (Fabricación/Mejoras) |
+| **Lobo gris** | Alto | Piel de manada, Colmillos afilados (Equipo ofensivo) |
+| **Zorro de Alaska** | Bajo | Pelaje suave (Bolsas de utilidad) |
+| **Caribú / Ciervo** | Pasivo | Carne, Cuero (Curación/Fabricación básica) |
+
+</Section>
+
+<Section icon={Trophy} title="Cronograma de lanzamiento y rumores de anuncio">
+
+Aunque los fans están ansiosos por probar la próxima evolución de la serie, se requerirá paciencia. Según las hojas de ruta internas de Ubisoft compartidas por filtradores fiables, el juego apunta actualmente a una **ventana de lanzamiento para 2027**.
+
+Se espera que Ubisoft utilice una campaña de marketing clásica de 6 a 12 meses. Esto significa que es probable que veamos el tráiler de revelación oficial a finales de 2026, potencialmente durante un evento importante como la Gamescom, un Ubisoft Forward dedicado o The Game Awards, como antesala de un lanzamiento a finales de 2027.
+
+<Checklist
+  id="farcry7-timeline"
+  title="Hoja de ruta esperada de hitos:"
+  items={[
+    "Tráiler de revelación oficial (Proyectado para finales de 2026)",
+    "Análisis detallado de jugabilidad (Proyectado para principios de 2027)",
+    "Prueba beta para el modo Extraction (Proyectado para mediados de 2027)",
+    "Lanzamiento global en consolas de próxima generación y PC (Proyectado para finales de 2027)"
+  ]}
+/>
+
+<Callout type="success" title="Estado del reinicio">
+Tras un reinicio interno del proyecto, el desarrollo ahora está completamente estabilizado en el motor Snowdrop, lo que garantiza un lanzamiento más pulido que los títulos anteriores intergeneracionales de Ubisoft.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Va a ser Far Cry 7 un extraction shooter puramente multijugador?",
+    answer: "No. Aunque cuenta con un modo extraction shooter PvEvP de alto riesgo llamado Paradise Park, el juego fusiona elementos de la campaña narrativa para un jugador, mecánicas de supervivencia y ciclos de extracción en un solo paquete."
+  },
+  {
+    question: "¿Cómo funciona el temporizador de 72 horas en Far Cry 7?",
+    answer: "La campaña cuenta con una cuenta atrás en el juego de hasta 72 horas. Los jugadores deben gestionar su tiempo para rescatar a seis miembros de su familia. Los refugios pueden pausar el temporizador, lo que permite a los jugadores mejorar sus armas y planificar sus próximos movimientos."
+  },
+  {
+    question: "¿Con qué motor se está desarrollando Far Cry 7?",
+    answer: "Ubisoft se está alejando del tradicional motor Dunia para desarrollar Far Cry 7 con el motor Snowdrop, el cual está optimizado para sistemas ambientales avanzados y una integración multijugador fluida."
+  },
+  {
+    question: "¿Cuándo es la fecha de lanzamiento prevista para Far Cry 7?",
+    answer: "Según las filtraciones de la industria, Ubisoft apunta internamente a un lanzamiento en 2027, y se espera que las campañas de marketing oficiales comiencen a finales de 2026."
+  }
+]} />
+
+</Section>
