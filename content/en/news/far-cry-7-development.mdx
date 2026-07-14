@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Far Cry 7 Development: Leak Tracker & Production Status",
+  description: "Track the latest Far Cry 7 development updates, Alaskan setting leaks, Snowdrop engine shift, and active production status reports for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Far+Cry+7+Development+Status",
+  date: "2026-07-14",
+  author: "far cry 7 Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Far Cry 7 development**: Current reports indicate active development under Ubisoft, targeting a release window before March 2029.
+- **Setting & Engine**: Rumored cold Alaskan wilderness setting, departing from tropical themes, powered by the Snowdrop Engine.
+- **Key Mechanics**: A highly debated real-time 72-hour countdown system alongside a separate PvEvP extraction mode.
+- **Production Status**: Prominent industry insiders report challenging development cycles with frequent structural changes.
+</Callout>
+
+<Section icon={Map} title="Far Cry 7 Development Status & Production Backstory">
+
+The official timeline of **far cry 7 development** marks a significant departure from the franchise's historical release cadence. Historically, Ubisoft delivered mainline titles every two to three years. However, following the release of Far Cry 6 in 2021, the franchise entered an extended period of quiet planning. During a May financial meeting, Ubisoft leadership confirmed that new entries for major intellectual properties, including Far Cry, are planned to launch before March 2029. 
+
+**Video Highlights:**
+- **Financial Pressure**: Ubisoft's recent restructuring makes this project a critical financial anchor.
+- **Dual Projects**: Official confirmation of two separate Far Cry projects currently in active production.
+- **Engine Transition**: The technical shift from the Dunia engine to the Snowdrop engine.
+
+<YouTubeEmbed videoId="Q_RNZ2kpY9U" title="Far Cry 7 Everything We Know So Far (Leaks, Rumors & Ubisoft's Official Statements)" />
+
+<Callout type="warning" title="Development Hurdles">
+According to industry reports from prominent insiders like Tom Henderson, early production phases have faced structural challenges, with gameplay elements and design directions shifting frequently behind the scenes.
+</Callout>
+
+### Franchise Release Timeline Comparison
+
+| Title | Release Year | Gap Years | Primary Engine |
+|---|---|---|---|
+| Far Cry 3 | 2012 | Base | Dunia 2 |
+| Far Cry 4 | 2014 | 2 | Dunia 2 |
+| Far Cry 5 | 2018 | 4 | Dunia 2 |
+| Far Cry 6 | 2021 | 3 | Dunia 2 |
+| **Far Cry 7** | **2027/2028 (Est.)** | **6+** | **Snowdrop** |
+
+</Section>
+
+<Section icon={Shield} title="Technical Evolution: Shifting to the Snowdrop Engine">
+
+A pivotal change in the development cycle is the transition away from the proprietary Dunia engine, which powered the franchise for over a decade. Developers are utilizing the Snowdrop engine, the high-performance framework behind titles like *The Division* and *Avatar: Frontiers of Pandora*.
+
+<CardGrid cols={3}>
+  <Card title="Volumetric Lighting">
+    Enables realistic low-sun angles and dense forest canopy light filtration.
+  </Card>
+  <Card title="Snow Deformation">
+    Provides physical footprints, trail tracking, and dynamic accumulation.
+  </Card>
+  <Card title="Dynamic Weather">
+    Supports sudden blizzards, wind chill mechanics, and visibility shifts.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Technical Impact">
+The Snowdrop engine allows the development team to render highly complex environmental physics, which are essential for simulating cold-weather survival systems.
+</Callout>
+
+### Engine Capabilities Comparison
+
+| Feature | Dunia Engine (Legacy) | Snowdrop Engine (Current) | Gameplay Impact |
+|---|---|---|---|
+| Weather | Static/Scripted | Fully Dynamic | Sudden blizzards affect visibility |
+| Terrain | Standard Heightmaps | Deformable Snow/Mud | Tracking targets via physical footprints |
+| Physics | Basic rigid body | Advanced environmental | Destructible cover and fluid snow slides |
+
+</Section>
+
+<Section icon={Swords} title="Core Gameplay Innovations & Leaked Mechanics">
+
+Leaked details surrounding the campaign structure suggest a massive mechanical overhaul designed to break the traditional open-world formula of capturing outposts and climbing towers.
+
+<Steps>
+  <Step num="1" title="The Ticking Clock">
+    A rumored real-time campaign timer (roughly 72 in-game hours) tasks players with rescuing kidnapped family members before time runs out.
+  </Step>
+  <Step num="2" title="Alaskan Survival">
+    Players must contend with sub-zero temperatures, frostbite, wildlife tracking, and resource scarcity in a harsh northern landscape.
+  </Step>
+  <Step num="3" title="Extraction Mode Integration">
+    A parallel multiplayer experience, codenamed Maverick, introduces a PvEvP extraction loop set in a rugged wilderness.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Campaign Structure">
+The integration of a non-linear rescue system means players can complete objectives in various orders, directly impacting the final survival outcome of the narrative.
+</Callout>
+
+### Core Gameplay Mechanics Comparison
+
+| Feature | Legacy Far Cry Formula | Far Cry 7 Leaked Design |
+|---|---|---|
+| Campaign Pace | Player-driven, infinite time | Active real-time countdown constraint |
+| Mission Structure | Linear quest chains | Non-linear rescue operations |
+| Survival Elements | Basic hunting and crafting | Dynamic temperature and frostbite management |
+| Multiplayer | Co-op campaign integration | Dedicated PvEvP extraction experience |
+
+</Section>
+
+<Section icon={Trophy} title="Production Milestones & Tracking Checklist">
+
+As production continues, keeping track of confirmed development milestones versus community speculation is vital for understanding when the game will officially transition to public marketing phases.
+
+<Checklist
+  id="development-milestones"
+  title="Key Production Milestones:"
+  items={[
+    "Ubisoft leadership confirms active production of two separate Far Cry projects.",
+    "Technical transition from Dunia engine to Snowdrop engine completed.",
+    "Voice and performance capture sessions initiated under codenamed projects.",
+    "Internal target release windows adjusted to accommodate development restructuring."
+  ]}
+/>
+
+<Callout type="success" title="Project Viability">
+Despite reported production adjustments, the Far Cry franchise remains one of Ubisoft's most commercially valuable assets, ensuring the project receives necessary long-term resources.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Far Cry 7 Development FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the current status of Far Cry 7 development?",
+    answer: "Far Cry 7 is currently in active development at Ubisoft. Official financial statements confirm that the company plans to launch the next mainline entry alongside a separate multiplayer project before March 2029."
+  },
+  {
+    question: "Why is the game transition to the Snowdrop engine important?",
+    answer: "Moving from the Dunia engine to the Snowdrop engine allows the development team to implement advanced environmental systems, such as dynamic snow deformation, volumetric weather, and improved lighting systems suitable for a northern setting."
+  },
+  {
+    question: "Is the rumored real-time countdown mechanic confirmed?",
+    answer: "No, the 72-hour real-time countdown mechanic remains a prominent leak from industry insiders. Ubisoft has not officially confirmed specific gameplay systems for the upcoming title."
+  },
+  {
+    question: "Will there be a multiplayer mode in the next Far Cry?",
+    answer: "Leaks point to a standalone, parallel multiplayer project codenamed Maverick, which is expected to feature a PvEvP extraction-style survival experience set in the wilderness."
+  }
+]} />
+
+</Section>

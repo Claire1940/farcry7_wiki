@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desarrollo de Far Cry 7: Rastreador de Filtraciones y Estado de Producción",
+  description: "Sigue las últimas actualizaciones del desarrollo de Far Cry 7, las filtraciones de la ambientación en Alaska, el cambio al motor Snowdrop y los informes del estado de producción activa para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Far+Cry+7+Development+Status",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Far Cry 7"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Desarrollo de Far Cry 7**: Los informes actuales indican un desarrollo activo bajo Ubisoft, con una ventana de lanzamiento prevista antes de marzo de 2029.
+- **Ambientación y Motor**: Se rumorea una ambientación en la fría naturaleza salvaje de Alaska, alejándose de los temas tropicales, impulsada por el motor Snowdrop.
+- **Mecánicas Clave**: Un muy debatido sistema de cuenta regresiva de 72 horas en tiempo real junto con un modo de extracción PvEvP independiente.
+- **Estado de Producción**: Destacados filtradores de la industria informan de ciclos de desarrollo desafiantes con cambios estructurales frecuentes.
+</Callout>
+
+<Section icon={Map} title="Estado de Desarrollo de Far Cry 7 e Historia de la Producción">
+
+La cronología oficial del **desarrollo de Far Cry 7** marca un alejamiento significativo del ritmo de lanzamiento histórico de la franquicia. Históricamente, Ubisoft entregaba títulos principales cada dos o tres años. Sin embargo, tras el lanzamiento de Far Cry 6 in 2021, la franquicia entró en un período prolongado de planificación silenciosa. Durante una reunión financiera en mayo, la dirección de Ubisoft confirmó que el lanzamiento de nuevas entregas para sus principales propiedades intelectuales, incluyendo Far Cry, está previsto antes de marzo de 2029. 
+
+**Puntos Clave del Video:**
+- **Presión Financiera**: La reciente reestructuración de Ubisoft convierte a este proyecto en un pilar financiero fundamental.
+- **Proyectos Duales**: Confirmación oficial de dos proyectos independientes de Far Cry actualmente en producción activa.
+- **Transición de Motor**: El cambio técnico del motor Dunia al motor Snowdrop.
+
+<YouTubeEmbed videoId="Q_RNZ2kpY9U" title="Far Cry 7: Todo lo que sabemos hasta ahora (Filtraciones, rumores y declaraciones oficiales de Ubisoft)" />
+
+<Callout type="warning" title="Dificultades en el Desarrollo">
+Según informes de la industria de destacados conocedores como Tom Henderson, las primeras fases de producción han enfrentado desafíos estructurales, con elementos de juego y direcciones de diseño que cambian con frecuencia tras bambalinas.
+</Callout>
+
+### Comparación de la Cronología de Lanzamiento de la Franquicia
+
+| Título | Año de Lanzamiento | Años de Diferencia | Motor Principal |
+|---|---|---|---|
+| Far Cry 3 | 2012 | Base | Dunia 2 |
+| Far Cry 4 | 2014 | 2 | Dunia 2 |
+| Far Cry 5 | 2018 | 4 | Dunia 2 |
+| Far Cry 6 | 2021 | 3 | Dunia 2 |
+| **Far Cry 7** | **2027/2028 (Est.)** | **6+** | **Snowdrop** |
+
+</Section>
+
+<Section icon={Shield} title="Evolución Técnica: Cambio al Motor Snowdrop">
+
+Un cambio fundamental en el ciclo de desarrollo es la transición para alejarse del motor propietario Dunia, que impulsó a la franquicia durante más de una década. Los desarrolladores están utilizando el motor Snowdrop, el marco de trabajo de alto rendimiento detrás de títulos como *The Division* y *Avatar: Frontiers of Pandora*.
+
+<CardGrid cols={3}>
+  <Card title="Iluminación Volumétrica">
+    Permite ángulos de sol bajo realistas y filtración de luz a través del denso dosel del bosque.
+  </Card>
+  <Card title="Deformación de la Nieve">
+    Proporciona huellas físicas, rastreo de senderos y acumulación dinámica.
+  </Card>
+  <Card title="Clima Dinámico">
+    Admite ventiscas repentinas, mecánicas de sensación térmica y cambios de visibilidad.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Impacto Técnico">
+El motor Snowdrop permite al equipo de desarrollo renderizar físicas ambientales altamente complejas, las cuales son esenciales para simular sistemas de supervivencia en climas fríos.
+</Callout>
+
+### Comparación de Capacidades del Motor
+
+| Característica | Motor Dunia (Legado) | Motor Snowdrop (Actual) | Impacto en el Juego |
+|---|---|---|---|
+| Clima | Estático/Programado | Totalmente Dinámico | Las ventiscas repentinas afectan la visibilidad |
+| Terreno | Mapas de altura estándar | Nieve/Lodo Deformable | Rastreo de objetivos mediante huellas físicas |
+| Físicas | Cuerpo rígido básico | Ambiental avanzada | Cobertura destructible y deslizamientos de nieve fluidos |
+
+</Section>
+
+<Section icon={Swords} title="Innovaciones en la Jugabilidad Central y Mecánicas Filtradas">
+
+Los detalles filtrados sobre la estructura de la campaña sugieren una renovación mecánica masiva diseñada para romper la fórmula tradicional de mundo abierto de capturar puestos de avanzada y escalar torres.
+
+<Steps>
+  <Step num="1" title="El Reloj en Marcha">
+    Un rumoreado temporizador de campaña en tiempo real (aproximadamente 72 horas de juego) encarga a los jugadores rescatar a miembros de la familia secuestrados antes de que se acabe el tiempo.
+  </Step>
+  <Step num="2" title="Supervivencia en Alaska">
+    Los jugadores deben enfrentarse a temperaturas bajo cero, congelación, rastreo de vida silvestre y escasez de recursos en un duro paisaje norteño.
+  </Step>
+  <Step num="3" title="Integración del Modo Extracción">
+    Una experiencia multijugador paralela, con el nombre en código Maverick, introduce un bucle de extracción PvEvP ambientado en una naturaleza agreste.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Estructura de la Campaña">
+La integración de un sistema de rescate no lineal significa que los jugadores pueden completar los objetivos en varios órdenes, lo que afecta directamente al resultado final de supervivencia de la narrativa.
+</Callout>
+
+### Comparación de Mecánicas de Juego Principales
+
+| Característica | Fórmula Tradicional de Far Cry | Diseño Filtrado de Far Cry 7 |
+|---|---|---|
+| Ritmo de la Campaña | Impulsado por el jugador, tiempo infinito | Restricción activa de cuenta regresiva en tiempo real |
+| Estructura de Misiones | Cadenas de misiones lineales | Operaciones de rescate no lineales |
+| Elementos de Supervivencia | Caza y artesanía básicas | Gestión dinámica de la temperatura y la congelación |
+| Multijugador | Integración de campaña cooperativa | Experiencia dedicada de extracción PvEvP |
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Producción y Lista de Seguimiento">
+
+A medida que avanza la producción, realizar un seguimiento de los hitos de desarrollo confirmados frente a la especulación de la comunidad es vital para comprender cuándo pasará oficialmente el juego a las fases de marketing público.
+
+<Checklist
+  id="development-milestones"
+  title="Hitos Clave de Producción:"
+  items={[
+    "La dirección de Ubisoft confirma la producción activa de dos proyectos independientes de Far Cry.",
+    "Transición técnica completada del motor Dunia al motor Snowdrop.",
+    "Sesiones de captura de voz y rendimiento iniciadas bajo proyectos con nombres en código.",
+    "Ajuste de las ventanas de lanzamiento internas para adaptarse a la reestructuración del desarrollo."
+  ]}
+/>
+
+<Callout type="success" title="Viabilidad del Proyecto">
+A pesar de los ajustes de producción reportados, la franquicia Far Cry sigue siendo uno de los activos comercialmente más valiosos de Ubisoft, lo que garantiza que el proyecto reciba los recursos necesarios a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes sobre el Desarrollo de Far Cry 7">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el estado actual del desarrollo de Far Cry 7?",
+    answer: "Far Cry 7 se encuentra actualmente en desarrollo activo en Ubisoft. Las declaraciones financieras oficiales confirman que la compañía planea lanzar la próxima entrega principal junto con un proyecto multijugador independiente antes de marzo de 2029."
+  },
+  {
+    question: "¿Por qué es importante la transición del juego al motor Snowdrop?",
+    answer: "El paso del motor Dunia al motor Snowdrop permite al equipo de desarrollo implementar sistemas ambientales avanzados, como la deformación dinámica de la nieve, el clima volumétrico y sistemas de iluminación mejorados adecuados para un entorno norteño."
+  },
+  {
+    question: "¿Está confirmada la rumoreada mecánica de cuenta regresiva en tiempo real?",
+    answer: "No, la mecánica de cuenta regresiva en tiempo real de 72 horas sigue siendo una filtración destacada de los conocedores de la industria. Ubisoft no ha confirmado oficialmente sistemas de juego específicos para el próximo título."
+  },
+  {
+    question: "¿Habrá un modo multijugador en el próximo Far Cry?",
+    answer: "Las filtraciones apuntan a un proyecto multijugador independiente y paralelo con el nombre en código Maverick, que se espera que presente una experiencia de supervivencia estilo extracción PvEvP ambientada en la naturaleza salvaje."
+  }
+]} />
+
+</Section>
